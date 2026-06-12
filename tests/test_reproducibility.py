@@ -43,6 +43,8 @@ def test_sparc_pipeline_synthetic():
         "RHI": rng.uniform(3, 40, n),
         "Rdisk": rng.uniform(0.5, 8, n),
         "SBdisk": rng.uniform(50, 800, n),
+        "L36": rng.uniform(0.1, 10, n),
+        "MHI": rng.uniform(0.1, 5, n),
         "logMbar": rng.uniform(9, 11, n),
         "logVflat": rng.uniform(1.5, 2.5, n),
     })

@@ -44,6 +44,8 @@ def fit_and_residualize(
     vel_col: str = "logVflat",
 ) -> pd.DataFrame:
     out = df.copy()
+    if "btfr_residual_dex" in out.columns and out["btfr_residual_dex"].notna().any():
+        return out
     valid = df[mass_col].notna() & df[vel_col].notna()
     log_m = df.loc[valid, mass_col].to_numpy(dtype=float)
     log_v = df.loc[valid, vel_col].to_numpy(dtype=float)

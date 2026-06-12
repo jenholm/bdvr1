@@ -50,7 +50,7 @@ def main():
         print("Figure 2: xGASS velocity variants")
 
     # Figure 3: Proxy variant comparison
-    ablation_path = Path("data/derived/proxy_ablation_results.csv")
+    ablation_path = ROOT / "data/derived" / "proxy_ablation_results.csv"
     if ablation_path.exists():
         ablation_df = read_table(ablation_path)
         ablation_dict = ablation_df.set_index("variant").to_dict(orient="index")

@@ -38,8 +38,8 @@ def _minmax(x: np.ndarray) -> np.ndarray:
 def plot_cross_survey_quartiles(
     sparc_df,
     xgass_df,
-    sparc_score_col: str = "sparc_demographic_proxy",
-    xgass_score_col: str = "xgass_coherence_proxy",
+    sparc_score_col: str = "proxy",
+    xgass_score_col: str = "proxy",
     sparc_residual_col: str = "btfr_abs_residual",
     xgass_residual_col: str = "btfr_abs_residual",
     save: bool = True,
@@ -82,7 +82,7 @@ def plot_cross_survey_quartiles(
 def plot_xgass_velocity_variants(
     xgass_df,
     vels: dict[str, str] | None = None,
-    score_col: str = "xgass_coherence_proxy",
+    score_col: str = "proxy",
     save: bool = True,
 ):
     _apply_style()
@@ -145,7 +145,7 @@ def plot_proxy_variant_comparison(
 
 def plot_mass_bin_quartiles(
     xgass_df,
-    score_col: str = "xgass_coherence_proxy",
+    score_col: str = "proxy",
     mass_col: str = "logMbar",
     residual_col: str = "btfr_abs_residual",
     save: bool = True,

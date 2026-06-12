@@ -31,11 +31,14 @@ Thumbs.db
 *.synctex.gz
 *.toc
 
-# Data policy
-data/raw/*
+# Data policy — ignore external/raw data not specifically tracked
 data/external/*
-!data/raw/.gitkeep
 !data/external/.gitkeep
+
+# Tracked raw data for reproducibility (SPARC quality1 inputs, xGASS coherence scores)
+# data/raw/sparc/sparc_quality1_rich_inputs.csv — public SPARC catalog
+# data/raw/xgass/m75_xgass_coherence_scores.csv — derived coherence scores
+data/raw/.gitkeep
 
 # Large/intermediate outputs
 outputs/logs/*

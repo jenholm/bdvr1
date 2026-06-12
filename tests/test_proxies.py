@@ -26,6 +26,8 @@ def _make_sparc_df(n=10):
         "RHI": np.linspace(5, 30, n),
         "Rdisk": np.linspace(1, 6, n),
         "SBdisk": np.linspace(100, 500, n),
+        "L36": np.linspace(0.1, 10, n),
+        "MHI": np.linspace(0.1, 5, n),
     })
 
 

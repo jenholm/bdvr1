@@ -30,14 +30,43 @@ def compute_xgass_coherence_proxy(df: pd.DataFrame) -> pd.Series:
 
 
 def compute_sparc_demographic_proxy(df: pd.DataFrame) -> pd.Series:
-    require_columns(df, ["RHI", "Rdisk", "SBdisk"], "SPARC proxy input")
-    rhi = pd.to_numeric(df["RHI"], errors="coerce")
-    rdisk = pd.to_numeric(df["Rdisk"], errors="coerce")
-    sbdisk = pd.to_numeric(df["SBdisk"], errors="coerce")
-    rhi_norm = (rhi / rdisk.replace(0, np.nan)).clip(0, 20)
-    rhi_score = (1 - _rank01(rhi_norm, ascending=True)).to_numpy()
-    sb_score = _rank01(sbdisk, ascending=True).to_numpy()
-    C = 0.50 * rhi_score + 0.50 * sb_score
+    require_columns(df, ["RHI", "Rdisk", "SBdisk", "L36", "MHI"], "SPARC proxy input")
+    rhi = pd.to_numeric(df["RHI"], errors="coerce").to_numpy()
+    rdisk = pd.to_numeric(df["Rdisk"], errors="coerce").to_numpy()
+    sbdisk = pd.to_numeric(df["SBdisk"], errors="coerce").to_numpy()
+    l36 = pd.to_numeric(df["L36"], errors="coerce").to_numpy()
+    mhi = pd.to_numeric(df["MHI"], errors="coerce").to_numpy()
+
+    # Stellar surface density: log10 of SBdisk
+    log_sigma = np.log10(np.maximum(sbdisk, 1.0))
+
+    # Stellar fraction: M* / Mbar
+    mstar = 0.5 * l36 * 1e9
+    mbar = mstar + 1.33 * mhi * 1e9
+    f_star = mstar / np.maximum(mbar, 1.0)
+
+    # H I-to-optical disk scale-length ratio
+    rhi_rd = rhi / np.maximum(rdisk, 0.1)
+
+    # Robust z-score
+    def robust_z(x):
+        med = np.nanmedian(x)
+        mad = np.nanmedian(np.abs(x - med))
+        return (x - med) / max(mad, 1e-10)
+
+    z1 = robust_z(log_sigma)
+    z2 = robust_z(f_star)
+    z3 = robust_z(rhi_rd)
+
+    # D = (1/3)*z_logSigma + (1/3)*z_f* - (1/3)*z_RHI/Rd
+    D = (z1 + z2 - z3) / 3.0
+
+    # Minmax normalize to [0, 1]
+    dmin, dmax = np.nanmin(D), np.nanmax(D)
+    if dmax == dmin:
+        C = np.zeros_like(D)
+    else:
+        C = (D - dmin) / (dmax - dmin)
     return pd.Series(C, index=df.index, name="sparc_demographic_proxy")
 
 

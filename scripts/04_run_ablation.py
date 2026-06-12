@@ -6,10 +6,12 @@ from __future__ import annotations
 import sys
 from pathlib import Path
 
+import pandas as pd
+
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "src"))
 
-from bdvr1.config import XGASS_PATHS
+from bdvr1.config import OUTPUT_TABLES, XGASS_PATHS
 from bdvr1.io import read_table, write_table
 from bdvr1.proxies import compute_proxy_variant, assign_quartiles
 from bdvr1.statistics import (
@@ -50,13 +52,13 @@ def main():
         row.update(res)
         rows.append(row)
 
-    out = Path("data/derived/proxy_ablation_results.csv")
-    write_table(out, out)
+    result_df = pd.DataFrame(rows)
+    out = ROOT / "data/derived" / "proxy_ablation_results.csv"
+    write_table(result_df, out)
     print(f"Ablation results: {len(rows)} variants -> {out}")
 
-    # Also write as the paper table
-    table_path = Path("outputs/tables/table2_xgass_proxy_ablation.csv")
-    write_table(out, table_path)
+    table_path = OUTPUT_TABLES / "table2_xgass_proxy_ablation.csv"
+    write_table(result_df, table_path)
     print(f"Paper table: -> {table_path}")
 
 

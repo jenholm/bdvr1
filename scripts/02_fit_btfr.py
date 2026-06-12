@@ -21,13 +21,16 @@ def main():
         if not clean_path.exists():
             print(f"{name}: no clean table at {clean_path}, skipping")
             continue
-        print(f"Fitting BTFR for {name}...")
+        print(f"Processing BTFR for {name}...")
         df = read_table(clean_path)
         df = fit_and_residualize(df)
         write_table(df, out_path)
-        slope = df["btfr_slope"].iloc[0]
-        intercept = df["btfr_intercept"].iloc[0]
-        print(f"  BTFR: logV = {intercept:.3f} + {slope:.3f} * logMbar")
+        if "btfr_slope" in df.columns and df["btfr_slope"].notna().any():
+            slope = df["btfr_slope"].iloc[0]
+            intercept = df["btfr_intercept"].iloc[0]
+            print(f"  BTFR fitted: logV = {intercept:.3f} + {slope:.3f} * logMbar")
+        else:
+            print(f"  BTFR residuals: using pre-computed values")
         print(f"  N={len(df)}, written to {out_path}")
 
 

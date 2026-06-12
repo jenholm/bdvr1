@@ -9,7 +9,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "src"))
 
-from bdvr1.config import SPARC_PATHS, XGASS_PATHS
+from bdvr1.config import OUTPUT_TABLES, SPARC_PATHS, XGASS_PATHS
 from bdvr1.io import read_table, write_table
 
 
@@ -21,7 +21,7 @@ def main():
         selection = df[["galaxy_name", "Q", "T", "Vflat", "Inc", "Rdisk", "RHI",
                         "Mbar_msun", "logMbar", "proxy", "proxy_quartile",
                         "btfr_residual_dex", "btfr_abs_residual"]].copy()
-        write_table(selection, Path("outputs/tables/table1_sparc_sample_selection.csv"))
+        write_table(selection, OUTPUT_TABLES / "table1_sparc_sample_selection.csv")
         print(f"Table 1: SPARC sample selection ({len(selection)} galaxies)")
     else:
         print("SPARC proxy table not found, skipping Table 1")
@@ -31,8 +31,8 @@ def main():
     for src_name, dst_name in [
         ("proxy_ablation_results.csv", "table2_xgass_proxy_ablation.csv"),
     ]:
-        src = Path(f"data/derived/{src_name}")
-        dst = Path(f"outputs/tables/{dst_name}")
+        src = ROOT / "data/derived" / src_name
+        dst = ROOT / "outputs/tables" / dst_name
         if src.exists():
             df = read_table(src)
             write_table(df, dst)
