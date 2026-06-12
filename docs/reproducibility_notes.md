@@ -11,7 +11,7 @@ All stochastic analyses use `RANDOM_SEED = 202606` (set in `src/bdvr1/config.py`
 
 Bootstrap Q4/Q1 ratio confidence intervals use:
 - 1000 bootstrap replicates
-- Bias-corrected percentile method (2.5th and 97.5th percentiles)
+- Percentile interval using the 2.5th and 97.5th percentiles
 - Seed `RANDOM_SEED` via `numpy.random.default_rng`
 
 ## Cross-validation
@@ -20,28 +20,48 @@ Cross-validated BTFR fitting uses 5 folds with:
 - Randomized fold assignment using `RANDOM_SEED`
 - BTFR fitted on training folds: log V ~ a + b * log M_bar
 - Residuals evaluated on held-out fold
-- Coherence proxy computed using the full-sample min-max normalization
+- xGASS organization proxy computed using full-sample min-max normalization
 
-Note: fold-local min-max normalization is more rigorous but is reserved for the resolved-H I follow-up.
+Note: fold-local min-max normalization would be more rigorous for a fully leakage-free scalar-proxy validation. The current paper reports this as a limitation.
 
 ## Proxy definitions
 
-### xGASS coherence proxy
+### xGASS organization proxy
 
 C = 0.35 * (INCL / 90) + 0.35 * minmax(W50cor) + 0.30 * (1 - f_atm)
 
 where:
 - INCL = inclination (degrees)
 - W50cor = corrected H I linewidth (km/s)
-- f_atm = M_HI / M_bar (atomic gas fraction)
+- f_atm is inherited from the M75 preprocessing column `f_atm_total`; it is not recomputed in the processed table from the visible `M_HI` and `Mbar_msun` columns.
 
-### SPARC demographic proxy
+### SPARC M74 coherence score (paper-facing)
 
-C = 0.50 * (1 - RHI / Rdisk_scale) + 0.50 * rank(SBdisk)
+The paper-facing SPARC result uses the historical M74 `coherence_score`, which is a 5-component average:
+
+C = nanmean([1 - f_gas, f_star, clamp((log10_Sigma_b - 6.5) / 4.0, 0, 1), 1 / (1 + RHI_over_Rdisk), taxonomy_prior])
 
 where:
-- RHI / Rdisk_scale = normalized H I extent
-- SBdisk = disk central surface brightness
+- f_gas = gas fraction from M72 audit
+- f_star = stellar fraction from M72 audit
+- log10_Sigma_b = baryonic surface density
+- RHI_over_Rdisk = HI-to-optical disk scale-length ratio
+- taxonomy_prior = 0.8 if mature_or_control, else 0.3
+- Plus radial-curve bonuses (+0.15 flatness, +0.10 curve_flatness) for 25 resolved galaxies
+
+Quartiles via `pd.qcut(..., duplicates='drop')` give n=22/22/21/22.
+
+### SPARC diagnostic demographic proxy (current pipeline)
+
+The current pipeline also produces a separate diagnostic proxy:
+
+D = (z_logSigma + z_fstar - z_RHI/Rd) / 3
+
+where each z-score is robustly standardized using the median and MAD, then the final score is min-max normalized to [0,1]. This diagnostic proxy is **not** the paper-facing M74 proxy.
+
+### xGASS BTFR residuals
+
+The xGASS processed residuals are copied from the M75 `btfr_offset_dex` column. They reproduce as a global OLS fit (slope ≈ 0.279, intercept ≈ −0.689), **not** as the McGaugh 2012 calibration (Mbar = 50 × Vflat⁴). The cross-validated paper results refit BTFR inside folds downstream.
 
 ## Data processing
 

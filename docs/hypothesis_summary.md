@@ -1,6 +1,6 @@
 # BDVR Hypothesis Summary
 
-The Bound Domain Vacuum Response (BDVR) hypothesis proposes that coherent baryonic structures couple to a vacuum/time-current reservoir, producing an acceleration term that scales as sqrt(a_b * a0) with a coupling strength Q that depends on the galaxy's organizational state.
+The Bound Domain Vacuum Response (BDVR) hypothesis is treated here as a **phenomenological** framework: baryonic structure and dynamical organization may influence how an additional effective acceleration response is expressed through ordered rotation.
 
 ## Key idea
 
@@ -17,15 +17,15 @@ If Q varies systematically across galaxy populations, then the Baryonic Tully-Fi
 ## What this package tests
 
 This package tests scalar proxies (not the BDVR coordinate itself):
-- For xGASS: a coherence proxy combining inclination, linewidth, and gas fraction
-- For SPARC: a proxy based on H I extent and stellar surface density
+- For xGASS: an organization proxy combining inclination, H I linewidth, and inherited atomic-gas-fraction information.
+- For SPARC: two proxy products are documented. The paper-facing result uses the historical M74 coherence score (5-component average with radial-curve bonuses), treated in the paper as an organization proxy. The current pipeline also produces a separate diagnostic demographic proxy based on stellar surface density, stellar mass fraction, and H I extent.
 
 The key prediction: galaxies in the top quartile of organization proxies should have smaller BTFR scatter than those in the bottom quartile (Q4/Q1 < 1).
 
 ## Limitations of scalar proxies
 
 Scalar proxies cannot distinguish between:
-1. True BDVR organization (the proposed physical coordinate)
+1. A physical BDVR organization coordinate
 2. Observational selection effects (inclination, linewidth recoverability)
 3. Simple mass or surface brightness trends
 

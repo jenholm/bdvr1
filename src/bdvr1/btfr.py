@@ -38,10 +38,19 @@ def compute_btfr_residuals(
     return log_v_obs - log_v_pred
 
 
+def mcGaugh2012_btfr_residual(mbar_msun: np.ndarray, vflat_kms: np.ndarray) -> np.ndarray:
+    """McGaugh 2012 BTFR: Mbar = 50 * Vflat^4 (Mbar in Msun, Vflat in km/s)."""
+    log_v_pred = 0.25 * (np.log10(np.maximum(mbar_msun, 1.0)) - np.log10(50.0))
+    residual = np.log10(np.maximum(vflat_kms, 1.0)) - log_v_pred
+    return residual
+
+
 def fit_and_residualize(
     df: pd.DataFrame,
     mass_col: str = "logMbar",
     vel_col: str = "logVflat",
+    mbar_msun_col: str | None = None,
+    vflat_kms_col: str | None = None,
 ) -> pd.DataFrame:
     out = df.copy()
     if "btfr_residual_dex" in out.columns and out["btfr_residual_dex"].notna().any():
@@ -59,4 +68,13 @@ def fit_and_residualize(
     res = compute_btfr_residuals(log_v, out.loc[valid, "btfr_pred_logV"].to_numpy())
     out.loc[valid, "btfr_residual_dex"] = res
     out.loc[valid, "btfr_abs_residual"] = np.abs(res)
+
+    # Add McGaugh 2012 residual for SPARC if columns available
+    if mbar_msun_col is not None and vflat_kms_col is not None:
+        mcg = mcGaugh2012_btfr_residual(
+            df[mbar_msun_col].to_numpy(dtype=float),
+            df[vflat_kms_col].to_numpy(dtype=float),
+        )
+        out["btfr_mcgaugh2012_residual_dex"] = mcg
+        out["btfr_mcgaugh2012_abs_residual"] = np.abs(mcg)
     return out

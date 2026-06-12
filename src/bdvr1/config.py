@@ -19,6 +19,9 @@ SPARC_PATHS = {
     "processed": DATA_DIR / "processed" / "sparc_clean.csv",
     "proxy_table": DATA_DIR / "derived" / "sparc_proxy_table.csv",
     "btfr_residuals": DATA_DIR / "derived" / "btfr_residuals_sparc.csv",
+    "m74_proxy_table": DATA_DIR / "derived" / "sparc_m74_proxy_table.csv",
+    "m74_quartile_scatter": DATA_DIR / "derived" / "sparc_m74_quartile_scatter.csv",
+    "m74_summary": DATA_DIR / "derived" / "sparc_m74_btfr_summary.json",
 }
 
 XGASS_PATHS = {
@@ -34,5 +37,12 @@ OUTPUT_FIGURES = OUTPUTS_DIR / "figures"
 
 # Reference outputs from main analysis for reproducibility checks
 DERIVED_DIR = DATA_DIR / "derived"
-SPARC_SUMMARY_PATH = DERIVED_DIR / "sparc_btfr_summary.json"
 ARXIV_REVISED_ANALYSIS_PATH = DERIVED_DIR / "arxiv_revised_analysis.json"
+
+# Column name conventions for paper-facing outputs
+XGASS_SCORE_COL = "xgass_org_proxy"
+XGASS_QUARTILE_COL = "xgass_org_proxy_quartile"
+SPARC_CURRENT_SCORE_COL = "sparc_current_org_proxy"
+SPARC_CURRENT_QUARTILE_COL = "sparc_current_org_proxy_quartile"
+SPARC_M74_SCORE_COL = "sparc_m74_proxy"
+SPARC_M74_QUARTILE_COL = "sparc_m74_proxy_quartile"

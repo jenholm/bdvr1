@@ -9,7 +9,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "src"))
 
-from bdvr1.config import OUTPUT_TABLES, SPARC_PATHS, XGASS_PATHS
+from bdvr1.config import OUTPUT_TABLES, SPARC_PATHS, XGASS_PATHS, SPARC_CURRENT_SCORE_COL, SPARC_CURRENT_QUARTILE_COL
 from bdvr1.io import read_table, write_table
 
 
@@ -19,7 +19,8 @@ def main():
     if sparc_proxy_path.exists():
         df = read_table(sparc_proxy_path)
         selection = df[["galaxy_name", "Q", "T", "Vflat", "Inc", "Rdisk", "RHI",
-                        "Mbar_msun", "logMbar", "proxy", "proxy_quartile",
+                        "Mbar_msun", "logMbar",
+                        SPARC_CURRENT_SCORE_COL, SPARC_CURRENT_QUARTILE_COL,
                         "btfr_residual_dex", "btfr_abs_residual"]].copy()
         write_table(selection, OUTPUT_TABLES / "table1_sparc_sample_selection.csv")
         print(f"Table 1: SPARC sample selection ({len(selection)} galaxies)")

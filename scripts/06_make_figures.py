@@ -9,7 +9,10 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "src"))
 
-from bdvr1.config import SPARC_PATHS, XGASS_PATHS
+from bdvr1.config import (
+    SPARC_PATHS, XGASS_PATHS,
+    XGASS_SCORE_COL, SPARC_CURRENT_SCORE_COL,
+)
 from bdvr1.io import read_table
 from bdvr1.plotting import (
     plot_cross_survey_quartiles,
@@ -28,7 +31,7 @@ def main():
     sparc_proxy_path = SPARC_PATHS["proxy_table"]
     if sparc_proxy_path.exists():
         sparc_df = read_table(sparc_proxy_path)
-        print(f"Loaded SPARC: {len(sparc_df)} galaxies")
+        print(f"Loaded SPARC (demographic proxy): {len(sparc_df)} galaxies")
     else:
         print("SPARC proxy table not found")
 
@@ -41,12 +44,16 @@ def main():
 
     # Figure 1: Cross-survey quartiles
     if sparc_df is not None and xgass_df is not None:
-        plot_cross_survey_quartiles(sparc_df, xgass_df)
+        plot_cross_survey_quartiles(
+            sparc_df, xgass_df,
+            sparc_score_col=SPARC_CURRENT_SCORE_COL,
+            xgass_score_col=XGASS_SCORE_COL,
+        )
         print("Figure 1: cross-survey quartiles")
 
     # Figure 2: xGASS velocity variants
     if xgass_df is not None:
-        plot_xgass_velocity_variants(xgass_df)
+        plot_xgass_velocity_variants(xgass_df, score_col=XGASS_SCORE_COL)
         print("Figure 2: xGASS velocity variants")
 
     # Figure 3: Proxy variant comparison
@@ -59,24 +66,24 @@ def main():
 
     # Figure 4: Mass-bin quartiles
     if xgass_df is not None:
-        plot_mass_bin_quartiles(xgass_df)
+        plot_mass_bin_quartiles(xgass_df, score_col=XGASS_SCORE_COL)
         print("Figure 4: mass-bin quartiles")
 
     # Figure 5: Q4/Q1 ratio summary
     if xgass_df is not None:
-        summary_data = {"xGASS full": q4_q1_with_ci(xgass_df)}
+        summary_data = {"xGASS full": q4_q1_with_ci(xgass_df, score_col=XGASS_SCORE_COL)}
         if sparc_df is not None:
-            summary_data["SPARC"] = q4_q1_with_ci(sparc_df)
+            summary_data["SPARC (demo)"] = q4_q1_with_ci(sparc_df, score_col=SPARC_CURRENT_SCORE_COL)
         plot_q4_q1_summary(summary_data)
         print("Figure 5: Q4/Q1 ratio summary")
 
     print("All figures generated in outputs/figures/")
 
 
-def q4_q1_with_ci(df):
+def q4_q1_with_ci(df, score_col="proxy"):
     from bdvr1.statistics import q4_q1_ratio, bootstrap_q4_q1
-    qs = q4_q1_ratio(df)
-    bs = bootstrap_q4_q1(df)
+    qs = q4_q1_ratio(df, score_col=score_col)
+    bs = bootstrap_q4_q1(df, score_col=score_col)
     qs["ratio_ci_95"] = [bs["bootstrap_Q4_Q1_ci_95_low"], bs["bootstrap_Q4_Q1_ci_95_high"]]
     return qs
 

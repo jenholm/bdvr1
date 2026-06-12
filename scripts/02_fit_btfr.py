@@ -23,12 +23,17 @@ def main():
             continue
         print(f"Processing BTFR for {name}...")
         df = read_table(clean_path)
-        df = fit_and_residualize(df)
+        if name == "SPARC":
+            df = fit_and_residualize(df, mbar_msun_col="Mbar_msun", vflat_kms_col="Vflat")
+        else:
+            df = fit_and_residualize(df)
         write_table(df, out_path)
         if "btfr_slope" in df.columns and df["btfr_slope"].notna().any():
             slope = df["btfr_slope"].iloc[0]
             intercept = df["btfr_intercept"].iloc[0]
             print(f"  BTFR fitted: logV = {intercept:.3f} + {slope:.3f} * logMbar")
+        if "btfr_mcgaugh2012_residual_dex" in df.columns and df["btfr_mcgaugh2012_residual_dex"].notna().any():
+            print(f"  McGaugh 2012 residuals added for SPARC")
         else:
             print(f"  BTFR residuals: using pre-computed values")
         print(f"  N={len(df)}, written to {out_path}")

@@ -1,0 +1,4 @@
+test,spearman_mass_residualized_C_vs_abs,spearman_mass_residualized_p,N,mass_matched_low_scatter,mass_matched_high_scatter,mass_matched_ratio,N_low,N_high,spearman_rho,spearman_p
+mass_residualized,-0.13939332903641638,0.012560865841430156,320.0,,,,,,,
+mass_matched,,,,0.1048173677561832,0.05115587345217886,0.48804768281505684,143.0,145.0,,
+raw_spearman,,,320.0,,,,,,-0.21313245246535611,0.00012206372167265573

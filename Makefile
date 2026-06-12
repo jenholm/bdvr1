@@ -1,25 +1,35 @@
-.PHONY: setup check prepare analysis figures tables clean
+.PHONY: setup check prepare analysis figures tables validate paper clean
+
+PYTHON = python3
 
 setup:
-	python -m pip install -r requirements.txt
+	$(PYTHON) -m pip install --break-system-packages -r requirements.txt
 
 check:
-	python scripts/00_check_environment.py
+	$(PYTHON) scripts/00_check_environment.py
 
 prepare:
-	python scripts/01_prepare_inputs.py
+	$(PYTHON) scripts/01_prepare_inputs.py
 
 analysis:
-	python scripts/02_fit_btfr.py
-	python scripts/03_compute_proxies.py
-	python scripts/04_run_ablation.py
-	python scripts/05_run_controls.py
+	$(PYTHON) scripts/02_fit_btfr.py
+	$(PYTHON) scripts/03_compute_proxies.py
+	$(PYTHON) scripts/04_run_ablation.py
+	$(PYTHON) scripts/05_run_controls.py
 
 figures:
-	python scripts/06_make_figures.py
+	$(PYTHON) scripts/06_make_figures.py
 
 tables:
-	python scripts/07_make_tables.py
+	$(PYTHON) scripts/07_make_tables.py
+
+validate:
+	$(PYTHON) scripts/08_validate_paper_numbers.py
+
+paper: tables figures validate
+	mkdir -p paper/tables paper/figures
+	cp outputs/tables/*.csv paper/tables/
+	cp outputs/figures/*.png paper/figures/
 
 clean:
 	rm -rf outputs/figures/*.png outputs/tables/*.csv outputs/logs/*.log

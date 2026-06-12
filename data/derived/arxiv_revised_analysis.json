@@ -1,4 +1,26 @@
 {
+  "paper_values": {
+    "xgass": {
+      "ablation_full_Q4_Q1_ratio": 0.4106509332982902,
+      "cv_held_out_Q4_Q1_ratio": 0.36452502506262346,
+      "N_proxy_analysis": 320,
+      "N_total": 363
+    },
+    "sparc": {
+      "scatter_ratio_Q4_Q1": 0.6506373440385053,
+      "Q1_scatter": 0.0752713364616819,
+      "Q4_scatter": 0.04897434243765741,
+      "N": 87,
+      "source": "CGHSTC-34-M74"
+    },
+    "delta_r2": 0.0034819227679210307,
+    "delta_r2_source": "null_models.combined_controls",
+    "delta_r2_alternative": {
+      "value": 0.0021329082281418277,
+      "source": "quality_controls",
+      "note": "Uses different control set (lg_mbar, incl, b/a, HI_conf_flag)"
+    }
+  },
   "ablation": {
     "full": {
       "spearman_rho": -0.21313245246535611,

@@ -91,4 +91,9 @@ def clean_xgass(df: pd.DataFrame) -> pd.DataFrame:
     if "btfr_offset_dex" in out.columns:
         out["btfr_residual_dex"] = pd.to_numeric(out["btfr_offset_dex"], errors="coerce")
         out["btfr_abs_residual"] = out["btfr_residual_dex"].abs()
+
+    # Drop legacy columns from m75 CSV
+    for col in ["coherence_score", "coherence_quartile"]:
+        if col in out.columns:
+            out = out.drop(columns=[col])
     return out.reset_index(drop=True)

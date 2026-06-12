@@ -83,8 +83,6 @@ def compute_proxy_variant(df: pd.DataFrame, variant: str, base_proxy_col: str = 
         "incl_only": incl / 90.0,
         "w50_only": _minmax(w50),
         "gas_only": 1 - fatm,
-        "no_raw_w50": 0.5 * incl / 90.0 + 0.5 * (1 - fatm),
-        "no_incl": 0.5 * _minmax(w50) + 0.5 * (1 - fatm),
         "no_gas": 0.5 * incl / 90.0 + 0.5 * _minmax(w50),
     }
     C = variants.get(variant)
@@ -96,3 +94,40 @@ def compute_proxy_variant(df: pd.DataFrame, variant: str, base_proxy_col: str = 
 def assign_quartiles(score: pd.Series) -> pd.Series:
     labels = ["Q1", "Q2", "Q3", "Q4"]
     return pd.qcut(score.rank(method="first"), q=4, labels=labels)
+
+
+def compute_sparc_m74_coherence(df: pd.DataFrame) -> pd.Series:
+    """M74 SPARC coherence score: 5-component average + radial-curve bonuses.
+
+    Requires columns from the M72 scalar audit (pre-computed by the CGHSTC
+    pipeline): *f_gas*, *f_star*, *log10_Sigma_b*, *RHI_over_Rdisk*,
+    *taxonomy_stage*, and optionally *slope_outer*, *curve_flatness* for the
+    25 galaxies with resolved rotation curves.
+
+    The committed *data/derived/sparc_m74_proxy_table.csv* contains the exact
+    M74 coherence scores used in the paper.
+    """
+    require_columns(df, ["f_gas", "f_star", "log10_Sigma_b", "RHI_over_Rdisk", "taxonomy_stage"], "SPARC M74 coherence")
+
+    def _norm_sigma(x: np.ndarray) -> np.ndarray:
+        return np.clip((x - 6.5) / 4.0, 0.0, 1.0)
+
+    def _inv_rhi(x: np.ndarray) -> np.ndarray:
+        return np.where(x > 0, 1.0 / (1.0 + x), 0.0)
+
+    inv_fgas = 1.0 - df["f_gas"].to_numpy(dtype=float)
+    f_star = df["f_star"].to_numpy(dtype=float)
+    norm_s = _norm_sigma(df["log10_Sigma_b"].to_numpy(dtype=float))
+    inv_rhio = _inv_rhi(df["RHI_over_Rdisk"].to_numpy(dtype=float))
+    tax = np.where(df["taxonomy_stage"].to_numpy() == "mature_or_control", 0.8, 0.3)
+
+    coherence = np.nanmean(np.column_stack([inv_fgas, f_star, norm_s, inv_rhio, tax]), axis=1)
+
+    # Radial-curve bonuses for galaxies with resolved rotation curves
+    if "slope_outer" in df.columns and "curve_flatness" in df.columns:
+        outer_flat = np.abs(df["slope_outer"].to_numpy(dtype=float)) < 0.05
+        curve_flat = df["curve_flatness"].to_numpy(dtype=float) > 0.98
+        bonus = 0.15 * outer_flat.astype(float) + 0.10 * curve_flat.astype(float)
+        coherence = np.minimum(coherence + bonus, 1.0)
+
+    return pd.Series(coherence, index=df.index, name="sparc_m74_coherence")

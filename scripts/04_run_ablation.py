@@ -11,7 +11,7 @@ import pandas as pd
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "src"))
 
-from bdvr1.config import OUTPUT_TABLES, XGASS_PATHS
+from bdvr1.config import OUTPUT_TABLES, XGASS_PATHS, XGASS_SCORE_COL
 from bdvr1.io import read_table, write_table
 from bdvr1.proxies import compute_proxy_variant, assign_quartiles
 from bdvr1.statistics import (
@@ -24,7 +24,7 @@ from bdvr1.statistics import (
 ABLATION_VARIANTS = [
     "full", "incl_fatm_no_w50", "w50_fatm_no_incl",
     "incl_only", "w50_only", "gas_only",
-    "no_raw_w50", "no_incl", "no_gas",
+    "no_gas",
 ]
 
 

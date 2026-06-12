@@ -41,8 +41,8 @@ bdvr1/
 │   └── tables/
 ├── docs/                      Documentation
 ├── data/                      Input data (raw/processed/derived)
-│   ├── raw/                   User-downloaded source files (not committed)
-│   ├── external/              External catalogs (not committed)
+│   ├── raw/                   Reduced input files used by the pipeline; full external catalogs not committed
+│   ├── external/              Optional user-downloaded full survey catalogs, not committed
 │   ├── processed/             Cleaned intermediate tables
 │   └── derived/               Paper-specific derived products
 ├── src/bdvr1/                 Analysis Python package
@@ -57,7 +57,7 @@ bdvr1/
 The analysis uses two galaxy samples:
 
 - **SPARC** (Spitzer Photometry and Accurate Rotation Curves): 175 disk galaxies with Spitzer 3.6 um photometry and H I/H-alpha rotation curves. See Lelli, McGaugh & Schombert (2016, AJ, 152, 157).
-- **xGASS** (Extended GALEX Arecibo SDSS Survey): H I-detected galaxies with Arecibo 21-cm linewidths and SDSS/GALEX photometry. See Catinella et al. (2018, MNRAS, 476, 875).
+- **xGASS** (Extended GALEX Arecibo SDSS Survey): a stellar-mass-selected nearby-galaxy survey with H I measurements and upper limits. This repository uses the H I-detected subset carried through the M75 preprocessing table. See Catinella et al. (2018, MNRAS, 476, 875).
 
 External survey data remain subject to their original licenses and citation requirements.
 
@@ -82,7 +82,7 @@ conda activate bdvr1
 # Check environment
 make check
 
-# Prepare input tables (download SPARC/xGASS first — see data/README.md)
+# Prepare processed input tables from committed reduced inputs
 make prepare
 
 # Run analysis pipeline
@@ -128,6 +128,13 @@ python scripts/07_make_tables.py
 | `outputs/tables/mass_controls_summary.csv` | Mass control summary |
 | `outputs/tables/inclination_restricted_summary.csv` | Inclination-restricted analysis |
 
+### Paper-facing SPARC M74 data products
+
+The paper-facing SPARC result is reproduced from the M74 file set in `data/derived/`:
+`sparc_m74_proxy_table.csv`, `sparc_m74_quartile_scatter.csv`, and
+`sparc_m74_btfr_summary.json`. The diagnostic `sparc_proxy_table.csv` uses a
+different proxy definition and does not reproduce the M74 SPARC Q4/Q1 value.
+
 ## Limitations
 
 1. The organization proxies are unresolved scalars — they do not measure the proposed BDVR organization coordinate directly.
@@ -148,6 +155,8 @@ If you use this repository, please cite the associated arXiv paper:
   url = {https://github.com/jenholm/bdvr1}
 }
 ```
+
+For software citation metadata, see `CITATION.cff`.
 
 ## Contact
 

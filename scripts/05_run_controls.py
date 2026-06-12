@@ -14,7 +14,7 @@ sys.path.insert(0, str(ROOT / "src"))
 import numpy as np
 from scipy.stats import spearmanr
 
-from bdvr1.config import OUTPUT_TABLES, XGASS_PATHS
+from bdvr1.config import OUTPUT_TABLES, XGASS_PATHS, XGASS_SCORE_COL
 from bdvr1.io import read_table, write_table
 from bdvr1.proxies import compute_xgass_coherence_proxy, compute_proxy_variant
 from bdvr1.statistics import (
@@ -33,8 +33,9 @@ def main():
         return
 
     df = read_table(proxy_path)
-    if "proxy" not in df.columns:
-        df["proxy"] = compute_xgass_coherence_proxy(df)
+    score_col = XGASS_SCORE_COL
+    if score_col not in df.columns:
+        df[score_col] = compute_xgass_coherence_proxy(df)
 
     # 1. Inclination-restricted analysis
     incl_restricted_rows = []
@@ -44,8 +45,8 @@ def main():
         if len(subset) < 10:
             row.update({"N": len(subset), "error": "insufficient data"})
         else:
-            qs = q4_q1_ratio(subset)
-            sr = spearman_proxy_abs_residual(subset)
+            qs = q4_q1_ratio(subset, score_col=score_col)
+            sr = spearman_proxy_abs_residual(subset, score_col=score_col)
             rho_incl, p_incl = spearmanr(subset["INCL"], subset["btfr_abs_residual"])
             row.update({**qs, **sr, "spearman_incl_vs_abs": float(rho_incl), "spearman_incl_p": float(p_incl)})
         incl_restricted_rows.append(row)
@@ -53,9 +54,9 @@ def main():
 
     # 2. Mass controls
     mass_rows = []
-    mr = mass_residualized_correlation(df)
-    mm = mass_matched_quartile_scatter(df)
-    sr = spearman_proxy_abs_residual(df)
+    mr = mass_residualized_correlation(df, score_col=score_col)
+    mm = mass_matched_quartile_scatter(df, score_col=score_col)
+    sr = spearman_proxy_abs_residual(df, score_col=score_col)
     mass_rows.append({"test": "mass_residualized", **mr})
     mass_rows.append({"test": "mass_matched", **mm})
     mass_rows.append({"test": "raw_spearman", **sr})
@@ -74,7 +75,7 @@ def main():
     write_table(pd.DataFrame(xgass_ctrl_rows), OUTPUT_TABLES / "xgass_controls_summary.csv")
 
     # 4. Measurement quality controls
-    qual = measurement_quality_regression(df)
+    qual = measurement_quality_regression(df, score_col=score_col)
     write_table(pd.DataFrame([qual]), OUTPUT_TABLES / "measurement_quality_controls.csv")
 
 

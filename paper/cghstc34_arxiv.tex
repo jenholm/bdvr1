@@ -272,23 +272,20 @@ The primary organization proxy for xGASS combines three terms:
 + 0.30 (1 - f_{\rm atm}),
 \end{equation}
 
-where $i$ is the inclination, $W_{50}$ the global H~I linewidth, and $f_{\rm atm}$ the atomic gas fraction $M_{\rm HI}/M_{\rm bar}$. The inclination term $i/90^\circ$ is an edge-on ranking (observational recoverability), not a physical organization measurement. The min--max normalization of $W_{50}$ was computed using the full dataset; this leaks held-out information into the score and must be estimated inside training folds in a fully fold-local analysis. The weights (0.35, 0.35, 0.30) are heuristic and were not optimized. The resulting score should be understood as a heuristic index, not a fitted model. We note that the raw $W_{50}$ component couples the proxy to the same linewidth used in the BTFR velocity (Eq.~\ref{eq:vrot}), so this component does not constitute independent evidence of physical organization. Section~9 tests the sensitivity of the result to alternative formulations.
+where $i$ is the inclination, $W_{50}$ the global H~I linewidth, and $f_{\rm atm}$ the atomic-gas-fraction term inherited from the M75 preprocessing table. In the public reproducibility tables, $f_{\rm atm}$ is carried through from the preprocessing table rather than recomputed from the visible mass columns. The inclination term $i/90^\circ$ is an edge-on ranking (observational recoverability), not a physical organization measurement. The min--max normalization of $W_{50}$ was computed using the full dataset; this leaks held-out information into the score and must be estimated inside training folds in a fully fold-local analysis. The weights (0.35, 0.35, 0.30) are heuristic and were not optimized. The resulting score should be understood as a heuristic index, not a fitted model. We note that the raw $W_{50}$ component couples the proxy to the same linewidth used in the BTFR velocity (Eq.~\ref{eq:vrot}), so this component does not constitute independent evidence of physical organization. Section~9 tests the sensitivity of the result to alternative formulations.
 
 \subsection{SPARC proxy}
 
-For SPARC, where resolved information is available but uneven across the sample, we construct a composite demographic organization index from standardized predictors:
+The paper-facing SPARC result uses the M74 coherence score, which averages five normalized components with equal weights: the stellar fraction $f_*$, the gas-poorness $1-f_{\rm gas}$, the central stellar surface density $\log_{10}\Sigma_b$, the disk compactness $1/(1+R_{\rm HI}/R_d)$, and a late-type taxonomy prior. For the 25 SPARC galaxies with resolved rotation-curve models in the current local pipeline, radial-curve flatness and convergence bonuses ($\pm 0.15$ and $\pm 0.10$) are added. The raw score is quartiled by rank with duplicate handling ($N=22,22,21,22$). The quartile-endpoint scatter ratio is $\sigma_{Q4}/\sigma_{Q1} = 0.65$ (Figure~\ref{fig:scatter_quartile}).
 
-\begin{equation}
-z_j = \frac{x_j - \operatorname{median}(x_j)}{\operatorname{MAD}(x_j)},
-\end{equation}
-
+The repository also includes a separate diagnostic demographic proxy:
 \begin{equation}
 \mathcal{D}_{\rm SPARC} = w_1 z_{\log\Sigma} + w_2 z_{f_*} - w_3 z_{R_{\rm HI}/R_d},
+\label{eq:d_sparc_demographic}
 \end{equation}
+where $\Sigma$ is the central stellar surface density, $f_* = M_*/(M_* + 1.33 M_{\rm HI})$ the stellar fraction, $R_{\rm HI}/R_d$ the H~I-to-optical disk scale-length ratio, $w_j = 1/3$, MAD denotes the median absolute deviation, and all $z$-scores are min--max normalized to $[0,1]$. This demographic index does not reproduce the M74 end point and is provided for readers who wish to compare alternative proxy constructions. Because $f_* + f_{\rm gas} \approx 1$, the gas fraction is implicitly included through the stellar fraction. The stellar surface density is taken from the SPARC $\log$SB column.
 
-where $\Sigma$ is the stellar surface density, $f_*$ the stellar fraction, $R_{\rm HI}/R_d$ the H~I-to-optical disk scale-length ratio (larger values indicate more extended gas disks, which we assume correspond to lower dynamical organization), MAD denotes the median absolute deviation (a robust dispersion estimator), and $w_j = 1/3$ are equal weights. The stellar surface density is the central value as reported in the SPARC catalog; $R_{\rm HI}$ is defined at the $1\,M_\odot\,{\rm pc}^{-2}$ column-density threshold following standard H~I disk conventions. The resulting score is normalized to $[0,1]$ via min--max scaling. Because $f_* + f_{\rm gas} \approx 1$, the gas fraction is implicitly included through the stellar fraction. The stellar surface density is taken from the SPARC $\log$SB column. We emphasize that this is a demographic organization index, not a direct disk organization measurement.
-
-\subsection{Three distinct coherence quantities}
+\subsection{Three distinct organization quantities}
 
 We distinguish three related but distinct quantities:
 
@@ -342,7 +339,7 @@ In SPARC, galaxies in the highest organization quartile (Q4) show 35\% lower $|\
 
 \subsection{xGASS: full-sample result}
 
-With the kinematics-driven coherence model, xGASS shows a larger scatter reduction: Q4/Q1 = 0.38 (Spearman $\rho = -0.238$), with the highest-ranked quartile having 62\% lower scatter than the lowest. Of the 363 xGASS galaxies, 320 have all quantities required for the inclination-corrected $V_{\rm rot}$ analysis; the remaining 43 lack derived $V_{\rm rot}$ in the current analysis table and are shown separately as a W50-only diagnostic subset (Figure~\ref{fig:scatter_quartile}, right panel). This subset is not treated as a full-sample replication of the main xGASS result.
+With the kinematics-driven organization proxy, xGASS shows a larger scatter reduction: Q4/Q1 = 0.38 (Spearman $\rho = -0.238$), with the highest-ranked quartile having 62\% lower scatter than the lowest. Of the 363 xGASS galaxies, 320 have all quantities required for the inclination-corrected $V_{\rm rot}$ analysis; the remaining 43 lack derived $V_{\rm rot}$ in the current analysis table and are shown separately as a W50-only diagnostic subset (Figure~\ref{fig:scatter_quartile}, right panel). This subset is not treated as a full-sample replication of the main xGASS result.
 
 \subsection{Cross-validated result}
 
@@ -488,7 +485,7 @@ The decisive test is a resolved analysis in which velocity-field symmetry, rotat
 
 \section*{Data and Code Availability}
 
-The analysis scripts, input tables, and generated figures are available at the project repository (repository URL to be added after packaging and archival review). The SPARC data are public~\cite{lelli2016}. The xGASS catalog is available at \url{https://xgass.icrar.org}.
+The analysis scripts, input tables, and generated figures are available at the project repository (https://github.com/jenholm/bdvr1). The SPARC data are public~\cite{lelli2016}. The xGASS catalog is available at \url{https://xgass.icrar.org/data.html}.
 
 \begin{figure}[H]
 \centering
@@ -500,7 +497,7 @@ The analysis scripts, input tables, and generated figures are available at the p
 \begin{figure}[H]
 \centering
 \includegraphics[width=\textwidth]{figures/fig_2_btfr_scatter_by_quartile.png}
-\caption{xGASS BTFR residual scatter by organization quartile for two velocity variants. Left: held-out inclination-corrected H~I rotation proxy sample ($N=320$). Right: W50-only subset ($N=43$). Bars show the standard deviation of signed BTFR residuals per quartile; error bars show bootstrap 95\% confidence intervals. The endpoint contrast is present, but intermediate quartiles are not uniformly monotonic.}
+\caption{xGASS BTFR residual scatter by organization quartile for two velocity variants. Left: held-out inclination-corrected H~I rotation proxy sample ($N=320$). Right: W50-only subset ($N=43$). Bars show the standard deviation of absolute BTFR residuals per quartile; error bars show bootstrap 95\% confidence intervals. The endpoint contrast is present, but intermediate quartiles are not uniformly monotonic.}
 \label{fig:scatter_quartile}
 \end{figure}
 
