@@ -91,6 +91,9 @@ make analysis
 # Reproduce figures and tables
 make figures
 make tables
+
+# Validate paper-facing numbers
+make validate
 ```
 
 Or step by step:
@@ -104,6 +107,7 @@ python scripts/04_run_ablation.py
 python scripts/05_run_controls.py
 python scripts/06_make_figures.py
 python scripts/07_make_tables.py
+python scripts/08_validate_paper_numbers.py
 ```
 
 ## Outputs used in the paper

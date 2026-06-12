@@ -1,9 +1,9 @@
-.PHONY: setup check prepare analysis figures tables validate paper clean
+.PHONY: setup check prepare analysis figures tables validate paper paper-copy clean
 
 PYTHON = python3
 
 setup:
-	$(PYTHON) -m pip install --break-system-packages -r requirements.txt
+	$(PYTHON) -m pip install -r requirements.txt
 
 check:
 	$(PYTHON) scripts/00_check_environment.py
@@ -26,7 +26,12 @@ tables:
 validate:
 	$(PYTHON) scripts/08_validate_paper_numbers.py
 
-paper: tables figures validate
+paper: prepare analysis figures tables validate
+	mkdir -p paper/tables paper/figures
+	cp outputs/tables/*.csv paper/tables/
+	cp outputs/figures/*.png paper/figures/
+
+paper-copy: tables figures validate
 	mkdir -p paper/tables paper/figures
 	cp outputs/tables/*.csv paper/tables/
 	cp outputs/figures/*.png paper/figures/
