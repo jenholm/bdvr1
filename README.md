@@ -2,7 +2,7 @@
 
 ## Paper
 
-This repository supports the arXiv paper:
+This repository supports the astrophysics paper:
 
 *"Disk Organization and BTFR Scatter: A Preliminary Test of the Bound Domain Vacuum Response Hypothesis"*
 
