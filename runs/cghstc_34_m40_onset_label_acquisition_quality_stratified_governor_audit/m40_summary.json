@@ -1,0 +1,37 @@
+{
+  "milestone": "CGHSTC-34-M40",
+  "status": "onset_label_acquisition_quality_stratified_audit",
+  "used_disputed_inverse_rank_outputs": false,
+  "input_basis": {
+    "m39_predictions": "/home/jenholm/photonland/cghs/cghstc_34/runs/cghstc_34_m39_inverse_rank_disorder_axis_diagnostic/m39_inverse_rank_predictions.csv",
+    "m39_status": "inverse_rank_disorder_axis_diagnostic_regenerated_from_verified_sources",
+    "m38_external_proxy_scores": "/home/jenholm/photonland/cghs/cghstc_34/runs/cghstc_34_m38_m18_feedback_on_m37_juvenile_failed_set/m38_external_proxy_feedback_scores.csv"
+  },
+  "n_direct_rows": 87,
+  "n_external_proxy_rows": 78,
+  "strata_counts": {
+    "clean_juvenile_failed_candidates": 15,
+    "measurement_contaminated_candidates": 26,
+    "mature_controls": 46,
+    "external_proxy_rows": 78
+  },
+  "negative_rank_signal_interpretation": "observational_quality_axis",
+  "manuscript_rewritten": false,
+  "mature_velocity_law_changed": false,
+  "governor_promoted": false,
+  "claim_boundaries": [
+    "No mature velocity law changed; M36 hybrid halo-energy BDVR no-governor remains the mature/clean scalar velocity endpoint.",
+    "No manuscript rewrite was performed by M40.",
+    "M40 is label acquisition and quality stratification before modeling activation.",
+    "Rank sign or flip behavior inside a stratum is diagnostic only and does not promote a new governor law.",
+    "External proxy rows are not direct activation fits unless direct activation endpoints and quality labels are acquired.",
+    "UGC07125 remains quarantined and is not treated as a juvenile prototype or clean scalar velocity object."
+  ],
+  "required_outputs": {
+    "quality_labels": "/home/jenholm/photonland/cghs/cghstc_34/runs/cghstc_34_m40_onset_label_acquisition_quality_stratified_governor_audit/m40_quality_labels.csv",
+    "onset_candidate_labels": "/home/jenholm/photonland/cghs/cghstc_34/runs/cghstc_34_m40_onset_label_acquisition_quality_stratified_governor_audit/m40_onset_candidate_labels.csv",
+    "resolved_HI_crossmatch_needs": "/home/jenholm/photonland/cghs/cghstc_34/runs/cghstc_34_m40_onset_label_acquisition_quality_stratified_governor_audit/m40_resolved_HI_crossmatch_needs.csv",
+    "priority_followup_table": "/home/jenholm/photonland/cghs/cghstc_34/runs/cghstc_34_m40_onset_label_acquisition_quality_stratified_governor_audit/m40_priority_followup_table.csv",
+    "stratified_metrics": "/home/jenholm/photonland/cghs/cghstc_34/runs/cghstc_34_m40_onset_label_acquisition_quality_stratified_governor_audit/m40_stratified_m38_m39_metrics.csv"
+  }
+}

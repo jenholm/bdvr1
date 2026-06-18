@@ -1,0 +1,392 @@
+[
+  {
+    "query": "SINDy sparse identification nonlinear dynamics",
+    "results": [
+      {
+        "title": "SINDy on slow manifolds",
+        "arxiv_id": "2507.00747v1",
+        "published": "2025-07-01",
+        "authors": [
+          "Diemen Delgado-Cano",
+          "Erick Kracht",
+          "Urban Fasel",
+          "Benjamin Herrmann"
+        ],
+        "summary": "The sparse identification of nonlinear dynamics (SINDy) has been established as an effective method to learn interpretable models of dynamical systems from data. However, for high-dimensional slow-fast dynamical systems, the regression problem becomes simultaneously computationally intractable and ill-conditioned. Although, in principle, modeling only the dynamics evolving on the underlying slow manifold addresses both of these challenges, the truncated fast variables have to be compensated by including higher-order nonlinearities as candidate terms for the model, leading to an explosive growth in the size of the SINDy library. In this work, we develop a SINDy variant that is able to robustly and efficiently identify slow-fast dynamics in two steps: (i) identify the slow manifold, that is, an algebraic equation for the fast variables as functions of the slow ones, and (ii) learn a model for the dynamics of the slow variables restricted to the manifold. Critically, the equation learned in (i) is leveraged to build a manifold-informed function library for (ii) that contains only essential higher-order nonlinearites as candidate terms. Rather than containing all monomials of up to a certain degree, the resulting custom library is a sparse subset of the latter that is tailored to the specific problem at hand. The approach is demonstrated on numerical examples of a snap-through buckling beam and the flow over a NACA 0012 airfoil. We find that our method significantly reduces both the condition number and the size of the SINDy library, thus enabling accurate identification of the dynamics on slow manifolds.",
+        "url": "https://arxiv.org/abs/2507.00747v1"
+      },
+      {
+        "title": "AC-SINDy: Compositional Sparse Identification of Nonlinear Dynamics",
+        "arxiv_id": "2604.18889v1",
+        "published": "2026-04-20",
+        "authors": [
+          "Peter Racioppo"
+        ],
+        "summary": "We present AC-SINDy, a compositional extension of the Sparse Identification of Nonlinear Dynamics (SINDy) framework that replaces explicit feature libraries with a structured representation based on arithmetic circuits. Rather than enumerating candidate basis functions, the proposed approach constructs nonlinear features through compositions of linear functions and multiplicative interactions, yielding a compact and scalable parameterization and enabling sparsity to be enforced directly over the computational graph. We also introduce a formulation that separates state estimation from dynamics identification by combining latent state inference with shared dynamics and multi-step supervision, improving robustness to noise while preserving interpretability. Experiments on nonlinear and chaotic systems demonstrate that the method recovers accurate and interpretable governing equations while scaling more favorably than standard SINDy.",
+        "url": "https://arxiv.org/abs/2604.18889v1"
+      },
+      {
+        "title": "LES-SINDy: Laplace-Enhanced Sparse Identification of Nonlinear Dynamical Systems",
+        "arxiv_id": "2411.01719v1",
+        "published": "2024-11-04",
+        "authors": [
+          "Haoyang Zheng",
+          "Guang Lin"
+        ],
+        "summary": "Sparse Identification of Nonlinear Dynamical Systems (SINDy) is a powerful tool for the data-driven discovery of governing equations. However, it encounters challenges when modeling complex dynamical systems involving high-order derivatives or discontinuities, particularly in the presence of noise. These limitations restrict its applicability across various fields in applied mathematics and physics. To mitigate these, we propose Laplace-Enhanced SparSe Identification of Nonlinear Dynamical Systems (LES-SINDy). By transforming time-series measurements from the time domain to the Laplace domain using the Laplace transform and integration by parts, LES-SINDy enables more accurate approximations of derivatives and discontinuous terms. It also effectively handles unbounded growth functions and accumulated numerical errors in the Laplace domain, thereby overcoming challenges in the identification process. The model evaluation process selects the most accurate and parsimonious dynamical systems from multiple candidates. Experimental results across diverse ordinary and partial differential equations show that LES-SINDy achieves superior robustness, accuracy, and parsimony compared to existing methods.",
+        "url": "https://arxiv.org/abs/2411.01719v1"
+      },
+      {
+        "title": "Sparse Identification of Nonlinear Dynamics with Side Information (SINDy-SI)",
+        "arxiv_id": "2310.04227v2",
+        "published": "2023-10-06",
+        "authors": [
+          "Gabriel F. Machado",
+          "Morgan Jones"
+        ],
+        "summary": "Modern societies have an abundance of data yet good system models are rare. Unfortunately, many of the current system identification and machine learning techniques fail to generalize outside of the training set, producing models that violate basic physical laws. This work proposes a novel method for the Sparse Identification of Nonlinear Dynamics with Side Information (SINDy-SI). SINDy-SI is an iterative method that uses Sum-of-Squares (SOS) programming to learn optimally fitted models while guaranteeing that the learned model satisfies side information, such as symmetry's and physical laws. Guided by the principle of Occam's razor, that the simplest or most regularized best fitted model is typically the superior choice, during each iteration SINDy-SI prunes the basis functions associated with small coefficients, yielding a sparse dynamical model upon termination. Through several numerical experiments we will show how the combination of side information constraints and sparse polynomial representation cultivates dynamical models that obey known physical laws while displaying impressive generalized performance beyond the training set.",
+        "url": "https://arxiv.org/abs/2310.04227v2"
+      },
+      {
+        "title": "EKF-SINDy: Empowering the extended Kalman filter with sparse identification of nonlinear dynamics",
+        "arxiv_id": "2404.07536v2",
+        "published": "2024-04-11",
+        "authors": [
+          "Luca Rosafalco",
+          "Paolo Conti",
+          "Andrea Manzoni",
+          "Stefano Mariani",
+          "Attilio Frangi"
+        ],
+        "summary": "Measured data from a dynamical system can be assimilated into a predictive model by means of Kalman filters. Nonlinear extensions of the Kalman filter, such as the Extended Kalman Filter (EKF), are required to enable the joint estimation of (possibly nonlinear) system dynamics and of input parameters. To construct the evolution model used in the prediction phase of the EKF, we propose to rely on the Sparse Identification of Nonlinear Dynamics (SINDy). SINDy enables to identify the evolution model directly from preliminary acquired data, thus avoiding possible bias due to wrong assumptions and incorrect modelling of the system dynamics. Moreover, the numerical integration of a SINDy model leads to great computational savings compared to alternate strategies based on, e.g., finite elements. Last, SINDy allows an immediate definition of the Jacobian matrices required by the EKF to identify system dynamics and properties, a derivation that is usually extremely involved with physical models. As a result, combining the EKF with SINDy provides a data-driven computationally efficient, easy-to-apply approach for the identification of nonlinear systems, capable of robust operation even outside the range of training of SINDy. To demonstrate the potential of the approach, we address the identification of a linear non-autonomous system consisting of a shear building model excited by real seismograms, and the identification of a partially observed nonlinear system. The challenge arising from the use of SINDy when the system state is not entirely accessible has been relieved by means of time-delay embedding. The great accuracy and the small uncertainty associated with the state identification, where the state has been augmented to include system properties, underscores the great potential of the proposed strategy, paving the way for the setting of predictive digital twins in different fields.",
+        "url": "https://arxiv.org/abs/2404.07536v2"
+      }
+    ]
+  },
+  {
+    "query": "Neural Ordinary Differential Equations",
+    "results": [
+      {
+        "title": "Neural Ordinary Differential Equation based Sequential Image Registration for Dynamic Characterization",
+        "arxiv_id": "2404.02106v1",
+        "published": "2024-04-02",
+        "authors": [
+          "Yifan Wu",
+          "Mengjin Dong",
+          "Rohit Jena",
+          "Chen Qin",
+          "James C. Gee"
+        ],
+        "summary": "Deformable image registration (DIR) is crucial in medical image analysis, enabling the exploration of biological dynamics such as organ motions and longitudinal changes in imaging. Leveraging Neural Ordinary Differential Equations (ODE) for registration, this extension work discusses how this framework can aid in the characterization of sequential biological processes. Utilizing the Neural ODE's ability to model state derivatives with neural networks, our Neural Ordinary Differential Equation Optimization-based (NODEO) framework considers voxels as particles within a dynamic system, defining deformation fields through the integration of neural differential equations. This method learns dynamics directly from data, bypassing the need for physical priors, making it exceptionally suitable for medical scenarios where such priors are unavailable or inapplicable. Consequently, the framework can discern underlying dynamics and use sequence data to regularize the transformation trajectory. We evaluated our framework on two clinical datasets: one for cardiac motion tracking and another for longitudinal brain MRI analysis. Demonstrating its efficacy in both 2D and 3D imaging scenarios, our framework offers flexibility and model agnosticism, capable of managing image sequences and facilitating label propagation throughout these sequences. This study provides a comprehensive understanding of how the Neural ODE-based framework uniquely benefits the image registration challenge.",
+        "url": "https://arxiv.org/abs/2404.02106v1"
+      },
+      {
+        "title": "Graph Neural Ordinary Differential Equations",
+        "arxiv_id": "1911.07532v4",
+        "published": "2019-11-18",
+        "authors": [
+          "Michael Poli",
+          "Stefano Massaroli",
+          "Junyoung Park",
+          "Atsushi Yamashita",
+          "Hajime Asama",
+          "Jinkyoo Park"
+        ],
+        "summary": "We introduce the framework of continuous--depth graph neural networks (GNNs). Graph neural ordinary differential equations (GDEs) are formalized as the counterpart to GNNs where the input-output relationship is determined by a continuum of GNN layers, blending discrete topological structures and differential equations. The proposed framework is shown to be compatible with various static and autoregressive GNN models. Results prove general effectiveness of GDEs: in static settings they offer computational advantages by incorporating numerical methods in their forward pass; in dynamic settings, on the other hand, they are shown to improve performance by exploiting the geometry of the underlying dynamics.",
+        "url": "https://arxiv.org/abs/1911.07532v4"
+      },
+      {
+        "title": "Constrained Neural Ordinary Differential Equations with Stability Guarantees",
+        "arxiv_id": "2004.10883v1",
+        "published": "2020-04-22",
+        "authors": [
+          "Aaron Tuor",
+          "Jan Drgona",
+          "Draguna Vrabie"
+        ],
+        "summary": "Differential equations are frequently used in engineering domains, such as modeling and control of industrial systems, where safety and performance guarantees are of paramount importance. Traditional physics-based modeling approaches require domain expertise and are often difficult to tune or adapt to new systems. In this paper, we show how to model discrete ordinary differential equations (ODE) with algebraic nonlinearities as deep neural networks with varying degrees of prior knowledge. We derive the stability guarantees of the network layers based on the implicit constraints imposed on the weight's eigenvalues. Moreover, we show how to use barrier methods to generically handle additional inequality constraints. We demonstrate the prediction accuracy of learned neural ODEs evaluated on open-loop simulations compared to ground truth dynamics with bi-linear terms.",
+        "url": "https://arxiv.org/abs/2004.10883v1"
+      },
+      {
+        "title": "Universal Approximation Property of Neural Ordinary Differential Equations",
+        "arxiv_id": "2012.02414v1",
+        "published": "2020-12-04",
+        "authors": [
+          "Takeshi Teshima",
+          "Koichi Tojo",
+          "Masahiro Ikeda",
+          "Isao Ishikawa",
+          "Kenta Oono"
+        ],
+        "summary": "Neural ordinary differential equations (NODEs) is an invertible neural network architecture promising for its free-form Jacobian and the availability of a tractable Jacobian determinant estimator. Recently, the representation power of NODEs has been partly uncovered: they form an $L^p$-universal approximator for continuous maps under certain conditions. However, the $L^p$-universality may fail to guarantee an approximation for the entire input domain as it may still hold even if the approximator largely differs from the target function on a small region of the input space. To further uncover the potential of NODEs, we show their stronger approximation property, namely the $\\sup$-universality for approximating a large class of diffeomorphisms. It is shown by leveraging a structure theorem of the diffeomorphism group, and the result complements the existing literature by establishing a fairly large set of mappings that NODEs can approximate with a stronger guarantee.",
+        "url": "https://arxiv.org/abs/2012.02414v1"
+      },
+      {
+        "title": "Heavy Ball Neural Ordinary Differential Equations",
+        "arxiv_id": "2110.04840v1",
+        "published": "2021-10-10",
+        "authors": [
+          "Hedi Xia",
+          "Vai Suliafu",
+          "Hangjie Ji",
+          "Tan M. Nguyen",
+          "Andrea L. Bertozzi",
+          "Stanley J. Osher"
+        ],
+        "summary": "We propose heavy ball neural ordinary differential equations (HBNODEs), leveraging the continuous limit of the classical momentum accelerated gradient descent, to improve neural ODEs (NODEs) training and inference. HBNODEs have two properties that imply practical advantages over NODEs: (i) The adjoint state of an HBNODE also satisfies an HBNODE, accelerating both forward and backward ODE solvers, thus significantly reducing the number of function evaluations (NFEs) and improving the utility of the trained models. (ii) The spectrum of HBNODEs is well structured, enabling effective learning of long-term dependencies from complex sequential data. We verify the advantages of HBNODEs over NODEs on benchmark tasks, including image classification, learning complex dynamics, and sequential modeling. Our method requires remarkably fewer forward and backward NFEs, is more accurate, and learns long-term dependencies more effectively than the other ODE-based neural network models. Code is available at \\url{https://github.com/hedixia/HeavyBallNODE}.",
+        "url": "https://arxiv.org/abs/2110.04840v1"
+      }
+    ]
+  },
+  {
+    "query": "Latent ODE irregular time series",
+    "results": [
+      {
+        "title": "Enhancing Continuous Time Series Modelling with a Latent ODE-LSTM Approach",
+        "arxiv_id": "2307.05126v1",
+        "published": "2023-07-11",
+        "authors": [
+          "C. Coelho",
+          "M. Fernanda P. Costa",
+          "L. L. Ferr\u00e1s"
+        ],
+        "summary": "Due to their dynamic properties such as irregular sampling rate and high-frequency sampling, Continuous Time Series (CTS) are found in many applications. Since CTS with irregular sampling rate are difficult to model with standard Recurrent Neural Networks (RNNs), RNNs have been generalised to have continuous-time hidden dynamics defined by a Neural Ordinary Differential Equation (Neural ODE), leading to the ODE-RNN model. Another approach that provides a better modelling is that of the Latent ODE model, which constructs a continuous-time model where a latent state is defined at all times. The Latent ODE model uses a standard RNN as the encoder and a Neural ODE as the decoder. However, since the RNN encoder leads to difficulties with missing data and ill-defined latent variables, a Latent ODE-RNN model has recently been proposed that uses a ODE-RNN model as the encoder instead. Both the Latent ODE and Latent ODE-RNN models are difficult to train due to the vanishing and exploding gradients problem. To overcome this problem, the main contribution of this paper is to propose and illustrate a new model based on a new Latent ODE using an ODE-LSTM (Long Short-Term Memory) network as an encoder -- the Latent ODE-LSTM model. To limit the growth of the gradients the Norm Gradient Clipping strategy was embedded on the Latent ODE-LSTM model. The performance evaluation of the new Latent ODE-LSTM (with and without Norm Gradient Clipping) for modelling CTS with regular and irregular sampling rates is then demonstrated. Numerical experiments show that the new Latent ODE-LSTM performs better than Latent ODE-RNNs and can avoid the vanishing and exploding gradients during training.",
+        "url": "https://arxiv.org/abs/2307.05126v1"
+      },
+      {
+        "title": "Functional Latent Dynamics for Irregularly Sampled Time Series Forecasting",
+        "arxiv_id": "2405.03582v2",
+        "published": "2024-05-06",
+        "authors": [
+          "Christian Kl\u00f6tergens",
+          "Vijaya Krishna Yalavarthi",
+          "Maximilian Stubbemann",
+          "Lars Schmidt-Thieme"
+        ],
+        "summary": "Irregularly sampled time series with missing values are often observed in multiple real-world applications such as healthcare, climate and astronomy. They pose a significant challenge to standard deep learning models that operate only on fully observed and regularly sampled time series. In order to capture the continuous dynamics of the irregular time series, many models rely on solving an Ordinary Differential Equation (ODE) in the hidden state. These ODE-based models tend to perform slow and require large memory due to sequential operations and a complex ODE solver. As an alternative to complex ODE-based models, we propose a family of models called Functional Latent Dynamics (FLD). Instead of solving the ODE, we use simple curves which exist at all time points to specify the continuous latent state in the model. The coefficients of these curves are learned only from the observed values in the time series ignoring the missing values. Through extensive experiments, we demonstrate that FLD achieves better performance compared to the best ODE-based model while reducing the runtime and memory overhead. Specifically, FLD requires an order of magnitude less time to infer the forecasts compared to the best performing forecasting model.",
+        "url": "https://arxiv.org/abs/2405.03582v2"
+      },
+      {
+        "title": "SeqLink: A Robust Neural-ODE Architecture for Modelling Partially Observed Time Series",
+        "arxiv_id": "2212.03560v3",
+        "published": "2022-12-07",
+        "authors": [
+          "Futoon M. Abushaqra",
+          "Hao Xue",
+          "Yongli Ren",
+          "Flora D. Salim"
+        ],
+        "summary": "Ordinary Differential Equations (ODE) based models have become popular as foundation models for solving many time series problems. Combining neural ODEs with traditional RNN models has provided the best representation for irregular time series. However, ODE-based models typically require the trajectory of hidden states to be defined based on either the initial observed value or the most recent observation, raising questions about their effectiveness when dealing with longer sequences and extended time intervals. In this article, we explore the behaviour of the ODE models in the context of time series data with varying degrees of sparsity. We introduce SeqLink, an innovative neural architecture designed to enhance the robustness of sequence representation. Unlike traditional approaches that solely rely on the hidden state generated from the last observed value, SeqLink leverages ODE latent representations derived from multiple data samples, enabling it to generate robust data representations regardless of sequence length or data sparsity level. The core concept behind our model is the definition of hidden states for the unobserved values based on the relationships between samples (links between sequences). Through extensive experiments on partially observed synthetic and real-world datasets, we demonstrate that SeqLink improves the modelling of intermittent time series, consistently outperforming state-of-the-art approaches.",
+        "url": "https://arxiv.org/abs/2212.03560v3"
+      },
+      {
+        "title": "Stable Neural Stochastic Differential Equations in Analyzing Irregular Time Series Data",
+        "arxiv_id": "2402.14989v6",
+        "published": "2024-02-22",
+        "authors": [
+          "YongKyung Oh",
+          "Dong-Young Lim",
+          "Sungil Kim"
+        ],
+        "summary": "Irregular sampling intervals and missing values in real-world time series data present challenges for conventional methods that assume consistent intervals and complete data. Neural Ordinary Differential Equations (Neural ODEs) offer an alternative approach, utilizing neural networks combined with ODE solvers to learn continuous latent representations through parameterized vector fields. Neural Stochastic Differential Equations (Neural SDEs) extend Neural ODEs by incorporating a diffusion term, although this addition is not trivial, particularly when addressing irregular intervals and missing values. Consequently, careful design of drift and diffusion functions is crucial for maintaining stability and enhancing performance, while incautious choices can result in adverse properties such as the absence of strong solutions, stochastic destabilization, or unstable Euler discretizations, significantly affecting Neural SDEs' performance. In this study, we propose three stable classes of Neural SDEs: Langevin-type SDE, Linear Noise SDE, and Geometric SDE. Then, we rigorously demonstrate their robustness in maintaining excellent performance under distribution shift, while effectively preventing overfitting. To assess the effectiveness of our approach, we conduct extensive experiments on four benchmark datasets for interpolation, forecasting, and classification tasks, and analyze the robustness of our methods with 30 public datasets under different missing rates. Our results demonstrate the efficacy of the proposed method in handling real-world irregular time series data.",
+        "url": "https://arxiv.org/abs/2402.14989v6"
+      },
+      {
+        "title": "Temporal Graph Neural Networks for Irregular Data",
+        "arxiv_id": "2302.08415v1",
+        "published": "2023-02-16",
+        "authors": [
+          "Joel Oskarsson",
+          "Per Sid\u00e9n",
+          "Fredrik Lindsten"
+        ],
+        "summary": "This paper proposes a temporal graph neural network model for forecasting of graph-structured irregularly observed time series. Our TGNN4I model is designed to handle both irregular time steps and partial observations of the graph. This is achieved by introducing a time-continuous latent state in each node, following a linear Ordinary Differential Equation (ODE) defined by the output of a Gated Recurrent Unit (GRU). The ODE has an explicit solution as a combination of exponential decay and periodic dynamics. Observations in the graph neighborhood are taken into account by integrating graph neural network layers in both the GRU state update and predictive model. The time-continuous dynamics additionally enable the model to make predictions at arbitrary time steps. We propose a loss function that leverages this and allows for training the model for forecasting over different time horizons. Experiments on simulated data and real-world data from traffic and climate modeling validate the usefulness of both the graph structure and time-continuous dynamics in settings with irregular observations.",
+        "url": "https://arxiv.org/abs/2302.08415v1"
+      }
+    ]
+  },
+  {
+    "query": "Universal Differential Equations scientific machine learning",
+    "results": [
+      {
+        "title": "Universal Differential Equations for Scientific Machine Learning",
+        "arxiv_id": "2001.04385v4",
+        "published": "2020-01-13",
+        "authors": [
+          "Christopher Rackauckas",
+          "Yingbo Ma",
+          "Julius Martensen",
+          "Collin Warner",
+          "Kirill Zubov",
+          "Rohit Supekar"
+        ],
+        "summary": "In the context of science, the well-known adage \"a picture is worth a thousand words\" might well be \"a model is worth a thousand datasets.\" In this manuscript we introduce the SciML software ecosystem as a tool for mixing the information of physical laws and scientific models with data-driven machine learning approaches. We describe a mathematical object, which we denote universal differential equations (UDEs), as the unifying framework connecting the ecosystem. We show how a wide variety of applications, from automatically discovering biological mechanisms to solving high-dimensional Hamilton-Jacobi-Bellman equations, can be phrased and efficiently handled through the UDE formalism and its tooling. We demonstrate the generality of the software tooling to handle stochasticity, delays, and implicit constraints. This funnels the wide variety of SciML applications into a core set of training mechanisms which are highly optimized, stabilized for stiff equations, and compatible with distributed parallelism and GPU accelerators.",
+        "url": "https://arxiv.org/abs/2001.04385v4"
+      },
+      {
+        "title": "Universal Differential Equations for Scientific Machine Learning of Node-Wise Battery Dynamics in Smart Grids",
+        "arxiv_id": "2506.08272v1",
+        "published": "2025-06-09",
+        "authors": [
+          "Tarushri N. S."
+        ],
+        "summary": "Universal Differential Equations (UDEs), which blend neural networks with physical differential equations, have emerged as a powerful framework for scientific machine learning (SciML), enabling data-efficient, interpretable, and physically consistent modeling. In the context of smart grid systems, modeling node-wise battery dynamics remains a challenge due to the stochasticity of solar input and variability in household load profiles. Traditional approaches often struggle with generalization and fail to capture unmodeled residual dynamics. This work proposes a UDE-based approach to learn node-specific battery evolution by embedding a neural residual into a physically inspired battery ODE. Synthetic yet realistic solar generation and load demand data are used to simulate battery dynamics over time. The neural component learns to model unobserved or stochastic corrections arising from heterogeneity in node demand and environmental conditions. Comprehensive experiments reveal that the trained UDE aligns closely with ground truth battery trajectories, exhibits smooth convergence behavior, and maintains stability in long-term forecasts. These findings affirm the viability of UDE-based SciML approaches for battery modeling in decentralized energy networks and suggest broader implications for real-time control and optimization in renewable-integrated smart grids.",
+        "url": "https://arxiv.org/abs/2506.08272v1"
+      },
+      {
+        "title": "Scientific Machine Learning of Flow Resistance Using Universal Shallow Water Equations with Differentiable Programming",
+        "arxiv_id": "2502.12396v1",
+        "published": "2025-02-18",
+        "authors": [
+          "Xiaofeng Liu",
+          "Yalan Song"
+        ],
+        "summary": "Shallow water equations (SWEs) are the backbone of most hydrodynamics models for flood prediction, river engineering, and many other water resources applications. The estimation of flow resistance, i.e., the Manning's roughness coefficient $n$, is crucial for ensuring model accuracy, and has been previously determined using empirical formulas or tables. To better account for temporal and spatial variability in channel roughness, inverse modeling of $n$ using observed flow data is more reliable and adaptable; however, it is challenging when using traditional SWE solvers. Based on the concept of universal differential equation (UDE), which combines physics-based differential equations with neural networks (NNs), we developed a universal SWEs (USWEs) solver, Hydrograd, for hybrid hydrodynamics modeling. It can do accurate forward simulations, support automatic differentiation (AD) for gradient-based sensitivity analysis and parameter inversion, and perform scientific machine learning for physics discovery. In this work, we first validated the accuracy of its forward modeling, then applied a real-world case to demonstrate the ability of USWEs to capture model sensitivity (gradients) and perform inverse modeling of Manning's $n$. Furthermore, we used a NN to learn a universal relationship between $n$, hydraulic parameters, and flow in a real river channel. Unlike inverse modeling using surrogate models, Hydrograd uses a two-dimensional SWEs solver as its physics backbone, which eliminates the need for data-intensive pretraining and resolves the generalization problem when applied to out-of-sample scenarios. This differentiable modeling approach, with seamless integration with NNs, provides a new pathway for solving complex inverse problems and discovering new physics in hydrodynamics.",
+        "url": "https://arxiv.org/abs/2502.12396v1"
+      },
+      {
+        "title": "Ensemble and Mixture-of-Experts DeepONets For Operator Learning",
+        "arxiv_id": "2405.11907v5",
+        "published": "2024-05-20",
+        "authors": [
+          "Ramansh Sharma",
+          "Varun Shankar"
+        ],
+        "summary": "We present a novel deep operator network (DeepONet) architecture for operator learning, the ensemble DeepONet, that allows for enriching the trunk network of a single DeepONet with multiple distinct trunk networks. This trunk enrichment allows for greater expressivity and generalization capabilities over a range of operator learning problems. We also present a spatial mixture-of-experts (MoE) DeepONet trunk network architecture that utilizes a partition-of-unity (PoU) approximation to promote spatial locality and model sparsity in the operator learning problem. We first prove that both the ensemble and PoU-MoE DeepONets are universal approximators. We then demonstrate that ensemble DeepONets containing a trunk ensemble of a standard trunk, the PoU-MoE trunk, and/or a proper orthogonal decomposition (POD) trunk can achieve 2-4x lower relative $\\ell_2$ errors than standard DeepONets and POD-DeepONets on both standard and challenging new operator learning problems involving partial differential equations (PDEs) in two and three dimensions. Our new PoU-MoE formulation provides a natural way to incorporate spatial locality and model sparsity into any neural network architecture, while our new ensemble DeepONet provides a powerful and general framework for incorporating basis enrichment in scientific machine learning architectures for operator learning.",
+        "url": "https://arxiv.org/abs/2405.11907v5"
+      },
+      {
+        "title": "Scientific machine learning in ecological systems: A study on the predator-prey dynamics",
+        "arxiv_id": "2411.06858v1",
+        "published": "2024-11-11",
+        "authors": [
+          "Ranabir Devgupta",
+          "Raj Abhijit Dandekar",
+          "Rajat Dandekar",
+          "Sreedath Panat"
+        ],
+        "summary": "In this study, we apply two pillars of Scientific Machine Learning: Neural Ordinary Differential Equations (Neural ODEs) and Universal Differential Equations (UDEs) to the Lotka Volterra Predator Prey Model, a fundamental ecological model describing the dynamic interactions between predator and prey populations. The Lotka-Volterra model is critical for understanding ecological dynamics, population control, and species interactions, as it is represented by a system of differential equations. In this work, we aim to uncover the underlying differential equations without prior knowledge of the system, relying solely on training data and neural networks. Using robust modeling in the Julia programming language, we demonstrate that both Neural ODEs and UDEs can be effectively utilized for prediction and forecasting of the Lotka-Volterra system. More importantly, we introduce the forecasting breakdown point: the time at which forecasting fails for both Neural ODEs and UDEs. We observe how UDEs outperform Neural ODEs by effectively recovering the underlying dynamics and achieving accurate forecasting with significantly less training data. Additionally, we introduce Gaussian noise of varying magnitudes (from mild to high) to simulate real-world data perturbations and show that UDEs exhibit superior robustness, effectively recovering the underlying dynamics even in the presence of noisy data, while Neural ODEs struggle with high levels of noise. Through extensive hyperparameter optimization, we offer insights into neural network architectures, activation functions, and optimizers that yield the best results. This study opens the door to applying Scientific Machine Learning frameworks for forecasting tasks across a wide range of ecological and scientific domains.",
+        "url": "https://arxiv.org/abs/2411.06858v1"
+      }
+    ]
+  },
+  {
+    "query": "specific angular momentum disc galaxies Obreschkow Glazebrook",
+    "results": []
+  },
+  {
+    "query": "Romanowsky Fall specific angular momentum galaxies",
+    "results": [
+      {
+        "title": "Revisiting the stellar mass -- angular momentum -- morphology relation: extension to higher bulge fraction, and the effect of bulge type",
+        "arxiv_id": "1804.07083v1",
+        "published": "2018-04-19",
+        "authors": [
+          "Sarah M. Sweet",
+          "David Fisher",
+          "Karl Glazebrook",
+          "Danail Obreschkow",
+          "Claudia Lagos",
+          "Liang Wang"
+        ],
+        "summary": "We present the relation between stellar specific angular momentum $j_*$, stellar mass $M_*$, and bulge-to-total light ratio $\u03b2$ for THINGS, CALIFA and Romanowsky \\& Fall datasets, exploring the existence of a fundamental plane between these parameters as first suggested by Obreschkow \\& Glazebrook. Our best-fit $M_*-j_*$ relation yields a slope of $\u03b1= 1.03 \\pm 0.11$ with a trivariate fit including $\u03b2$. When ignoring the effect of $\u03b2$, the exponent $\u03b1= 0.56 \\pm 0.06$ is consistent with $\u03b1= 2/3$ predicted for dark matter halos. There is a linear $\u03b2- j_*/M_*$ relation for $\u03b2\\lesssim 0.4$, exhibiting a general trend of increasing $\u03b2$ with decreasing $j_*/M_*$. Galaxies with $\u03b2\\gtrsim 0.4$ have higher $j_*$ than predicted by the relation. Pseudobulge galaxies have preferentially lower $\u03b2$ for a given $j_*/M_*$ than galaxies that contain classical bulges. Pseudobulge galaxies follow a well-defined track in $\u03b2- j_*/M_*$ space, consistent with Obreschkow \\& Glazebrook, while galaxies with classical bulges do not. These results are consistent with the hypothesis that while growth in either bulge type is linked to a decrease in $j_*/M_*$, the mechanisms that build pseudobulges seem to be less efficient at increasing bulge mass per decrease in specific angular momentum than those that build classical bulges.",
+        "url": "https://arxiv.org/abs/1804.07083v1"
+      }
+    ]
+  },
+  {
+    "query": "Mo Mao White galactic disks lambda CDM",
+    "results": []
+  },
+  {
+    "query": "SPARC database Lelli McGaugh Schombert",
+    "results": []
+  },
+  {
+    "query": "radial acceleration relation galaxies McGaugh Lelli Schombert",
+    "results": [
+      {
+        "title": "Radial Acceleration and Tully-Fisher Relations in Conformal Gravity",
+        "arxiv_id": "1812.03152v3",
+        "published": "2018-12-07",
+        "authors": [
+          "James G. O'Brien",
+          "Thomas L. Chiarelli",
+          "Philip D. Mannheim",
+          "Mark A. Falcone",
+          "Muhannad H. AlQurashi",
+          "Jordan Carter"
+        ],
+        "summary": "In 2016 McGaugh, Lelli and Schombert established a universal Radial Acceleration Relation for centripetal accelerations in spiral galaxies. Their work showed a strong correlation between observed centripetal accelerations and those predicted by luminous Newtonian matter alone. Through the use of the fitting function that they introduced, mass discrepancies in spiral galaxies can be constrained in a uniform manner that is completely determined by the baryons in the galaxies. Here we present a new empirical plot of the observed centripetal accelerations and the luminous Newtonian expectations, which more than doubles the number of observed data points considered by McGaugh et al. while retaining the Radial Acceleration Relation. If this relation is not to be due to dark matter, it would then have to be due to an alternate gravitational theory that departs from Newtonian gravity in some way. In this paper we show how the candidate alternate conformal gravity theory can provide a natural description of the Radial Acceleration Relation, without any need for dark matter or its free halo parameters. We discuss how the empirical Tully-Fisher relation follows as a consequence of conformal gravity.",
+        "url": "https://arxiv.org/abs/1812.03152v3"
+      },
+      {
+        "title": "Dark Matter-Baryonic Matter Radial Acceleration Relationship in Conservation Group Geometry",
+        "arxiv_id": "1703.06009v1",
+        "published": "2017-03-11",
+        "authors": [
+          "Edward Lee Green"
+        ],
+        "summary": "Pandres has developed a theory which extends the geometrical structure of a real four-dimensional space-time via a field of orthonormal tetrads with an enlarged covariance group. This new group, called the conservation group, contains the group of diffeomorphisms as a proper subgroup and we hypothesize that it is the foundational group for quantum geometry. Using the curvature vector, $C_\u03bc$, we find a free-field Lagrangian density $C^\u03bcC_\u03bc\\sqrt{-g}\\,$. When massive objects are present a source term is added to this Lagrangian density. Spherically symmetric solutions for both the free field and the field with sources have been derived. The field equations require nonzero stress-energy tensors in regions where no source is present and thus may bring in dark matter and dark energy in a natural way. A simple model for a galaxy is given which satisfies our field equations. This model includes flat rotation curves. In this paper we compare our results with recently reported results of McGaugh, Lelli and Schombert which exhibit a new law between the observed radial acceleration and the baryonic radial acceleration. We find a slightly different model which relates these accelerations. In conjunction with our model, the McGaugh, Lelli and Schombert relation imply a new critical baryonic acceleration. When applied to bulge-dominated galaxies, this critical baryonic acceleration may be used to predict the radial velocity curve value by using the radius of the bulge.",
+        "url": "https://arxiv.org/abs/1703.06009v1"
+      }
+    ]
+  },
+  {
+    "query": "baryonic Tully Fisher relation SPARC",
+    "results": [
+      {
+        "title": "The scatter, residual correlations and curvature of the SPARC baryonic Tully-Fisher relation",
+        "arxiv_id": "1706.01017v2",
+        "published": "2017-06-04",
+        "authors": [
+          "Harry Desmond"
+        ],
+        "summary": "In recent work, Lelli et al. (2016) argue that the tightness of the baryonic Tully-Fisher relation (BTFR) of the SPARC galaxy sample, and the weakness of the correlation of its residuals with effective radius, pose challenges to LCDM cosmology. In this Letter we calculate the statistical significance of these results in the framework of halo abundance matching, which imposes a canonical galaxy-halo connection. Taking full account of sample variance among SPARC-like realisations of the parent halo population, we find the scatter in the predicted BTFR to be 3.6 sigma too high, but the correlation of its residuals with galaxy size to be naturally weak. Further, we find abundance matching to generate BTFR curvature in 3.0 sigma disagreement with the data, and a fraction of galaxies with non-flat rotation curves somewhat larger than observed.",
+        "url": "https://arxiv.org/abs/1706.01017v2"
+      },
+      {
+        "title": "An Analytic Scale-dependent Dark Matter Profile and the Baryonic Tully-Fisher Relation",
+        "arxiv_id": "2601.20070v1",
+        "published": "2026-01-27",
+        "authors": [
+          "V. K. Oikonomou"
+        ],
+        "summary": "In this work we use the recently introduced concept of self-interacting dark matter with scale-dependent equation of state, and we provide an analytic model of dark matter that can produce viable rotation curves even for low-surface-brightness galaxies, irregular galaxies, low-luminosity spirals and dwarf galaxies, all known to challenge the cold dark matter description. The radius dependent effective equation of state of the self-interacting dark matter model we shall introduce is assumed to be an isothermal equation of state of the form $P(r)=K(r)\\left(\\frac{\u03c1(r)}{\u03c1_{\\star}}\\right)$, where the energy density will have the form $\u03c1(r)=\\frac{\u03c1_0}{\\left( 1+\\frac{r^2}{\u03b1^2}\\right)^{5/2}}$, while the entropy function $K(r)$ is $K(r)=\\frac{K_0}{\\left( 1+\\frac{r^2}{\u03b1^2}\\right)^{1/2}}$. The resulting model is confronted in detail with the SPARC galaxy data and 175 galaxies are used and tested. It proves that the analytic model can successfully produce the rotation curves of 116 galaxies, most of which are small mass spirals, irregular galaxies, low-surface-brightness and low-luminosity spirals and dwarf galaxies. On the other hand, 59 galaxies cannot be successfully described by our analytic model. We tested statistically the correlation between the parameter $K_0$ of the entropy function corresponding to the viable galaxies, and the flat rotation velocity $V_{flat}$ and the maximum rotation velocity $V_{max}$ of the galaxies from the SPARC data. We also examined the baryon mass $M_b$-$K_0$ relation and the luminosity $L$-$K_0$ relation. We have been able to produce the baryonic Tully-Fisher relation for the viable galaxies, directly from the correlation $K_0$-$M_b$ and $K_0$-$V_{flat}$, with the resulting relation being $M_b\\sim V_{flat}^{4.026 \\pm 0.371}$, however we failed to produce the canonical Tully-Fisher relation.",
+        "url": "https://arxiv.org/abs/2601.20070v1"
+      },
+      {
+        "title": "Thermodynamic Origin of the Tully-Fisher Relation in Dark Matter Dominated Galaxies: A Theoretical-Empirical Derivation",
+        "arxiv_id": "2511.13929v1",
+        "published": "2025-11-17",
+        "authors": [
+          "V. K. Oikonomou"
+        ],
+        "summary": "In this work we introduce the concept of self-interacting dark matter with scale-dependent equation of state, in the context of which dark matter is collisional and its equation of state is radius-dependent and has the form $P(r)=K(r)\\left(\\frac{\u03c1(r)}{\u03c1_{\\star}}\\right)^{\u03b3(r)}$. We confronted the effectively 2-parameter model with 174 galaxies from the SPARC data, and we found that the rotation curves of 100 galaxies can be perfectly fitted by the model. These galaxies are dark matter dominated, mostly dwarfs, low-luminosity and low-surface-brightness spiral galaxies. We demonstrate that scale-dependent self-interacting dark matter solves the cusp-core issue for dark matter dominated galaxies. More importantly, the structure of the scale-dependent SIDM model produces in a semi-theoretically and semi-empirically way the canonical Tully-Fisher and the baryonic Tully-Fisher relations when these 100 viable dwarfs, low-surface-brightness and low-luminosity galaxies are taken into account. The behavior of the entropy function $K(r)$ is assumed to be $K(r)=K_0\\times\\left(1+\\frac{r}{r_c}\\right)^{-p}$. The perfect fits of the rotation curves come for a nearly isothermal and virialized dark matter halo, which naturally predicts the correlation $K_0\\sim V_{\\mathrm{max}}^2$. This correlation holds true empirically as confirmed by the data and we also find empirically $L\\sim K_0^2$ from the data, thus the canonical Tully-Fisher relation is reproduced semi-theoretically and semi-empirically. We perform the same task and we find theoretically, for dark matter dominated galaxies, that $K_0\\sim V_{\\mathrm{flat}}^2$ which is also confirmed empirically from the data, along with the correlation $K_0\\sim M_b^{0.5}$, hence the baryonic Tully-Fisher law naturally emerges in a semi-theoretical and semi-empirical manner.",
+        "url": "https://arxiv.org/abs/2511.13929v1"
+      },
+      {
+        "title": "Mining the SPARC Galaxy Database: Finding \"Hidden Variables\" in the Baryonic Tully-Fisher Relation",
+        "arxiv_id": "2101.01537v1",
+        "published": "2021-01-05",
+        "authors": [
+          "Jeffrey M. La Fortune"
+        ],
+        "summary": "The Baryonic Tully-Fisher Relation (BTFR) links baryonic mass of rotationally supported galaxies to their flat disk velocities. A popular form of the BTFR linked to MOND is based on an empirically determined characteristic acceleration, a0 that serves as the constant of proportionality. In this work, we propose an alternative, parametric form of the BTFR employing individual galactic properties from the SPARC galaxy database. Based on this data we find that a precise mass-velocity correlation is possible taking into account galactic disk radius and two dynamical related properties; mass discrepancy and disk surface density. We find no need to invoke a characteristic acceleration constant although its ansatz can be extracted and compared to several recent analyses also arguing against the MOND interpretation of a0. This improved BTFR finding has ramifications for the Radial Acceleration Relation (RAR) as well. Rather than a universal relation that describes the dynamics of all rotationally-supported galaxies, we find the RAR consists of a statistically distributed family of curves, reflecting the unique properties attributed to individual galaxies.",
+        "url": "https://arxiv.org/abs/2101.01537v1"
+      },
+      {
+        "title": "Using The Baryonic Tully-Fisher Relation to Measure $H_o$",
+        "arxiv_id": "2006.08615v2",
+        "published": "2020-06-15",
+        "authors": [
+          "James Schombert",
+          "Stacy McGaugh",
+          "Federico Lelli"
+        ],
+        "summary": "We explore the use of the baryonic Tully-Fisher relation (bTFR) as a new distance indicator. Advances in near-IR imaging and stellar population models, plus precise rotation curves, have reduced the scatter in the bTFR such that distance is the dominant source of uncertainty. Using 50 galaxies with accurate distances from Cepheids or tip magnitude of the red giant branch, we calibrate the bTFR on a scale independent of $H_o$. We then apply this calibrated bTFR to 95 independent galaxies from the SPARC sample, using CosmicFlows-3 velocities, to deduce the local value of $H_o$. We find $H_o$ = 75.1 +/- 2.3 (stat) +/- 1.5 (sys) km s$^{-1}$ Mpc$^{-1}$.",
+        "url": "https://arxiv.org/abs/2006.08615v2"
+      }
+    ]
+  }
+]

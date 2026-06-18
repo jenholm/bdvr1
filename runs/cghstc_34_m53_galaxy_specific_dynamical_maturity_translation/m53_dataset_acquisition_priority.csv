@@ -1,0 +1,7 @@
+observable,local_available_rows,direct_maturity_role,decisive_for_branch,priority
+has_V_rot_over_sigma,10445,direct_or_proxy_dynamic_organization,True,high
+has_AR_mismatch,8,direct_or_proxy_dynamic_organization,True,high
+has_HI_asymmetry,8,direct_or_proxy_dynamic_organization,True,high
+has_SFE,562,direct_or_proxy_dynamic_organization,False,medium
+has_depletion_time,562,direct_or_proxy_dynamic_organization,False,medium
+has_HI_velocity_field,8,direct_or_proxy_dynamic_organization,False,medium

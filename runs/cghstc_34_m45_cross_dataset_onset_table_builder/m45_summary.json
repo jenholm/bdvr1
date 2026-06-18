@@ -1,0 +1,45 @@
+{
+  "milestone": "CGHSTC-34-M45",
+  "status": "cross_dataset_onset_table_builder_diagnostic",
+  "purpose": "build_multi_dataset_onset_feature_availability_table",
+  "n_master_rows": 11143,
+  "dataset_counts": {
+    "MANGA": 10185,
+    "XGASS_XCOLDGASS": 562,
+    "ATLAS3D": 260,
+    "SPARC": 87,
+    "LITTLE_THINGS": 41,
+    "THINGS": 8
+  },
+  "tier_counts": {
+    "Tier 3": 11048,
+    "Tier 1": 87,
+    "Tier 2": 8
+  },
+  "datasets_in_inventory": [
+    "SPARC",
+    "LITTLE_THINGS",
+    "THINGS",
+    "WHISP",
+    "WALLABY_ALFALFA_HI_CATALOGS",
+    "XGASS_XCOLDGASS",
+    "MANGA",
+    "ATLAS3D",
+    "GALEX_WISE_SINGS_HERACLES"
+  ],
+  "feature_count": 15,
+  "does_not_require_every_galaxy_every_column": true,
+  "missing_features_fabricated": false,
+  "new_onset_law_trained": false,
+  "m36_refit_performed": false,
+  "governor_promoted": false,
+  "proxy_rows_are_direct_activation_detections": false,
+  "key_decision": "SPARC remains Tier 1 direct endpoint control; onset-boundary work requires Tier 2 H I/dynamical organization and Tier 3 gas/SFR proxy crossmatches rather than SPARC-only training.",
+  "claim_boundaries": [
+    "M45 is a table builder and evidence availability audit, not an onset-law fit.",
+    "M45 does not train a new governor law and does not promote a model branch.",
+    "M45 does not refit M36 or change the mature BDVR endpoint.",
+    "Cross-dataset proxy rows are not direct activation detections.",
+    "Missing features are not fabricated; unavailable WHISP/WALLABY/ALFALFA/GALEX/WISE/SINGS/HERACLES channels are reported as missing or partial."
+  ]
+}

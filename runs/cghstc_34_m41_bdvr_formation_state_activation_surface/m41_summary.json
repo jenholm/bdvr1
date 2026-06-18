@@ -1,0 +1,28 @@
+{
+  "milestone": "CGHSTC-34-M41",
+  "status": "formation_state_activation_surface_diagnostic",
+  "objective": "transition_conditions_not_velocity_curve_fit",
+  "used_disputed_inverse_rank_outputs": false,
+  "n_rows": 165,
+  "n_direct_rows": 87,
+  "n_external_proxy_rows": 78,
+  "formation_state_counts": {
+    "external_proxy_followup_only": 78,
+    "mature_bdvr_active_candidate": 53,
+    "settling_transition_candidate": 15,
+    "measurement_limited_activation_unknown": 14,
+    "underactivated_unsettled_candidate": 5
+  },
+  "manuscript_rewritten": false,
+  "mature_velocity_law_changed": false,
+  "governor_promoted": false,
+  "claims_bdvr_is_real": false,
+  "claim_boundaries": [
+    "M41 is not a velocity-curve fit; it is a formation-state surface proposal.",
+    "The formation-state surface asks when baryonic organization activates reservoir response, not whether a curve can be fitted.",
+    "Measurement uncertainty penalty remains separate from physical reservoir-disorder suppression.",
+    "Existing scalar rotation-curve tables are insufficient to identify onset without H I, SFR, SFE, depletion, coherence, and endpoint-quality labels.",
+    "UGC07125-like cases are observational tests, not proof objects or clean juvenile prototypes.",
+    "No mature velocity law changed; M36 remains the mature saturated endpoint reference."
+  ]
+}

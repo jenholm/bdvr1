@@ -1,0 +1,10 @@
+{
+  "n_grid_cells": 6,
+  "rho_ge_0p60_fraction": 0.0,
+  "best_delta": 1.0,
+  "best_rho_median": 0.5062496589792851,
+  "pass_fail": {
+    "half_settings_ge_0p60": false,
+    "best_rho_ge_0p40": true
+  }
+}

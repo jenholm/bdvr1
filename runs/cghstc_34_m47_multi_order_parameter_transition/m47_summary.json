@@ -1,0 +1,28 @@
+{
+  "milestone": "CGHSTC-34-M47",
+  "status": "m47_literature_guided_ordering_diagnostic",
+  "literature_analogy": "phase-transition multi-order-parameter model",
+  "outcome_classification": "endpoint_bridge_failed",
+  "primary_activation_auc_like": 0.46153846153846156,
+  "primary_residual_auc_like": 0.28421052631578947,
+  "primary_activation_balanced_accuracy": 0.3269230769230769,
+  "primary_residual_direction_balanced_accuracy": 0.35526315789473684,
+  "heldout_n": 29,
+  "trained_on_endpoint_residuals": false,
+  "trained_on_A_inferred": false,
+  "quality_used_as_physical_feature": false,
+  "endpoint_bridge_after_freeze": true,
+  "m36_refit": false,
+  "mature_velocity_law_changed": false,
+  "manuscript_rewritten": false,
+  "governor_promoted": false,
+  "ugc07125_treated_as_clean_scalar_object": false,
+  "component_columns": [
+    "O_comp",
+    "O_radial",
+    "O_rot",
+    "O_shape",
+    "O_SF",
+    "O_disorder"
+  ]
+}

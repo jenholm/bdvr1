@@ -1,0 +1,240 @@
+[
+  {
+    "query": "Beta Regression for Modelling Rates and Proportions Ferrari Cribari-Neto",
+    "results": []
+  },
+  {
+    "query": "Zero-or-one inflated beta regression Ospina Ferrari",
+    "results": []
+  },
+  {
+    "query": "Estimation of relationships for limited dependent variables Tobin 1958",
+    "results": []
+  },
+  {
+    "query": "Learning to Rank using Gradient Descent RankNet Burges",
+    "results": []
+  },
+  {
+    "query": "From RankNet to LambdaRank to LambdaMART Burges",
+    "results": []
+  },
+  {
+    "query": "Discovering governing equations from data by sparse identification of nonlinear dynamical systems Brunton Proctor Kutz",
+    "results": []
+  },
+  {
+    "query": "Neural Ordinary Differential Equations Chen Rubanova Bettencourt Duvenaud",
+    "results": []
+  },
+  {
+    "query": "Latent ODEs for Irregularly-Sampled Time Series Rubanova Chen Duvenaud",
+    "results": []
+  },
+  {
+    "query": "Universal Differential Equations for Scientific Machine Learning Rackauckas",
+    "results": []
+  },
+  {
+    "query": "The specific angular momentum of disc galaxies Obreschkow Glazebrook",
+    "results": []
+  },
+  {
+    "query": "The stellar specific angular momentum of nearby galaxies Romanowsky Fall 2012",
+    "results": []
+  },
+  {
+    "query": "Angular momentum and galaxy formation revisited Romanowsky Fall",
+    "results": []
+  },
+  {
+    "query": "Galactic discs in lambda CDM formation Mo Mao White 1998",
+    "results": []
+  },
+  {
+    "query": "The SPARC database Lelli McGaugh Schombert",
+    "results": [
+      {
+        "paperId": "58dc6373a52493c639b6ed529772b73a2eadb0b0",
+        "externalIds": {
+          "ArXiv": "2411.13329",
+          "CorpusId": 274150420
+        },
+        "url": "https://www.semanticscholar.org/paper/58dc6373a52493c639b6ed529772b73a2eadb0b0",
+        "title": "BIG-SPARC: The new SPARC database",
+        "venue": "",
+        "year": 2024,
+        "citationCount": 1,
+        "openAccessPdf": {
+          "url": "",
+          "status": null,
+          "license": null,
+          "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2411.13329, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        },
+        "publicationTypes": [
+          "Review"
+        ],
+        "authors": [
+          {
+            "authorId": "2331513795",
+            "name": "Konstantin Haubner"
+          },
+          {
+            "authorId": "12177165",
+            "name": "F. Lelli"
+          },
+          {
+            "authorId": "2331509929",
+            "name": "E. D. Teodoro"
+          },
+          {
+            "authorId": "2294720118",
+            "name": "Francis Duey"
+          },
+          {
+            "authorId": "30101053",
+            "name": "S. McGaugh"
+          },
+          {
+            "authorId": "2239519137",
+            "name": "Jim Schombert"
+          },
+          {
+            "authorId": "2220325321",
+            "name": "K. Hess"
+          },
+          {
+            "authorId": "2331508746",
+            "name": "the Apertif Team"
+          }
+        ],
+        "abstract": "The Surface Photometry and Accurate Rotation Curves (SPARC) database has provided the community with mass models for 175 nearby galaxies, allowing different research teams to test different dark matter models, galaxy evolution models, and modified gravity theories. Extensive tests, however, are hampered by the somewhat heterogeneous nature of the HI rotation curves and the limited sample size of SPARC. To overcome these limitations, we are working on BIG-SPARC, a new database that consists of about 4000 galaxies with HI datacubes from public telescope archives (APERTIF, ASKAP, ATCA, GMRT, MeerKAT, VLA, and WSRT) and near infrared photometry from WISE. For these galaxies, we will provide homogeneously derived HI rotation curves, surface brightness profiles, and mass models. BIG-SPARC is expected to increase the size of its predecessor by a factor of more than 20. This is a necessary step to prepare for the additional order of magnitude increase in sample size expected from ongoing and future HI surveys with the Square Kilometre Array (SKA) and its pathfinders"
+      },
+      {
+        "paperId": "e3c84fdbc9e9960521cf4f023ad35c245506e203",
+        "externalIds": {
+          "MAG": "2793387999",
+          "ArXiv": "1803.00022",
+          "DOI": "10.1051/0004-6361/201732547",
+          "CorpusId": 51901136
+        },
+        "url": "https://www.semanticscholar.org/paper/e3c84fdbc9e9960521cf4f023ad35c245506e203",
+        "title": "Fitting the radial acceleration relation to individual SPARC galaxies",
+        "venue": "Astronomy & Astrophysics",
+        "year": 2018,
+        "citationCount": 138,
+        "openAccessPdf": {
+          "url": "https://www.aanda.org/articles/aa/pdf/2018/07/aa32547-17.pdf",
+          "status": "BRONZE",
+          "license": null,
+          "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/1803.00022, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        },
+        "publicationTypes": null,
+        "authors": [
+          {
+            "authorId": "2144902689",
+            "name": "Pengfei Li"
+          },
+          {
+            "authorId": "12177165",
+            "name": "F. Lelli"
+          },
+          {
+            "authorId": "30101053",
+            "name": "S. McGaugh"
+          },
+          {
+            "authorId": "8386599",
+            "name": "J. Schombert"
+          }
+        ],
+        "abstract": "Galaxies follow a tight radial acceleration relation (RAR): the acceleration observed at every radius correlates with that expected from the distribution of baryons. We use the Markov chain Monte Carlo method to fit the mean RAR to 175 individual galaxies in the SPARC database, marginalizing over stellar mass-to-light ratio (\u03d2\u22c6), galaxy distance, and disk inclination. Acceptable fits with astrophysically reasonable parameters are found for the vast majority of galaxies. The residuals around these fits have an rms scatter of only 0.057 dex (~13%). This is in agreement with the predictions of modified Newtonian dynamics (MOND). We further consider a generalized version of the RAR that, unlike MOND, permits galaxy-to-galaxy variation in the critical acceleration scale. The fits are not improved with this additional freedom: there is no credible indication of variation in the critical acceleration scale. The data are consistent with the action of a single effective force law. The apparent universality of the acceleration scale and the small residual scatter are key to understanding galaxies."
+      },
+      {
+        "paperId": "c52698c8f4adf7dd7bedf49c6791f96c7a48db4a",
+        "externalIds": {
+          "ArXiv": "2001.10538",
+          "MAG": "3011619982",
+          "DOI": "10.3847/1538-4365/ab700e",
+          "CorpusId": 210943006
+        },
+        "url": "https://www.semanticscholar.org/paper/c52698c8f4adf7dd7bedf49c6791f96c7a48db4a",
+        "title": "A Comprehensive Catalog of Dark Matter Halo Models for SPARC Galaxies",
+        "venue": "Astrophysical Journal Supplement Series",
+        "year": 2020,
+        "citationCount": 89,
+        "openAccessPdf": {
+          "url": "https://iopscience.iop.org/article/10.3847/1538-4365/ab700e/pdf",
+          "status": "BRONZE",
+          "license": null,
+          "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2001.10538, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        },
+        "publicationTypes": null,
+        "authors": [
+          {
+            "authorId": "2144902689",
+            "name": "Pengfei Li"
+          },
+          {
+            "authorId": "12177165",
+            "name": "F. Lelli"
+          },
+          {
+            "authorId": "30101053",
+            "name": "S. McGaugh"
+          },
+          {
+            "authorId": "8386599",
+            "name": "J. Schombert"
+          }
+        ],
+        "abstract": "We present rotation curve fits to 175 late-type galaxies from the Spitzer Photometry and Accurate Rotation Curves database using seven dark matter (DM) halo profiles: pseudo-isothermal, Burkert, Navarro\u2013Frenk\u2013White (NFW), Einasto, Di Cintio et al. (2014, hereafter DC14), cored-NFW, and a new semi-empirical profile named Lucky13. We marginalize over the stellar mass-to-light ratio, galaxy distance, disk inclination, halo concentration, and halo mass (and an additional shape parameter for Einasto) using a Markov Chain Monte Carlo method. We find that cored halo models, such as the DC14 and Burkert profiles, generally provide better fits to rotation curves than the cuspy NFW profile. The stellar mass-halo mass relation from abundance matching is recovered by all halo profiles once imposed as a Bayesian prior, whereas the halo mass\u2013concentration relation is not reproduced in detail by any halo model. We provide an extensive set of figures as well as best-fit parameters in machine-readable tables to facilitate model comparison and the exploration of DM halo properties."
+      }
+    ]
+  },
+  {
+    "query": "One Law to Rule Them All Radial Acceleration Relation McGaugh Lelli Schombert",
+    "results": [
+      {
+        "paperId": "c9f1a882375da6a02ef8639d7ad73ad351993352",
+        "externalIds": {
+          "MAG": "3105989255",
+          "ArXiv": "1610.08981",
+          "DOI": "10.3847/1538-4357/836/2/152",
+          "CorpusId": 51859132
+        },
+        "url": "https://www.semanticscholar.org/paper/c9f1a882375da6a02ef8639d7ad73ad351993352",
+        "title": "One Law to Rule Them All: The Radial Acceleration Relation of Galaxies",
+        "venue": "",
+        "year": 2016,
+        "citationCount": 325,
+        "openAccessPdf": {
+          "url": "https://iopscience.iop.org/article/10.3847/1538-4357/836/2/152/pdf",
+          "status": "BRONZE",
+          "license": null,
+          "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/1610.08981, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        },
+        "publicationTypes": null,
+        "authors": [
+          {
+            "authorId": "12177165",
+            "name": "F. Lelli"
+          },
+          {
+            "authorId": "30101053",
+            "name": "S. McGaugh"
+          },
+          {
+            "authorId": "8386599",
+            "name": "J. Schombert"
+          },
+          {
+            "authorId": "41228747",
+            "name": "M. Pawlowski"
+          }
+        ],
+        "abstract": "We study the link between baryons and dark matter (DM) in 240 galaxies with spatially resolved kinematic data. Our sample spans 9 dex in stellar mass and includes all morphological types. We consider (1) 153 late-type galaxies (LTGs; spirals and irregulars) with gas rotation curves from the SPARC database, (2) 25 early-type galaxies (ETGs; ellipticals and lenticulars) with stellar and H i data from ATLAS 3 D or X-ray data from Chandra, and (3) 62 dwarf spheroidals (dSphs) with individual-star spectroscopy. We find that LTGs, ETGs, and \u201cclassical\u201d dSphs follow the same radial acceleration relation: the observed acceleration ( g obs ) correlates with that expected from the distribution of baryons ( g bar ) over 4 dex. The relation coincides with the 1:1 line (no DM) at high accelerations but systematically deviates from unity below a critical scale of \u223c10\u221210 m s\u22122. The observed scatter is remarkably small ( \u2272 0.13 dex) and largely driven by observational uncertainties. The residuals do not correlate with any global or local galaxy property (e.g., baryonic mass, gas fraction, and radius). The radial acceleration relation is tantamount to a natural law: when the baryonic contribution is measured, the rotation curve follows, and vice versa. Including ultrafaint dSphs, the relation may extend by another 2 dex and possibly flatten at g bar \u2272 10 \u2212 12 m s\u22122, but these data are significantly more uncertain. The radial acceleration relation subsumes and generalizes several well-known dynamical properties of galaxies, like the Tully\u2013Fisher and Faber\u2013Jackson relations, the \u201cbaryon-halo\u201d conspiracies, and Renzo\u2019s rule."
+      }
+    ]
+  }
+]

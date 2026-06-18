@@ -1,0 +1,21 @@
+{
+  "a0_m_s2": 1.2e-10,
+  "bdvr_slope_near_quarter": true,
+  "btfr_intercept_bdvr": -0.5724204473586058,
+  "btfr_intercept_newton": -1.8079773657642142,
+  "btfr_slope_bdvr": 0.26498346293989933,
+  "btfr_slope_newton": 0.35040294849392106,
+  "btfr_target_slope": 0.25,
+  "claim_status": "toy_btfr_scaling_only_not_real_galaxy_fit",
+  "n_masses": 7,
+  "policy_check": {
+    "forbidden_dirs": {
+      "h0_outputs": false,
+      "paper_outputs": false
+    },
+    "policy_ok": true,
+    "project_root": "/home/jenholm/photonland/cghs/cghstc_34"
+  },
+  "q_galaxy": 0.9002495108803148,
+  "q_source": "domain_coupling_table"
+}

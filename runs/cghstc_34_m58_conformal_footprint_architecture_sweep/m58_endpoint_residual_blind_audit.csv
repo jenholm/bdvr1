@@ -1,0 +1,11 @@
+architecture_id,post_selection_residual_audit_only,spearman_vs_abs_m36_residual,clean_sample_spearman_vs_abs_m36_residual,trained_on_endpoint_residuals,trained_on_A_inferred
+quantile_box_mean,True,-0.2222324395749906,-0.209382517905358,False,False
+product_intersection,True,-0.24288692610331455,-0.22581426995557158,False,False
+minimum_gate,True,-0.2592891858732522,-0.2418649429847611,False,False
+two_stage_composition_geometry,True,-0.22183033072855968,-0.19905663038939805,False,False
+mahalanobis_mature_manifold,True,-0.23087746726597616,-0.21332388377037564,False,False
+nearest_neighbor_mature_template,True,-0.19022608866076796,-0.16851642257178084,False,False
+exponential_disk_profile,True,-0.2297073966042888,-0.2182915447613671,False,False
+hi_compactness_modifier,True,-0.1730151070066575,-0.14996410229339208,False,False
+organization_label_weighted,True,-0.2297073966042888,-0.21101346103689286,False,False
+multi_regime_mature_footprint,True,-0.094131735991922,-0.07891415791798556,False,False

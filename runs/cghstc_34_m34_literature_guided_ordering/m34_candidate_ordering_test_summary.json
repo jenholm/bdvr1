@@ -1,0 +1,9 @@
+{
+  "current_spearman": 0.31925726660276044,
+  "best_nonleaky_candidate": "m9_current_product_gate",
+  "best_nonleaky_spearman": 0.31925726660276044,
+  "best_any_candidate": "ridge_oof_velocity_leaky_upper_bound",
+  "best_any_spearman": 0.7465293236788655,
+  "accepted_model_change": false,
+  "claim_boundary": "diagnostic_literature_guided_ordering_tests_only"
+}

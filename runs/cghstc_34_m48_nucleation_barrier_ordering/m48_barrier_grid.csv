@@ -1,0 +1,10 @@
+branch,model_id,heldout_n,activation_balanced_accuracy,residual_direction_balanced_accuracy,activation_auc_like,residual_auc_like,trained_on_endpoint_residuals,trained_on_A_inferred,uses_quality_as_physical_feature,notes,B_crit
+M48,barrier_crit_-1.00,29,0.46153846153846156,0.47631578947368425,0.46153846153846156,0.28421052631578947,False,False,False,barrier grid diagnostic,-1.0
+M48,barrier_crit_-0.75,29,0.4230769230769231,0.45263157894736844,0.46153846153846156,0.28421052631578947,False,False,False,barrier grid diagnostic,-0.75
+M48,barrier_crit_-0.50,29,0.40384615384615385,0.4789473684210527,0.46153846153846156,0.28421052631578947,False,False,False,barrier grid diagnostic,-0.5
+M48,barrier_crit_-0.25,29,0.34615384615384615,0.32894736842105265,0.46153846153846156,0.28421052631578947,False,False,False,barrier grid diagnostic,-0.25
+M48,barrier_crit_+0.00,29,0.3269230769230769,0.35526315789473684,0.46153846153846156,0.28421052631578947,False,False,False,barrier grid diagnostic,0.0
+M48,barrier_crit_+0.25,29,0.6025641025641025,0.33421052631578946,0.46153846153846156,0.28421052631578947,False,False,False,barrier grid diagnostic,0.25
+M48,barrier_crit_+0.50,29,0.5833333333333333,0.28421052631578947,0.46153846153846156,0.28421052631578947,False,False,False,barrier grid diagnostic,0.5
+M48,barrier_crit_+0.75,29,0.5641025641025641,0.31052631578947365,0.46153846153846156,0.28421052631578947,False,False,False,barrier grid diagnostic,0.75
+M48,barrier_crit_+1.00,29,0.5256410256410257,0.3631578947368421,0.46153846153846156,0.28421052631578947,False,False,False,barrier grid diagnostic,1.0

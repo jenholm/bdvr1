@@ -1,0 +1,16 @@
+{
+  "milestone": "CGHSTC-34-M72",
+  "status": "scalar_pivot_audit",
+  "n_scalar": 87,
+  "n_radial": 25,
+  "high_gas_frac_gt07": 14.0,
+  "low_gas_frac_le07": 73.0,
+  "median_D_high_gas": 0.5448329471764393,
+  "median_D_low_gas": 0.37902249190456194,
+  "median_slope_high_gas": 0.016939584497722444,
+  "median_slope_low_gas": 0.08081925039460605,
+  "manuscript_rewritten": false,
+  "mature_velocity_law_changed": false,
+  "governor_promoted": false,
+  "ugc07125_quarantined": true
+}

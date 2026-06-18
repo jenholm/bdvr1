@@ -1,0 +1,5 @@
+model_id,n_rows,activation_balanced_accuracy,residual_direction_balanced_accuracy,activation_auc_like,residual_auc_like,trained_on_endpoint_residuals,trained_on_A_inferred,uses_quality_as_physical_feature,notes
+m51_pseudotime_baseline,165,0.558471318746304,0.6707317073170732,0.7111176818450621,0.6158536585365854,False,False,False,proxy-aware diagnostic; endpoint bridge not used for fitting
+m54_hi_sfr_augmented,165,0.558471318746304,0.6707317073170732,0.7390597279716145,0.5975609756097561,False,False,False,proxy-aware diagnostic; endpoint bridge not used for fitting
+resolved_hi_only,165,0.48314606741573035,0.49085365853658536,0.5112359550561798,0.5060975609756098,False,False,False,proxy-aware diagnostic; endpoint bridge not used for fitting
+sfr_sfe_only,165,0.7105263157894737,0.4024390243902439,0.6578947368421053,0.4268292682926829,False,False,False,proxy-aware diagnostic; endpoint bridge not used for fitting

@@ -1,0 +1,4 @@
+group,n_rows,spearman_vs_A_inferred,spearman_vs_signed_residual,spearman_vs_abs_residual,median_A_inferred,median_signed_residual,post_selection_bridge_only,trained_on_endpoint_residuals,trained_on_A_inferred
+all_rows,85,0.15142692244663633,-0.18264608168848936,-0.19489935509087356,0.9358237580388178,0.0108610000266834,True,False,False
+clean_only,84,0.12994682099759425,-0.16130403968816442,-0.17503290472815633,0.9370488440053562,0.01005013288732305,True,False,False
+quality_quarantined_or_measurement_limited,1,0.0,0.0,0.0,0.185688488795864,0.2321401297980161,True,False,False

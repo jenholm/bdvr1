@@ -1,0 +1,5 @@
+layer,status,diagnostic,evidence,next_action
+organization_labeling,pass,independent baryon/settling label balance,"settled_fraction=0.539; labels from component indicators, not endpoint residuals",audit labels against resolved kinematic/morphology catalogs if balance is pathological
+feature_availability,warning,direct dynamic organization observables availability,AR_mismatch; HI_asymmetry,ingest WHISP/WALLABY/THINGS-style A/R mismatch and H I asymmetry before promoting the model
+quality_contamination,fail,quality-only baseline versus physical organization bridge,quality_advantage=0.363; heldout_quality_fraction=0.276,stratify bridge on measurement-limited/quarantined rows and keep quality outside physical features
+BDVR_activation_bridge,fail,frozen organization score predicts held-out endpoint/activation targets,best_dynamic_auc_like=0.385; activation_bal_acc=0.308; residual_bal_acc=0.382,"if labels/features pass but bridge fails, repair the BDVR activation bridge rather than retraining maturity on residuals"

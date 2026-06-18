@@ -1,0 +1,9 @@
+galaxy_name,things_galaxy_name,A_gov_inferred,S_HI_disturbance,asymmetry_index,warp_index,lopsidedness_index,falsifier_rule,low_activation_median_disturbance,high_activation_median_disturbance
+NGC5055,NGC_5055,0.0,0.725,0.4108888983335056,0.19686321469502333,0.04140038059775172,median(S_HI_disturbance | A_gov<0.33) <= median(S_HI_disturbance | A_gov>=0.67),0.525,0.625
+NGC6946,NGC_6946,0.0,0.7,0.4575214466194032,0.09763034260927628,0.04974576621012424,median(S_HI_disturbance | A_gov<0.33) <= median(S_HI_disturbance | A_gov>=0.67),0.525,0.625
+NGC2841,NGC_2841,0.964313532706068,0.625,0.3520187555840032,0.04503783528871382,0.045935944825121755,median(S_HI_disturbance | A_gov<0.33) <= median(S_HI_disturbance | A_gov>=0.67),0.525,0.625
+NGC2403,NGC_2403,0.4162950082328754,0.55,0.3363310990095116,0.030829151407750315,0.06027446864776743,median(S_HI_disturbance | A_gov<0.33) <= median(S_HI_disturbance | A_gov>=0.67),0.525,0.625
+NGC3521,NGC_3521,0.6527008484393424,0.55,0.29417103435040765,0.004958288497865146,0.0271981882355743,median(S_HI_disturbance | A_gov<0.33) <= median(S_HI_disturbance | A_gov>=0.67),0.525,0.625
+NGC2903,NGC_2903,0.2825750328364455,0.525,0.29787311923012383,0.07241100499859983,0.020423706666846734,median(S_HI_disturbance | A_gov<0.33) <= median(S_HI_disturbance | A_gov>=0.67),0.525,0.625
+NGC7331,NGC_7331,0.2095535553135608,0.425,0.4061862485011163,0.0034621367010113937,0.020195143809335916,median(S_HI_disturbance | A_gov<0.33) <= median(S_HI_disturbance | A_gov>=0.67),0.525,0.625
+NGC3198,NGC_3198,0.0,0.4,0.2632006782747683,0.01774017444825234,0.006916719871257143,median(S_HI_disturbance | A_gov<0.33) <= median(S_HI_disturbance | A_gov>=0.67),0.525,0.625

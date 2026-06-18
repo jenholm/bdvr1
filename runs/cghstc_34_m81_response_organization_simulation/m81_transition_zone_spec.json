@@ -1,0 +1,13 @@
+{
+  "source": "M81 response-organization simulation",
+  "f_star_transition": [
+    0.2,
+    0.45
+  ],
+  "alpha_BTFR_transition": [
+    0.75,
+    1.05
+  ],
+  "btfr_reference": 1.0,
+  "claim_boundary": "transition_zone_visualization_not_direct_validation"
+}

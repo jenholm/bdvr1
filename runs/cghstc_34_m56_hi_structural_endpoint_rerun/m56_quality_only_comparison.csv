@@ -1,0 +1,3 @@
+model_id,physical_interpretation_allowed,quality_only_separate,reason
+quality_only_baseline,False,True,quality flags can expose endpoint/measurement residual behavior but are not physical H I structural organization features
+m56_hi_structural_subset,True,False,fixed H I structural endpoint diagnostic; quality not included as a physical feature

@@ -1,0 +1,37 @@
+object_name,label_family,resolver_status,unresolved_reason,recommended_next_action
+F563-1,A/R mismatch,unresolved,object_unresolved_in_m65,Manual alias/source search in NED/ADS/VizieR; try manual alias variants and survey-specific H I archives.
+F563-1,H I asymmetry,unresolved,object_unresolved_in_m65,Manual alias/source search in NED/ADS/VizieR; try manual alias variants and survey-specific H I archives.
+F563-1,SFE/depletion,unresolved,object_unresolved_in_m65,Manual alias/source search in NED/ADS/VizieR; try manual alias variants and survey-specific H I archives.
+F563-1,Vrot/sigma,unresolved,object_unresolved_in_m65,Manual alias/source search in NED/ADS/VizieR; try manual alias variants and survey-specific H I archives.
+F563-1,burstiness,unresolved,object_unresolved_in_m65,Manual alias/source search in NED/ADS/VizieR; try manual alias variants and survey-specific H I archives.
+F563-1,centroid offset,unresolved,object_unresolved_in_m65,Manual alias/source search in NED/ADS/VizieR; try manual alias variants and survey-specific H I archives.
+F563-1,external morphology,unresolved,object_unresolved_in_m65,Manual alias/source search in NED/ADS/VizieR; try manual alias variants and survey-specific H I archives.
+F563-1,lopsidedness,unresolved,object_unresolved_in_m65,Manual alias/source search in NED/ADS/VizieR; try manual alias variants and survey-specific H I archives.
+F563-1,warp / PA twist,unresolved,object_unresolved_in_m65,Manual alias/source search in NED/ADS/VizieR; try manual alias variants and survey-specific H I archives.
+F563-V2,A/R mismatch,unresolved,object_unresolved_in_m65,Manual alias/source search in NED/ADS/VizieR; try manual alias variants and survey-specific H I archives.
+F563-V2,H I asymmetry,unresolved,object_unresolved_in_m65,Manual alias/source search in NED/ADS/VizieR; try manual alias variants and survey-specific H I archives.
+F563-V2,SFE/depletion,unresolved,object_unresolved_in_m65,Manual alias/source search in NED/ADS/VizieR; try manual alias variants and survey-specific H I archives.
+F563-V2,Vrot/sigma,unresolved,object_unresolved_in_m65,Manual alias/source search in NED/ADS/VizieR; try manual alias variants and survey-specific H I archives.
+F563-V2,burstiness,unresolved,object_unresolved_in_m65,Manual alias/source search in NED/ADS/VizieR; try manual alias variants and survey-specific H I archives.
+F563-V2,centroid offset,unresolved,object_unresolved_in_m65,Manual alias/source search in NED/ADS/VizieR; try manual alias variants and survey-specific H I archives.
+F563-V2,external morphology,unresolved,object_unresolved_in_m65,Manual alias/source search in NED/ADS/VizieR; try manual alias variants and survey-specific H I archives.
+F563-V2,lopsidedness,unresolved,object_unresolved_in_m65,Manual alias/source search in NED/ADS/VizieR; try manual alias variants and survey-specific H I archives.
+F563-V2,warp / PA twist,unresolved,object_unresolved_in_m65,Manual alias/source search in NED/ADS/VizieR; try manual alias variants and survey-specific H I archives.
+F568-V1,A/R mismatch,unresolved,object_unresolved_in_m65,Manual alias/source search in NED/ADS/VizieR; try manual alias variants and survey-specific H I archives.
+F568-V1,H I asymmetry,unresolved,object_unresolved_in_m65,Manual alias/source search in NED/ADS/VizieR; try manual alias variants and survey-specific H I archives.
+F568-V1,SFE/depletion,unresolved,object_unresolved_in_m65,Manual alias/source search in NED/ADS/VizieR; try manual alias variants and survey-specific H I archives.
+F568-V1,Vrot/sigma,unresolved,object_unresolved_in_m65,Manual alias/source search in NED/ADS/VizieR; try manual alias variants and survey-specific H I archives.
+F568-V1,burstiness,unresolved,object_unresolved_in_m65,Manual alias/source search in NED/ADS/VizieR; try manual alias variants and survey-specific H I archives.
+F568-V1,centroid offset,unresolved,object_unresolved_in_m65,Manual alias/source search in NED/ADS/VizieR; try manual alias variants and survey-specific H I archives.
+F568-V1,external morphology,unresolved,object_unresolved_in_m65,Manual alias/source search in NED/ADS/VizieR; try manual alias variants and survey-specific H I archives.
+F568-V1,lopsidedness,unresolved,object_unresolved_in_m65,Manual alias/source search in NED/ADS/VizieR; try manual alias variants and survey-specific H I archives.
+F568-V1,warp / PA twist,unresolved,object_unresolved_in_m65,Manual alias/source search in NED/ADS/VizieR; try manual alias variants and survey-specific H I archives.
+F583-1,A/R mismatch,unresolved,object_unresolved_in_m65,Manual alias/source search in NED/ADS/VizieR; try manual alias variants and survey-specific H I archives.
+F583-1,H I asymmetry,unresolved,object_unresolved_in_m65,Manual alias/source search in NED/ADS/VizieR; try manual alias variants and survey-specific H I archives.
+F583-1,SFE/depletion,unresolved,object_unresolved_in_m65,Manual alias/source search in NED/ADS/VizieR; try manual alias variants and survey-specific H I archives.
+F583-1,Vrot/sigma,unresolved,object_unresolved_in_m65,Manual alias/source search in NED/ADS/VizieR; try manual alias variants and survey-specific H I archives.
+F583-1,burstiness,unresolved,object_unresolved_in_m65,Manual alias/source search in NED/ADS/VizieR; try manual alias variants and survey-specific H I archives.
+F583-1,centroid offset,unresolved,object_unresolved_in_m65,Manual alias/source search in NED/ADS/VizieR; try manual alias variants and survey-specific H I archives.
+F583-1,external morphology,unresolved,object_unresolved_in_m65,Manual alias/source search in NED/ADS/VizieR; try manual alias variants and survey-specific H I archives.
+F583-1,lopsidedness,unresolved,object_unresolved_in_m65,Manual alias/source search in NED/ADS/VizieR; try manual alias variants and survey-specific H I archives.
+F583-1,warp / PA twist,unresolved,object_unresolved_in_m65,Manual alias/source search in NED/ADS/VizieR; try manual alias variants and survey-specific H I archives.

@@ -1,0 +1,38 @@
+{
+  "claim_boundary": "This is a MaNGA large-sample governor proxy diagnostic, not a direct BDVR activation, not a SPARC-like flat-velocity fit, and not a dark-matter-law validation.",
+  "correlations": {
+    "axis_ratio": -0.20003754978363308,
+    "disk_likeness_proxy": 0.04004722689592388,
+    "gas_sigma_km_s": 0.26685935908319364,
+    "gas_velocity_proxy_km_s": 0.5199033870459722,
+    "kinematic_asymmetry_proxy": -0.23507972082751802,
+    "kinematic_settling_proxy": 0.23507962420750145,
+    "sersic_n": 0.06410270030727101,
+    "specific_sfr_yr": -0.39085242729645386,
+    "stellar_mass_msun": 0.3798365379106312,
+    "stellar_surface_density_msun_kpc2": 0.366594063703338,
+    "stellar_velocity_dispersion_km_s": 0.3118057940445558
+  },
+  "created_at": "2026-06-18T14:53:56.676111+00:00",
+  "dataset": "MaNGA DR17 DAPall/DRPall scalar proxy catalog",
+  "disk_like_count": 4687,
+  "disk_like_median_A_proxy": 0.5028636884306987,
+  "falsification_rules": [
+    "The large-sample maturity proxy is challenged if high stellar-surface-density galaxies do not have higher median A_proxy than low-surface-density galaxies.",
+    "The proxy framing is invalid if it is reported as A_gov_inferred or direct BDVR activation."
+  ],
+  "falsifier_count": 0,
+  "median_A_proxy": 0.5130911471117657,
+  "primary_result": "Computed MaNGA governor proxy for 10185 galaxies. Spearman(A_proxy, stellar_surface_density)=0.367; Spearman(A_proxy, specific_sfr)=-0.391; median disk-like A_proxy=0.5028636884306987; median spheroid-like A_proxy=0.517321224022255.",
+  "proxy_level": "computed_from_MaNGA_DAPall_scalar_proxies",
+  "sample_size": 10185,
+  "spheroid_like_count": 5498,
+  "spheroid_like_median_A_proxy": 0.517321224022255,
+  "stage": "M12",
+  "usable_count": 10185,
+  "warnings": [
+    "Uses DAPall scalar summary fields, not resolved maps or outer rotation curves.",
+    "Gas velocity proxy is half the H-alpha velocity span, not Vflat.",
+    "A_proxy combines ranked observables and must remain labeled as governor proxy."
+  ]
+}

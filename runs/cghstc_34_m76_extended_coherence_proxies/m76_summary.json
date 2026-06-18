@@ -1,0 +1,48 @@
+{
+  "milestone": "CGHSTC-34-M76",
+  "status": "extended_coherence_proxies",
+  "n_xgass_total": 363,
+  "n_xgass_with_coherence": 363,
+  "n_little_things": 41,
+  "spearman_coherence_vs_abs_btfr_global": -0.1283508053975156,
+  "spearman_pvalue_global": 0.014400822947339081,
+  "scatter_Q1_low": 0.17065345268312893,
+  "scatter_Q4_high": 0.09104981816052847,
+  "scatter_ratio_Q4_over_Q1": 0.5335363377006541,
+  "proxy_comparison": [
+    {
+      "variant": "full",
+      "spearman_rho": -0.3257496411097765,
+      "spearman_p": 2.40261376435659e-09,
+      "n": 320
+    },
+    {
+      "variant": "bulge_only",
+      "spearman_rho": 0.056760437744928734,
+      "spearman_p": 0.3114403232893743,
+      "n": 320
+    },
+    {
+      "variant": "gas_only",
+      "spearman_rho": -0.2250996103477573,
+      "spearman_p": 4.840185159610502e-05,
+      "n": 320
+    },
+    {
+      "variant": "kinematics_only",
+      "spearman_rho": -0.3680152093009953,
+      "spearman_p": 4.381762467618814e-13,
+      "n": 363
+    },
+    {
+      "variant": "sparc_style",
+      "spearman_rho": -0.00781611636832391,
+      "spearman_p": 0.889233701337329,
+      "n": 320
+    }
+  ],
+  "manuscript_rewritten": false,
+  "mature_velocity_law_changed": false,
+  "governor_promoted": false,
+  "ugc07125_quarantined": true
+}

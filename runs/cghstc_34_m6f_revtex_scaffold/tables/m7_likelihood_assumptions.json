@@ -1,0 +1,30 @@
+{
+  "aic_bic_caveat": "Parameter counts are audit assumptions for frozen predictors; full fitting chronology is not established.",
+  "bootstrap_n": 2000,
+  "claim_boundary": "first_pass_likelihood_diagnostic_not_full_covariance_model",
+  "k_params_policy": {
+    "m3_scalar_q_only": 1,
+    "m4a_halo_only": 3,
+    "m4b_halo_star_gas": 4,
+    "m4c_full_frozen": 5,
+    "mond_simple_btfr": 1,
+    "newtonian_outer": 0
+  },
+  "n_galaxies": 87,
+  "random_seed": 34007,
+  "reference_model": "mond_simple_btfr",
+  "sigma_floor_dex": 0.03,
+  "sigma_model": "sigma_total_dex = sqrt((e_Vflat/(ln(10)*Vflat_km_s))^2 + sigma_floor_dex^2)",
+  "uncertainty_columns_not_yet_propagated": [
+    "distance uncertainty",
+    "inclination uncertainty",
+    "stellar mass-to-light uncertainty",
+    "HI mass uncertainty",
+    "full covariance between baryonic mass and velocity",
+    "full rotation-curve point uncertainties"
+  ],
+  "uncertainty_columns_used": [
+    "Vflat_km_s",
+    "e_Vflat"
+  ]
+}

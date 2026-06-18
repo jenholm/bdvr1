@@ -1,0 +1,7 @@
+model_id,post_selection_residual_audit_only,spearman_vs_abs_m36_residual,clean_sample_spearman_vs_abs_m36_residual,trained_on_endpoint_residuals,trained_on_A_inferred
+m1_fstar_fgas_only,True,-0.0972640218878249,-0.07014275589753974,False,False
+m2_rhi_over_rd_only,True,-0.027535665428962283,-0.018689885592791333,False,False
+m3_fstar_plus_rhi_over_rd,True,-0.1607777994918898,-0.13777462792345854,False,False
+m4_fstar_rhi_interaction,True,-0.19489935509087356,-0.17503290472815633,False,False
+m5_fstar_rhi_plus_best_m58_footprint,True,-0.16687512214188002,-0.14409233572947253,False,False
+m6_fstar_rhi_quality_audit_separate,True,-0.1607777994918898,-0.13777462792345854,False,False

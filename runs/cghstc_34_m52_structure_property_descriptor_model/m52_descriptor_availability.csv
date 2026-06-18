@@ -1,0 +1,8 @@
+descriptor_family,available_count,total_rows,fabricated
+phase_fraction_descriptor,165,165,False
+texture_descriptor,165,165,False
+defect_inverse_descriptor,165,165,False
+porosity_inverse_descriptor,165,165,False
+concentration_descriptor,165,165,False
+m52_primary_score,165,165,False
+quality_quarantine_flag,165,165,False

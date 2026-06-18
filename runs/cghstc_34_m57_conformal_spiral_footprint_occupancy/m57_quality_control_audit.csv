@@ -1,0 +1,3 @@
+quality_group,n_rows,median_F_occ,median_abs_m36_residual,median_A_footprint_candidate,interpretation
+clean_or_not_quarantined,84,0.9391328578660713,0.04168299605319545,0.3796082573799546,primary non-quarantined diagnostic rows
+quality_quarantined_or_measurement_limited,1,0.8234207763965602,0.2321401297980161,0.16133303373282357,quality separation only; not a footprint component

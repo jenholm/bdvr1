@@ -1,0 +1,11 @@
+{
+  "RHI_Rd_crit": 6.627789263258611,
+  "claim_boundary": "threshold_visualization_not_direct_validation",
+  "f_gas_crit": 0.5995934548711854,
+  "f_star_crit": 0.4004065451288146,
+  "log10_Sigma_b_crit": 8.263242860299144,
+  "old_m8_hand_drawn_line_replaced": true,
+  "rotation_coherence_status": "weak_or_unconstrained_current_rows",
+  "source": "M42 optimal transition boundary search",
+  "transition_band": "M42 current transition zone"
+}

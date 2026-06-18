@@ -1,0 +1,61 @@
+{
+  "status": "completed_m26_nonleaky_angular_momentum_rescue",
+  "sample_size": 87,
+  "best_proxy": "J_size_mass",
+  "best_proxy_summary": {
+    "proxy_name": "J_size_mass",
+    "rho_median": 0.4918942447907338,
+    "rho_p05": 0.43806646095925655,
+    "rho_mean": 0.49247603605234863,
+    "rmse_median": 0.2986056290506902,
+    "pred_std_median": 0.2970240131198494,
+    "n": 24
+  },
+  "nonleaky_activation_features": true,
+  "uses_observed_Vflat_in_activation": false,
+  "permutation_summary": {
+    "real_metrics": {
+      "mse_bounded": 0.08185740627087683,
+      "rmse_bounded": 0.28610733347972195,
+      "spearman_A_rank_A_inferred": 0.5316066318482553,
+      "pearson_A_rank_A_inferred": 0.5403333406975219,
+      "spearman_A_bounded_A_inferred": 0.5327899656902885,
+      "pearson_A_bounded_A_inferred": 0.5383253725805652,
+      "prediction_min": -0.12612160954012852,
+      "prediction_max": 1.370963152397252,
+      "prediction_std": 0.2821828100296154,
+      "bounded_prediction_std": 0.25907066451374566,
+      "n": 87
+    },
+    "n_permutations": 150,
+    "permutation_rho_median": 0.420066980092073,
+    "permutation_rho_p95": 0.4852239509379605,
+    "empirical_p_value_rho_perm_ge_real": 0.006622516556291391,
+    "pass_fail": {
+      "p_value_le_0p01": true,
+      "real_exceeds_perm_p95": true
+    }
+  },
+  "endpoint_summary": {
+    "n_grid_cells": 6,
+    "rho_ge_0p60_fraction": 0.0,
+    "best_delta": 1.0,
+    "best_rho_median": 0.5062496589792851,
+    "pass_fail": {
+      "half_settings_ge_0p60": false,
+      "best_rho_ge_0p40": true
+    }
+  },
+  "velocity_summary": {
+    "uses_observed_Vflat_in_activation": false,
+    "baryonic_baseline_rmse_logV": 0.06494873936443459,
+    "m26_best_proxy_rmse_logV": 0.06443833681587015,
+    "delta_rmse_logV_best_minus_baseline": -0.000510402548564437,
+    "pass_fail": {
+      "m26_improves_baryonic_baseline": true,
+      "meaningful_improvement_ge_0p005": false
+    }
+  },
+  "decision_state": "diagnostic_only",
+  "claim_boundary": "rho_target_is_not_showstopper; M26 uses no observed Vflat in activation features. Promote only if non-leaky rank and velocity-domain gates pass; otherwise keep diagnostic-only or kill/pivot."
+}

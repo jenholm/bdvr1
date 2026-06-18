@@ -1,0 +1,18 @@
+{
+  "atlas3d_control_rows": 80,
+  "claim_boundary": "External tables are analog-search and follow-up prioritization artifacts; proxy candidates are not direct BDVR activation measurements unless rotation/baryon diagnostics are present.",
+  "direct_candidates": 2,
+  "manga_proxy_candidates": 80,
+  "output_directory": "/home/jenholm/photonland/cghs/cghstc_34/runs/cghstc_34_m17_ugc07125_analog_search",
+  "paper_safe_interpretation": "UGC07125 is the direct SPARC low-activation prototype; external datasets define an analog-search ladder rather than direct BDVR activation detections for every object.",
+  "prototype_name": "UGC07125",
+  "sparc_audit_rows": 87,
+  "status": "diagnostic_ugc07125_analog_discovery_pipeline",
+  "synthesis_rows": 70,
+  "things_proxy_candidates": 8,
+  "top_direct_candidates": [
+    "DDO161",
+    "UGC07125"
+  ],
+  "xgass_xcold_proxy_candidates": 80
+}

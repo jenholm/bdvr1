@@ -1,0 +1,2 @@
+f_star_c,log10_sigma_c,f_gas_c,RHI_Rd_c,k_star,k_sigma,k_gas,k_HI,n_primary_fit,n_mature_control,primary_fit_rmse,primary_fit_spearman,mature_control_median_A_pred,mature_control_fraction_A_pred_gt_0p5,ugc07125_A_pred,rank_score,selected_model_claim
+0.15,7.6,0.82,12.0,12.0,6.0,12.0,0.5,41,46,0.5117710280218453,-0.340956191201548,0.9245403170876312,0.9782608695652174,0.25495078361845136,0.5219997137578917,test_set_constructed_governor_not_promoted

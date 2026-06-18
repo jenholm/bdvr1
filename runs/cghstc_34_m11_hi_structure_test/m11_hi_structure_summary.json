@@ -1,0 +1,24 @@
+{
+  "activation_definition": "M9 SPARC A_gov_inferred cross-matched to computed THINGS H I moment-map disturbance proxies",
+  "claim_boundary": "This is an external diagnostic using computed H I structure proxies and M9 activation transfer; it is not a direct refit of BDVR to THINGS rotation curves.",
+  "created_at": "2026-06-18T14:53:50.605158+00:00",
+  "dataset": "THINGS H I robust-weighted moment maps cross-matched to M9 SPARC",
+  "falsification_rules": [
+    "The H I structure hypothesis is challenged if low_A_gov systems have no higher H I disturbance than high_A_gov systems.",
+    "Formally: median(S_HI_disturbance | A_gov < 0.33) <= median(S_HI_disturbance | A_gov >= 0.67)."
+  ],
+  "falsifier_count": 8,
+  "high_activation_count": 1,
+  "high_activation_median_disturbance": 0.625,
+  "low_activation_count": 5,
+  "low_activation_median_disturbance": 0.525,
+  "primary_result": "Cross-matched 8 THINGS galaxies to M9 SPARC. Spearman(S_HI_disturbance, A_gov_inferred)=-0.012; median low-A disturbance=0.525; median high-A disturbance=0.625.",
+  "sample_size": 8,
+  "stage": "M11",
+  "usable_count": 8,
+  "warnings": [
+    "Small cross-match sample; use as a pilot diagnostic rather than a manuscript-level validation claim.",
+    "Moment-map proxies are not tilted-ring warp/asymmetry measurements.",
+    "THINGS moment maps are external H I structure data; A_gov values come from the M9 SPARC branch."
+  ]
+}

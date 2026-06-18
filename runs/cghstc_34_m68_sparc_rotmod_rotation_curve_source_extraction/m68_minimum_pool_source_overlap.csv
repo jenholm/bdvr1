@@ -1,0 +1,26 @@
+object_name,normalized_object_name,sparc_rotmod_name,source_overlap_status,has_sparc_rotmod_rows,rotmod_row_count,quality_quarantined,source_provenance
+UGC07125,UGC07125,UGC07125,matched_sparc_rotmod,True,13,True,data/external/m30_web_probe/Rotmod_LTG.zip; https://astroweb.cwru.edu/SPARC/
+DDO064,DDO064,DDO064,matched_sparc_rotmod,True,14,False,data/external/m30_web_probe/Rotmod_LTG.zip; https://astroweb.cwru.edu/SPARC/
+DDO161,DDO161,DDO161,matched_sparc_rotmod,True,31,False,data/external/m30_web_probe/Rotmod_LTG.zip; https://astroweb.cwru.edu/SPARC/
+F563-1,F5631,F563-1,matched_sparc_rotmod,True,17,False,data/external/m30_web_probe/Rotmod_LTG.zip; https://astroweb.cwru.edu/SPARC/
+F563-V2,F563V2,F563-V2,matched_sparc_rotmod,True,10,False,data/external/m30_web_probe/Rotmod_LTG.zip; https://astroweb.cwru.edu/SPARC/
+F568-V1,F568V1,F568-V1,matched_sparc_rotmod,True,15,False,data/external/m30_web_probe/Rotmod_LTG.zip; https://astroweb.cwru.edu/SPARC/
+F583-1,F5831,F583-1,matched_sparc_rotmod,True,25,False,data/external/m30_web_probe/Rotmod_LTG.zip; https://astroweb.cwru.edu/SPARC/
+NGC0100,NGC0100,NGC0100,matched_sparc_rotmod,True,21,False,data/external/m30_web_probe/Rotmod_LTG.zip; https://astroweb.cwru.edu/SPARC/
+NGC1003,NGC1003,NGC1003,matched_sparc_rotmod,True,36,False,data/external/m30_web_probe/Rotmod_LTG.zip; https://astroweb.cwru.edu/SPARC/
+NGC3109,NGC3109,NGC3109,matched_sparc_rotmod,True,25,False,data/external/m30_web_probe/Rotmod_LTG.zip; https://astroweb.cwru.edu/SPARC/
+NGC3741,NGC3741,NGC3741,matched_sparc_rotmod,True,21,False,data/external/m30_web_probe/Rotmod_LTG.zip; https://astroweb.cwru.edu/SPARC/
+NGC5585,NGC5585,NGC5585,matched_sparc_rotmod,True,24,False,data/external/m30_web_probe/Rotmod_LTG.zip; https://astroweb.cwru.edu/SPARC/
+UGC00128,UGC00128,UGC00128,matched_sparc_rotmod,True,22,False,data/external/m30_web_probe/Rotmod_LTG.zip; https://astroweb.cwru.edu/SPARC/
+UGC00731,UGC00731,UGC00731,matched_sparc_rotmod,True,12,False,data/external/m30_web_probe/Rotmod_LTG.zip; https://astroweb.cwru.edu/SPARC/
+UGC01230,UGC01230,UGC01230,matched_sparc_rotmod,True,11,False,data/external/m30_web_probe/Rotmod_LTG.zip; https://astroweb.cwru.edu/SPARC/
+UGC01281,UGC01281,UGC01281,matched_sparc_rotmod,True,25,False,data/external/m30_web_probe/Rotmod_LTG.zip; https://astroweb.cwru.edu/SPARC/
+UGC04278,UGC04278,UGC04278,matched_sparc_rotmod,True,25,False,data/external/m30_web_probe/Rotmod_LTG.zip; https://astroweb.cwru.edu/SPARC/
+UGC04499,UGC04499,UGC04499,matched_sparc_rotmod,True,9,False,data/external/m30_web_probe/Rotmod_LTG.zip; https://astroweb.cwru.edu/SPARC/
+UGC05005,UGC05005,UGC05005,matched_sparc_rotmod,True,11,False,data/external/m30_web_probe/Rotmod_LTG.zip; https://astroweb.cwru.edu/SPARC/
+UGC05721,UGC05721,UGC05721,matched_sparc_rotmod,True,23,False,data/external/m30_web_probe/Rotmod_LTG.zip; https://astroweb.cwru.edu/SPARC/
+UGC06446,UGC06446,UGC06446,matched_sparc_rotmod,True,17,False,data/external/m30_web_probe/Rotmod_LTG.zip; https://astroweb.cwru.edu/SPARC/
+UGC06667,UGC06667,UGC06667,matched_sparc_rotmod,True,9,False,data/external/m30_web_probe/Rotmod_LTG.zip; https://astroweb.cwru.edu/SPARC/
+UGC07399,UGC07399,UGC07399,matched_sparc_rotmod,True,10,False,data/external/m30_web_probe/Rotmod_LTG.zip; https://astroweb.cwru.edu/SPARC/
+UGC07524,UGC07524,UGC07524,matched_sparc_rotmod,True,31,False,data/external/m30_web_probe/Rotmod_LTG.zip; https://astroweb.cwru.edu/SPARC/
+UGC07603,UGC07603,UGC07603,matched_sparc_rotmod,True,12,False,data/external/m30_web_probe/Rotmod_LTG.zip; https://astroweb.cwru.edu/SPARC/

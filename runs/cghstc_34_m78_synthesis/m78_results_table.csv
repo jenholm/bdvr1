@@ -1,0 +1,8 @@
+Milestone,Label,N,Survey,Q1_scatter,Q4_scatter,Ratio
+M72,SPARC scalar audit,87,SPARC,,,
+M73,Curve-shape clustering,87,SPARC,,,
+M74,SPARC coherence test,87,SPARC,0.075,0.049,0.65
+M75,xGASS W50 cross-check,363,xGASS,0.120,0.108,0.90
+M76,Extended proxies,363,xGASS,0.171,0.091,0.53
+M77,xGASS refined model,363,xGASS,0.180,0.069,0.38
+M77,V_rot_HI held-out,320,xGASS,0.174,0.070,0.40

@@ -1,0 +1,217 @@
+{
+  "claim_status": "diagnostic_only_not_model_retuning",
+  "correlations_csv": "/home/jenholm/photonland/cghs/cghstc_34/runs/cghstc_34_m4b_rich_structure/m4b_rich_structure_correlations.csv",
+  "joined_csv": "/home/jenholm/photonland/cghs/cghstc_34/runs/cghstc_34_m4b_rich_structure/m4b_rich_structure_joined.csv",
+  "milestone": "CGHSTC-34-M4b-rich-structure-diagnostics",
+  "n_galaxies": 12,
+  "prediction_csv": "/home/jenholm/photonland/cghs/cghstc_34/runs/cghstc_34_m4_halo_response_A035_rich/m4_halo_predictions.csv",
+  "rich_input": "/home/jenholm/photonland/cghs/cghstc_34/data/sparc_lite/m4_sparc12_rich_inputs.csv",
+  "top_signed_residual_correlations": [
+    {
+      "abs_corr_signed": 0.6680007552672756,
+      "corr_with_abs_residual": 0.5710711916105956,
+      "corr_with_signed_residual": -0.6680007552672756,
+      "variable": "Inc_deg"
+    },
+    {
+      "abs_corr_signed": 0.606368247443264,
+      "corr_with_abs_residual": 0.6211616673073693,
+      "corr_with_signed_residual": -0.606368247443264,
+      "variable": "stellar_to_gas_ratio"
+    },
+    {
+      "abs_corr_signed": 0.5769032345085852,
+      "corr_with_abs_residual": -0.5665772182867248,
+      "corr_with_signed_residual": 0.5769032345085852,
+      "variable": "T"
+    },
+    {
+      "abs_corr_signed": 0.5769032345085852,
+      "corr_with_abs_residual": 0.5665772182867248,
+      "corr_with_signed_residual": -0.5769032345085852,
+      "variable": "early_type_proxy"
+    },
+    {
+      "abs_corr_signed": 0.5403859254727794,
+      "corr_with_abs_residual": 0.4819215753278323,
+      "corr_with_signed_residual": -0.5403859254727794,
+      "variable": "log10_stellar_to_gas_ratio"
+    },
+    {
+      "abs_corr_signed": 0.499576179242482,
+      "corr_with_abs_residual": 0.4989511422605462,
+      "corr_with_signed_residual": -0.499576179242482,
+      "variable": "log10_SBeff"
+    },
+    {
+      "abs_corr_signed": 0.49549402835208955,
+      "corr_with_abs_residual": 0.5503371934166325,
+      "corr_with_signed_residual": -0.49549402835208955,
+      "variable": "SBeff_Lsun_pc2"
+    },
+    {
+      "abs_corr_signed": 0.4729289486224333,
+      "corr_with_abs_residual": 0.4367810715707068,
+      "corr_with_signed_residual": -0.4729289486224333,
+      "variable": "star_frac"
+    },
+    {
+      "abs_corr_signed": 0.4729289486224331,
+      "corr_with_abs_residual": -0.4367810715707068,
+      "corr_with_signed_residual": 0.4729289486224331,
+      "variable": "gas_frac"
+    },
+    {
+      "abs_corr_signed": 0.41096681647485633,
+      "corr_with_abs_residual": 0.530875906175211,
+      "corr_with_signed_residual": -0.41096681647485633,
+      "variable": "log10_SBdisk"
+    },
+    {
+      "abs_corr_signed": 0.4108972890868601,
+      "corr_with_abs_residual": 0.7218120977196548,
+      "corr_with_signed_residual": -0.4108972890868601,
+      "variable": "SBdisk_Lsun_pc2"
+    },
+    {
+      "abs_corr_signed": 0.3836113141964471,
+      "corr_with_abs_residual": 0.08481691837338973,
+      "corr_with_signed_residual": -0.3836113141964471,
+      "variable": "compact_outer_proxy"
+    }
+  ],
+  "worst_overpredictions": [
+    {
+      "RHI_over_Rdisk": 10.95625,
+      "Reff_over_Rdisk": 1.30625,
+      "T": 4,
+      "galaxy_name": "NGC5055",
+      "gas_frac": 0.1693649820762909,
+      "log10_SBdisk": 3.5248295510615684,
+      "log10_SBeff": 3.1408284605336303,
+      "log10_sigma_proxy": 9.15554991251676,
+      "log10_velocity_error": 0.060955918427455,
+      "star_frac": 0.830635017923709,
+      "velocity_ratio_pred_over_obs": 1.150683586824009
+    },
+    {
+      "RHI_over_Rdisk": 13.405405405405403,
+      "Reff_over_Rdisk": 1.7567567567567568,
+      "T": 10,
+      "galaxy_name": "DDO154",
+      "gas_frac": 0.9324410452517526,
+      "log10_SBdisk": 1.8528458180149967,
+      "log10_SBeff": 1.300812794118117,
+      "log10_sigma_proxy": 8.658979635766869,
+      "log10_velocity_error": 0.0361299855260681,
+      "star_frac": 0.0675589547482472,
+      "velocity_ratio_pred_over_obs": 1.0867508424442
+    },
+    {
+      "RHI_over_Rdisk": 8.709016393442623,
+      "Reff_over_Rdisk": 1.7213114754098362,
+      "T": 6,
+      "galaxy_name": "NGC6946",
+      "gas_frac": 0.1856151975504336,
+      "log10_SBdisk": 3.348830372378482,
+      "log10_SBeff": 2.7568338155405883,
+      "log10_sigma_proxy": 9.0358616469088,
+      "log10_velocity_error": 0.0207324574674541,
+      "star_frac": 0.8143848024495663,
+      "velocity_ratio_pred_over_obs": 1.0488960682269823
+    },
+    {
+      "RHI_over_Rdisk": 11.35668789808917,
+      "Reff_over_Rdisk": 1.859872611464968,
+      "T": 5,
+      "galaxy_name": "NGC3198",
+      "gas_frac": 0.430291823819246,
+      "log10_SBdisk": 3.2048305582449266,
+      "log10_SBeff": 2.252828768040592,
+      "log10_sigma_proxy": 8.734238971292958,
+      "log10_velocity_error": 0.0169285243311783,
+      "star_frac": 0.5697081761807541,
+      "velocity_ratio_pred_over_obs": 1.039749031089112
+    },
+    {
+      "RHI_over_Rdisk": 7.137254901960784,
+      "Reff_over_Rdisk": 1.4836601307189543,
+      "T": 7,
+      "galaxy_name": "NGC5585",
+      "gas_frac": 0.6033575119477936,
+      "log10_SBdisk": 2.4728295567127057,
+      "log10_SBeff": 1.9568404901592336,
+      "log10_sigma_proxy": 8.401798302775038,
+      "log10_velocity_error": -0.007622939358057,
+      "star_frac": 0.3966424880522063,
+      "velocity_ratio_pred_over_obs": 0.9826006806638904
+    }
+  ],
+  "worst_underpredictions": [
+    {
+      "RHI_over_Rdisk": 12.395604395604394,
+      "Reff_over_Rdisk": 1.5137362637362637,
+      "T": 3,
+      "galaxy_name": "NGC2841",
+      "gas_frac": 0.1214328246681222,
+      "log10_SBdisk": 3.6768298195842175,
+      "log10_SBeff": 2.992831765934685,
+      "log10_sigma_proxy": 9.109249674051874,
+      "log10_velocity_error": -0.125543131357838,
+      "star_frac": 0.8785671753318778,
+      "velocity_ratio_pred_over_obs": 0.7489569731876518
+    },
+    {
+      "RHI_over_Rdisk": 4.783464566929134,
+      "Reff_over_Rdisk": 0.8188976377952756,
+      "T": 2,
+      "galaxy_name": "NGC7814",
+      "gas_frac": 0.0367843960338713,
+      "log10_SBdisk": 3.420830062026114,
+      "log10_SBeff": 3.432829845538161,
+      "log10_sigma_proxy": 8.979724487335302,
+      "log10_velocity_error": -0.1251896225530489,
+      "star_frac": 0.9632156039661288,
+      "velocity_ratio_pred_over_obs": 0.74956686044411
+    },
+    {
+      "RHI_over_Rdisk": 7.854166666666668,
+      "Reff_over_Rdisk": 1.0208333333333337,
+      "T": 4,
+      "galaxy_name": "NGC3521",
+      "gas_frac": 0.1152376935691309,
+      "log10_SBdisk": 3.324829609686001,
+      "log10_SBeff": 3.348830372378482,
+      "log10_sigma_proxy": 9.122121223899192,
+      "log10_velocity_error": -0.0876967376031747,
+      "star_frac": 0.8847623064308692,
+      "velocity_ratio_pred_over_obs": 0.8171527797314941
+    },
+    {
+      "RHI_over_Rdisk": 10.870503597122305,
+      "Reff_over_Rdisk": 1.5539568345323742,
+      "T": 6,
+      "galaxy_name": "NGC2403",
+      "gas_frac": 0.4587161205670624,
+      "log10_SBdisk": 3.148830846207502,
+      "log10_SBeff": 2.5328307877218803,
+      "log10_sigma_proxy": 8.883112409462322,
+      "log10_velocity_error": -0.0604946625445681,
+      "star_frac": 0.5412838794329377,
+      "velocity_ratio_pred_over_obs": 0.8699721249094046
+    },
+    {
+      "RHI_over_Rdisk": 5.90557939914163,
+      "Reff_over_Rdisk": 1.948497854077253,
+      "T": 4,
+      "galaxy_name": "NGC2903",
+      "gas_frac": 0.0765732535059827,
+      "log10_SBdisk": 3.076829700943831,
+      "log10_SBeff": 2.800827012337371,
+      "log10_sigma_proxy": 9.113763500466842,
+      "log10_velocity_error": -0.0328604710346627,
+      "star_frac": 0.9234267464940172,
+      "velocity_ratio_pred_over_obs": 0.9271276406154464
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+model_id,heldout_n,activation_balanced_accuracy,residual_direction_balanced_accuracy,activation_auc_like,residual_auc_like,trained_on_endpoint_residuals,uses_quality_as_physical_feature,notes
+dynamic_organization_frozen,29,0.3076923076923077,0.381578947368421,0.38461538461538464,0.3105263157894737,False,False,same held-out Tier 1 bridge rows
+gas_only,29,0.7884615384615384,0.5631578947368421,0.7307692307692307,0.5736842105263158,False,False,same held-out Tier 1 bridge rows
+stellar_only,29,0.21153846153846154,0.4368421052631579,0.2692307692307692,0.4263157894736842,False,False,same held-out Tier 1 bridge rows
+m43_scalar_maturity,29,0.5641025641025641,0.31052631578947365,0.46153846153846156,0.28157894736842104,False,False,same held-out Tier 1 bridge rows
+quality_only,29,0.09615384615384616,0.7473684210526316,0.09615384615384616,0.7473684210526316,False,False,"quality-only is a contamination baseline, not a physical organization model"

@@ -1,0 +1,25 @@
+{
+  "milestone": "CGHSTC-34-M53",
+  "status": "m53_literature_guided_ordering_diagnostic",
+  "literature_analogy": "galaxy-specific dynamical maturity observables",
+  "outcome_classification": "insufficient_direct_dynamic_observables",
+  "primary_activation_auc_like": 0.34615384615384615,
+  "primary_residual_auc_like": 0.3157894736842105,
+  "primary_activation_balanced_accuracy": 0.21153846153846154,
+  "primary_residual_direction_balanced_accuracy": 0.3605263157894737,
+  "heldout_n": 29,
+  "trained_on_endpoint_residuals": false,
+  "trained_on_A_inferred": false,
+  "quality_used_as_physical_feature": false,
+  "endpoint_bridge_after_freeze": true,
+  "m36_refit": false,
+  "mature_velocity_law_changed": false,
+  "manuscript_rewritten": false,
+  "governor_promoted": false,
+  "ugc07125_treated_as_clean_scalar_object": false,
+  "direct_observable_status": "decisive_observables_sparse_locally",
+  "missing_decisive_observables": [
+    "has_AR_mismatch",
+    "has_HI_asymmetry"
+  ]
+}

@@ -1,0 +1,9 @@
+source_name,source_type,status,url_or_path,evidence_role
+M29 four-stage taxonomy table,local_artifact,available,/home/jenholm/photonland/cghs/cghstc_34/runs/cghstc_34_m29_four_stage_taxonomy/m29_four_stage_taxonomy.csv,"UGC07125 taxonomy stage, scalar flags, analog contrast"
+M29 UGC07125 reclassification summary,local_artifact,available,/home/jenholm/photonland/cghs/cghstc_34/runs/cghstc_34_m29_four_stage_taxonomy/m29_ugc07125_reclassification.json,failed/stalled boundary-object prior from M29
+SPARC Rotmod UGC07125 rotation curve,web_download,cached_available,/home/jenholm/photonland/cghs/cghstc_34/data/external/m30_web_probe/UGC07125_rotmod.dat,resolved radial rotation-curve and mass-model profile; not a 2D H I velocity-field map
+SPARC main table,web_download,cached_available,/home/jenholm/photonland/cghs/cghstc_34/data/external/m30_web_probe/SPARC_Lelli2016c.mrt,"SPARC distance, inclination, RHI, Vflat, source reference row"
+SIMBAD UGC07125 catalog page,web_catalog,cached_available,/home/jenholm/photonland/cghs/cghstc_34/data/external/m30_web_probe/UGC07125_simbad_ascii.txt,"coordinates, redshift, morphology, identifiers, bibliography/source discovery"
+NED UGC07125 catalog page,web_catalog,available_url_not_scraped,https://ned.ipac.caltech.edu/byname?objname=UGC%2007125&hconst=73&omegam=0.27&omegav=0.73,external catalog/source-discovery URL; not parsed into evidence gates in M30
+Resolved H I surface-density map/profile,blocked_missing,not_found_in_current_local_or_sparc_rotmod_sources,,needed to test nonparticipating-gas/failed-stalled interpretation directly
+Stellar age/metallicity or SFR/depletion-time source,blocked_missing,not_found_in_current_local_or_sparc_rotmod_sources,,needed to distinguish young forming disk from failed/stalled old gas-rich disk

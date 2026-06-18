@@ -1,0 +1,27 @@
+{
+  "milestone": "CGHSTC-34-M52",
+  "status": "m52_literature_guided_ordering_diagnostic",
+  "literature_analogy": "materials structure-property descriptor families",
+  "outcome_classification": "quality_contamination_dominant",
+  "primary_activation_auc_like": 0.2948717948717949,
+  "primary_residual_auc_like": 0.37894736842105264,
+  "primary_activation_balanced_accuracy": 0.25,
+  "primary_residual_direction_balanced_accuracy": 0.4605263157894737,
+  "heldout_n": 29,
+  "trained_on_endpoint_residuals": false,
+  "trained_on_A_inferred": false,
+  "quality_used_as_physical_feature": false,
+  "endpoint_bridge_after_freeze": true,
+  "m36_refit": false,
+  "mature_velocity_law_changed": false,
+  "manuscript_rewritten": false,
+  "governor_promoted": false,
+  "ugc07125_treated_as_clean_scalar_object": false,
+  "descriptor_families": [
+    "phase_fraction",
+    "texture_coherence",
+    "defect_density",
+    "porosity_disorder",
+    "concentration"
+  ]
+}

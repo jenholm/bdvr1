@@ -1,0 +1,66 @@
+{
+  "status": "completed_m28_nonleaky_angular_momentum_residual_model",
+  "sample_size": 87,
+  "target": "log_j_obs_target",
+  "target_formula": "log10(2 * Rdisk_kpc * Vflat_km_s)",
+  "uses_observed_Vflat_only_in_target": true,
+  "uses_observed_Vflat_in_features": false,
+  "uses_A_inferred_in_features": false,
+  "best_model": "gas_extent",
+  "best_model_summary": {
+    "model_name": "gas_extent",
+    "rmse_logj_median": 0.05542068387124523,
+    "rmse_logj_p05": 0.053992443602862705,
+    "rmse_logj_p95": 0.057283285970625805,
+    "base_rmse_logj_median": 0.055767682613784536,
+    "rmse_improvement_vs_base_median": 4.414298810460557e-05,
+    "mae_logj_median": 0.04406251120826684,
+    "spearman_median": 0.9926733250710796,
+    "pearson_median": 0.9941481257138567,
+    "resid_a_rho_median": -0.724200073252002,
+    "base_resid_a_rho_median": -0.7498353933128036,
+    "abs_resid_a_rho_reduction_median": 0.024941733615582273,
+    "n": 32
+  },
+  "base_only_summary": {
+    "model_name": "base_only",
+    "rmse_logj_median": 0.055767682613784536,
+    "rmse_logj_p05": 0.05381838029815886,
+    "rmse_logj_p95": 0.05727848791734211,
+    "base_rmse_logj_median": 0.055767682613784536,
+    "rmse_improvement_vs_base_median": 0.0,
+    "mae_logj_median": 0.044192201962685626,
+    "spearman_median": 0.992627761172268,
+    "pearson_median": 0.9940740270758601,
+    "resid_a_rho_median": -0.7498353933128036,
+    "base_resid_a_rho_median": -0.7498353933128036,
+    "abs_resid_a_rho_reduction_median": 0.0,
+    "n": 32
+  },
+  "permutation_summary": {
+    "best_model": "gas_extent",
+    "real_rmse_logj": 0.056610980203649484,
+    "real_base_rmse_logj": 0.056395947505863686,
+    "real_rmse_improvement_vs_base": -0.0002150326977857983,
+    "real_resid_a_rho": -0.7260754944953252,
+    "real_base_resid_a_rho": -0.7594862836525321,
+    "real_abs_resid_a_rho_reduction": 0.033410789157206966,
+    "n_permutations": 150,
+    "permutation_improvement_median": -0.0011664254934901294,
+    "permutation_improvement_p95": 0.0006825120267218779,
+    "empirical_p_value_rmse_improvement": 0.18543046357615894,
+    "permuted_columns": [
+      "f_star",
+      "log_RHI_over_Rdisk",
+      "fgas_RHI_interaction"
+    ],
+    "pass_fail": {
+      "improvement_positive": false,
+      "improvement_ge_0p005_dex": false,
+      "p_value_le_0p05": false,
+      "a_residual_reduction_ge_0p10": false
+    }
+  },
+  "decision_state": "kill_or_pivot",
+  "claim_boundary": "residual_model_not_activation_fit; A_inferred is diagnostic-only and not a predictor; Vflat is target-only for angular-momentum proxy construction."
+}

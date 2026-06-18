@@ -1,0 +1,48 @@
+{
+  "milestone": "CGHSTC-34-M43",
+  "status": "baryonic_maturity_metric_end_state_inversion_diagnostic",
+  "objective": "reverse_engineer_visible_baryonic_mature_endpoint",
+  "uses_visible_baryons_only": true,
+  "n_rows": 165,
+  "n_mature_endpoint_rows": 46,
+  "n_gap_vectors": 119,
+  "maturity_family_means": {
+    "composition_maturity": 0.573873687616188,
+    "radial_distribution_maturity": 0.5761971948952228,
+    "dynamical_settling_maturity": 0.6904242424242424,
+    "star_formation_maturity": 0.5,
+    "shape_symmetry_maturity": 0.7669395944146427,
+    "baryonic_maturity_score": 0.6214869438700592
+  },
+  "top_gap_families": {
+    "composition": 63,
+    "dynamical_settling": 41,
+    "shape_symmetry": 8,
+    "HI_extent": 7
+  },
+  "required_missing_observables": [
+    "V_rot_over_sigma",
+    "A_AR",
+    "HI_asymmetry",
+    "SFE",
+    "depletion_time",
+    "m1_lopsidedness",
+    "centroid_offset",
+    "PA_twist"
+  ],
+  "velocity_residuals_used_as_maturity_input": false,
+  "quality_used_as_physical_maturity": false,
+  "manuscript_rewritten": false,
+  "mature_velocity_law_changed": false,
+  "governor_promoted": false,
+  "claims_bdvr_is_real": false,
+  "claim_boundaries": [
+    "M43 reverse-engineers the visible baryonic platform needed for a durable mature disk endpoint.",
+    "Do not reverse-engineer the dark halo, BDVR distribution, reservoir field, or missing-mass profile in this branch.",
+    "Velocity residuals are outcomes only and are not maturity inputs.",
+    "Quality remains separate from physical baryonic maturity; inclination and endpoint reliability are not used as a physical maturity substitute.",
+    "Missing resolved dynamical-organization and star-formation observables are reported as requirements, not fabricated.",
+    "UGC07125 remains quarantined and measurement-limited, not a clean scalar object or juvenile prototype.",
+    "No mature velocity law changed and no manuscript rewrite is performed."
+  ]
+}

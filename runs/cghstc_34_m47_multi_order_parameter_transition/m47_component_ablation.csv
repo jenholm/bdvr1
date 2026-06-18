@@ -1,0 +1,8 @@
+branch,model_id,heldout_n,activation_balanced_accuracy,residual_direction_balanced_accuracy,activation_auc_like,residual_auc_like,trained_on_endpoint_residuals,trained_on_A_inferred,uses_quality_as_physical_feature,notes,component
+M47,branch_primary,29,0.2692307692307692,0.4342105263157895,0.2692307692307692,0.4263157894736842,False,False,False,M47 ablation O_comp,O_comp
+M47,branch_primary,29,0.358974358974359,0.41315789473684206,0.32051282051282054,0.3368421052631579,False,False,False,M47 ablation O_radial,O_radial
+M47,branch_primary,29,0.5,0.5,0.7307692307692307,0.36578947368421055,False,False,False,M47 ablation O_rot,O_rot
+M47,branch_primary,29,0.6217948717948718,0.3078947368421052,0.6538461538461539,0.24210526315789474,False,False,False,M47 ablation O_shape,O_shape
+M47,branch_primary,29,0.5,0.5,0.5,0.5,False,False,False,M47 ablation O_SF,O_SF
+M47,branch_primary,29,0.3782051282051282,0.6921052631578948,0.4358974358974359,0.7421052631578947,False,False,False,M47 ablation O_disorder,O_disorder
+M47,branch_primary,29,0.3269230769230769,0.35526315789473684,0.46153846153846156,0.28421052631578947,False,False,False,M47 ablation m47_primary_score,m47_primary_score

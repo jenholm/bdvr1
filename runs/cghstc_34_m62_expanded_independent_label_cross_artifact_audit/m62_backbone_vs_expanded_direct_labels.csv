@@ -1,0 +1,15 @@
+evidence_tier,artifact_family,label_family,label_column,n_rows,spearman_backbone_vs_independent_org,auc_like_backbone_vs_independent_settled,interpretation
+Tier A,M35,A/R mismatch,approach_recede_mismatch_km_s,8,0.14285714285714288,0.375,too_sparse
+Tier A,M35,H I asymmetry,asymmetry_index,8,-0.2380952380952381,0.4375,too_sparse
+Tier A,M35,H I disturbance,S_HI_disturbance,8,0.10778636357219329,0.6666666666666666,too_sparse
+Tier A,M35,lopsidedness,lopsidedness_index,8,0.2142857142857143,0.75,too_sparse
+Tier A,M35,non-circular motion,non_circular_motion_index,8,-0.14285714285714288,0.4375,too_sparse
+Tier A,M35,warp / PA twist,warp_index,8,0.19047619047619052,0.5,too_sparse
+Tier A,M54,A/R mismatch,ar_mismatch_indicator,85,0.0,0.5,insufficient_variance
+Tier A,M54,H I asymmetry,hi_asymmetry_indicator,85,0.0,0.5,insufficient_variance
+Tier A,M54,SFE / depletion time,depletion_time_indicator,85,0.0,0.5,insufficient_variance
+Tier A,M54,SFE / depletion time,sfe_indicator,85,0.0,0.5,insufficient_variance
+Tier A,M54,SFE / depletion time,sfr_sfe_order_indicator,170,0.0,0.5,insufficient_variance
+Tier A,M54,Vrot/sigma,vrot_sigma_order_indicator,170,0.0,0.5,insufficient_variance
+Tier A,M54,resolved H I organization,resolved_hi_order_indicator,170,0.0,0.5,insufficient_variance
+Tier A,M54,resolved/SFR organization composite,m54_organization_score,85,0.282129710803129,0.6741803278688525,weak_or_no_signal

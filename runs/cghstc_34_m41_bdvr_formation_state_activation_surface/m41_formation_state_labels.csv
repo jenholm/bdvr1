@@ -1,0 +1,166 @@
+object_name,formation_state_pred,testability_class,A_activation_pred,mature_settling_drive,reservoir_disorder_suppression,measurement_uncertainty_penalty,label_rationale
+NGC5055,settling_transition_candidate,testable_direct,0.6677654841307487,0.5902172155032239,0.3261698817870461,0.2857142857142857,transition or measurement-limited row requiring missing onset labels
+NGC3198,settling_transition_candidate,testable_direct,0.5510184562240019,0.4661086949440002,0.35898436309668746,0.2571428571428571,transition or measurement-limited row requiring missing onset labels
+NGC4559,mature_bdvr_active_candidate,testable_direct,0.692079973922652,0.6335681876888613,0.35589150929178137,0.22857142857142856,organized baryonic structure dominates available disorder proxies
+UGC09133,mature_bdvr_active_candidate,testable_direct,0.7721047391307493,0.6824530788903412,0.2692991071723058,0.22857142857142856,organized baryonic structure dominates available disorder proxies
+NGC6946,settling_transition_candidate,testable_direct,0.6521154741286233,0.572718326723251,0.3309036673330144,0.2857142857142857,transition or measurement-limited row requiring missing onset labels
+NGC4088,mature_bdvr_active_candidate,testable_direct,0.8135256486260941,0.7534420928812838,0.2450737601506777,0.22857142857142856,organized baryonic structure dominates available disorder proxies
+NGC1090,mature_bdvr_active_candidate,testable_direct,0.770361861017028,0.6810399914609333,0.2713798961973448,0.22857142857142856,organized baryonic structure dominates available disorder proxies
+NGC5371,mature_bdvr_active_candidate,testable_direct,0.8118449818326108,0.7121735947496123,0.20823762938157714,0.22857142857142856,organized baryonic structure dominates available disorder proxies
+NGC0801,mature_bdvr_active_candidate,testable_direct,0.7823684151579351,0.6675210154708097,0.23308468832850582,0.22857142857142856,organized baryonic structure dominates available disorder proxies
+DDO161,underactivated_unsettled_candidate,testable_direct,0.32686109815294284,0.45010571195142945,0.5990790377101841,0.22857142857142856,activation surface predicts low formation viability from disorder exceeding settling drive
+UGC07125,measurement_limited_activation_unknown,measurement_limited,0.21716692563208492,0.3401392623942687,0.5691731520483576,0.6857142857142857,quarantined failed/stalled boundary object; excluded from clean juvenile and mature velocity-evaluation roles
+NGC1003,settling_transition_candidate,testable_direct,0.5376223219674787,0.576934531078517,0.49174765514444363,0.22857142857142856,transition or measurement-limited row requiring missing onset labels
+NGC0100,measurement_limited_activation_unknown,measurement_limited,0.4391246405708367,0.4785722478189943,0.4557890634567485,0.45714285714285713,transition or measurement-limited row requiring missing onset labels
+UGC12632,underactivated_unsettled_candidate,testable_direct,0.3944166461733851,0.42008133267005265,0.49185657459689247,0.22857142857142856,activation surface predicts low formation viability from disorder exceeding settling drive
+UGC01230,measurement_limited_activation_unknown,measurement_limited,0.27834899940967417,0.37198465694022553,0.5429946272190658,0.48571428571428565,transition or measurement-limited row requiring missing onset labels
+UGC10310,measurement_limited_activation_unknown,measurement_limited,0.32303532244869565,0.3898250559167054,0.5024949701592613,0.48571428571428565,transition or measurement-limited row requiring missing onset labels
+NGC3741,underactivated_unsettled_candidate,testable_direct,0.49453329194240936,0.5792742238466217,0.5847411497491801,0.0,activation surface predicts low formation viability from disorder exceeding settling drive
+F583-1,underactivated_unsettled_candidate,testable_direct,0.45058676881105086,0.4482113256014362,0.4977863736700523,0.0,activation surface predicts low formation viability from disorder exceeding settling drive
+UGC00731,underactivated_unsettled_candidate,testable_direct,0.41150627493715186,0.41961200730859743,0.5090475060865134,0.0,activation surface predicts low formation viability from disorder exceeding settling drive
+UGC08550,measurement_limited_activation_unknown,measurement_limited,0.49618262574692046,0.5316294266860564,0.4470886346980225,0.42857142857142855,transition or measurement-limited row requiring missing onset labels
+NGC3109,settling_transition_candidate,testable_direct,0.5104035827991077,0.42497363897309226,0.414568554414601,0.0,transition or measurement-limited row requiring missing onset labels
+F563-1,measurement_limited_activation_unknown,measurement_limited,0.2502867269305656,0.32532114138906576,0.5031314387798623,0.6857142857142857,transition or measurement-limited row requiring missing onset labels
+UGCA442,settling_transition_candidate,testable_direct,0.5435310768143954,0.4335669057598203,0.38992534012883623,0.0,transition or measurement-limited row requiring missing onset labels
+UGC06446,settling_transition_candidate,testable_direct,0.5300677988007713,0.49148472221538897,0.4613805999405531,0.0,transition or measurement-limited row requiring missing onset labels
+UGC05721,measurement_limited_activation_unknown,measurement_limited,0.4969611848692015,0.5561194100731675,0.46345233012767534,0.45714285714285713,transition or measurement-limited row requiring missing onset labels
+D631-7,mature_bdvr_active_candidate,testable_direct,0.685488473406367,0.4856040751218648,0.29082633562547455,0.0,organized baryonic structure dominates available disorder proxies
+DDO064,measurement_limited_activation_unknown,measurement_limited,0.3881940167937394,0.3957201185058998,0.43365701577135823,0.45714285714285713,transition or measurement-limited row requiring missing onset labels
+UGC08490,mature_bdvr_active_candidate,testable_direct,0.7006022399183915,0.6072075464458704,0.39466571712059684,0.0,organized baryonic structure dominates available disorder proxies
+NGC5585,mature_bdvr_active_candidate,testable_direct,0.6968828942565316,0.5646839214596608,0.35655938040442003,0.0,organized baryonic structure dominates available disorder proxies
+UGC07603,settling_transition_candidate,testable_direct,0.6732350189484767,0.5670038548821437,0.3862905350109587,0.0,transition or measurement-limited row requiring missing onset labels
+UGC06667,measurement_limited_activation_unknown,measurement_limited,0.5801359221008618,0.43617411031341935,0.24483810844319714,0.42857142857142855,transition or measurement-limited row requiring missing onset labels
+UGC01281,measurement_limited_activation_unknown,measurement_limited,0.5187261078315967,0.42402186155204724,0.311914233729068,0.42857142857142855,transition or measurement-limited row requiring missing onset labels
+UGC05005,settling_transition_candidate,testable_direct,0.6050939500017689,0.4946103708885543,0.3879264092063534,0.0,transition or measurement-limited row requiring missing onset labels
+UGC07524,settling_transition_candidate,testable_direct,0.6701142397401995,0.47670230597295016,0.29952685811541907,0.0,transition or measurement-limited row requiring missing onset labels
+UGC04278,measurement_limited_activation_unknown,measurement_limited,0.5047850977065425,0.4372066120018605,0.3422151966761554,0.42857142857142855,transition or measurement-limited row requiring missing onset labels
+UGC04499,settling_transition_candidate,testable_direct,0.6560164366282317,0.5073355750693695,0.3459375827868486,0.0,transition or measurement-limited row requiring missing onset labels
+UGC00128,settling_transition_candidate,testable_direct,0.6541492027584088,0.4960568596477828,0.33672485864725865,0.0,transition or measurement-limited row requiring missing onset labels
+F563-V2,measurement_limited_activation_unknown,measurement_limited,0.395282367321336,0.3855331787518007,0.36541394915185565,0.6857142857142857,transition or measurement-limited row requiring missing onset labels
+F568-V1,measurement_limited_activation_unknown,measurement_limited,0.47883946090178486,0.4256075401292171,0.3550968350249607,0.45714285714285713,transition or measurement-limited row requiring missing onset labels
+UGC07399,settling_transition_candidate,testable_direct,0.6670466160253831,0.5023701343627456,0.3286557742502366,0.0,transition or measurement-limited row requiring missing onset labels
+UGC06614,mature_bdvr_active_candidate,testable_direct,0.7497575743936982,0.6336604087796079,0.24789488588940192,0.2571428571428571,organized baryonic structure dominates available disorder proxies
+NGC4157,mature_bdvr_active_candidate,testable_direct,0.9242362909795411,0.8003949329937814,0.1750578430100828,0.0,organized baryonic structure dominates available disorder proxies
+NGC2841,mature_bdvr_active_candidate,testable_direct,0.8970922618245876,0.7348334447028892,0.16794550103844746,0.02857142857142856,organized baryonic structure dominates available disorder proxies
+NGC4100,mature_bdvr_active_candidate,testable_direct,0.9265832050085103,0.7922922376584218,0.1584544568138202,0.0,organized baryonic structure dominates available disorder proxies
+NGC2403,mature_bdvr_active_candidate,testable_direct,0.7745912233917788,0.6207893382476034,0.3008398564994248,0.02857142857142856,organized baryonic structure dominates available disorder proxies
+NGC2998,mature_bdvr_active_candidate,testable_direct,0.8679866338154852,0.6848987225573449,0.2140804377378256,0.0,organized baryonic structure dominates available disorder proxies
+ESO563-G021,mature_bdvr_active_candidate,testable_direct,0.9158435769121321,0.7719427683085167,0.1751506843648439,0.0,organized baryonic structure dominates available disorder proxies
+NGC3893,mature_bdvr_active_candidate,testable_direct,0.909699994477373,0.7645473947324427,0.18705305793854343,0.0,organized baryonic structure dominates available disorder proxies
+NGC6674,mature_bdvr_active_candidate,testable_direct,0.8814542324481665,0.7161672670800903,0.21459877449694892,0.0,organized baryonic structure dominates available disorder proxies
+NGC5907,mature_bdvr_active_candidate,testable_direct,0.8232757108445298,0.6859762434237305,0.15061959336224948,0.22857142857142856,organized baryonic structure dominates available disorder proxies
+UGC03205,mature_bdvr_active_candidate,testable_direct,0.9150332028146586,0.7731455437275875,0.17897059547326424,0.0,organized baryonic structure dominates available disorder proxies
+NGC6503,mature_bdvr_active_candidate,testable_direct,0.8628944128607262,0.6614980858478776,0.2016128366920585,0.0,organized baryonic structure dominates available disorder proxies
+NGC5033,mature_bdvr_active_candidate,testable_direct,0.88933968160034,0.7006823689744768,0.1796788835173071,0.0,organized baryonic structure dominates available disorder proxies
+NGC4183,mature_bdvr_active_candidate,testable_direct,0.7780340693768079,0.5859899466968328,0.27242834425722473,0.0,organized baryonic structure dominates available disorder proxies
+UGC07151,mature_bdvr_active_candidate,testable_direct,0.7088479610774775,0.5551330189846323,0.25236736284210304,0.22857142857142856,organized baryonic structure dominates available disorder proxies
+UGC08286,settling_transition_candidate,testable_direct,0.6067279855824902,0.5199576241518997,0.35470545098839423,0.22857142857142856,transition or measurement-limited row requiring missing onset labels
+UGC11455,mature_bdvr_active_candidate,testable_direct,0.8413075189836682,0.748519156244779,0.15616674604102376,0.22857142857142856,organized baryonic structure dominates available disorder proxies
+NGC3521,mature_bdvr_active_candidate,testable_direct,0.8990755048507996,0.7377767090392375,0.16494231402109527,0.02857142857142856,organized baryonic structure dominates available disorder proxies
+NGC3992,mature_bdvr_active_candidate,testable_direct,0.916176445663416,0.766048490825482,0.16817475922574038,0.0,organized baryonic structure dominates available disorder proxies
+NGC0891,mature_bdvr_active_candidate,testable_direct,0.8511823147624882,0.7826707699748077,0.1538793757837893,0.22857142857142856,organized baryonic structure dominates available disorder proxies
+NGC4217,mature_bdvr_active_candidate,testable_direct,0.8423683826128193,0.7461954053991714,0.15013474468911084,0.22857142857142856,organized baryonic structure dominates available disorder proxies
+NGC7331,mature_bdvr_active_candidate,testable_direct,0.7184192535015268,0.6210152421074889,0.29057925593843115,0.2571428571428571,organized baryonic structure dominates available disorder proxies
+F571-8,mature_bdvr_active_candidate,testable_direct,0.8070828102548194,0.5810566975191497,0.22326538507103624,0.0,organized baryonic structure dominates available disorder proxies
+IC4202,mature_bdvr_active_candidate,testable_direct,0.8257095865265895,0.717293131499115,0.1748272322630014,0.22857142857142856,organized baryonic structure dominates available disorder proxies
+UGC02885,mature_bdvr_active_candidate,testable_direct,0.8793875995302415,0.6790875120480564,0.18242659868541905,0.0,organized baryonic structure dominates available disorder proxies
+ESO116-G012,mature_bdvr_active_candidate,testable_direct,0.8092651245761373,0.6145770650750411,0.2532665137556749,0.0,organized baryonic structure dominates available disorder proxies
+F579-V1,measurement_limited_activation_unknown,measurement_limited,0.6223424933914672,0.5266545291855551,0.2522544157001452,0.48571428571428565,transition or measurement-limited row requiring missing onset labels
+NGC2903,mature_bdvr_active_candidate,testable_direct,0.9062136585985469,0.7465410202370502,0.1512897450519216,0.02857142857142856,organized baryonic structure dominates available disorder proxies
+NGC3917,mature_bdvr_active_candidate,testable_direct,0.8871749692776263,0.6843534187241211,0.16880241761004044,0.0,organized baryonic structure dominates available disorder proxies
+F574-1,mature_bdvr_active_candidate,testable_direct,0.7124810096040333,0.5010205096861531,0.27415442293787123,0.0,organized baryonic structure dominates available disorder proxies
+UGC06786,mature_bdvr_active_candidate,testable_direct,0.9079337588674915,0.7338283945665967,0.1616626213474479,0.0,organized baryonic structure dominates available disorder proxies
+NGC5985,mature_bdvr_active_candidate,testable_direct,0.9041601231119739,0.7158266288588621,0.15474472330030067,0.0,organized baryonic structure dominates available disorder proxies
+NGC6195,mature_bdvr_active_candidate,testable_direct,0.8908661210650962,0.6628473998872475,0.13794270399234027,0.0,organized baryonic structure dominates available disorder proxies
+UGC06930,settling_transition_candidate,testable_direct,0.6301847618708026,0.4738761754995201,0.2709052935841926,0.2571428571428571,transition or measurement-limited row requiring missing onset labels
+ESO079-G014,mature_bdvr_active_candidate,testable_direct,0.8875655958357953,0.6600166564462202,0.14348854346509834,0.0,organized baryonic structure dominates available disorder proxies
+NGC0024,mature_bdvr_active_candidate,testable_direct,0.8458905875289225,0.6364254028205274,0.2107436024854854,0.0,organized baryonic structure dominates available disorder proxies
+NGC3953,mature_bdvr_active_candidate,testable_direct,0.9236863195167082,0.7541854161806577,0.13080533814500223,0.0,organized baryonic structure dominates available disorder proxies
+NGC3972,mature_bdvr_active_candidate,testable_direct,0.8884879171699916,0.6809518526729263,0.16210482838506152,0.0,organized baryonic structure dominates available disorder proxies
+NGC5005,mature_bdvr_active_candidate,testable_direct,0.9026175018651587,0.6821337601436861,0.1254706666912034,0.0,organized baryonic structure dominates available disorder proxies
+NGC7814,mature_bdvr_active_candidate,testable_direct,0.8495225595198452,0.7626602158945262,0.14031475800150464,0.22857142857142856,organized baryonic structure dominates available disorder proxies
+UGC02487,mature_bdvr_active_candidate,testable_direct,0.9243573431394327,0.7685937876039024,0.14282419669605811,0.0,organized baryonic structure dominates available disorder proxies
+UGC03546,mature_bdvr_active_candidate,testable_direct,0.924918629676227,0.7648405274089305,0.13705720174435054,0.0,organized baryonic structure dominates available disorder proxies
+UGC04325,mature_bdvr_active_candidate,testable_direct,0.7770260524336785,0.5405995953110364,0.2284948598753447,0.0,organized baryonic structure dominates available disorder proxies
+UGC06399,mature_bdvr_active_candidate,testable_direct,0.775448951513628,0.5443591173077441,0.23452434603195305,0.0,organized baryonic structure dominates available disorder proxies
+UGC06917,mature_bdvr_active_candidate,testable_direct,0.7837640694510466,0.5638286983015335,0.24189420815439072,0.0,organized baryonic structure dominates available disorder proxies
+UGC06983,mature_bdvr_active_candidate,testable_direct,0.6860074265976511,0.5143153365041147,0.31893555661218737,0.0,organized baryonic structure dominates available disorder proxies
+UGC11914,mature_bdvr_active_candidate,testable_direct,0.8434287047469646,0.7794901778347194,0.14468970461955388,0.2571428571428571,organized baryonic structure dominates available disorder proxies
+GASS101026,external_proxy_followup_only,external_proxy_no_direct_activation_target,0.17328820592941413,0.36250000000000004,0.7531249999998473,0.0,proxy row lacks direct activation endpoint; follow-up only
+GASS102001,external_proxy_followup_only,external_proxy_no_direct_activation_target,0.17544318646065987,0.36250000000000004,0.7493826949145816,0.0,proxy row lacks direct activation endpoint; follow-up only
+GASS112113,external_proxy_followup_only,external_proxy_no_direct_activation_target,0.1819529029272862,0.36250000000000004,0.7382930080912247,0.0,proxy row lacks direct activation endpoint; follow-up only
+GASS108119,external_proxy_followup_only,external_proxy_no_direct_activation_target,0.18255163697812324,0.36250000000000004,0.737288665232356,0.0,proxy row lacks direct activation endpoint; follow-up only
+GASS122004,external_proxy_followup_only,external_proxy_no_direct_activation_target,0.18561387889647582,0.36250000000000004,0.732191501922671,0.0,proxy row lacks direct activation endpoint; follow-up only
+GASS113134,external_proxy_followup_only,external_proxy_no_direct_activation_target,0.18589039618630201,0.36250000000000004,0.7317344432867314,0.0,proxy row lacks direct activation endpoint; follow-up only
+GASS123001,external_proxy_followup_only,external_proxy_no_direct_activation_target,0.19413335105252233,0.36250000000000004,0.7183432453437413,0.0,proxy row lacks direct activation endpoint; follow-up only
+GASS101001,external_proxy_followup_only,external_proxy_no_direct_activation_target,0.2000526185641639,0.36250000000000004,0.7089913818833904,0.0,proxy row lacks direct activation endpoint; follow-up only
+GASS109127,external_proxy_followup_only,external_proxy_no_direct_activation_target,0.20111388846812134,0.36250000000000004,0.7073367599893212,0.0,proxy row lacks direct activation endpoint; follow-up only
+GASS124028,external_proxy_followup_only,external_proxy_no_direct_activation_target,0.20168707469604252,0.36250000000000004,0.7064458241185052,0.0,proxy row lacks direct activation endpoint; follow-up only
+GASS110082,external_proxy_followup_only,external_proxy_no_direct_activation_target,0.20405477613967019,0.36250000000000004,0.7027854752351128,0.0,proxy row lacks direct activation endpoint; follow-up only
+GASS113114,external_proxy_followup_only,external_proxy_no_direct_activation_target,0.2116864491877675,0.36250000000000004,0.6911974378122366,0.0,proxy row lacks direct activation endpoint; follow-up only
+GASS113137,external_proxy_followup_only,external_proxy_no_direct_activation_target,0.21282697845012144,0.36250000000000004,0.6894921364707067,0.0,proxy row lacks direct activation endpoint; follow-up only
+GASS108148,external_proxy_followup_only,external_proxy_no_direct_activation_target,0.2134474190979198,0.36250000000000004,0.6885672631981643,0.0,proxy row lacks direct activation endpoint; follow-up only
+GASS114117,external_proxy_followup_only,external_proxy_no_direct_activation_target,0.2136268119401073,0.36250000000000004,0.6883002126117044,0.0,proxy row lacks direct activation endpoint; follow-up only
+GASS111071,external_proxy_followup_only,external_proxy_no_direct_activation_target,0.21444666985895483,0.36250000000000004,0.687081816635714,0.0,proxy row lacks direct activation endpoint; follow-up only
+GASS122005,external_proxy_followup_only,external_proxy_no_direct_activation_target,0.21513407182454325,0.36250000000000004,0.6860628718511783,0.0,proxy row lacks direct activation endpoint; follow-up only
+GASS108140,external_proxy_followup_only,external_proxy_no_direct_activation_target,0.22100614192373988,0.36250000000000004,0.6774531672071461,0.0,proxy row lacks direct activation endpoint; follow-up only
+GASS109082,external_proxy_followup_only,external_proxy_no_direct_activation_target,0.22111864745926393,0.36250000000000004,0.6772898257723889,0.0,proxy row lacks direct activation endpoint; follow-up only
+GASS111075,external_proxy_followup_only,external_proxy_no_direct_activation_target,0.22251450028775135,0.36250000000000004,0.6752681811690677,0.0,proxy row lacks direct activation endpoint; follow-up only
+GASS101033,external_proxy_followup_only,external_proxy_no_direct_activation_target,0.22310879498517067,0.36250000000000004,0.6744101997247858,0.0,proxy row lacks direct activation endpoint; follow-up only
+GASS110036,external_proxy_followup_only,external_proxy_no_direct_activation_target,0.2233622361824602,0.36250000000000004,0.6740448030361451,0.0,proxy row lacks direct activation endpoint; follow-up only
+GASS113091,external_proxy_followup_only,external_proxy_no_direct_activation_target,0.22528215356460926,0.36250000000000004,0.671286315380623,0.0,proxy row lacks direct activation endpoint; follow-up only
+GASS109080,external_proxy_followup_only,external_proxy_no_direct_activation_target,0.2266951176243996,0.36250000000000004,0.6692668411818874,0.0,proxy row lacks direct activation endpoint; follow-up only
+GASS44856,external_proxy_followup_only,external_proxy_no_direct_activation_target,0.22703907024054598,0.36250000000000004,0.6687765963482217,0.0,proxy row lacks direct activation endpoint; follow-up only
+GASS112100,external_proxy_followup_only,external_proxy_no_direct_activation_target,0.22831623567816017,0.36250000000000004,0.666960791961628,0.0,proxy row lacks direct activation endpoint; follow-up only
+GASS109065,external_proxy_followup_only,external_proxy_no_direct_activation_target,0.23029579059889083,0.36250000000000004,0.6641604421635882,0.0,proxy row lacks direct activation endpoint; follow-up only
+GASS111044,external_proxy_followup_only,external_proxy_no_direct_activation_target,0.23030406752033883,0.36250000000000004,0.6641487688672276,0.0,proxy row lacks direct activation endpoint; follow-up only
+GASS124000,external_proxy_followup_only,external_proxy_no_direct_activation_target,0.23038484254628355,0.36250000000000004,0.66403486382389,0.0,proxy row lacks direct activation endpoint; follow-up only
+GASS111054,external_proxy_followup_only,external_proxy_no_direct_activation_target,0.23112005036586694,0.36250000000000004,0.6629993927326807,0.0,proxy row lacks direct activation endpoint; follow-up only
+GASS114142,external_proxy_followup_only,external_proxy_no_direct_activation_target,0.231233580806476,0.36250000000000004,0.662839701309831,0.0,proxy row lacks direct activation endpoint; follow-up only
+GASS114129,external_proxy_followup_only,external_proxy_no_direct_activation_target,0.231786776833522,0.36250000000000004,0.6620623613129288,0.0,proxy row lacks direct activation endpoint; follow-up only
+GASS110059,external_proxy_followup_only,external_proxy_no_direct_activation_target,0.23306598825398456,0.36250000000000004,0.6602697846443094,0.0,proxy row lacks direct activation endpoint; follow-up only
+GASS109102,external_proxy_followup_only,external_proxy_no_direct_activation_target,0.23325447540304187,0.36250000000000004,0.6600062348587128,0.0,proxy row lacks direct activation endpoint; follow-up only
+GASS107026,external_proxy_followup_only,external_proxy_no_direct_activation_target,0.2339979053199524,0.36250000000000004,0.6589681851531513,0.0,proxy row lacks direct activation endpoint; follow-up only
+GASS112117,external_proxy_followup_only,external_proxy_no_direct_activation_target,0.23426585247457848,0.36250000000000004,0.65859461286487,0.0,proxy row lacks direct activation endpoint; follow-up only
+GASS111093,external_proxy_followup_only,external_proxy_no_direct_activation_target,0.23568656578622937,0.36250000000000004,0.6566187870031592,0.0,proxy row lacks direct activation endpoint; follow-up only
+GASS113057,external_proxy_followup_only,external_proxy_no_direct_activation_target,0.23617923932437807,0.36250000000000004,0.6559355374434852,0.0,proxy row lacks direct activation endpoint; follow-up only
+GASS114078,external_proxy_followup_only,external_proxy_no_direct_activation_target,0.2364773154132984,0.36250000000000004,0.6555226375279757,0.0,proxy row lacks direct activation endpoint; follow-up only
+GASS114000,external_proxy_followup_only,external_proxy_no_direct_activation_target,0.23678174408784802,0.36250000000000004,0.6551013085634987,0.0,proxy row lacks direct activation endpoint; follow-up only
+NGC2841,external_proxy_followup_only,external_proxy_no_direct_activation_target,0.3534205912707708,0.42500000000000004,0.5760092987384825,0.0,proxy row lacks direct activation endpoint; follow-up only
+DDO161,external_proxy_followup_only,external_proxy_no_direct_activation_target,0.3623451374811129,0.42500000000000004,0.5662999982657431,0.0,proxy row lacks direct activation endpoint; follow-up only
+12700-12701,external_proxy_followup_only,external_proxy_no_direct_activation_target,0.36734223839806196,0.42500000000000004,0.5609089179360143,0.0,proxy row lacks direct activation endpoint; follow-up only
+9091-6103,external_proxy_followup_only,external_proxy_no_direct_activation_target,0.36829770495079805,0.42500000000000004,0.5598816597661871,0.0,proxy row lacks direct activation endpoint; follow-up only
+GASS102001,external_proxy_followup_only,external_proxy_no_direct_activation_target,0.36866463010131795,0.42500000000000004,0.5594874604068898,0.0,proxy row lacks direct activation endpoint; follow-up only
+UGC07125,external_proxy_followup_only,external_proxy_no_direct_activation_target,0.3692799130214844,0.42500000000000004,0.5588268083809085,0.0,quarantined failed/stalled boundary object; excluded from clean juvenile and mature velocity-evaluation roles
+8611-6104,external_proxy_followup_only,external_proxy_no_direct_activation_target,0.3694254413514542,0.42500000000000004,0.5586706160339168,0.0,proxy row lacks direct activation endpoint; follow-up only
+GASS108119,external_proxy_followup_only,external_proxy_no_direct_activation_target,0.3735864766231639,0.42500000000000004,0.5542153063157406,0.0,proxy row lacks direct activation endpoint; follow-up only
+8139-3703,external_proxy_followup_only,external_proxy_no_direct_activation_target,0.3746484968033827,0.42500000000000004,0.5530814130568327,0.0,proxy row lacks direct activation endpoint; follow-up only
+8617-12705,external_proxy_followup_only,external_proxy_no_direct_activation_target,0.37514367108239693,0.42500000000000004,0.5525531685238952,0.0,proxy row lacks direct activation endpoint; follow-up only
+8619-12704,external_proxy_followup_only,external_proxy_no_direct_activation_target,0.3756582738044482,0.42500000000000004,0.5520044931825827,0.0,proxy row lacks direct activation endpoint; follow-up only
+9894-9102,external_proxy_followup_only,external_proxy_no_direct_activation_target,0.3757531348726181,0.42500000000000004,0.5519033839380625,0.0,proxy row lacks direct activation endpoint; follow-up only
+8619-12705,external_proxy_followup_only,external_proxy_no_direct_activation_target,0.37615466607103454,0.42500000000000004,0.5514755176523041,0.0,proxy row lacks direct activation endpoint; follow-up only
+8982-12702,external_proxy_followup_only,external_proxy_no_direct_activation_target,0.37697431961864103,0.42500000000000004,0.5506026677620701,0.0,proxy row lacks direct activation endpoint; follow-up only
+8655-12703,external_proxy_followup_only,external_proxy_no_direct_activation_target,0.3769838059851469,0.42500000000000004,0.550592570118515,0.0,proxy row lacks direct activation endpoint; follow-up only
+8977-12704,external_proxy_followup_only,external_proxy_no_direct_activation_target,0.37718232482271596,0.42500000000000004,0.5503812822445449,0.0,proxy row lacks direct activation endpoint; follow-up only
+11824-12702,external_proxy_followup_only,external_proxy_no_direct_activation_target,0.3775522847213707,0.42500000000000004,0.5499876429048631,0.0,proxy row lacks direct activation endpoint; follow-up only
+10498-12701,external_proxy_followup_only,external_proxy_no_direct_activation_target,0.3779962138623655,0.42500000000000004,0.5495155001065887,0.0,proxy row lacks direct activation endpoint; follow-up only
+GASS110082,external_proxy_followup_only,external_proxy_no_direct_activation_target,0.3787260081054179,0.42500000000000004,0.5487397963819838,0.0,proxy row lacks direct activation endpoint; follow-up only
+GASS122005,external_proxy_followup_only,external_proxy_no_direct_activation_target,0.37893236180274475,0.42500000000000004,0.5485205674847748,0.0,proxy row lacks direct activation endpoint; follow-up only
+11751-12702,external_proxy_followup_only,external_proxy_no_direct_activation_target,0.3790566897404663,0.42500000000000004,0.548388504722787,0.0,proxy row lacks direct activation endpoint; follow-up only
+9001-12704,external_proxy_followup_only,external_proxy_no_direct_activation_target,0.3796208883260214,0.42500000000000004,0.5477894172962388,0.0,proxy row lacks direct activation endpoint; follow-up only
+11941-9101,external_proxy_followup_only,external_proxy_no_direct_activation_target,0.37989392940201444,0.42500000000000004,0.5474996161032684,0.0,proxy row lacks direct activation endpoint; follow-up only
+8553-12703,external_proxy_followup_only,external_proxy_no_direct_activation_target,0.3799365638002393,0.42500000000000004,0.5474543719598366,0.0,proxy row lacks direct activation endpoint; follow-up only
+10838-6103,external_proxy_followup_only,external_proxy_no_direct_activation_target,0.3801536201884361,0.42500000000000004,0.5472240595397029,0.0,proxy row lacks direct activation endpoint; follow-up only
+8598-12704,external_proxy_followup_only,external_proxy_no_direct_activation_target,0.3811274421685824,0.42500000000000004,0.5461913886137475,0.0,proxy row lacks direct activation endpoint; follow-up only
+11022-12702,external_proxy_followup_only,external_proxy_no_direct_activation_target,0.38113485328775487,0.42500000000000004,0.5461835335314824,0.0,proxy row lacks direct activation endpoint; follow-up only
+GASS112113,external_proxy_followup_only,external_proxy_no_direct_activation_target,0.38183400859231864,0.42500000000000004,0.5454427585535793,0.0,proxy row lacks direct activation endpoint; follow-up only
+GASS109080,external_proxy_followup_only,external_proxy_no_direct_activation_target,0.38211708852134785,0.42500000000000004,0.5451429749465018,0.0,proxy row lacks direct activation endpoint; follow-up only
+NGC5055,external_proxy_followup_only,external_proxy_no_direct_activation_target,0.383263041958916,0.42500000000000004,0.5439302654621685,0.0,proxy row lacks direct activation endpoint; follow-up only
+GASS101026,external_proxy_followup_only,external_proxy_no_direct_activation_target,0.38348182300196115,0.42500000000000004,0.5436988960788891,0.0,proxy row lacks direct activation endpoint; follow-up only
+GASS111054,external_proxy_followup_only,external_proxy_no_direct_activation_target,0.38670610980726056,0.42500000000000004,0.5402948130116421,0.0,proxy row lacks direct activation endpoint; follow-up only
+NGC6946,external_proxy_followup_only,external_proxy_no_direct_activation_target,0.3868797452906722,0.42500000000000004,0.540111795428843,0.0,proxy row lacks direct activation endpoint; follow-up only
+NGC3521,external_proxy_followup_only,external_proxy_no_direct_activation_target,0.3990262630693183,0.42500000000000004,0.527380999419306,0.0,proxy row lacks direct activation endpoint; follow-up only
+NGC7331,external_proxy_followup_only,external_proxy_no_direct_activation_target,0.401477840570439,0.42500000000000004,0.5248278022498161,0.0,proxy row lacks direct activation endpoint; follow-up only
+NGC2403,external_proxy_followup_only,external_proxy_no_direct_activation_target,0.40883007286082546,0.42500000000000004,0.5172009752288906,0.0,proxy row lacks direct activation endpoint; follow-up only
+NGC2903,external_proxy_followup_only,external_proxy_no_direct_activation_target,0.4125266627854766,0.42500000000000004,0.5133825051955652,0.0,proxy row lacks direct activation endpoint; follow-up only
+NGC3198,external_proxy_followup_only,external_proxy_no_direct_activation_target,0.41338242108267004,0.42500000000000004,0.5125,0.0,proxy row lacks direct activation endpoint; follow-up only

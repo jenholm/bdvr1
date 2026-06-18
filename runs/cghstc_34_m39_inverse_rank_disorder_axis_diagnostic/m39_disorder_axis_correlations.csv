@@ -1,0 +1,43 @@
+feature,sample,n,spearman_with_D_unsettled,pearson_with_D_unsettled,interpretation
+f_gas,all_direct,87,-0.8610847853029088,-0.4541021337129159,gas reservoir fraction
+RHI_Rd_m37,all_direct,87,-0.0599714768700039,-0.6211671144280229,extended H I reservoir
+low_stellar_fraction,all_direct,87,-0.5388958512999273,-0.31825067481852815,weak stellar disk
+low_surface_density,all_direct,87,-0.5494415140801596,0.023122169842879518,diffuse baryonic structure
+gas_rich_flag_m39,all_direct,87,-0.7337794926614791,-0.47756374640372934,gas-rich flag
+hi_extended_flag_m39,all_direct,87,-0.04224535542906634,-0.15883232235804723,H I extended flag
+failed_stalled_flag,all_direct,87,-0.137404455046697,-0.015163111099362468,failed/stalled stage
+disturbed_or_unsettled_hi_flag,all_direct,87,-0.0576935983768353,0.0469604804414185,resolved H I disorder where available
+disturbed_flag,all_direct,87,-0.0576935983768353,0.0469604804414185,disturbed/measurement-contaminated stage
+approach_recede_mismatch_norm,all_direct,87,-0.11881515680740581,0.06943731233853377,approach/recede mismatch proxy
+hi_disturbance_norm,all_direct,87,-0.11874459557509406,0.0719591202284929,H I disturbance proxy
+relative_vflat_error,all_direct,87,-0.4191878690675803,-0.10096950062599584,velocity endpoint uncertainty proxy
+log10_Sigma_b,all_direct,87,0.5434497339068309,-0.0030908072454596813,baryonic compactness; negative association supports disorder axis
+f_star,all_direct,87,0.8610847853029088,0.4541021337129158,stellar conversion; negative association supports disorder axis
+f_gas,primary_non_mature,34,-0.7824293353705117,-0.3182980068471187,gas reservoir fraction
+RHI_Rd_m37,primary_non_mature,34,0.06615737203972498,-0.7576622581234609,extended H I reservoir
+low_stellar_fraction,primary_non_mature,34,-0.5520524474738834,-0.14043049624482362,weak stellar disk
+low_surface_density,primary_non_mature,34,-0.1842264745887353,0.3803919643577082,diffuse baryonic structure
+gas_rich_flag_m39,primary_non_mature,34,-0.6440290124859023,-0.2759467977866361,gas-rich flag
+hi_extended_flag_m39,primary_non_mature,34,-0.012012499502607452,-0.2589281584450107,H I extended flag
+failed_stalled_flag,primary_non_mature,34,-0.09759000729485331,0.04533184762766747,failed/stalled stage
+disturbed_or_unsettled_hi_flag,primary_non_mature,34,0.480916362177021,0.16427305498207467,resolved H I disorder where available
+disturbed_flag,primary_non_mature,34,0.480916362177021,0.16427305498207467,disturbed/measurement-contaminated stage
+approach_recede_mismatch_norm,primary_non_mature,34,0.4790672331376345,0.15893789014528947,approach/recede mismatch proxy
+hi_disturbance_norm,primary_non_mature,34,0.47844627755352864,0.1583087423805834,H I disturbance proxy
+relative_vflat_error,primary_non_mature,34,0.00015278838808250572,0.04152871180873673,velocity endpoint uncertainty proxy
+log10_Sigma_b,primary_non_mature,34,0.34912146676852557,-0.33340837855733674,baryonic compactness; negative association supports disorder axis
+f_star,primary_non_mature,34,0.7824293353705117,0.31829800684711856,stellar conversion; negative association supports disorder axis
+f_gas,mature_control,53,-0.6486856958555073,-0.27832765662228254,gas reservoir fraction
+RHI_Rd_m37,mature_control,53,-0.15126592485083049,-0.39683812533179813,extended H I reservoir
+low_stellar_fraction,mature_control,53,,,weak stellar disk
+low_surface_density,mature_control,53,-0.5257216619628204,-0.10009671068106972,diffuse baryonic structure
+gas_rich_flag_m39,mature_control,53,,,gas-rich flag
+hi_extended_flag_m39,mature_control,53,-0.04708049848146249,-0.16441016595162197,H I extended flag
+failed_stalled_flag,mature_control,53,,,failed/stalled stage
+disturbed_or_unsettled_hi_flag,mature_control,53,,,resolved H I disorder where available
+disturbed_flag,mature_control,53,,,disturbed/measurement-contaminated stage
+approach_recede_mismatch_norm,mature_control,53,-0.497626079275897,-0.8567078400709498,approach/recede mismatch proxy
+hi_disturbance_norm,mature_control,53,-0.4982215772715413,-0.8133851887607851,H I disturbance proxy
+relative_vflat_error,mature_control,53,-0.35687792291565873,-0.10533961088659347,velocity endpoint uncertainty proxy
+log10_Sigma_b,mature_control,53,0.4496855345911949,0.03162414482543656,baryonic compactness; negative association supports disorder axis
+f_star,mature_control,53,0.6486856958555073,0.2783276566222827,stellar conversion; negative association supports disorder axis

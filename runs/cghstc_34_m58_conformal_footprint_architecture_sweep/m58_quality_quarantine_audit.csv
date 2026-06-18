@@ -1,0 +1,21 @@
+architecture_id,quality_group,n_rows,median_score,interpretation
+quantile_box_mean,clean_or_not_quarantined,84,0.9391328578660713,primary non-quarantined diagnostic rows
+quantile_box_mean,quality_quarantined_or_measurement_limited,1,0.8234207763965602,quality split only; not a physical footprint component
+product_intersection,clean_or_not_quarantined,84,0.9365990035746461,primary non-quarantined diagnostic rows
+product_intersection,quality_quarantined_or_measurement_limited,1,0.6511997998924008,quality split only; not a physical footprint component
+minimum_gate,clean_or_not_quarantined,84,0.8187054498003261,primary non-quarantined diagnostic rows
+minimum_gate,quality_quarantined_or_measurement_limited,1,0.11710388198280064,quality split only; not a physical footprint component
+two_stage_composition_geometry,clean_or_not_quarantined,84,0.9206517895696299,primary non-quarantined diagnostic rows
+two_stage_composition_geometry,quality_quarantined_or_measurement_limited,1,0.11710388198280064,quality split only; not a physical footprint component
+mahalanobis_mature_manifold,clean_or_not_quarantined,84,0.32036774601495677,primary non-quarantined diagnostic rows
+mahalanobis_mature_manifold,quality_quarantined_or_measurement_limited,1,0.10331508546568342,quality split only; not a physical footprint component
+nearest_neighbor_mature_template,clean_or_not_quarantined,84,1.0,primary non-quarantined diagnostic rows
+nearest_neighbor_mature_template,quality_quarantined_or_measurement_limited,1,0.47397544528998325,quality split only; not a physical footprint component
+exponential_disk_profile,clean_or_not_quarantined,84,0.9462350718908078,primary non-quarantined diagnostic rows
+exponential_disk_profile,quality_quarantined_or_measurement_limited,1,0.8675655822974202,quality split only; not a physical footprint component
+hi_compactness_modifier,clean_or_not_quarantined,84,0.9314684220844194,primary non-quarantined diagnostic rows
+hi_compactness_modifier,quality_quarantined_or_measurement_limited,1,0.11710388198280064,quality split only; not a physical footprint component
+organization_label_weighted,clean_or_not_quarantined,84,0.9622864737299692,primary non-quarantined diagnostic rows
+organization_label_weighted,quality_quarantined_or_measurement_limited,1,0.5731801654529552,quality split only; not a physical footprint component
+multi_regime_mature_footprint,clean_or_not_quarantined,84,0.9793081255415861,primary non-quarantined diagnostic rows
+multi_regime_mature_footprint,quality_quarantined_or_measurement_limited,1,0.8836873151019391,quality split only; not a physical footprint component

@@ -1,0 +1,3 @@
+source_id,title,table_id,pdf_page,object,morphology,side,mu_deep_over_mu_shallow,r_trunc_over_rdeep_or_table_col,warp_flag,r_deep,r_hi_over_rdeep,r_warp,r_warp_over_rdeep,note,raw_line
+van_der_kruit_2007_truncations_warps,Truncations of stellar disks and warps of HI-layers in edge-on spiral galaxies,Table 3,5,UGC 7125,SBd,W,1.03,1.30,True,2.5,5.8,2.3,0.9,"Optical and HI asymmetric, warp on W side","UGC 7125 SBd W 1.03 1.30 yes 2.5 5.8 2.3 0.9 Optical and HI asymmetric, warp on W side"
+van_der_kruit_2007_truncations_warps,Truncations of stellar disks and warps of HI-layers in edge-on spiral galaxies,Table 3,5,UGC 7125,SBd,E,"1,40",0.92,False,2.0,3.5,–,–,No warp on E side,"E 1,40 0.92 no 2.0 3.5 – – No warp on E side"

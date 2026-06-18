@@ -1,0 +1,53 @@
+{
+  "status": "completed_m20_stability_stress",
+  "sample_size": 87,
+  "n_repeated_cv": 60,
+  "n_bootstrap": 250,
+  "selected_spec": {
+    "model_family": "censored_latent",
+    "uses_angular_momentum": true,
+    "feature_template": "full",
+    "endpoint_delta": 0.6,
+    "endpoint_stretch": 0.0,
+    "ridge_alpha": 0.01,
+    "rank_loss_alpha": 0.0,
+    "monotone_calibration": false
+  },
+  "with_J_repeated_cv": {
+    "n": 60,
+    "rho_median": 0.9595950992357272,
+    "rho_mean": 0.9579671484192399,
+    "rho_p05": 0.945744816754319,
+    "rho_p95": 0.9660509288587286,
+    "rmse_median": 0.10384521277540337,
+    "rmse_mean": 0.10512740316248914,
+    "rmse_p95": 0.11662944480332023
+  },
+  "no_J_repeated_cv": {
+    "n": 60,
+    "rho_median": 0.40661505350979404,
+    "rho_mean": 0.40394231205905,
+    "rho_p05": 0.3441872540644698,
+    "rho_p95": 0.45037898928251413,
+    "rmse_median": 0.32679753840814296,
+    "rmse_mean": 0.3273588165091754,
+    "rmse_p95": 0.34208108613708865
+  },
+  "bootstrap": {
+    "n": 250,
+    "rho_median": 0.9500079303448536,
+    "rho_mean": 0.9428597551328172,
+    "rho_p05": 0.8835256890643233,
+    "rho_p95": 0.9752526302963079,
+    "rmse_median": 0.10949053857614541,
+    "rmse_mean": 0.11341443710241504,
+    "rmse_p95": 0.16017810225009754
+  },
+  "pass_fail": {
+    "median_cv_rho_ge_0p60": true,
+    "p05_cv_rho_ge_0p50": true,
+    "median_rmse_le_0p22": true,
+    "with_J_beats_no_J_fraction": 1.0
+  },
+  "claim_boundary": "Repeated-CV and bootstrap stability test only; does not validate external angular momentum or velocity-domain prediction."
+}

@@ -1,0 +1,7 @@
+branch,model_id,heldout_n,activation_balanced_accuracy,residual_direction_balanced_accuracy,activation_auc_like,residual_auc_like,trained_on_endpoint_residuals,trained_on_A_inferred,uses_quality_as_physical_feature,notes
+M47,branch_primary,29,0.3269230769230769,0.35526315789473684,0.46153846153846156,0.28421052631578947,False,False,False,mean of frozen component order parameters
+M47,gas_only,29,0.23076923076923078,0.48684210526315785,0.2692307692307692,0.4263157894736842,False,False,False,1 - f_gas baseline; not trained on endpoint
+M47,stellar_only,29,0.23076923076923078,0.48684210526315785,0.2692307692307692,0.4263157894736842,False,False,False,f_star baseline; not trained on endpoint
+M47,m43_scalar_maturity,29,0.3269230769230769,0.35526315789473684,0.46153846153846156,0.28421052631578947,False,False,False,M43 scalar maturity comparator
+M47,quality_only,29,0.4230769230769231,0.45263157894736844,0.4230769230769231,0.45263157894736844,False,False,False,quality-contamination diagnostic baseline kept separate
+M47,m46_dynamic_organization,29,0.3076923076923077,0.381578947368421,0.38461538461538464,0.3105263157894737,False,False,False,M46 frozen dynamic organization comparator

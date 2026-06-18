@@ -1,0 +1,43 @@
+branch,model_id,heldout_n,activation_balanced_accuracy,residual_direction_balanced_accuracy,activation_auc_like,residual_auc_like,trained_on_endpoint_residuals,trained_on_A_inferred,uses_quality_as_physical_feature,notes
+M47,branch_primary,29,0.3269230769230769,0.35526315789473684,0.46153846153846156,0.28421052631578947,False,False,False,mean of frozen component order parameters
+M47,gas_only,29,0.23076923076923078,0.48684210526315785,0.2692307692307692,0.4263157894736842,False,False,False,1 - f_gas baseline; not trained on endpoint
+M47,stellar_only,29,0.23076923076923078,0.48684210526315785,0.2692307692307692,0.4263157894736842,False,False,False,f_star baseline; not trained on endpoint
+M47,m43_scalar_maturity,29,0.3269230769230769,0.35526315789473684,0.46153846153846156,0.28421052631578947,False,False,False,M43 scalar maturity comparator
+M47,quality_only,29,0.4230769230769231,0.45263157894736844,0.4230769230769231,0.45263157894736844,False,False,False,quality-contamination diagnostic baseline kept separate
+M47,m46_dynamic_organization,29,0.3076923076923077,0.381578947368421,0.38461538461538464,0.3105263157894737,False,False,False,M46 frozen dynamic organization comparator
+M48,branch_primary,29,0.3269230769230769,0.35526315789473684,0.46153846153846156,0.28421052631578947,False,False,False,fixed multi-parameter nucleation barrier; endpoint tested after freeze
+M48,gas_only,29,0.23076923076923078,0.48684210526315785,0.2692307692307692,0.4263157894736842,False,False,False,1 - f_gas baseline; not trained on endpoint
+M48,stellar_only,29,0.23076923076923078,0.48684210526315785,0.2692307692307692,0.4263157894736842,False,False,False,f_star baseline; not trained on endpoint
+M48,m43_scalar_maturity,29,0.3269230769230769,0.35526315789473684,0.46153846153846156,0.28421052631578947,False,False,False,M43 scalar maturity comparator
+M48,quality_only,29,0.4230769230769231,0.45263157894736844,0.4230769230769231,0.45263157894736844,False,False,False,quality-contamination diagnostic baseline kept separate
+M48,m46_dynamic_organization,29,0.3076923076923077,0.381578947368421,0.38461538461538464,0.3105263157894737,False,False,False,M46 frozen dynamic organization comparator
+M49,branch_primary,29,0.21153846153846154,0.513157894736842,0.16666666666666666,0.49473684210526314,False,False,False,unsupervised first slow mode from physical organization features
+M49,gas_only,29,0.23076923076923078,0.48684210526315785,0.2692307692307692,0.4263157894736842,False,False,False,1 - f_gas baseline; not trained on endpoint
+M49,stellar_only,29,0.23076923076923078,0.48684210526315785,0.2692307692307692,0.4263157894736842,False,False,False,f_star baseline; not trained on endpoint
+M49,m43_scalar_maturity,29,0.3269230769230769,0.35526315789473684,0.46153846153846156,0.28421052631578947,False,False,False,M43 scalar maturity comparator
+M49,quality_only,29,0.4230769230769231,0.45263157894736844,0.4230769230769231,0.45263157894736844,False,False,False,quality-contamination diagnostic baseline kept separate
+M49,m46_dynamic_organization,29,0.3076923076923077,0.381578947368421,0.38461538461538464,0.3105263157894737,False,False,False,M46 frozen dynamic organization comparator
+M50,branch_primary,29,0.3269230769230769,0.43157894736842106,0.32051282051282054,0.4052631578947368,False,False,False,phenomenological organization amplitude ODE; endpoint tested after freeze
+M50,gas_only,29,0.23076923076923078,0.48684210526315785,0.2692307692307692,0.4263157894736842,False,False,False,1 - f_gas baseline; not trained on endpoint
+M50,stellar_only,29,0.23076923076923078,0.48684210526315785,0.2692307692307692,0.4263157894736842,False,False,False,f_star baseline; not trained on endpoint
+M50,m43_scalar_maturity,29,0.3269230769230769,0.35526315789473684,0.46153846153846156,0.28421052631578947,False,False,False,M43 scalar maturity comparator
+M50,quality_only,29,0.4230769230769231,0.45263157894736844,0.4230769230769231,0.45263157894736844,False,False,False,quality-contamination diagnostic baseline kept separate
+M50,m46_dynamic_organization,29,0.3076923076923077,0.381578947368421,0.38461538461538464,0.3105263157894737,False,False,False,M46 frozen dynamic organization comparator
+M51,branch_primary,29,0.28846153846153844,0.4842105263157894,0.14102564102564102,0.5526315789473685,False,False,False,anchored pseudotime-like projection from clean low organization to mature controls
+M51,gas_only,29,0.23076923076923078,0.48684210526315785,0.2692307692307692,0.4263157894736842,False,False,False,1 - f_gas baseline; not trained on endpoint
+M51,stellar_only,29,0.23076923076923078,0.48684210526315785,0.2692307692307692,0.4263157894736842,False,False,False,f_star baseline; not trained on endpoint
+M51,m43_scalar_maturity,29,0.3269230769230769,0.35526315789473684,0.46153846153846156,0.28421052631578947,False,False,False,M43 scalar maturity comparator
+M51,quality_only,29,0.4230769230769231,0.45263157894736844,0.4230769230769231,0.45263157894736844,False,False,False,quality-contamination diagnostic baseline kept separate
+M51,m46_dynamic_organization,29,0.3076923076923077,0.381578947368421,0.38461538461538464,0.3105263157894737,False,False,False,M46 frozen dynamic organization comparator
+M52,branch_primary,29,0.25,0.4605263157894737,0.2948717948717949,0.37894736842105264,False,False,False,materials-style descriptor family average; endpoint tested after freeze
+M52,gas_only,29,0.23076923076923078,0.48684210526315785,0.2692307692307692,0.4263157894736842,False,False,False,1 - f_gas baseline; not trained on endpoint
+M52,stellar_only,29,0.23076923076923078,0.48684210526315785,0.2692307692307692,0.4263157894736842,False,False,False,f_star baseline; not trained on endpoint
+M52,m43_scalar_maturity,29,0.3269230769230769,0.35526315789473684,0.46153846153846156,0.28421052631578947,False,False,False,M43 scalar maturity comparator
+M52,quality_only,29,0.4230769230769231,0.45263157894736844,0.4230769230769231,0.45263157894736844,False,False,False,quality-contamination diagnostic baseline kept separate
+M52,m46_dynamic_organization,29,0.3076923076923077,0.381578947368421,0.38461538461538464,0.3105263157894737,False,False,False,M46 frozen dynamic organization comparator
+M53,branch_primary,29,0.21153846153846154,0.3605263157894737,0.34615384615384615,0.3157894736842105,False,False,False,galaxy-specific direct observable translation; current local decisive observables sparse
+M53,gas_only,29,0.23076923076923078,0.48684210526315785,0.2692307692307692,0.4263157894736842,False,False,False,1 - f_gas baseline; not trained on endpoint
+M53,stellar_only,29,0.23076923076923078,0.48684210526315785,0.2692307692307692,0.4263157894736842,False,False,False,f_star baseline; not trained on endpoint
+M53,m43_scalar_maturity,29,0.3269230769230769,0.35526315789473684,0.46153846153846156,0.28421052631578947,False,False,False,M43 scalar maturity comparator
+M53,quality_only,29,0.4230769230769231,0.45263157894736844,0.4230769230769231,0.45263157894736844,False,False,False,quality-contamination diagnostic baseline kept separate
+M53,m46_dynamic_organization,29,0.3076923076923077,0.381578947368421,0.38461538461538464,0.3105263157894737,False,False,False,M46 frozen dynamic organization comparator

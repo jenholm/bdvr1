@@ -1,0 +1,25 @@
+{
+  "milestone": "CGHSTC-34-M37",
+  "status": "juvenile_failed_system_governor_test_set_executed",
+  "manuscript_rewritten": false,
+  "governor_role": "separate_activation_onset_hypothesis_not_mature_velocity_prediction",
+  "mature_disks_used_as_primary_fit_set": false,
+  "hybrid_velocity_endpoint": "M36 hybrid halo-energy BDVR no-governor endpoint",
+  "n_direct_sparc": 87,
+  "n_primary_fit": 41,
+  "n_mature_control": 46,
+  "n_external_proxy_candidates": 78,
+  "selected_model_claim": "test_set_constructed_governor_not_promoted",
+  "primary_fit_rmse": 0.5117710280218453,
+  "primary_fit_spearman": -0.340956191201548,
+  "mature_control_median_A_pred": 0.9245403170876312,
+  "mature_control_fraction_A_pred_gt_0p5": 0.9782608695652174,
+  "ugc07125_A_pred": 0.25495078361845136,
+  "taxonomy_stages_retained": [
+    "mature_or_control",
+    "juvenile_forming",
+    "failed_stalled",
+    "disturbed_or_measurement_contaminated"
+  ],
+  "artifact_dir": "/home/jenholm/photonland/cghs/cghstc_34/runs/cghstc_34_m37_juvenile_failed_governor_test_set"
+}

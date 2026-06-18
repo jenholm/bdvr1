@@ -1,0 +1,60 @@
+{
+  "milestone": "CGHSTC-34-M44",
+  "status": "baryonic_maturity_vs_bdvr_endpoint_residual_audit_diagnostic",
+  "purpose": "test_baryonic_maturity_gap_vs_mature_bdvr_endpoint_residual_without_circularity",
+  "outcome_classification": "insufficient_clean_bridge_signal",
+  "n_joined_direct_rows": 87,
+  "n_clean_bridge_support_rows": 60,
+  "n_measurement_limited_or_quarantined_rows": 27,
+  "maturity_score_abs_residual_spearman_clean": -0.02417338149485969,
+  "maturity_gap_abs_residual_spearman_clean": 0.02417338149485969,
+  "composition_gap_underactivation_check": "composition-dominant clean rows: n=11, fraction below mature endpoint=0.364, median signed residual=0.0129 dex",
+  "hi_extent_vs_composition_behavior": "H I-extent-dominant clean rows: n=2, fraction below mature endpoint=1.000, median signed residual=-0.0117 dex; compare against composition gap behavior.",
+  "dominant_gap_residual_direction_summary": {
+    "HI_extent": {
+      "n": 2,
+      "mean_signed_residual": -0.0116840385157552,
+      "median_signed_residual": -0.0116840385157552,
+      "mean_abs_residual": 0.0116840385157552,
+      "fraction_below_mature_endpoint": 1.0
+    },
+    "composition": {
+      "n": 11,
+      "mean_signed_residual": -0.0012059265151294274,
+      "median_signed_residual": 0.0128946458972553,
+      "mean_abs_residual": 0.04337150211309609,
+      "fraction_below_mature_endpoint": 0.36363636363636365
+    },
+    "mature_control_or_no_dominant_gap": {
+      "n": 45,
+      "mean_signed_residual": -0.01024752465793126,
+      "median_signed_residual": -0.0109033261546345,
+      "mean_abs_residual": 0.0373976633521262,
+      "fraction_below_mature_endpoint": 0.6222222222222222
+    },
+    "shape_symmetry": {
+      "n": 2,
+      "mean_signed_residual": -0.0054373230308901,
+      "median_signed_residual": -0.0054373230308901,
+      "mean_abs_residual": 0.021153710398647,
+      "fraction_below_mature_endpoint": 0.5
+    }
+  },
+  "median_abs_residual_clean": 0.03085696081532455,
+  "median_abs_residual_measurement_limited": 0.0594481070070641,
+  "velocity_residuals_used_to_define_maturity": false,
+  "maturity_score_used_to_refit_m36": false,
+  "mature_velocity_law_changed": false,
+  "governor_promoted": false,
+  "manuscript_rewritten": false,
+  "ugc07125_treated_as_clean_scalar_object": false,
+  "m36_branch_used": "hybrid_no_governor_mature_endpoint",
+  "claim_boundaries": [
+    "M44 uses visible baryonic maturity from M43; residuals are outcomes only.",
+    "M44 does not refit M36 and does not retune the mature BDVR endpoint.",
+    "Measurement-limited rows remain separate from clean bridge support rows.",
+    "UGC07125 remains quarantined and is not treated as a clean scalar object or juvenile prototype.",
+    "No manuscript rewrite follows from M44 alone.",
+    "Rank or residual association is diagnostic evidence only, not a promoted governor law."
+  ]
+}

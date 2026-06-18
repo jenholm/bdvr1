@@ -1,0 +1,7 @@
+dataset,sample_tier,n_rows,direct_or_proxy_levels,tier_definition
+SPARC,Tier 1,87,direct_endpoint_activation,baryonic mass model + rotation/Vflat + maturity metrics: direct endpoint/onset candidate
+THINGS,Tier 2,8,transferred_sparc_activation_with_resolved_hi_proxy,H I velocity field or morphology/asymmetry/dynamical settling with incomplete direct baryonic endpoint model
+ATLAS3D,Tier 3,260,early_type_bridge_proxy_only,proxy/follow-up candidate only; incomplete direct activation evidence
+LITTLE_THINGS,Tier 3,41,target_list_proxy_only,proxy/follow-up candidate only; incomplete direct activation evidence
+MANGA,Tier 3,10185,ifu_scalar_proxy_only,proxy/follow-up candidate only; incomplete direct activation evidence
+XGASS_XCOLDGASS,Tier 3,562,gas_depletion_maturity_proxy_only,proxy/follow-up candidate only; incomplete direct activation evidence

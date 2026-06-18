@@ -1,0 +1,26 @@
+{
+  "galaxy_name": "UGC07125",
+  "old_interpretation_status": "juvenile_prototype_demoted",
+  "new_interpretation": "failed_stalled_boundary_object",
+  "taxonomy_stage": "failed_stalled",
+  "key_values": {
+    "f_star": 0.1804974862131068,
+    "f_gas": 0.8195025137868931,
+    "log10_Sigma_b": 8.019775262749231,
+    "RHI_Rd": 6.816568047337278,
+    "BTFR_offset_dex": -0.2052260404052944,
+    "alpha_BTFR": 0.3886403773950502,
+    "bdvr_overprediction_dex": 0.30491843927661133,
+    "residual_after": 0.1710481278972899
+  },
+  "reason": "gas-rich, low-stellar, diffuse/H I-extended, and severely under-rotating; not a juvenile prototype but a failed/stalled boundary-object candidate",
+  "claim_boundary": "boundary-object interpretation; resolved H I and stellar-population follow-up required",
+  "decisive_next_observations": [
+    "resolved H I velocity field",
+    "H I surface-density and lopsidedness/warp map",
+    "outer rotation-curve reliability audit",
+    "stellar age and metallicity constraints",
+    "gas depletion time and star-formation efficiency",
+    "environment/tidal-history check"
+  ]
+}

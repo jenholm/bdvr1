@@ -1,0 +1,124 @@
+{
+  "milestone": "CGHSTC-34-M42",
+  "status": "optimal_transition_boundary_search_diagnostic",
+  "objective": "find_transition_thresholds_not_score_rows",
+  "m41_treated_as_scaffolding": true,
+  "used_disputed_inverse_rank_outputs": false,
+  "n_rows": 165,
+  "n_direct_training_rows": 60,
+  "constrained_thresholds": [
+    {
+      "observable": "f_star",
+      "best_threshold": 0.40040654512881463,
+      "score": 1.0
+    },
+    {
+      "observable": "f_gas",
+      "best_threshold": 0.5995934548711854,
+      "score": 1.0
+    },
+    {
+      "observable": "log10_Sigma_b",
+      "best_threshold": 8.263242860299144,
+      "score": 0.5333333333333332
+    },
+    {
+      "observable": "RHI_Rd",
+      "best_threshold": 6.627789263258611,
+      "score": 0.11111111111111116
+    }
+  ],
+  "null_or_unconstrained_thresholds": [
+    {
+      "observable": "rotation_coherence",
+      "constraint_status": "weak_or_unconstrained_current_rows",
+      "null_reason": "insufficient threshold strength against current direct labels; treat as provisional/null"
+    },
+    {
+      "observable": "SFE",
+      "constraint_status": "unconstrained_null_result",
+      "null_reason": "observable column missing from current local artifacts; do not fabricate threshold"
+    },
+    {
+      "observable": "depletion_time",
+      "constraint_status": "unconstrained_null_result",
+      "null_reason": "observable column missing from current local artifacts; do not fabricate threshold"
+    },
+    {
+      "observable": "HI_asymmetry",
+      "constraint_status": "unconstrained_null_result",
+      "null_reason": "observable column missing from current local artifacts; do not fabricate threshold"
+    }
+  ],
+  "nearest_boundary_rows": [
+    {
+      "object_name": "UGC04499",
+      "phase_region": "transition",
+      "boundary_distance": 0.007629916863002073
+    },
+    {
+      "object_name": "UGC08490",
+      "phase_region": "transition",
+      "boundary_distance": 0.011449671284365526
+    },
+    {
+      "object_name": "UGC07603",
+      "phase_region": "transition",
+      "boundary_distance": 0.011639588820185398
+    },
+    {
+      "object_name": "UGC07524",
+      "phase_region": "transition",
+      "boundary_distance": 0.020785236022644593
+    },
+    {
+      "object_name": "UGC07399",
+      "phase_region": "transition",
+      "boundary_distance": 0.03331338317196764
+    },
+    {
+      "object_name": "D631-7",
+      "phase_region": "transition",
+      "boundary_distance": 0.03526447012163009
+    },
+    {
+      "object_name": "UGC00128",
+      "phase_region": "transition",
+      "boundary_distance": 0.04474905950915975
+    },
+    {
+      "object_name": "UGC06667",
+      "phase_region": "measurement_limited",
+      "boundary_distance": 0.04667926560737157
+    },
+    {
+      "object_name": "UGC08286",
+      "phase_region": "activated_mature",
+      "boundary_distance": 0.05980219471612913
+    },
+    {
+      "object_name": "NGC3198",
+      "phase_region": "transition",
+      "boundary_distance": 0.09003452569761017
+    }
+  ],
+  "phase_region_counts": {
+    "transition": 53,
+    "activated_mature": 52,
+    "pre_activation": 31,
+    "failed_stalled": 15,
+    "measurement_limited": 14
+  },
+  "manuscript_rewritten": false,
+  "mature_velocity_law_changed": false,
+  "governor_promoted": false,
+  "claims_bdvr_is_real": false,
+  "claim_boundaries": [
+    "M42 is a threshold search, not another generic classifier or row-scoring surface.",
+    "M41 is treated as scaffolding; M42 asks for optimal transition points and null results.",
+    "A null result for SFE, depletion time, or H I asymmetry is reported rather than filled with fabricated data.",
+    "No mature velocity law changed; M36 remains the mature saturated endpoint reference.",
+    "UGC07125 remains quarantined and measurement-limited, not a clean scalar object or juvenile prototype.",
+    "No manuscript rewrite is warranted until a robust, externally testable transition boundary survives."
+  ]
+}

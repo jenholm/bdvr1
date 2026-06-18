@@ -1,0 +1,53 @@
+{
+  "milestone": "CGHSTC-34-arXiv-source-package",
+  "status": "arxiv_source_package_ready",
+  "claim_boundary": "source_packaging_not_model_validation",
+  "source_guideline_url": "https://info.arxiv.org/help/submit/index.html",
+  "arxiv_guideline_summary": [
+    "Prefer TeX/LaTeX source over PDF generated from TeX.",
+    "PDFLaTeX figures must be PDF/JPEG/PNG/GIF and cannot be omitted.",
+    "Filenames may contain only letters, digits, underscore, plus, hyphen, period, comma, and equals.",
+    "Figure paths are case-sensitive and must be local relative paths.",
+    "Generated build files are excluded from the source bundle."
+  ],
+  "top_level_tex": "source/cghstc34_arxiv.tex",
+  "build_pdf": "build/cghstc34_arxiv.pdf",
+  "build_text": "build/cghstc34_arxiv.txt",
+  "source_bundle": "arxiv_source_bundle.tar.gz",
+  "source_files": [
+    "runs/cghstc_34_arxiv_submission_package/source/cghstc34_arxiv.tex",
+    "runs/cghstc_34_arxiv_submission_package/source/figures/fig_1_sample_flow.png",
+    "runs/cghstc_34_arxiv_submission_package/source/figures/fig_2_btfr_scatter_by_quartile.png",
+    "runs/cghstc_34_arxiv_submission_package/source/figures/fig_3_ablation_null_models.png",
+    "runs/cghstc_34_arxiv_submission_package/source/figures/fig_4_inclination_restricted.png",
+    "runs/cghstc_34_arxiv_submission_package/source/figures/fig_5_cross_survey_ratios.png"
+  ],
+  "tarball_members": [
+    "cghstc34_arxiv.tex",
+    "figures/fig_1_sample_flow.png",
+    "figures/fig_2_btfr_scatter_by_quartile.png",
+    "figures/fig_3_ablation_null_models.png",
+    "figures/fig_4_inclination_restricted.png",
+    "figures/fig_5_cross_survey_ratios.png"
+  ],
+  "referenced_figures": [
+    "figures/fig_1_sample_flow.png",
+    "figures/fig_2_btfr_scatter_by_quartile.png",
+    "figures/fig_3_ablation_null_models.png",
+    "figures/fig_4_inclination_restricted.png",
+    "figures/fig_5_cross_survey_ratios.png"
+  ],
+  "filename_validation_passed": true,
+  "figure_reference_validation_passed": true,
+  "local_latex_build_passed": true,
+  "mature_velocity_law_changed": false,
+  "manuscript_science_rewritten": true,
+  "governor_promoted": true,
+  "m36_refit": false,
+  "ugc07125_quarantined": true,
+  "internal_label_absent_from_main_text": true,
+  "disturbed_kinematics_language_present": true,
+  "response_organization_language_present": true,
+  "ddo161_contrast_removed": true,
+  "disputed_inverse_rank_absent": true
+}

@@ -1,0 +1,13 @@
+model_id,quality_group,n_rows,median_prediction,median_abs_m36_residual,quality_used_as_physical_feature,interpretation
+m1_fstar_fgas_only,clean_or_not_quarantined,84,0.6239421063791131,0.04168299605319545,False,primary non-quarantined diagnostic rows
+m1_fstar_fgas_only,quality_quarantined_or_measurement_limited,1,0.4667001478441622,0.2321401297980161,False,quality audit separate; nonphysical control axis
+m2_rhi_over_rd_only,clean_or_not_quarantined,84,0.632753749520081,0.04168299605319545,False,primary non-quarantined diagnostic rows
+m2_rhi_over_rd_only,quality_quarantined_or_measurement_limited,1,0.6115839414205446,0.2321401297980161,False,quality audit separate; nonphysical control axis
+m3_fstar_plus_rhi_over_rd,clean_or_not_quarantined,84,0.6239483249958175,0.04168299605319545,False,primary non-quarantined diagnostic rows
+m3_fstar_plus_rhi_over_rd,quality_quarantined_or_measurement_limited,1,0.4861706907105953,0.2321401297980161,False,quality audit separate; nonphysical control axis
+m4_fstar_rhi_interaction,clean_or_not_quarantined,84,0.5966291843983711,0.04168299605319545,False,primary non-quarantined diagnostic rows
+m4_fstar_rhi_interaction,quality_quarantined_or_measurement_limited,1,0.4829374404399458,0.2321401297980161,False,quality audit separate; nonphysical control axis
+m5_fstar_rhi_plus_best_m58_footprint,clean_or_not_quarantined,84,0.6247213710430966,0.04168299605319545,False,primary non-quarantined diagnostic rows
+m5_fstar_rhi_plus_best_m58_footprint,quality_quarantined_or_measurement_limited,1,0.48482886009636295,0.2321401297980161,False,quality audit separate; nonphysical control axis
+m6_fstar_rhi_quality_audit_separate,clean_or_not_quarantined,84,0.6239483249958175,0.04168299605319545,False,primary non-quarantined diagnostic rows
+m6_fstar_rhi_quality_audit_separate,quality_quarantined_or_measurement_limited,1,0.4861706907105953,0.2321401297980161,False,quality audit separate; nonphysical control axis

@@ -1,0 +1,54 @@
+{
+  "status": "completed_m27_angular_momentum_base_equation",
+  "sample_size": 87,
+  "target": "log_j_obs_target",
+  "target_formula": "log10(2 * Rdisk_kpc * Vflat_km_s)",
+  "uses_observed_Vflat_only_in_target": true,
+  "uses_observed_Vflat_in_features": false,
+  "best_model": "structural_baseline",
+  "best_model_summary": {
+    "model_name": "structural_baseline",
+    "rmse_logj_median": 0.05544937125055388,
+    "rmse_logj_p05": 0.05427537325162828,
+    "rmse_logj_p95": 0.057079439601567465,
+    "mae_logj_median": 0.04406769222812355,
+    "spearman_median": 0.9927188889698914,
+    "pearson_median": 0.9941429868459115,
+    "n_features": 5.0,
+    "n": 32
+  },
+  "mass_radius_baseline_summary": {
+    "model_name": "mass_radius",
+    "rmse_logj_median": 0.06202923630769416,
+    "rmse_logj_p05": 0.061050878751607515,
+    "rmse_logj_p95": 0.06391798513262847,
+    "mae_logj_median": 0.04872462248594643,
+    "spearman_median": 0.989483852154261,
+    "pearson_median": 0.9926632225394804,
+    "n_features": 2.0,
+    "n": 32
+  },
+  "permutation_summary": {
+    "best_model": "structural_baseline",
+    "baseline_model": "mass_radius",
+    "real_best_rmse_logj": 0.05552765322497853,
+    "real_baseline_rmse_logj": 0.06247142411951452,
+    "real_rmse_improvement_vs_baseline": 0.006943770894535989,
+    "n_permutations": 150,
+    "permutation_improvement_median": -0.0015577986526298174,
+    "permutation_improvement_p95": 0.0006468089736431395,
+    "empirical_p_value_rmse_improvement": 0.006622516556291391,
+    "permuted_columns": [
+      "log_Sigma_b",
+      "f_gas",
+      "RHI_over_Rdisk"
+    ],
+    "pass_fail": {
+      "real_improves_baseline": true,
+      "improvement_ge_0p01_dex": false,
+      "p_value_le_0p05": true
+    }
+  },
+  "decision_state": "diagnostic_only",
+  "claim_boundary": "angular_momentum_target_not_velocity_target; Vflat is used only to construct the target proxy, not as an activation feature. Do not claim external angular-momentum validation without real j_star/j_gas/j_bar/lambda_R data."
+}

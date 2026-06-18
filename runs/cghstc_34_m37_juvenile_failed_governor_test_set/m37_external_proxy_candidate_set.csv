@@ -1,0 +1,79 @@
+candidate_name,source_dataset,candidate_class,taxonomy_stage,proxy_score,direct_activation_fit_allowed,reason
+GASS101026,xGASS_xCOLD,gas_rich_diffuse_low_sfe_or_long_depletion_time_proxy,juvenile_forming,1.5831299145585607,False,gas/depletion proxy row; lacks direct SPARC-style activation endpoint
+GASS102001,xGASS_xCOLD,gas_rich_diffuse_low_sfe_or_long_depletion_time_proxy,juvenile_forming,1.558628575981822,False,gas/depletion proxy row; lacks direct SPARC-style activation endpoint
+GASS112113,xGASS_xCOLD,gas_rich_diffuse_low_sfe_or_long_depletion_time_proxy,juvenile_forming,1.486023011930169,False,gas/depletion proxy row; lacks direct SPARC-style activation endpoint
+GASS108119,xGASS_xCOLD,gas_rich_diffuse_low_sfe_or_long_depletion_time_proxy,juvenile_forming,1.4794474538525662,False,gas/depletion proxy row; lacks direct SPARC-style activation endpoint
+GASS122004,xGASS_xCOLD,gas_rich_diffuse_low_sfe_or_long_depletion_time_proxy,failed_stalled,1.4460756893421747,False,gas/depletion proxy row; lacks direct SPARC-style activation endpoint
+GASS113134,xGASS_xCOLD,gas_rich_diffuse_low_sfe_or_long_depletion_time_proxy,juvenile_forming,1.443083269394193,False,gas/depletion proxy row; lacks direct SPARC-style activation endpoint
+GASS123001,xGASS_xCOLD,gas_rich_diffuse_low_sfe_or_long_depletion_time_proxy,juvenile_forming,1.3554094247252586,False,gas/depletion proxy row; lacks direct SPARC-style activation endpoint
+GASS101001,xGASS_xCOLD,gas_rich_diffuse_low_sfe_or_long_depletion_time_proxy,failed_stalled,1.2941816071783552,False,gas/depletion proxy row; lacks direct SPARC-style activation endpoint
+GASS109127,xGASS_xCOLD,gas_rich_diffuse_low_sfe_or_long_depletion_time_proxy,failed_stalled,1.2833485910774771,False,gas/depletion proxy row; lacks direct SPARC-style activation endpoint
+GASS124028,xGASS_xCOLD,gas_rich_diffuse_low_sfe_or_long_depletion_time_proxy,juvenile_forming,1.2775155227082062,False,gas/depletion proxy row; lacks direct SPARC-style activation endpoint
+GASS110082,xGASS_xCOLD,gas_rich_diffuse_low_sfe_or_long_depletion_time_proxy,juvenile_forming,1.253550761616415,False,gas/depletion proxy row; lacks direct SPARC-style activation endpoint
+GASS113114,xGASS_xCOLD,gas_rich_diffuse_low_sfe_or_long_depletion_time_proxy,juvenile_forming,1.1776824339764018,False,gas/depletion proxy row; lacks direct SPARC-style activation endpoint
+GASS113137,xGASS_xCOLD,gas_rich_diffuse_low_sfe_or_long_depletion_time_proxy,juvenile_forming,1.1665176132062571,False,gas/depletion proxy row; lacks direct SPARC-style activation endpoint
+GASS108148,xGASS_xCOLD,gas_rich_diffuse_low_sfe_or_long_depletion_time_proxy,failed_stalled,1.1604623524311908,False,gas/depletion proxy row; lacks direct SPARC-style activation endpoint
+GASS114117,xGASS_xCOLD,gas_rich_diffuse_low_sfe_or_long_depletion_time_proxy,juvenile_forming,1.1587139389034604,False,gas/depletion proxy row; lacks direct SPARC-style activation endpoint
+GASS111071,xGASS_xCOLD,gas_rich_diffuse_low_sfe_or_long_depletion_time_proxy,failed_stalled,1.150736948346006,False,gas/depletion proxy row; lacks direct SPARC-style activation endpoint
+GASS122005,xGASS_xCOLD,gas_rich_diffuse_low_sfe_or_long_depletion_time_proxy,juvenile_forming,1.1440657896381803,False,gas/depletion proxy row; lacks direct SPARC-style activation endpoint
+GASS108140,xGASS_xCOLD,gas_rich_diffuse_low_sfe_or_long_depletion_time_proxy,juvenile_forming,1.087696978511658,False,gas/depletion proxy row; lacks direct SPARC-style activation endpoint
+GASS109082,xGASS_xCOLD,gas_rich_diffuse_low_sfe_or_long_depletion_time_proxy,failed_stalled,1.0866275617470136,False,gas/depletion proxy row; lacks direct SPARC-style activation endpoint
+GASS111075,xGASS_xCOLD,gas_rich_diffuse_low_sfe_or_long_depletion_time_proxy,juvenile_forming,1.0733916021501244,False,gas/depletion proxy row; lacks direct SPARC-style activation endpoint
+GASS101033,xGASS_xCOLD,gas_rich_diffuse_low_sfe_or_long_depletion_time_proxy,failed_stalled,1.0677742905253502,False,gas/depletion proxy row; lacks direct SPARC-style activation endpoint
+GASS110036,xGASS_xCOLD,gas_rich_diffuse_low_sfe_or_long_depletion_time_proxy,juvenile_forming,1.0653819927892696,False,gas/depletion proxy row; lacks direct SPARC-style activation endpoint
+GASS113091,xGASS_xCOLD,gas_rich_diffuse_low_sfe_or_long_depletion_time_proxy,juvenile_forming,1.0473218297432882,False,gas/depletion proxy row; lacks direct SPARC-style activation endpoint
+GASS109080,xGASS_xCOLD,gas_rich_diffuse_low_sfe_or_long_depletion_time_proxy,juvenile_forming,1.0341000800561702,False,gas/depletion proxy row; lacks direct SPARC-style activation endpoint
+GASS44856,xGASS_xCOLD,gas_rich_diffuse_low_sfe_or_long_depletion_time_proxy,failed_stalled,1.0308903859287641,False,gas/depletion proxy row; lacks direct SPARC-style activation endpoint
+GASS112100,xGASS_xCOLD,gas_rich_diffuse_low_sfe_or_long_depletion_time_proxy,failed_stalled,1.0190020879275592,False,gas/depletion proxy row; lacks direct SPARC-style activation endpoint
+GASS109065,xGASS_xCOLD,gas_rich_diffuse_low_sfe_or_long_depletion_time_proxy,juvenile_forming,1.0006678482085087,False,gas/depletion proxy row; lacks direct SPARC-style activation endpoint
+GASS111044,xGASS_xCOLD,gas_rich_diffuse_low_sfe_or_long_depletion_time_proxy,juvenile_forming,1.0005914216799607,False,gas/depletion proxy row; lacks direct SPARC-style activation endpoint
+GASS124000,xGASS_xCOLD,gas_rich_diffuse_low_sfe_or_long_depletion_time_proxy,juvenile_forming,0.9998456711415017,False,gas/depletion proxy row; lacks direct SPARC-style activation endpoint
+GASS111054,xGASS_xCOLD,gas_rich_diffuse_low_sfe_or_long_depletion_time_proxy,juvenile_forming,0.9930663126407656,False,gas/depletion proxy row; lacks direct SPARC-style activation endpoint
+GASS114142,xGASS_xCOLD,gas_rich_diffuse_low_sfe_or_long_depletion_time_proxy,juvenile_forming,0.992020792959741,False,gas/depletion proxy row; lacks direct SPARC-style activation endpoint
+GASS114129,xGASS_xCOLD,gas_rich_diffuse_low_sfe_or_long_depletion_time_proxy,failed_stalled,0.9869314509581144,False,gas/depletion proxy row; lacks direct SPARC-style activation endpoint
+GASS110059,xGASS_xCOLD,gas_rich_diffuse_low_sfe_or_long_depletion_time_proxy,failed_stalled,0.9751952277261997,False,gas/depletion proxy row; lacks direct SPARC-style activation endpoint
+GASS109102,xGASS_xCOLD,gas_rich_diffuse_low_sfe_or_long_depletion_time_proxy,juvenile_forming,0.9734697343787558,False,gas/depletion proxy row; lacks direct SPARC-style activation endpoint
+GASS107026,xGASS_xCOLD,gas_rich_diffuse_low_sfe_or_long_depletion_time_proxy,juvenile_forming,0.9666734933679456,False,gas/depletion proxy row; lacks direct SPARC-style activation endpoint
+GASS112117,xGASS_xCOLD,gas_rich_diffuse_low_sfe_or_long_depletion_time_proxy,juvenile_forming,0.9642276689603883,False,gas/depletion proxy row; lacks direct SPARC-style activation endpoint
+GASS111093,xGASS_xCOLD,gas_rich_diffuse_low_sfe_or_long_depletion_time_proxy,juvenile_forming,0.9512916903847619,False,gas/depletion proxy row; lacks direct SPARC-style activation endpoint
+GASS113057,xGASS_xCOLD,gas_rich_diffuse_low_sfe_or_long_depletion_time_proxy,juvenile_forming,0.9468183702217717,False,gas/depletion proxy row; lacks direct SPARC-style activation endpoint
+GASS114078,xGASS_xCOLD,gas_rich_diffuse_low_sfe_or_long_depletion_time_proxy,juvenile_forming,0.9441150629291518,False,gas/depletion proxy row; lacks direct SPARC-style activation endpoint
+GASS114000,xGASS_xCOLD,gas_rich_diffuse_low_sfe_or_long_depletion_time_proxy,juvenile_forming,0.9413565696006728,False,gas/depletion proxy row; lacks direct SPARC-style activation endpoint
+NGC2841,THINGS,disturbed_or_unsettled_hi_system;strong_approach_recede_mismatch,disturbed_or_measurement_contaminated,0.9350254355562995,False,resolved H I disturbance/asymmetry proxy; direct activation only if matched scalar endpoint is available
+DDO161,M17_analog_synthesis,ugc07125_analog_followup_priority,juvenile_forming,0.8714574332674108,True,treat as direct prototype/candidate and inspect resolved H I kinematics
+12700-12701,M17_analog_synthesis,ugc07125_analog_followup_priority,juvenile_forming,0.8361613573346508,False,"use as broad pre-transition neighborhood, not as direct activation detections"
+9091-6103,M17_analog_synthesis,ugc07125_analog_followup_priority,juvenile_forming,0.829435769855491,False,"use as broad pre-transition neighborhood, not as direct activation detections"
+GASS102001,M17_analog_synthesis,ugc07125_analog_followup_priority,juvenile_forming,0.8268548974389411,False,prioritize objects for rotation-curve/H I follow-up rather than direct BDVR activation claims
+UGC07125,M17_analog_synthesis,ugc07125_analog_followup_priority,failed_stalled,0.8225295261500776,True,treat as direct prototype/candidate and inspect resolved H I kinematics
+8611-6104,M17_analog_synthesis,ugc07125_analog_followup_priority,juvenile_forming,0.8215069153555147,False,"use as broad pre-transition neighborhood, not as direct activation detections"
+GASS108119,M17_analog_synthesis,ugc07125_analog_followup_priority,juvenile_forming,0.7923374464367279,False,prioritize objects for rotation-curve/H I follow-up rather than direct BDVR activation claims
+8139-3703,M17_analog_synthesis,ugc07125_analog_followup_priority,juvenile_forming,0.7849137057171994,False,"use as broad pre-transition neighborhood, not as direct activation detections"
+8617-12705,M17_analog_synthesis,ugc07125_analog_followup_priority,juvenile_forming,0.7814552228148379,False,"use as broad pre-transition neighborhood, not as direct activation detections"
+8619-12704,M17_analog_synthesis,ugc07125_analog_followup_priority,juvenile_forming,0.7778629768594948,False,"use as broad pre-transition neighborhood, not as direct activation detections"
+9894-9102,M17_analog_synthesis,ugc07125_analog_followup_priority,juvenile_forming,0.7772010020133013,False,"use as broad pre-transition neighborhood, not as direct activation detections"
+8619-12705,M17_analog_synthesis,ugc07125_analog_followup_priority,juvenile_forming,0.7743997080262837,False,"use as broad pre-transition neighborhood, not as direct activation detections"
+8982-12702,M17_analog_synthesis,ugc07125_analog_followup_priority,juvenile_forming,0.7686850508297091,False,"use as broad pre-transition neighborhood, not as direct activation detections"
+8655-12703,M17_analog_synthesis,ugc07125_analog_followup_priority,juvenile_forming,0.7686189402967799,False,"use as broad pre-transition neighborhood, not as direct activation detections"
+8977-12704,M17_analog_synthesis,ugc07125_analog_followup_priority,juvenile_forming,0.7672356122090489,False,"use as broad pre-transition neighborhood, not as direct activation detections"
+11824-12702,M17_analog_synthesis,ugc07125_analog_followup_priority,juvenile_forming,0.7646584063108349,False,"use as broad pre-transition neighborhood, not as direct activation detections"
+10498-12701,M17_analog_synthesis,ugc07125_analog_followup_priority,juvenile_forming,0.7615672284689644,False,"use as broad pre-transition neighborhood, not as direct activation detections"
+GASS110082,M17_analog_synthesis,ugc07125_analog_followup_priority,juvenile_forming,0.7564885993463379,False,prioritize objects for rotation-curve/H I follow-up rather than direct BDVR activation claims
+GASS122005,M17_analog_synthesis,ugc07125_analog_followup_priority,juvenile_forming,0.7550532803881191,False,prioritize objects for rotation-curve/H I follow-up rather than direct BDVR activation claims
+11751-12702,M17_analog_synthesis,ugc07125_analog_followup_priority,juvenile_forming,0.7541886489988763,False,"use as broad pre-transition neighborhood, not as direct activation detections"
+9001-12704,M17_analog_synthesis,ugc07125_analog_followup_priority,juvenile_forming,0.7502663488281293,False,"use as broad pre-transition neighborhood, not as direct activation detections"
+11941-9101,M17_analog_synthesis,ugc07125_analog_followup_priority,juvenile_forming,0.7483689842394241,False,"use as broad pre-transition neighborhood, not as direct activation detections"
+8553-12703,M17_analog_synthesis,ugc07125_analog_followup_priority,juvenile_forming,0.7480727651841692,False,"use as broad pre-transition neighborhood, not as direct activation detections"
+10838-6103,M17_analog_synthesis,ugc07125_analog_followup_priority,juvenile_forming,0.7465648810177116,False,"use as broad pre-transition neighborhood, not as direct activation detections"
+8598-12704,M17_analog_synthesis,ugc07125_analog_followup_priority,juvenile_forming,0.739803855548461,False,"use as broad pre-transition neighborhood, not as direct activation detections"
+11022-12702,M17_analog_synthesis,ugc07125_analog_followup_priority,juvenile_forming,0.7397524273442551,False,"use as broad pre-transition neighborhood, not as direct activation detections"
+GASS112113,M17_analog_synthesis,ugc07125_analog_followup_priority,juvenile_forming,0.7349024810867348,False,prioritize objects for rotation-curve/H I follow-up rather than direct BDVR activation claims
+GASS109080,M17_analog_synthesis,ugc07125_analog_followup_priority,juvenile_forming,0.7329397603866824,False,prioritize objects for rotation-curve/H I follow-up rather than direct BDVR activation claims
+NGC5055,THINGS,disturbed_or_unsettled_hi_system;strong_approach_recede_mismatch,disturbed_or_measurement_contaminated,0.725,False,resolved H I disturbance/asymmetry proxy; direct activation only if matched scalar endpoint is available
+GASS101026,M17_analog_synthesis,ugc07125_analog_followup_priority,juvenile_forming,0.7234851957638779,False,prioritize objects for rotation-curve/H I follow-up rather than direct BDVR activation claims
+GASS111054,M17_analog_synthesis,ugc07125_analog_followup_priority,juvenile_forming,0.7011982389622136,False,prioritize objects for rotation-curve/H I follow-up rather than direct BDVR activation claims
+NGC6946,THINGS,disturbed_or_unsettled_hi_system;strong_approach_recede_mismatch,disturbed_or_measurement_contaminated,0.7,False,resolved H I disturbance/asymmetry proxy; direct activation only if matched scalar endpoint is available
+NGC3521,THINGS,disturbed_or_unsettled_hi_system;strong_approach_recede_mismatch,disturbed_or_measurement_contaminated,0.6166498892329261,False,resolved H I disturbance/asymmetry proxy; direct activation only if matched scalar endpoint is available
+NGC7331,THINGS,disturbed_or_unsettled_hi_system;strong_approach_recede_mismatch,disturbed_or_measurement_contaminated,0.599933788627139,False,resolved H I disturbance/asymmetry proxy; direct activation only if matched scalar endpoint is available
+NGC2403,THINGS,disturbed_or_unsettled_hi_system;strong_approach_recede_mismatch,disturbed_or_measurement_contaminated,0.55,False,resolved H I disturbance/asymmetry proxy; direct activation only if matched scalar endpoint is available
+NGC2903,THINGS,disturbed_or_unsettled_hi_system;strong_approach_recede_mismatch,disturbed_or_measurement_contaminated,0.525,False,resolved H I disturbance/asymmetry proxy; direct activation only if matched scalar endpoint is available
+NGC3198,THINGS,disturbed_or_unsettled_hi_system;strong_approach_recede_mismatch,disturbed_or_measurement_contaminated,0.5192221283140687,False,resolved H I disturbance/asymmetry proxy; direct activation only if matched scalar endpoint is available

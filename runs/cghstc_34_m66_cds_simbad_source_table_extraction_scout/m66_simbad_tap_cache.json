@@ -1,0 +1,66 @@
+{
+  "__m66_note__": "M66 used M65 object-resolved bibliography routes as source leads; no live bibliographic measurement values are promoted.",
+  "select top 30 r.bibcode,r.title,r.year,r.journal,r.doi,r.abstract from has_ref as h join ref as r on h.oidbibref = r.oidbib where h.oidref = 1451562 order by r.year desc": {
+    "__error__": "HTTP Error 400: 400"
+  },
+  "select top 30 r.bibcode,r.title,r.year,r.journal,r.doi,r.abstract from has_ref as h join ref as r on h.oidbibref = r.oidbib where h.oidref = 1495211 order by r.year desc": {
+    "__error__": "HTTP Error 400: 400"
+  },
+  "select top 30 r.bibcode,r.title,r.year,r.journal,r.doi,r.abstract from has_ref as h join ref as r on h.oidbibref = r.oidbib where h.oidref = 1530902 order by r.year desc": {
+    "__error__": "HTTP Error 400: 400"
+  },
+  "select top 30 r.bibcode,r.title,r.year,r.journal,r.doi,r.abstract from has_ref as h join ref as r on h.oidbibref = r.oidbib where h.oidref = 1535956 order by r.year desc": {
+    "__error__": "HTTP Error 400: 400"
+  },
+  "select top 30 r.bibcode,r.title,r.year,r.journal,r.doi,r.abstract from has_ref as h join ref as r on h.oidbibref = r.oidbib where h.oidref = 1629961 order by r.year desc": {
+    "__error__": "<urlopen error timed out>"
+  },
+  "select top 30 r.bibcode,r.title,r.year,r.journal,r.doi,r.abstract from has_ref as h join ref as r on h.oidbibref = r.oidbib where h.oidref = 1654339 order by r.year desc": {
+    "__error__": "HTTP Error 400: 400"
+  },
+  "select top 30 r.bibcode,r.title,r.year,r.journal,r.doi,r.abstract from has_ref as h join ref as r on h.oidbibref = r.oidbib where h.oidref = 1681685 order by r.year desc": {
+    "__error__": "HTTP Error 400: 400"
+  },
+  "select top 30 r.bibcode,r.title,r.year,r.journal,r.doi,r.abstract from has_ref as h join ref as r on h.oidbibref = r.oidbib where h.oidref = 1727956 order by r.year desc": {
+    "__error__": "<urlopen error timed out>"
+  },
+  "select top 30 r.bibcode,r.title,r.year,r.journal,r.doi,r.abstract from has_ref as h join ref as r on h.oidbibref = r.oidbib where h.oidref = 1878166 order by r.year desc": {
+    "__error__": "HTTP Error 400: 400"
+  },
+  "select top 30 r.bibcode,r.title,r.year,r.journal,r.doi,r.abstract from has_ref as h join ref as r on h.oidbibref = r.oidbib where h.oidref = 1927927 order by r.year desc": {
+    "__error__": "<urlopen error timed out>"
+  },
+  "select top 30 r.bibcode,r.title,r.year,r.journal,r.doi,r.abstract from has_ref as h join ref as r on h.oidbibref = r.oidbib where h.oidref = 1931388 order by r.year desc": {
+    "__error__": "<urlopen error timed out>"
+  },
+  "select top 30 r.bibcode,r.title,r.year,r.journal,r.doi,r.abstract from has_ref as h join ref as r on h.oidbibref = r.oidbib where h.oidref = 2059311 order by r.year desc": {
+    "__error__": "HTTP Error 400: 400"
+  },
+  "select top 30 r.bibcode,r.title,r.year,r.journal,r.doi,r.abstract from has_ref as h join ref as r on h.oidbibref = r.oidbib where h.oidref = 27592 order by r.year desc": {
+    "__error__": "HTTP Error 400: 400"
+  },
+  "select top 30 r.bibcode,r.title,r.year,r.journal,r.doi,r.abstract from has_ref as h join ref as r on h.oidbibref = r.oidbib where h.oidref = 46565 order by r.year desc": {
+    "__error__": "HTTP Error 400: 400"
+  },
+  "select top 30 r.bibcode,r.title,r.year,r.journal,r.doi,r.abstract from has_ref as h join ref as r on h.oidbibref = r.oidbib where h.oidref = 492217 order by r.year desc": {
+    "__error__": "<urlopen error timed out>"
+  },
+  "select top 30 r.bibcode,r.title,r.year,r.journal,r.doi,r.abstract from has_ref as h join ref as r on h.oidbibref = r.oidbib where h.oidref = 499802 order by r.year desc": {
+    "__error__": "HTTP Error 400: 400"
+  },
+  "select top 30 r.bibcode,r.title,r.year,r.journal,r.doi,r.abstract from has_ref as h join ref as r on h.oidbibref = r.oidbib where h.oidref = 511406 order by r.year desc": {
+    "__error__": "The read operation timed out"
+  },
+  "select top 30 r.bibcode,r.title,r.year,r.journal,r.doi,r.abstract from has_ref as h join ref as r on h.oidbibref = r.oidbib where h.oidref = 552771 order by r.year desc": {
+    "__error__": "<urlopen error timed out>"
+  },
+  "select top 30 r.bibcode,r.title,r.year,r.journal,r.doi,r.abstract from has_ref as h join ref as r on h.oidbibref = r.oidbib where h.oidref = 569667 order by r.year desc": {
+    "__error__": "<urlopen error timed out>"
+  },
+  "select top 30 r.bibcode,r.title,r.year,r.journal,r.doi,r.abstract from has_ref as h join ref as r on h.oidbibref = r.oidbib where h.oidref = 609076 order by r.year desc": {
+    "__error__": "<urlopen error timed out>"
+  },
+  "select top 30 r.bibcode,r.title,r.year,r.journal,r.doi,r.abstract from has_ref as h join ref as r on h.oidbibref = r.oidbib where h.oidref = 610779 order by r.year desc": {
+    "__error__": "HTTP Error 400: 400"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "milestone": "CGHSTC-34-M62",
+  "status": "expanded_independent_label_cross_artifact_audit",
+  "outcome_classification": "backbone_does_not_predict_expanded_direct_independent_labels",
+  "required_artifact_families": [
+    "M35",
+    "M45",
+    "M54",
+    "M55"
+  ],
+  "audited_artifact_families": [
+    "M35",
+    "M45",
+    "M54",
+    "M55"
+  ],
+  "missing_required_artifact_families": [],
+  "input_artifact_count": 11,
+  "read_success_count": 11,
+  "missing_required_source_count": 0,
+  "tier_a_label_rows": 983,
+  "tier_a_object_count": 85,
+  "tier_a_family_count": 10,
+  "tier_c_proxy_rows": 36241,
+  "tier_d_feature_availability_rows": 5,
+  "best_direct_spearman": 0.282129710803129,
+  "median_direct_spearman": 0.0,
+  "direct_answer": "backbone_does_not_predict_expanded_direct_independent_labels",
+  "ugc07125_quarantined": true,
+  "ugc07125_excluded_from_clean_inference": true,
+  "m36_refit": false,
+  "mature_velocity_law_changed": false,
+  "manuscript_rewritten": false,
+  "governor_promoted": false,
+  "trained_on_endpoint_residuals": false,
+  "trained_on_A_inferred": false,
+  "used_fstar_or_rhi_to_define_independent_labels": false,
+  "proxy_rows_promoted_to_direct_validation": false
+}

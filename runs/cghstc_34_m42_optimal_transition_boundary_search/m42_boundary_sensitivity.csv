@@ -1,0 +1,13 @@
+observable,baseline_threshold,perturbation,score_delta,stability_class,interpretation
+f_star,0.40040654512881463,minus_10pct,-0.19999999999999996,stable,stable threshold under small perturbation
+f_star,0.40040654512881463,plus_10pct,-0.06666666666666665,stable,stable threshold under small perturbation
+f_gas,0.5995934548711854,minus_10pct,-0.06666666666666665,stable,stable threshold under small perturbation
+f_gas,0.5995934548711854,plus_10pct,-0.3999999999999999,weak_or_unconstrained,sensitive threshold; treat as weak/provisional
+log10_Sigma_b,8.263242860299144,minus_10pct,-0.5333333333333332,weak_or_unconstrained,sensitive threshold; treat as weak/provisional
+log10_Sigma_b,8.263242860299144,plus_10pct,-0.3999999999999999,weak_or_unconstrained,sensitive threshold; treat as weak/provisional
+RHI_Rd,6.627789263258611,minus_10pct,-0.08888888888888902,stable,stable threshold under small perturbation
+RHI_Rd,6.627789263258611,plus_10pct,-0.1777777777777778,stable,stable threshold under small perturbation
+rotation_coherence,0.75,null,,weak_or_unconstrained,unconstrained/missing observable threshold; current data cannot fix a transition point
+SFE,,null,,weak_or_unconstrained,unconstrained/missing observable threshold; current data cannot fix a transition point
+depletion_time,,null,,weak_or_unconstrained,unconstrained/missing observable threshold; current data cannot fix a transition point
+HI_asymmetry,,null,,weak_or_unconstrained,unconstrained/missing observable threshold; current data cannot fix a transition point

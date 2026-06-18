@@ -1,0 +1,15 @@
+paper_item,source_file,caption_stub,status
+Figure 1,"conceptual schematic, to be drawn","Schematic of Conformal Gravity Hilbert Space Time Current sectors: propagation, calibration, and BDVR galaxy response.",todo_draw
+Figure 2,"conceptual schematic, to be drawn",BDVR response factor decomposition into radial halo activation and baryonic-structure conditioning.,todo_draw
+Figure 3,runs/cghstc_34_m6_paper_artifacts/figures/fig_3_m5_pred_vs_obs.png,Frozen M4c BDVR predicted versus observed SPARC flat velocities for the quality-1 validation sample.,available
+Figure 4a,runs/cghstc_34_m6_paper_artifacts/figures/fig_4a_m5b_median_abs_error_by_model.png,"Median absolute log-velocity residual for Newtonian, BTFR/MOND-like, and BDVR ablation models.",available
+Figure 4b,runs/cghstc_34_m6_paper_artifacts/figures/fig_4b_m5b_fraction_within_010_by_model.png,Fraction of galaxies within 0.10 dex for baseline and BDVR ablation models.,available
+Figure 5,runs/cghstc_34_m6_paper_artifacts/figures/fig_5_m5a_residual_dashboard.png,Residual diagnostic dashboard for the frozen M4c validation sample.,available
+Appendix Figure A1,runs/cghstc_34_m6_paper_artifacts/figures/appendix_fig_ugc07125_hi_extent.png,UGC07125 analog-search residual behavior versus HI extent.,available
+Appendix Figure A2,runs/cghstc_34_m6_paper_artifacts/figures/appendix_fig_ugc07125_participation_vs_rhi.png,Required participating mass fraction versus HI extent in the M5d inversion diagnostic.,available
+Table I,runs/cghstc_34_m6_paper_artifacts/tables/table_1_frozen_parameters.csv,Frozen parameters used in the M4c/M5 BDVR validation.,available
+Table II,runs/cghstc_34_m6_paper_artifacts/tables/table_2_m5_validation_summary.csv,Frozen M4c validation summary for the SPARC quality-1 sample.,available
+Table III,runs/cghstc_34_m6_paper_artifacts/tables/table_3_m5b_baseline_ablation.csv,Baseline and ablation comparison on the same quality-1 sample.,available
+Table IV,runs/cghstc_34_m6_paper_artifacts/tables/table_4_residual_correlation_summary.csv,Top residual correlations by model class.,available
+Appendix Table A1,runs/cghstc_34_m6_paper_artifacts/tables/appendix_table_ugc07125.csv,UGC07125 retained-outlier audit and participating-mass diagnostic fields.,available
+Appendix Table A2,runs/cghstc_34_m6_paper_artifacts/tables/appendix_table_ugc07125_hard_analogs.csv,UGC07125 hard analogs and required participating-mass diagnostics.,available

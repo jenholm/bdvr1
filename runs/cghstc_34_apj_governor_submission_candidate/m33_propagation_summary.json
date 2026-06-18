@@ -1,0 +1,13 @@
+{
+  "m33_decision": "ugc07125_quarantine_propagated",
+  "ugc07125_clean_scalar_use": false,
+  "ddo161_clean_contrast": true,
+  "true_falsifier_candidate": false,
+  "nonparticipating_gas_confirmed": false,
+  "rescues_bdvr": false,
+  "rescues_m20_m28": false,
+  "affected_artifact_count": 520,
+  "clean_language_hit_count": 19676,
+  "candidate_update_rows": 70,
+  "preferred_ugc07125_label": "excluded/quarantined: side-dependent H I/stellar geometry; W side warped, E side not warped"
+}

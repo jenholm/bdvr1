@@ -1,0 +1,263 @@
+{
+  "status": "diagnostic_quantum_state_rank_governor_not_accepted_model",
+  "sample_size": 87,
+  "equations": {
+    "bloch_lindblad": "du/dtau = -Delta(g) v - gamma_phi u; dv/dtau = Delta(g) u - gamma_phi v + Omega(g) w; dw/dtau = -Omega(g) v - gamma_relax [w - w_eq(g)]",
+    "two_channel_master": "dA/dtau = k_on(g)(1-A) - k_off(g)A + k_coh(g)sqrt(A(1-A))(1-A)"
+  },
+  "parameter_policy": {
+    "per_galaxy_tuning": false,
+    "selection": "deterministic_predeclared_grid",
+    "folds": 5,
+    "n_grid_rows": 208,
+    "rank_score": "MSE - 0.55 * Spearman + saturation_penalty"
+  },
+  "best_parameters": {
+    "quantum_family": "two_channel_master",
+    "template_name": "gas_hi",
+    "bias": 0.8,
+    "drive_scale": 1.2,
+    "eq_scale": 0.8,
+    "eq_reservoir": 0.8,
+    "k_on": 1.0,
+    "k_off": 1.0,
+    "k_coherent": 0.0,
+    "A0": 0.2,
+    "Omega0": 1.0,
+    "Delta0": 0.5,
+    "gamma_phi": 0.6,
+    "gamma_relax": 1.0,
+    "w0": -0.8,
+    "gas_c": 0.75,
+    "gas_k": 8.0,
+    "RHI_Rd_c": 7.0,
+    "RHI_k": 1.2,
+    "n_steps": 40,
+    "tau_final": 1.0
+  },
+  "m9_baseline": {
+    "mse": 0.1833278637505982,
+    "rmse": 0.4281680321446222,
+    "spearman_A_pred_A_inferred": 0.14588130693197304,
+    "pearson_A_pred_A_inferred": 0.12357299547128615,
+    "prediction_min": 2.9270354848709123e-08,
+    "prediction_max": 0.9703089969176988,
+    "prediction_std": 0.3231587114216112
+  },
+  "m18_baseline": {
+    "status": "diagnostic_differential_feedback_governor_not_accepted_model",
+    "sample_size": 87,
+    "equation": {
+      "dA_dtau": "lambda_seed D(g)(1-A) + lambda_feedback D(g) A(1-A) - lambda_reservoir R(g) A",
+      "maturity_drive": "D(g): stellar conversion, baryonic compactness, gas/H I suppressors, and stellar-dynamical acceleration",
+      "reservoir_suppression": "R(g): gas-rich and H I-extended conditions suppress activation"
+    },
+    "parameter_policy": {
+      "per_galaxy_tuning": false,
+      "selection": "deterministic_predeclared_grid",
+      "folds": 5,
+      "n_grid_rows": 1200
+    },
+    "best_parameters": {
+      "f_star_c": 0.25,
+      "k_star": 10.0,
+      "log10_sigma_c": 7.8,
+      "k_sigma": 2.0,
+      "f_gas_c": 0.75,
+      "k_gas": 8.0,
+      "RHI_Rd_c": 7.0,
+      "k_HI": 1.2,
+      "omega_c": 1.6,
+      "k_omega": 4.0,
+      "T_c": 6.0,
+      "k_T": 1.0,
+      "drive_power": 0.4,
+      "A0": 0.1,
+      "lambda_seed": 2.0,
+      "lambda_feedback": 0.0,
+      "lambda_reservoir": 1.5,
+      "n_steps": 80,
+      "tau_final": 1.0
+    },
+    "m9_baseline": {
+      "mse": 0.1833278637505982,
+      "rmse": 0.4281680321446222,
+      "spearman_A_pred_A_inferred": 0.14588130693197304,
+      "pearson_A_pred_A_inferred": 0.12357299547128615,
+      "prediction_min": 2.9270354848709123e-08,
+      "prediction_max": 0.9703089969176988,
+      "prediction_std": 0.3231587114216112
+    },
+    "full_fit_metrics": {
+      "mse": 0.12493701808987477,
+      "rmse": 0.3534643094993818,
+      "spearman_A_pred_A_inferred": 0.23400329002456807,
+      "pearson_A_pred_A_inferred": 0.21138806443365268,
+      "prediction_min": 0.02217043388842935,
+      "prediction_max": 0.8345830451855941,
+      "prediction_std": 0.2268747247136288
+    },
+    "cross_validated_metrics": {
+      "mse": 0.1320908149054437,
+      "rmse": 0.3634430009030903,
+      "spearman_A_pred_A_inferred": 0.16411532953129002,
+      "pearson_A_pred_A_inferred": 0.13168123065921855,
+      "prediction_min": 0.02217043388842935,
+      "prediction_max": 0.7647160882872012,
+      "prediction_std": 0.20227638105305484
+    },
+    "fold_selected_parameters": [
+      {
+        "fold": 0,
+        "drive_power": 0.4,
+        "A0": 0.1,
+        "lambda_seed": 1.0,
+        "lambda_feedback": 1.0,
+        "lambda_reservoir": 1.5,
+        "rmse": 0.37868511812504607,
+        "spearman_A_pred_A_inferred": 0.3746130030959752
+      },
+      {
+        "fold": 1,
+        "drive_power": 0.4,
+        "A0": 0.1,
+        "lambda_seed": 1.0,
+        "lambda_feedback": 0.0,
+        "lambda_reservoir": 0.5,
+        "rmse": 0.2741467937596675,
+        "spearman_A_pred_A_inferred": 0.35142468136225014
+      },
+      {
+        "fold": 2,
+        "drive_power": 0.4,
+        "A0": 0.1,
+        "lambda_seed": 2.0,
+        "lambda_feedback": 0.0,
+        "lambda_reservoir": 3.0,
+        "rmse": 0.4184237036064262,
+        "spearman_A_pred_A_inferred": 0.021716695879684403
+      },
+      {
+        "fold": 3,
+        "drive_power": 0.4,
+        "A0": 0.1,
+        "lambda_seed": 1.0,
+        "lambda_feedback": 0.0,
+        "lambda_reservoir": 0.5,
+        "rmse": 0.382314748116973,
+        "spearman_A_pred_A_inferred": 0.2815010219642045
+      },
+      {
+        "fold": 4,
+        "drive_power": 0.4,
+        "A0": 0.1,
+        "lambda_seed": 2.0,
+        "lambda_feedback": 0.0,
+        "lambda_reservoir": 1.5,
+        "rmse": 0.3427216935915286,
+        "spearman_A_pred_A_inferred": -0.10055182760589249
+      }
+    ],
+    "claim_boundaries": [
+      "M18 is diagnostic only, not an accepted BDVR law.",
+      "The ODE is reverse-engineered from existing scalar observables and does not establish a first-principles action-level derivation.",
+      "Full-fit improvement is not sufficient; out-of-fold behavior controls the interpretation.",
+      "Do not claim a near-deterministic activation law from this run."
+    ],
+    "finding": "The differential-feedback equation improves both error and rank ordering under cross-validation, so it is a candidate for a stronger diagnostic branch.",
+    "pivot_recommendation": "Promote M18 to a stricter validation pass with uncertainty-aware activation inference before changing the manuscript core law."
+  },
+  "full_fit_metrics": {
+    "mse": 0.09909447853631297,
+    "rmse": 0.3147927548980646,
+    "spearman_A_pred_A_inferred": 0.3231474005101178,
+    "pearson_A_pred_A_inferred": 0.3218523814423775,
+    "prediction_min": 0.07937732415259782,
+    "prediction_max": 0.7002106586381683,
+    "prediction_std": 0.14810649409734153
+  },
+  "cross_validated_metrics": {
+    "mse": 0.11660337646700157,
+    "rmse": 0.3414723655978644,
+    "spearman_A_pred_A_inferred": 0.19852086766914037,
+    "pearson_A_pred_A_inferred": 0.17971919874537445,
+    "prediction_min": 0.015017698289756099,
+    "prediction_max": 0.7008498039339388,
+    "prediction_std": 0.18181633504336886
+  },
+  "fold_selected_parameters": [
+    {
+      "fold": 0,
+      "quantum_family": "two_channel_master",
+      "template_name": "gas_hi",
+      "bias": 0.8,
+      "drive_scale": 2.5,
+      "k_on": 1.0,
+      "k_off": 4.0,
+      "k_coherent": 0.0,
+      "A0": 0.2,
+      "rmse": 0.33967204947135393,
+      "spearman_A_pred_A_inferred": 0.43653250773993807
+    },
+    {
+      "fold": 1,
+      "quantum_family": "two_channel_master",
+      "template_name": "gas_hi",
+      "bias": 0.8,
+      "drive_scale": 2.5,
+      "k_on": 1.0,
+      "k_off": 1.0,
+      "k_coherent": 0.0,
+      "A0": 0.2,
+      "rmse": 0.2590965023345171,
+      "spearman_A_pred_A_inferred": 0.5758432498111257
+    },
+    {
+      "fold": 2,
+      "quantum_family": "two_channel_master",
+      "template_name": "gas_hi",
+      "bias": 0.8,
+      "drive_scale": 2.5,
+      "k_on": 1.0,
+      "k_off": 4.0,
+      "k_coherent": 0.0,
+      "A0": 0.2,
+      "rmse": 0.3890963577218779,
+      "spearman_A_pred_A_inferred": 0.0072388986265614665
+    },
+    {
+      "fold": 3,
+      "quantum_family": "bloch_lindblad",
+      "template_name": "gas_hi",
+      "bias": 0.8,
+      "drive_scale": 1.2,
+      "k_on": 1.0,
+      "k_off": 1.0,
+      "k_coherent": 0.0,
+      "A0": 0.2,
+      "rmse": 0.39166542281865524,
+      "spearman_A_pred_A_inferred": 0.02827302840688517
+    },
+    {
+      "fold": 4,
+      "quantum_family": "two_channel_master",
+      "template_name": "gas_hi",
+      "bias": 0.8,
+      "drive_scale": 1.2,
+      "k_on": 1.0,
+      "k_off": 1.0,
+      "k_coherent": 0.0,
+      "A0": 0.2,
+      "rmse": 0.3061641960754808,
+      "spearman_A_pred_A_inferred": 0.02329859420136533
+    }
+  ],
+  "claim_boundaries": [
+    "M19 is diagnostic only, not an accepted BDVR law.",
+    "The quantum-state equations are state-channel analogies, not literal galaxy-scale quantum mechanics.",
+    "Rank improvement must survive cross-validation before manuscript promotion.",
+    "Do not claim a near-deterministic activation law from this run alone."
+  ],
+  "finding": "M19 improves the rank-ordering diagnostic relative to M18 in both full-fit and out-of-fold comparisons while also reducing RMSE. It is a stronger diagnostic branch, but still a phenomenological state-channel model rather than an accepted BDVR law.",
+  "pivot_recommendation": "Use M19 as the next latent activation candidate, then test it in a censored/uncertainty-weighted activation likelihood and velocity-domain likelihood before manuscript promotion."
+}

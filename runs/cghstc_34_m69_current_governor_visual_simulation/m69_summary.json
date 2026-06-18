@@ -1,0 +1,60 @@
+{
+  "dynamic_organization_proxy_not_direct_label": true,
+  "formation_track_rows": 4840,
+  "governor_promoted": false,
+  "initialization_mix": {
+    "claim_boundary": "initialization_mix_for_visual_simulation_not_population_inference",
+    "failed_low_activation_count": 12,
+    "failed_low_activation_target_fraction": 0.3,
+    "stable_spiral_count": 28,
+    "stable_spiral_target_fraction": 0.7
+  },
+  "initialization_modes": [
+    "historic",
+    "random"
+  ],
+  "m36_refit": false,
+  "manuscript_rewritten": false,
+  "mature_velocity_law_changed": false,
+  "milestone": "CGHSTC-34-M69",
+  "outcome_classification": "visual_diagnostic_current_governor_updated_from_m8",
+  "proxy_rows_promoted_to_direct_validation": false,
+  "random_formation_track_rows": 4840,
+  "random_initialization_distribution": {
+    "claim_boundary": "random_initialization_visualization_not_population_inference",
+    "initial_f_star": {
+      "mean": 0.17310045596646967,
+      "std": 0.04810150304652121,
+      "two_sigma_high": 0.2693034630595121,
+      "two_sigma_low": 0.07689744887342725
+    },
+    "initial_log10_Sigma_b": {
+      "mean": 8.546363648514756,
+      "std": 0.3869951278966158,
+      "two_sigma_high": 9.320353905307988,
+      "two_sigma_low": 7.7723733917215245
+    },
+    "initial_organization_score": {
+      "mean": 0.2946104740994072,
+      "std": 0.09394255398773069,
+      "two_sigma_high": 0.4824955830748686,
+      "two_sigma_low": 0.10672536512394584
+    },
+    "sample_count": 40,
+    "source_mode": "historic"
+  },
+  "state_rows": 96,
+  "status": "current_governor_visual_simulation_diagnostic",
+  "target": {
+    "A_gov_current": 0.0008419542968684071,
+    "S_settle": 0.4806866000399894,
+    "galaxy_name": "UGC07125",
+    "organization_score": 0.4806866000399894,
+    "phase_region": "measurement_limited",
+    "role": "quarantined_follow_up_not_clean_scalar_or_juvenile_prototype"
+  },
+  "transition_zone_source": "M42",
+  "ugc07125_clean_scalar_object": false,
+  "ugc07125_quarantined": true,
+  "visual_style_reference": "M8 look preserved; M8 files not edited"
+}

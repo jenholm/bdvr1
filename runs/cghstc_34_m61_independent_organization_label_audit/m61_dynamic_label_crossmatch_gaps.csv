@@ -1,0 +1,10 @@
+label_family,gap_type,missing_or_limited_reason,needed_next_data,current_n_crossmatched_rows
+A/R mismatch,too_sparse_for_decisive_test,only 8 local crossmatched rows; below decisive threshold,homogeneous approaching/receding velocity-field mismatch table for all SPARC/M59 objects,8
+H I asymmetry,too_sparse_for_decisive_test,only 8 local crossmatched rows; below decisive threshold,resolved H I asymmetry measurements or literature-coded asymmetry for all SPARC/M59 objects,8
+Vrot/sigma,missing_direct_crossmatch,no usable local direct M59/SPARC crossmatch,matched gas/stellar Vrot/sigma or lambda_R for M59 objects,0
+warp / PA twist,too_sparse_for_decisive_test,only 8 local crossmatched rows; below decisive threshold,outer-disk warp / PA-twist measurements for all SPARC/M59 objects,8
+lopsidedness,too_sparse_for_decisive_test,only 8 local crossmatched rows; below decisive threshold,stellar/H I lopsidedness amplitude measurements for all SPARC/M59 objects,8
+centroid offset,missing_direct_crossmatch,no usable local direct M59/SPARC crossmatch,stellar-vs-HI or photometric-vs-kinematic centroid offsets for M59 objects,0
+SFE / depletion time,missing_direct_crossmatch,no usable local direct M59/SPARC crossmatch,"SFR, H I/H2 masses, and depletion times crossmatched to M59 object names",0
+star-formation burstiness,missing_direct_crossmatch,no usable local direct M59/SPARC crossmatch,H-alpha/UV/IR burstiness or recent-to-past SFR indicators for M59 objects,0
+external morphology class,missing_direct_crossmatch,no usable local direct M59/SPARC crossmatch,independent visual morphology/disturbance classes with provenance and no f_star/RHI dependency,0

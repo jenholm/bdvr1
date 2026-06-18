@@ -1,0 +1,30 @@
+{
+  "alias_row_count": 328,
+  "current_tier_a_map_level_object_count": 8,
+  "direct_label_candidate_count": 0,
+  "governor_promoted": false,
+  "m36_refit": false,
+  "m64_source_summary": {
+    "milestone": "CGHSTC-34-M64",
+    "outcome_classification": "source_acquisition_pilot_not_model_validation",
+    "updated_tier_a_map_level_object_count": 8
+  },
+  "manuscript_rewritten": false,
+  "mature_velocity_law_changed": false,
+  "milestone": "CGHSTC-34-M65",
+  "minimum_pool_object_count": 25,
+  "object_resolved_acquisition_target_rows": 225,
+  "outcome_classification": "object_resolved_query_router_not_label_validation",
+  "proxy_rows_promoted_to_direct_validation": false,
+  "query_route_row_count": 84,
+  "resolved_object_count": 21,
+  "resolver_log_rows": 29,
+  "status": "object_resolved_source_query_router",
+  "tier_a_promotion_count": 0,
+  "trained_on_A_inferred": false,
+  "trained_on_endpoint_residuals": false,
+  "ugc07125_clean_scalar_object": false,
+  "ugc07125_quarantined": true,
+  "unresolved_object_count": 4,
+  "updated_tier_a_map_level_object_count": 8
+}

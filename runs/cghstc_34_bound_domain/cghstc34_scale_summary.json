@@ -1,0 +1,19 @@
+{
+  "a0_over_cH0": 0.18325304163977268,
+  "a0_reference_m_s2": 1.2e-10,
+  "cH0_m_s2": 6.548322413981453e-10,
+  "claim_status": "scale_diagnostic_only_not_validation",
+  "epsilon_calibration": 0.07721796276013149,
+  "eta_order_reasonable": true,
+  "eta_required_for_a0_equals_eta_epsilon_cH0": 2.373191872583154,
+  "h0_cos_km_s_mpc": 67.4,
+  "h0_local_km_s_mpc": 73.04,
+  "policy_check": {
+    "forbidden_dirs": {
+      "h0_outputs": false,
+      "paper_outputs": false
+    },
+    "policy_ok": true,
+    "project_root": "/home/jenholm/photonland/cghs/cghstc_34"
+  }
+}

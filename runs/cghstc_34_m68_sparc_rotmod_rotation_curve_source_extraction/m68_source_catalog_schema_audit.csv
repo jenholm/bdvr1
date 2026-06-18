@@ -1,0 +1,10 @@
+source_table,column_name,present,dtype,non_null_count,example_value,schema_role
+sparc_rotmod_ltg_zip,Rad,True,float64,13,1.44,resolved_rotation_curve_context
+sparc_rotmod_ltg_zip,Vobs,True,float64,13,26.1,resolved_rotation_curve_context
+sparc_rotmod_ltg_zip,errV,True,float64,13,3.3,resolved_rotation_curve_context
+sparc_rotmod_ltg_zip,Vgas,True,float64,13,9.09,baryonic_component_context
+sparc_rotmod_ltg_zip,Vdisk,True,float64,13,27.58,baryonic_component_context
+sparc_rotmod_ltg_zip,Vbul,True,float64,13,0.0,baryonic_component_context
+sparc_rotmod_ltg_zip,SBdisk,True,float64,13,52.23,baryonic_component_context
+sparc_rotmod_ltg_zip,SBbul,True,float64,13,0.0,baryonic_component_context
+sparc_rotmod_ltg_zip,Distance,True,float64,1,1.0,source_metadata_context

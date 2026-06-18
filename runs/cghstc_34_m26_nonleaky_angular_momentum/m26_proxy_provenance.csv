@@ -1,0 +1,8 @@
+proxy_name,formula,uses_observed_Vflat
+J_newton_lambda,log10((2 Rdisk v_newton)/sqrt(M_baryon Rdisk)),False
+J_hi_newton_lambda,log10((R_HI v_newton)/sqrt(M_baryon Rdisk)),False
+J_mix_newton_lambda,log10(((2 f_star Rdisk + f_gas R_HI) v_newton)/sqrt(M_baryon Rdisk)),False
+J_dyn_frequency,log10(v_newton/Rdisk),False
+J_size_mass,log10(Rdisk/sqrt(M_baryon Rdisk)),False
+J_gas_extent,log10(RHI_over_Rdisk),False
+J_surface_compactness_inverse,-log10(Sigma_b),False

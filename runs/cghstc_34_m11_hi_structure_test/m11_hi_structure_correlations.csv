@@ -1,0 +1,12 @@
+variable,spearman_with_hi_disturbance,n
+A_gov_inferred,-0.012272017341845399,8
+A_gov,-0.02395252523826518,8
+f_gas,0.17964393928698885,8
+f_star,-0.17964393928698885,8
+RHI_over_Rdisk,0.31138282809744733,8
+btfr_offset_dex,-0.03592878785739777,8
+asymmetry_index,0.6946232319096901,8
+warp_index,0.7425282823862205,8
+lopsidedness_index,0.7425282823862205,8
+approach_recede_mismatch_km_s,0.19162020190612145,8
+non_circular_motion_index,-0.47905050476530353,8

@@ -1,0 +1,6 @@
+feature_family,rows_available,rows_total,coverage_fraction,note
+direct_SFR_depletion_crossmatch,0,87,0.0,No direct SPARC SFR/depletion crossmatch was present locally; M15 is external proxy rows.
+THINGS_HI_disturbance_crossmatch,8,87,0.09195402298850575,Independent resolved H I structure/settling proxy from M11.
+M24_external_angular_momentum_crossmatch,0,87,0.0,Searched existing M24 external j/lambda_R crossmatch; current local artifact has no usable direct external j for the 87 SPARC rows.
+M29_angular_residual_sidechannel,87,87,1.0,Velocity/angular-momentum residual side-channel; not clean independent base-equation evidence.
+UGC07125_quarantine,1,87,0.011494252873563218,Quarantine multiplier excludes UGC07125 from clean scalar use.

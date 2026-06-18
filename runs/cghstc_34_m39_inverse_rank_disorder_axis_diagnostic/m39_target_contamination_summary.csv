@@ -1,0 +1,8 @@
+indicator,available_n,high_residual_rate,all_primary_rate,interpretation
+inclination_extreme,41,0.2727272727272727,0.24390243902439024,high_residual_enriched
+high_velocity_uncertainty,41,0.18181818181818182,0.12195121951219512,high_residual_enriched
+measurement_contamination_flag,41,0.18181818181818182,0.17073170731707318,high_residual_enriched
+severe_underrotation_flag,41,0.0,0.3902439024390244,not_enriched_or_unavailable
+hi_disturbed_or_disturbed_stage,41,0.0,0.12195121951219512,not_enriched_or_unavailable
+asymmetry_or_warp_labels_available,41,0.0,0.0975609756097561,not_enriched_or_unavailable
+ugc07125_quarantine_flag,41,0.0,0.024390243902439025,not_enriched_or_unavailable

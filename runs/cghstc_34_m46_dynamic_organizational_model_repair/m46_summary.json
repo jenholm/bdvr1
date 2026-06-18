@@ -1,0 +1,90 @@
+{
+  "milestone": "CGHSTC-34-M46",
+  "status": "dynamic_organizational_model_repair_diagnostic",
+  "objective": "train_baryon_only_dynamic_organization_then_test_frozen_bridge_to_m36_endpoint",
+  "outcome_classification": "quality_contamination_dominant",
+  "failure_layer": "quality_contamination",
+  "n_organization_rows": 165,
+  "n_organization_train_rows": 136,
+  "n_heldout_tier1_bridge_rows": 29,
+  "organization_model_features": [
+    "f_star",
+    "f_gas",
+    "hi_compactness_proxy",
+    "log10_Sigma_b"
+  ],
+  "organization_label_components": [
+    "composition_indicator",
+    "hi_extent_indicator",
+    "rotation_coherence_indicator",
+    "sfe_indicator",
+    "depletion_time_indicator",
+    "shape_symmetry_indicator"
+  ],
+  "organization_model_coefficients": {
+    "coef": [
+      0.4080433255291413,
+      1.6080478131465932,
+      -1.6080478131465927,
+      1.0476172157980106,
+      -1.7330892995616367
+    ],
+    "mu": [
+      0.4687460165688601,
+      0.5312539834311398,
+      0.16390996684829887,
+      8.32126291246033
+    ],
+    "sigma": [
+      0.2212862396265335,
+      0.2212862396265335,
+      0.08062716340297639,
+      0.3560959623554259
+    ],
+    "features": [
+      "f_star",
+      "f_gas",
+      "hi_compactness_proxy",
+      "log10_Sigma_b"
+    ],
+    "l2": 0.5
+  },
+  "dynamic_model_heldout_metrics": {
+    "model_id": "dynamic_organization_frozen",
+    "heldout_n": 29,
+    "activation_balanced_accuracy": 0.3076923076923077,
+    "residual_direction_balanced_accuracy": 0.381578947368421,
+    "activation_auc_like": 0.38461538461538464,
+    "residual_auc_like": 0.3105263157894737,
+    "trained_on_endpoint_residuals": false,
+    "uses_quality_as_physical_feature": false,
+    "notes": "same held-out Tier 1 bridge rows"
+  },
+  "organization_trained_on_endpoint_residuals": false,
+  "organization_trained_on_A_inferred": false,
+  "quality_used_as_physical_organization_feature": false,
+  "measurement_quality_separate_from_physical_organization": true,
+  "m36_endpoint_refit": false,
+  "mature_velocity_law_changed": false,
+  "manuscript_rewritten": false,
+  "governor_promoted": false,
+  "ugc07125_treated_as_clean_scalar_object": false,
+  "claim_boundaries": [
+    "M46 trains the organization model on baryon/settling labels before joining endpoint residuals.",
+    "M36 hybrid no-governor mature endpoint is not refit or changed.",
+    "Measurement quality and quarantine flags are separate from physical organization features.",
+    "Baselines are compared on the same held-out Tier 1 bridge rows.",
+    "A failed bridge identifies a layer to repair rather than training maturity directly on endpoint residuals.",
+    "UGC07125 remains quarantined and is not treated as a clean scalar object or juvenile prototype."
+  ],
+  "artifacts": {
+    "m46_organization_training_table.csv": "/home/jenholm/photonland/cghs/cghstc_34/runs/cghstc_34_m46_dynamic_organizational_model_repair/m46_organization_training_table.csv",
+    "m46_frozen_organization_predictions.csv": "/home/jenholm/photonland/cghs/cghstc_34/runs/cghstc_34_m46_dynamic_organizational_model_repair/m46_frozen_organization_predictions.csv",
+    "m46_heldout_bridge_evaluation.csv": "/home/jenholm/photonland/cghs/cghstc_34/runs/cghstc_34_m46_dynamic_organizational_model_repair/m46_heldout_bridge_evaluation.csv",
+    "m46_baseline_comparison.csv": "/home/jenholm/photonland/cghs/cghstc_34/runs/cghstc_34_m46_dynamic_organizational_model_repair/m46_baseline_comparison.csv",
+    "m46_failure_layer_assessment.csv": "/home/jenholm/photonland/cghs/cghstc_34/runs/cghstc_34_m46_dynamic_organizational_model_repair/m46_failure_layer_assessment.csv",
+    "m46_feature_availability_report.csv": "/home/jenholm/photonland/cghs/cghstc_34/runs/cghstc_34_m46_dynamic_organizational_model_repair/m46_feature_availability_report.csv",
+    "m46_summary.json": "/home/jenholm/photonland/cghs/cghstc_34/runs/cghstc_34_m46_dynamic_organizational_model_repair/m46_summary.json",
+    "M46_README.md": "/home/jenholm/photonland/cghs/cghstc_34/runs/cghstc_34_m46_dynamic_organizational_model_repair/M46_README.md"
+  }
+}

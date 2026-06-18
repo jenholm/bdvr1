@@ -1,0 +1,24 @@
+{
+  "best_model": "gas_extent",
+  "real_rmse_logj": 0.056610980203649484,
+  "real_base_rmse_logj": 0.056395947505863686,
+  "real_rmse_improvement_vs_base": -0.0002150326977857983,
+  "real_resid_a_rho": -0.7260754944953252,
+  "real_base_resid_a_rho": -0.7594862836525321,
+  "real_abs_resid_a_rho_reduction": 0.033410789157206966,
+  "n_permutations": 150,
+  "permutation_improvement_median": -0.0011664254934901294,
+  "permutation_improvement_p95": 0.0006825120267218779,
+  "empirical_p_value_rmse_improvement": 0.18543046357615894,
+  "permuted_columns": [
+    "f_star",
+    "log_RHI_over_Rdisk",
+    "fgas_RHI_interaction"
+  ],
+  "pass_fail": {
+    "improvement_positive": false,
+    "improvement_ge_0p005_dex": false,
+    "p_value_le_0p05": false,
+    "a_residual_reduction_ge_0p10": false
+  }
+}

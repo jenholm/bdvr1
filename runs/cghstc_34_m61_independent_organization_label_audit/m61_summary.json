@@ -1,0 +1,23 @@
+{
+  "milestone": "CGHSTC-34-M61",
+  "status": "independent_organization_label_audit",
+  "outcome_classification": "too_few_independent_labels",
+  "usable_independent_label_rows": 32,
+  "usable_independent_object_count": 8,
+  "usable_independent_family_count": 4,
+  "requested_family_count": 9,
+  "available_family_count": 4,
+  "accepted_non_circular_family_count": 4,
+  "best_spearman_backbone_vs_independent_org": 0.2142857142857143,
+  "median_spearman_backbone_vs_independent_org": 0.16666666666666669,
+  "direct_answer": "too few direct independent crossmatched dynamical labels to decide whether the M59/M60 backbone predicts independent organization labels",
+  "ugc07125_quarantined": true,
+  "ugc07125_excluded_from_clean_inference": true,
+  "m36_refit": false,
+  "mature_velocity_law_changed": false,
+  "manuscript_rewritten": false,
+  "governor_promoted": false,
+  "trained_on_endpoint_residuals": false,
+  "trained_on_A_inferred": false,
+  "used_fstar_or_rhi_to_define_independent_labels": false
+}

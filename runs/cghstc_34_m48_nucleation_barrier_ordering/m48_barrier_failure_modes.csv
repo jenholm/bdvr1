@@ -1,0 +1,4 @@
+failure_mode,status,evidence
+gas_rich_auto_activation,checked,"gas enters only through composition/concentration balance, not as standalone activation"
+UGC07125_clean_prototype,rejected,quality_quarantine_flag retained and branch_role marks not clean scalar
+missing_rotational_order,warning,rotation coherence mostly proxy-filled at 0.5 in current local artifacts

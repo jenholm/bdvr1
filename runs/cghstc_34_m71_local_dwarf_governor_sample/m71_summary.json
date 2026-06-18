@@ -1,0 +1,37 @@
+{
+  "milestone": "CGHSTC-34-M71",
+  "status": "local_dwarf_governor_sample_design_and_current_artifact_audit",
+  "claim_boundary": "sample_design_and_settling_state_audit_not_model_validation",
+  "branch_a_rotation_class": "R",
+  "observation_classes": [
+    "R",
+    "T",
+    "D",
+    "X",
+    "needs_source_measurement"
+  ],
+  "current_rows": 87,
+  "branch_a_rows": 86,
+  "branch_b_rows": 64,
+  "external_registry_rows": 66,
+  "external_registry_direct_measurement_rows": 0,
+  "current_artifact_crossmatched_external_targets": 3,
+  "correlation_rows": 24,
+  "survey_priority_order": [
+    "LITTLE THINGS",
+    "VLA-ANGST",
+    "SHIELD",
+    "FIGGS/FIGGS2",
+    "LVHIS",
+    "MHONGOOSE/WALLABY watch"
+  ],
+  "manuscript_rewritten": false,
+  "mature_velocity_law_changed": false,
+  "governor_promoted": false,
+  "m36_refit": false,
+  "proxy_rows_promoted_to_direct_validation": false,
+  "trained_on_A_inferred": false,
+  "trained_on_endpoint_residuals": false,
+  "ugc07125_quarantined": true,
+  "ugc07125_clean_scalar_object": false
+}

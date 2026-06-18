@@ -1,0 +1,4 @@
+sample,row_count,low_organization_fraction,settled_fraction,selection_note
+all_current_m59_m70_overlap,87,0.3218390804597701,0.9885057471264368,clean circular-velocity suitability preferentially keeps R rows; settling branch keeps T/D/X targets claim-bounded
+quality_clean_rotation_proxy,86,0.313953488372093,1.0,clean circular-velocity suitability preferentially keeps R rows; settling branch keeps T/D/X targets claim-bounded
+settling_state_followup_pool,1,1.0,0.0,clean circular-velocity suitability preferentially keeps R rows; settling branch keeps T/D/X targets claim-bounded

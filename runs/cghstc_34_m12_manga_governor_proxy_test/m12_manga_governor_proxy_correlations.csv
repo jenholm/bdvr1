@@ -1,0 +1,12 @@
+variable,spearman_with_A_proxy,n
+stellar_surface_density_msun_kpc2,0.366594063703338,10185
+specific_sfr_yr,-0.39085242729645386,10185
+gas_velocity_proxy_km_s,0.5199033870459722,10185
+stellar_velocity_dispersion_km_s,0.3118057940445558,10185
+gas_sigma_km_s,0.26685935908319364,10185
+kinematic_asymmetry_proxy,-0.23507972082751802,10185
+kinematic_settling_proxy,0.23507962420750145,10185
+disk_likeness_proxy,0.04004722689592388,10185
+axis_ratio,-0.20003754978363308,10185
+sersic_n,0.06410270030727101,10185
+stellar_mass_msun,0.3798365379106312,10185

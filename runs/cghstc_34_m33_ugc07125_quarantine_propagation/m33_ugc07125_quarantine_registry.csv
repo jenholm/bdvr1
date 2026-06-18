@@ -1,0 +1,3 @@
+galaxy_name,aliases,m33_quarantine_status,clean_scalar_use,keep_as_boundary_object,m33_quarantine_reason,source_decision,true_falsifier_candidate,nonparticipating_gas_confirmed,rescues_bdvr,preferred_label
+UGC07125,UGC 7125; UGC07125,excluded_from_clean_scalar_tests,False,True,"side-dependent H I/stellar geometry; W side warped, E side not warped",exclude_from_clean_scalar_tests,False,False,False,"excluded/quarantined: side-dependent H I/stellar geometry; W side warped, E side not warped"
+DDO161,DDO 161,not_quarantined,True,False,cleaner juvenile-forming contrast object retained after UGC07125 quarantine,clean_juvenile_forming_contrast,False,False,False,clean juvenile-forming contrast

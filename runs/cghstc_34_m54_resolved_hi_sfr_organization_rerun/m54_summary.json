@@ -1,0 +1,20 @@
+{
+  "milestone": "CGHSTC-34-M54",
+  "status": "resolved_hi_sfr_organization_rerun_diagnostic",
+  "outcome_classification": "insufficient_crossmatched_direct_observables",
+  "uses_m51_as_trajectory_ranking_diagnostic": true,
+  "uses_m53_to_define_missing_observables": true,
+  "resolved_hi_rows": 8,
+  "sfr_sfe_rows": 40,
+  "total_crossmatch_rows": 165,
+  "m51_residual_auc_like": 0.6158536585365854,
+  "m54_residual_auc_like": 0.5975609756097561,
+  "m36_refit": false,
+  "mature_velocity_law_changed": false,
+  "manuscript_rewritten": false,
+  "governor_promoted": false,
+  "trained_on_endpoint_residuals": false,
+  "trained_on_A_inferred": false,
+  "quality_used_as_physical_feature": false,
+  "ugc07125_treated_as_clean_scalar_object": false
+}

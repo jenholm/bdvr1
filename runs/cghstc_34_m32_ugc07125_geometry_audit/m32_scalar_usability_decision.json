@@ -1,0 +1,22 @@
+{
+  "galaxy_name": "UGC07125",
+  "aliases": [
+    "UGC 7125",
+    "UGC07125"
+  ],
+  "m32_decision": "exclude_from_clean_scalar_tests",
+  "clean_scalar_usable": false,
+  "scalar_usable_with_disturbance_flag": false,
+  "exclude_from_clean_scalar_tests": true,
+  "keep_as_boundary_object": true,
+  "true_falsifier_candidate": false,
+  "nonparticipating_gas_confirmed": false,
+  "failed_galaxy_confirmed": false,
+  "rescues_bdvr": false,
+  "rescues_m20_m28": false,
+  "quarantine_evidence_count": 5,
+  "clean_scalar_support_count": 0,
+  "two_sided_table_extracted": true,
+  "claim_boundary": "UGC07125 has source-paper H I/stellar asymmetry evidence and should be quarantined/excluded from clean scalar model tests; this is not proof of nonparticipating gas, not a true-falsifier claim, and not a BDVR rescue.",
+  "next_step": "If UGC07125 is mentioned in the manuscript or model artifacts, mark it as excluded/quarantined and use DDO161 as the cleaner juvenile-forming contrast object."
+}

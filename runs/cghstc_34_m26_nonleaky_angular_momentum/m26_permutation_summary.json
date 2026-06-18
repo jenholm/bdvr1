@@ -1,0 +1,23 @@
+{
+  "real_metrics": {
+    "mse_bounded": 0.08185740627087683,
+    "rmse_bounded": 0.28610733347972195,
+    "spearman_A_rank_A_inferred": 0.5316066318482553,
+    "pearson_A_rank_A_inferred": 0.5403333406975219,
+    "spearman_A_bounded_A_inferred": 0.5327899656902885,
+    "pearson_A_bounded_A_inferred": 0.5383253725805652,
+    "prediction_min": -0.12612160954012852,
+    "prediction_max": 1.370963152397252,
+    "prediction_std": 0.2821828100296154,
+    "bounded_prediction_std": 0.25907066451374566,
+    "n": 87
+  },
+  "n_permutations": 150,
+  "permutation_rho_median": 0.420066980092073,
+  "permutation_rho_p95": 0.4852239509379605,
+  "empirical_p_value_rho_perm_ge_real": 0.006622516556291391,
+  "pass_fail": {
+    "p_value_le_0p01": true,
+    "real_exceeds_perm_p95": true
+  }
+}

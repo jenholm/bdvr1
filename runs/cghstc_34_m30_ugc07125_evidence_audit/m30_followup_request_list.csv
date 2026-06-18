@@ -1,0 +1,7 @@
+priority,gate_id,requested_evidence,why_it_matters
+1,resolved_hi_velocity_field,Obtain/locate 2D H I velocity field,needed to test warp/asymmetry/settled-disk status
+2,hi_surface_density_participation,Obtain/locate H I column-density map/profile,direct test of nonparticipating extended gas
+3,outer_curve_reliability,Audit original rotation-curve extraction,"SPARC Rotmod is flat, but side/asymmetry/inclination details matter"
+4,star_formation_efficiency,Find SFR and H I/H2 depletion time,distinguishes gas-rich young disk from stalled inefficient disk
+5,stellar_population_age_metallicity,Find age/metallicity/color population proxy,distinguishes truly young from long-stalled system
+6,environment_tidal_history,Check companions/group/tidal/asymmetry literature,rules in/out disturbance quarantine

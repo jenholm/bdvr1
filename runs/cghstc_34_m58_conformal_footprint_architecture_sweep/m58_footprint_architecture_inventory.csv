@@ -1,0 +1,11 @@
+architecture_id,family,footprint_geometry,uses_endpoint_residuals_for_training,uses_A_inferred_for_training,uses_quality_as_physical_feature,proxy_limited,missing_axis_penalty_type
+quantile_box_mean,A,mature quantile range plus linear decay plus mean score,False,False,False,False,mean
+product_intersection,B,geometric product/intersection of required axes,False,False,False,False,product/geometric_mean
+minimum_gate,C,weakest footprint segment controls activation,False,False,False,False,minimum
+two_stage_composition_geometry,D,composition gate times geometry occupancy,False,False,False,False,composition_gate_x_geometry
+mahalanobis_mature_manifold,E,covariance mature-manifold distance,False,False,False,False,covariance_distance
+nearest_neighbor_mature_template,F,nearest mature-control template similarity,False,False,False,False,nearest_template
+exponential_disk_profile,G,proxy exponential-disk radial-profile footprint,False,False,False,True,weighted_profile
+hi_compactness_modifier,H,stellar/composition backbone modified by H I compactness,False,False,False,False,modifier_gate
+organization_label_weighted,I,residual-blind organization-label component weighting,False,False,False,False,trained_on_organization_label_only
+multi_regime_mature_footprint,J,"union/tolerance over dwarf, LSB, and high-mass mature templates",False,False,False,False,union_max

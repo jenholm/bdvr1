@@ -1,0 +1,33 @@
+object_name,label_family,local_column,raw_value,raw_high_means,independent_organization_score,independent_settled_label,m4_backbone_score,quality_quarantined,clean_inference_eligible,provenance_status,coverage_class
+NGC2403,A/R mismatch,approach_recede_mismatch_km_s,117.5766808229216,more_disturbed,0.8571428571428572,True,0.48339281611137624,False,True,accepted_independent_local_crossmatch,sparse
+NGC2841,A/R mismatch,approach_recede_mismatch_km_s,280.50763066688984,more_disturbed,0.0,False,0.47488816357352537,False,True,accepted_independent_local_crossmatch,sparse
+NGC2903,A/R mismatch,approach_recede_mismatch_km_s,136.13258428987592,more_disturbed,0.7142857142857143,True,0.7444680387757632,False,True,accepted_independent_local_crossmatch,sparse
+NGC3198,A/R mismatch,approach_recede_mismatch_km_s,155.76663849422062,more_disturbed,0.5714285714285714,True,0.4741976697723762,False,True,accepted_independent_local_crossmatch,sparse
+NGC3521,A/R mismatch,approach_recede_mismatch_km_s,184.9949667698778,more_disturbed,0.2857142857142857,False,0.6546276854445545,False,True,accepted_independent_local_crossmatch,sparse
+NGC5055,A/R mismatch,approach_recede_mismatch_km_s,191.47602887519025,more_disturbed,0.1428571428571429,False,0.5241974517070057,False,True,accepted_independent_local_crossmatch,sparse
+NGC6946,A/R mismatch,approach_recede_mismatch_km_s,105.85005676423042,more_disturbed,1.0,True,0.6045801298193839,False,True,accepted_independent_local_crossmatch,sparse
+NGC7331,A/R mismatch,approach_recede_mismatch_km_s,179.9801365881417,more_disturbed,0.4285714285714286,False,0.7558021443251632,False,True,accepted_independent_local_crossmatch,sparse
+NGC2403,H I asymmetry,asymmetry_index,0.3363310990095116,more_disturbed,0.5714285714285714,True,0.48339281611137624,False,True,accepted_independent_local_crossmatch,sparse
+NGC2841,H I asymmetry,asymmetry_index,0.3520187555840032,more_disturbed,0.4285714285714286,False,0.47488816357352537,False,True,accepted_independent_local_crossmatch,sparse
+NGC2903,H I asymmetry,asymmetry_index,0.2978731192301238,more_disturbed,0.7142857142857143,True,0.7444680387757632,False,True,accepted_independent_local_crossmatch,sparse
+NGC3198,H I asymmetry,asymmetry_index,0.2632006782747683,more_disturbed,1.0,True,0.4741976697723762,False,True,accepted_independent_local_crossmatch,sparse
+NGC3521,H I asymmetry,asymmetry_index,0.2941710343504076,more_disturbed,0.8571428571428572,True,0.6546276854445545,False,True,accepted_independent_local_crossmatch,sparse
+NGC5055,H I asymmetry,asymmetry_index,0.4108888983335056,more_disturbed,0.1428571428571429,False,0.5241974517070057,False,True,accepted_independent_local_crossmatch,sparse
+NGC6946,H I asymmetry,asymmetry_index,0.4575214466194032,more_disturbed,0.0,False,0.6045801298193839,False,True,accepted_independent_local_crossmatch,sparse
+NGC7331,H I asymmetry,asymmetry_index,0.4061862485011163,more_disturbed,0.2857142857142857,False,0.7558021443251632,False,True,accepted_independent_local_crossmatch,sparse
+NGC2403,warp / PA twist,warp_index,0.0308291514077503,more_disturbed,0.5714285714285714,True,0.48339281611137624,False,True,accepted_independent_local_crossmatch,sparse
+NGC2841,warp / PA twist,warp_index,0.0450378352887138,more_disturbed,0.4285714285714286,False,0.47488816357352537,False,True,accepted_independent_local_crossmatch,sparse
+NGC2903,warp / PA twist,warp_index,0.0724110049985998,more_disturbed,0.2857142857142857,False,0.7444680387757632,False,True,accepted_independent_local_crossmatch,sparse
+NGC3198,warp / PA twist,warp_index,0.0177401744482523,more_disturbed,0.7142857142857143,True,0.4741976697723762,False,True,accepted_independent_local_crossmatch,sparse
+NGC3521,warp / PA twist,warp_index,0.0049582884978651,more_disturbed,0.8571428571428572,True,0.6546276854445545,False,True,accepted_independent_local_crossmatch,sparse
+NGC5055,warp / PA twist,warp_index,0.1968632146950233,more_disturbed,0.0,False,0.5241974517070057,False,True,accepted_independent_local_crossmatch,sparse
+NGC6946,warp / PA twist,warp_index,0.0976303426092762,more_disturbed,0.1428571428571429,False,0.6045801298193839,False,True,accepted_independent_local_crossmatch,sparse
+NGC7331,warp / PA twist,warp_index,0.0034621367010113,more_disturbed,1.0,True,0.7558021443251632,False,True,accepted_independent_local_crossmatch,sparse
+NGC2403,lopsidedness,lopsidedness_index,0.0602744686477674,more_disturbed,0.0,False,0.48339281611137624,False,True,accepted_independent_local_crossmatch,sparse
+NGC2841,lopsidedness,lopsidedness_index,0.0459359448251217,more_disturbed,0.2857142857142857,False,0.47488816357352537,False,True,accepted_independent_local_crossmatch,sparse
+NGC2903,lopsidedness,lopsidedness_index,0.0204237066668467,more_disturbed,0.7142857142857143,True,0.7444680387757632,False,True,accepted_independent_local_crossmatch,sparse
+NGC3198,lopsidedness,lopsidedness_index,0.0069167198712571,more_disturbed,1.0,True,0.4741976697723762,False,True,accepted_independent_local_crossmatch,sparse
+NGC3521,lopsidedness,lopsidedness_index,0.0271981882355743,more_disturbed,0.5714285714285714,True,0.6546276854445545,False,True,accepted_independent_local_crossmatch,sparse
+NGC5055,lopsidedness,lopsidedness_index,0.0414003805977517,more_disturbed,0.4285714285714286,False,0.5241974517070057,False,True,accepted_independent_local_crossmatch,sparse
+NGC6946,lopsidedness,lopsidedness_index,0.0497457662101242,more_disturbed,0.1428571428571429,False,0.6045801298193839,False,True,accepted_independent_local_crossmatch,sparse
+NGC7331,lopsidedness,lopsidedness_index,0.0201951438093359,more_disturbed,0.8571428571428572,True,0.7558021443251632,False,True,accepted_independent_local_crossmatch,sparse

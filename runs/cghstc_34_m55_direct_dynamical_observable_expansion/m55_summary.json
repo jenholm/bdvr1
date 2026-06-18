@@ -1,0 +1,21 @@
+{
+  "milestone": "CGHSTC-34-M55",
+  "branch_type": "data_normalization_acquisition_not_modeling",
+  "status": "direct_dynamical_observable_expansion_complete",
+  "outcome_classification": "direct_HI_extent_overlap_expanded_map_level_dynamics_still_sparse",
+  "previous_resolved_hi_endpoint_overlap_n": 8,
+  "m55_direct_hi_extent_endpoint_overlap_n": 85,
+  "m55_map_level_ar_asym_endpoint_overlap_n": 8,
+  "things_total_map_level_rows": 33,
+  "vrot_sigma_proxy_rows": 10185,
+  "sfe_depletion_proxy_rows": 1699,
+  "weak_resolved_hi_threshold_met": true,
+  "useful_resolved_hi_threshold_met": true,
+  "organization_model_rerun": false,
+  "m36_refit": false,
+  "mature_velocity_law_changed": false,
+  "manuscript_rewritten": false,
+  "governor_promoted": false,
+  "proxy_only_rows_separate": true,
+  "ugc07125_treated_as_clean_scalar_object": false
+}

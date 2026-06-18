@@ -1,0 +1,4 @@
+source_id,title,pdf_page,image_path,reason
+garcia_ruiz_2002_warps,Neutral hydrogen and optical observations of edge-on galaxies: Hunting for warps,9,/home/jenholm/photonland/cghs/cghstc_34/runs/cghstc_34_m32_ugc07125_geometry_audit/page_images/garcia_ruiz_2002_warps_p09-9.png,one_side_warped_other_flat
+van_der_kruit_2007_truncations_warps,Truncations of stellar disks and warps of HI-layers in edge-on spiral galaxies,5,/home/jenholm/photonland/cghs/cghstc_34/runs/cghstc_34_m32_ugc07125_geometry_audit/page_images/van_der_kruit_2007_truncations_warps_p05-5.png,two_sides_entirely_different
+van_der_kruit_2007_truncations_warps,Truncations of stellar disks and warps of HI-layers in edge-on spiral galaxies,6,/home/jenholm/photonland/cghs/cghstc_34/runs/cghstc_34_m32_ugc07125_geometry_audit/page_images/van_der_kruit_2007_truncations_warps_p06-6.png,excluded_from_bona_fide_warped_set

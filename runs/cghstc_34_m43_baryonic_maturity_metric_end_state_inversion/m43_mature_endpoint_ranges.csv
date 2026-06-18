@@ -1,0 +1,12 @@
+metric,mature_median,mature_q16,mature_q84,n_mature,endpoint_basis
+f_star,0.814618873970817,0.5598222260265371,0.9194754245194133,46,direct mature/control visible-baryon rows
+f_gas,0.18538112602918294,0.08052457548058672,0.440177773973463,46,direct mature/control visible-baryon rows
+log10_Sigma_b,8.669917595476791,8.126699705125477,9.033249692832614,46,direct mature/control visible-baryon rows
+R_HI_over_Rd,5.741362423939318,3.8868269950902885,8.376291390728477,46,direct mature/control visible-baryon rows
+baryonic_concentration_2p2Rd,0.5812693113677189,0.520384270947263,0.6275157624011054,46,direct mature/control visible-baryon rows
+composition_maturity,0.9999840412272343,0.9859479603730568,0.9999990226989022,46,direct mature/control visible-baryon rows
+radial_distribution_maturity,0.6489207561318088,0.4987481847615984,0.9268437956405711,46,direct mature/control visible-baryon rows
+dynamical_settling_maturity,1.0,0.768,1.0,46,direct mature/control visible-baryon rows
+star_formation_maturity,0.5,0.5,0.5,46,direct mature/control visible-baryon rows
+shape_symmetry_maturity,0.8775251399841624,0.020233459313677295,0.9975083159280748,46,direct mature/control visible-baryon rows
+baryonic_maturity_score,0.7549338301727297,0.6043032040575539,0.8637227095826683,46,direct mature/control visible-baryon rows

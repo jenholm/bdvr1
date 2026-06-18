@@ -1,0 +1,8 @@
+model_id,n_rows,organization_auc_like,spearman_vs_abs_m36_residual,clean_sample_spearman_vs_abs_m36_residual,rmse_vs_organization_score,physical_interpretation_allowed,trained_on_endpoint_residuals,trained_on_A_inferred,uses_quality_as_physical_feature,beats_gas_fraction_only,beats_rhi_over_rd_only,beats_m56
+footprint_occupancy_F_occ,85,0.7593537414965986,-0.2222324395749906,-0.209382517905358,0.32686970935258103,True,False,False,False,False,False,True
+footprint_activation_candidate,85,0.7593537414965986,-0.2222324395749906,-0.209382517905358,0.2972056337016502,True,False,False,False,False,False,False
+m56_hi_structural_score,85,0.7193877551020408,-0.14829001367989056,-0.12704262427862711,0.2169003861836899,True,False,False,False,False,False,False
+gas_fraction_only,85,0.814625850340136,-0.0972640218878249,-0.07014275589753974,0.20698143350697162,True,False,False,False,False,False,False
+stellar_fraction_only,85,0.814625850340136,-0.0972640218878249,-0.07014275589753974,0.20698143350697162,True,False,False,False,False,False,False
+rhi_over_rd_only,85,0.800453514739229,-0.027535665428962283,-0.018689885592791333,0.17176686965742405,True,False,False,False,False,False,False
+quality_only_baseline,85,0.623015873015873,-0.15441412997496698,-0.10656409970606884,0.36931631228319256,False,False,False,True,False,False,False

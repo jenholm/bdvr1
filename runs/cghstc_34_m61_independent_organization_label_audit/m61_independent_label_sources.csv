@@ -1,0 +1,10 @@
+label_family,local_column,source_artifact,source_available,n_crossmatched_rows,independent_of_fstar_rhi,coverage_class,raw_high_means
+A/R mismatch,approach_recede_mismatch_km_s,runs/cghstc_34_m35_independent_observables_reservoir_settling/m35_sparc_independent_feature_table.csv,True,8,True,sparse,more_disturbed
+H I asymmetry,asymmetry_index,runs/cghstc_34_m35_independent_observables_reservoir_settling/m35_sparc_independent_feature_table.csv,True,8,True,sparse,more_disturbed
+Vrot/sigma,,not available as direct M59/SPARC crossmatch in local artifacts,False,0,False,missing,more_settled
+warp / PA twist,warp_index,runs/cghstc_34_m35_independent_observables_reservoir_settling/m35_sparc_independent_feature_table.csv,True,8,True,sparse,more_disturbed
+lopsidedness,lopsidedness_index,runs/cghstc_34_m35_independent_observables_reservoir_settling/m35_sparc_independent_feature_table.csv,True,8,True,sparse,more_disturbed
+centroid offset,,not available as direct M59/SPARC crossmatch in local artifacts,False,0,False,missing,more_disturbed
+SFE / depletion time,,"external xGASS/xCOLD proxy exists, but no direct object crossmatch to M59/SPARC labels in local artifacts",False,0,False,missing,ambiguous_context_dependent
+star-formation burstiness,,not available as direct M59/SPARC crossmatch in local artifacts,False,0,False,missing,ambiguous_context_dependent
+external morphology class,,not available as independent external class separated from M59 taxonomy in local artifacts,False,0,False,missing,more_settled_if_regular_disk

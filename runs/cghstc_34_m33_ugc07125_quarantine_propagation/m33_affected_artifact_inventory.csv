@@ -1,0 +1,574 @@
+path,suffix,ugc07125_mentions,clean_language_hit_count,m33_classification,recommended_action
+runs/cghstc_34_m8_evolution_simulation/m8_visual_simulation_data.json,.json,6518,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m81_response_organization_simulation/m81_response_organization_tracks.csv,.csv,363,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m69_current_governor_visual_simulation/m69_random_initialization_tracks.csv,.csv,363,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m82_organization_landscape_simulation/m82_response_organization_tracks.csv,.csv,363,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m8_evolution_simulation/m8_evolution_tracks.csv,.csv,121,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m17_ugc07125_analog_search/m17_sparc_direct_analog_audit.csv,.csv,88,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m17_ugc07125_analog_search/m17_atlas3d_control_endpoint_channels.csv,.csv,80,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m62_expanded_independent_label_cross_artifact_audit/m62_direct_vs_proxy_label_tiers.csv,.csv,33,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m66_cds_simbad_source_table_extraction_scout/m66_source_table_extraction_candidates.csv,.csv,27,0,historical_context_only,retain as historical context unless reused in active manuscript
+docs/CGHSTC34_APS_Memo_UGC07125_BDVR_Verification.md,.md,21,0,historical_context_only,retain as historical context unless reused in active manuscript
+docs/juvenile_to_mature_galaxy_sim_description.md,.md,21,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m66_cds_simbad_source_table_extraction_scout/m66_label_extraction_readiness_audit.csv,.csv,18,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m63_direct_dynamic_label_acquisition_target_list/m63_literature_query_targets.csv,.csv,18,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m68_sparc_rotmod_rotation_curve_source_extraction/m68_tier_a_promotion_decisions.csv,.csv,16,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m5c_ugc07125_analog_search/M5C_README.md,.md,16,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m6_paper_artifacts/manifests/m6_source_artifacts_manifest.json,.json,16,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m6_paper_artifacts/M6_README.md,.md,15,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m65_object_resolved_source_query_router/m65_alias_crosswalk.csv,.csv,12,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m67_sparc_table1_source_specific_extraction_pilot/m67_label_family_support_audit.csv,.csv,9,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m6e_manuscript_draft/cghstc34_bdvr_aps_manuscript_draft.md,.md,9,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m68_sparc_rotmod_rotation_curve_source_extraction/m68_extracted_kinematic_context_measurements.csv,.csv,9,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m6f_revtex_scaffold/m6f_figure_copy_report.json,.json,9,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m6f_revtex_scaffold/M6F_README.md,.md,9,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_aps_submission_candidate/m6f_figure_copy_report.json,.json,9,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m65_object_resolved_source_query_router/m65_direct_label_extraction_decisions.csv,.csv,9,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m67_sparc_table1_source_specific_extraction_pilot/m67_unresolved_extraction_targets.csv,.csv,8,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m68_sparc_rotmod_rotation_curve_source_extraction/m68_direct_label_candidate_audit.csv,.csv,8,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m68_sparc_rotmod_rotation_curve_source_extraction/m68_unresolved_decisive_label_targets.csv,.csv,8,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m63_direct_dynamic_label_acquisition_target_list/m63_existing_label_quality_audit.csv,.csv,8,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m67_sparc_table1_source_specific_extraction_pilot/m67_context_inventory_measurements.csv,.csv,7,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m6e_manuscript_draft/m6e_figure_table_map.csv,.csv,7,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m64_direct_dynamic_label_source_acquisition_pilot/m64_source_search_log.csv,.csv,7,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m6e_manuscript_draft/m6e_claim_boundary_checklist.md,.md,6,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m7_likelihood_inference/m7_likelihood_per_galaxy.csv,.csv,6,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m5b_baseline_ablation/m5b_all_model_predictions.csv,.csv,6,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m6f_revtex_scaffold/tables/cghstc34_ablation_per_galaxy_residuals.csv,.csv,6,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m6f_revtex_scaffold/tables/m7_likelihood_per_galaxy.csv,.csv,6,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_aps_submission_candidate/tables/cghstc34_ablation_per_galaxy_residuals.csv,.csv,6,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_aps_submission_candidate/tables/m7_likelihood_per_galaxy.csv,.csv,6,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m6_paper_artifacts/paper_metrics_summary.json,.json,5,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m5d_participating_mass/m5d_ugc07125_report.txt,.txt,5,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m5a_data_audit/m5a_ugc07125_audit.txt,.txt,5,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m5c_ugc07125_analog_search/m5c_hard_analogs.csv,.csv,5,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m5c_ugc07125_analog_search/m5c_ugc07125_analog_candidates.csv,.csv,5,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m5c_ugc07125_analog_search/m5c_top15_analog_candidates.csv,.csv,5,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m25_velocity_domain_m20_likelihood/m25_velocity_domain_predictions.csv,.csv,5,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m65_object_resolved_source_query_router/m65_authoritative_query_urls.csv,.csv,5,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m5d_participating_mass/m5d_hard_analog_required_participation.csv,.csv,4,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m5d_participating_mass/m5d_ugc07125_required_participation.json,.json,4,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m5d_participating_mass/M5D_README.md,.md,4,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m5d_participating_mass/m5d_participation_diagnostics.csv,.csv,4,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m6i_dynamic_governor_toy/m6i_dynamic_governor_input_features.csv,.csv,4,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m42_optimal_transition_boundary_search/m42_missing_observable_predictions.csv,.csv,4,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m6g_reservoir_governor_diagnostic/m6g_governor_diagnostics.csv,.csv,4,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m5b_baseline_ablation/m5b_ugc07125_model_comparison.txt,.txt,4,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m26_nonleaky_angular_momentum/m26_velocity_predictions.csv,.csv,4,0,historical_context_only,retain as historical context unless reused in active manuscript
+docs/m67_sparc_table1_source_specific_extraction_pilot_plan_2026-06-04.md,.md,3,0,historical_context_only,retain as historical context unless reused in active manuscript
+docs/cghstc34_aps_formulation_extract.md,.md,3,0,historical_context_only,retain as historical context unless reused in active manuscript
+docs/cghstc34_aps_maturity_rotation_appendix_plan.md,.md,3,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m67_sparc_table1_source_specific_extraction_pilot/m67_extracted_same_object_label_candidates.csv,.csv,3,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m67_sparc_table1_source_specific_extraction_pilot/m67_sparc_minimum_pool_crossmatch.csv,.csv,3,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m66_cds_simbad_source_table_extraction_scout/m66_simbad_bibliography_candidates.csv,.csv,3,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m68_sparc_rotmod_rotation_curve_source_extraction/m68_minimum_pool_source_overlap.csv,.csv,3,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m5a_data_audit/M5A_README.md,.md,3,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m5c_ugc07125_analog_search/m5c_analog_summary.json,.json,3,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m8_evolution_simulation/VISUAL_SIMULATION_RUN_INSTRUCTIONS.md,.md,3,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m6g_reservoir_governor_diagnostic/m6g_summary.json,.json,3,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m6g_reservoir_governor_diagnostic/M6G_README.md,.md,3,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m5b_baseline_ablation/M5B_README.md,.md,3,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m64_direct_dynamic_label_source_acquisition_pilot/m64_openalex_raw_cache.json,.json,3,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m64_direct_dynamic_label_source_acquisition_pilot/m64_source_provenance_audit.csv,.csv,3,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m17_ugc07125_analog_search/m17_direct_ugc07125_analog_candidates.csv,.csv,3,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m65_object_resolved_source_query_router/m65_simbad_tap_cache.json,.json,3,0,historical_context_only,retain as historical context unless reused in active manuscript
+docs/m69_sigma_b_dynamics_audit_fix_plan_2026-06-06.md,.md,2,0,historical_context_only,retain as historical context unless reused in active manuscript
+docs/aps_maturity_rotation_appendix_execution_status.md,.md,2,0,historical_context_only,retain as historical context unless reused in active manuscript
+docs/m81_paper_outline_2026-06-09.md,.md,2,0,historical_context_only,retain as historical context unless reused in active manuscript
+docs/aps_critique_revision_status.md,.md,2,0,historical_context_only,retain as historical context unless reused in active manuscript
+docs/m66_cds_simbad_source_table_extraction_scout_plan_2026-06-04.md,.md,2,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m37_juvenile_failed_governor_test_set/m37_candidate_priority_table.csv,.csv,2,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m43_baryonic_maturity_metric_end_state_inversion/m43_juvenile_to_mature_gap_vectors.csv,.csv,2,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m5d_participating_mass/m5d_summary.json,.json,2,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m49_synergetic_slow_mode_ordering/m49_slow_modes.csv,.csv,2,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m49_synergetic_slow_mode_ordering/m49_feature_matrix.csv,.csv,2,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m38_m18_feedback_on_m37_juvenile_failed_set/M38_README.md,.md,2,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m38_m18_feedback_on_m37_juvenile_failed_set/m38_candidate_priority_table.csv,.csv,2,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m47_multi_order_parameter_transition/m47_order_parameter_table.csv,.csv,2,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m66_cds_simbad_source_table_extraction_scout/m66_simbad_measurement_table_hits.csv,.csv,2,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m51_pseudotime_organization_trajectory/m51_pseudotime_feature_matrix.csv,.csv,2,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m51_pseudotime_organization_trajectory/m51_pseudotime_table.csv,.csv,2,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m48_nucleation_barrier_ordering/m48_nucleation_order_table.csv,.csv,2,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m55_direct_dynamical_observable_expansion/m55_sparc_hi_crossmatch_candidates.csv,.csv,2,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m55_direct_dynamical_observable_expansion/m55_resolved_hi_inventory.csv,.csv,2,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m52_structure_property_descriptor_model/m52_descriptor_matrix.csv,.csv,2,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m6i_dynamic_governor_toy/M6I_README.md,.md,2,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m6i_dynamic_governor_toy/m6i_top_model_1_predictions.csv,.csv,2,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m6i_dynamic_governor_toy/m6i_top_model_4_predictions.csv,.csv,2,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m6i_dynamic_governor_toy/m6i_top_model_3_predictions.csv,.csv,2,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m6i_dynamic_governor_toy/m6i_top_model_5_predictions.csv,.csv,2,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m6i_dynamic_governor_toy/m6i_top_model_2_predictions.csv,.csv,2,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m54_resolved_hi_sfr_organization_rerun/m54_trajectory_rank_table.csv,.csv,2,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m54_resolved_hi_sfr_organization_rerun/m54_organization_feature_matrix.csv,.csv,2,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m39_inverse_rank_disorder_axis_diagnostic/m39_flip_activation_metrics.csv,.csv,2,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m39_inverse_rank_disorder_axis_diagnostic/m39_flip_metric_summary.csv,.csv,2,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m50_nonequilibrium_organization_amplitude/m50_organization_ode_inputs.csv,.csv,2,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m63_direct_dynamic_label_acquisition_target_list/m63_high_value_crossmatch_candidates.csv,.csv,2,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m56_hi_structural_endpoint_rerun/m56_hi_structural_training_subset.csv,.csv,2,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m65_object_resolved_source_query_router/m65_object_resolver_log.csv,.csv,2,0,historical_context_only,retain as historical context unless reused in active manuscript
+docs/m54_resolved_hi_sfr_organization_rerun_assessment_2026-06-04.md,.md,1,0,historical_context_only,retain as historical context unless reused in active manuscript
+docs/m67_sparc_table1_source_specific_extraction_pilot_assessment_2026-06-04.md,.md,1,0,historical_context_only,retain as historical context unless reused in active manuscript
+docs/m68_sparc_rotmod_rotation_curve_source_extraction_assessment_2026-06-04.md,.md,1,0,historical_context_only,retain as historical context unless reused in active manuscript
+docs/m8_evolution_simulation_execution_status.md,.md,1,0,historical_context_only,retain as historical context unless reused in active manuscript
+docs/m18_differential_feedback_governor_plan_2026-06-01.md,.md,1,0,historical_context_only,retain as historical context unless reused in active manuscript
+docs/m72_scalar_pivot_audit_plan_2026-06-09.md,.md,1,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m78_synthesis/m78_summary.json,.json,1,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m18_differential_feedback_governor/m18_differential_feedback_cv_predictions.csv,.csv,1,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m18_differential_feedback_governor/m18_differential_feedback_predictions.csv,.csv,1,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m18_differential_feedback_governor/m18_differential_feedback_fits.csv,.csv,1,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m67_sparc_table1_source_specific_extraction_pilot/M67_README.md,.md,1,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m37_juvenile_failed_governor_test_set/m37_summary.json,.json,1,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m37_juvenile_failed_governor_test_set/m37_governor_selected_model_summary.csv,.csv,1,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m37_juvenile_failed_governor_test_set/m37_candidate_class_inventory.csv,.csv,1,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m37_juvenile_failed_governor_test_set/m37_governor_fit_grid.csv,.csv,1,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m37_juvenile_failed_governor_test_set/M37_README.md,.md,1,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m43_baryonic_maturity_metric_end_state_inversion/m43_near_transition_candidates.csv,.csv,1,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m38_m18_feedback_on_m37_juvenile_failed_set/m38_selected_feedback_model_summary.csv,.csv,1,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m38_m18_feedback_on_m37_juvenile_failed_set/m38_differential_feedback_grid.csv,.csv,1,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m38_m18_feedback_on_m37_juvenile_failed_set/m38_summary.json,.json,1,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m38_m18_feedback_on_m37_juvenile_failed_set/m38_cv_predictions.csv,.csv,1,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m70_corrected_activation_rank_reparameterization/m70_cv_predictions.csv,.csv,1,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m6e_manuscript_draft/m6e_manuscript_plan.json,.json,1,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m34_literature_guided_ordering/m34_candidate_ordering_predictions.csv,.csv,1,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m24_external_angular_momentum_validation/m24_external_angular_momentum_crossmatch.csv,.csv,1,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m58_conformal_footprint_architecture_sweep/M58_README.md,.md,1,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m80_leave_one_out_validation/m80_summary.json,.json,1,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m73_curve_shape_clustering/m73_scalar_provisional_classes.csv,.csv,1,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m73_curve_shape_clustering/m73_summary.json,.json,1,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m73_curve_shape_clustering/m73_radial_cluster_assignment.csv,.csv,1,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_arxiv_submission_package/arxiv_package_manifest.json,.json,1,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m28_angular_momentum_residual_model/m28_best_model_predictions.csv,.csv,1,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m19_quantum_state_rank_governor/m19_quantum_state_cv_predictions.csv,.csv,1,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m19_quantum_state_rank_governor/m19_quantum_state_predictions.csv,.csv,1,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m72_scalar_pivot_audit/m72_scalar_audit.csv,.csv,1,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m72_scalar_pivot_audit/m72_radial_audit.csv,.csv,1,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m72_scalar_pivot_audit/m72_summary.json,.json,1,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m35_independent_observables_reservoir_settling/m35_candidate_predictions.csv,.csv,1,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m35_independent_observables_reservoir_settling/m35_sparc_independent_feature_table.csv,.csv,1,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m20_latent_rank_angular_momentum/m20_latent_rank_predictions.csv,.csv,1,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m20_latent_rank_angular_momentum/m20_latent_rank_cv_predictions_no_J.csv,.csv,1,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m20_latent_rank_angular_momentum/m20_latent_rank_cv_predictions.csv,.csv,1,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m20_latent_rank_angular_momentum/m20_latent_rank_cv_predictions_with_J.csv,.csv,1,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m6i_dynamic_governor_toy/m6i_summary.json,.json,1,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m5_sparc_quality1_frozen_m4c/m5_frozen_m4c_predictions.csv,.csv,1,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m5_sparc_quality1_frozen_m4c/m5_quality1_rich_inputs.csv,.csv,1,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m79_cross_survey_expansion/m79_unified_catalog.csv,.csv,1,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m79_cross_survey_expansion/m79_summary.json,.json,1,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m5a_data_audit/m5a_parser_audit.json,.json,1,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m5a_data_audit/m5a_outlier_report.csv,.csv,1,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m5a_data_audit/m5a_top_residuals.csv,.csv,1,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m59_composition_hi_structural_backbone_test/M59_README.md,.md,1,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m59_composition_hi_structural_backbone_test/m59_model_predictions.csv,.csv,1,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m77_prediction_refinement/m77_summary.json,.json,1,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m57_conformal_spiral_footprint_occupancy/M57_README.md,.md,1,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m57_conformal_spiral_footprint_occupancy/m57_off_footprint_mass_table.csv,.csv,1,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m76_extended_coherence_proxies/m76_summary.json,.json,1,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m8_evolution_simulation/m8_transition_candidates.csv,.csv,1,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m8_evolution_simulation/m8_evolution_inputs.csv,.csv,1,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m8_evolution_simulation/M8_README.md,.md,1,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m8_evolution_simulation/m8_evolution_galaxy_states.csv,.csv,1,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m8_evolution_simulation/m8_summary.json,.json,1,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m41_bdvr_formation_state_activation_surface/m41_falsifiable_predictions.md,.md,1,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m27_angular_momentum_base_equation/m27_best_model_predictions.csv,.csv,1,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m39_inverse_rank_disorder_axis_diagnostic/m39_target_contamination_summary.csv,.csv,1,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m39_inverse_rank_disorder_axis_diagnostic/m39_priority_followup_table.csv,.csv,1,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m39_inverse_rank_disorder_axis_diagnostic/m39_priority_rows.csv,.csv,1,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m39_inverse_rank_disorder_axis_diagnostic/m39_target_contamination_diagnostics.csv,.csv,1,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m56_hi_structural_endpoint_rerun/M56_README.md,.md,1,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_aps_submission_candidate/cghstc34_aps_claim_boundary_checklist.md,.md,1,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m74_btfr_scatter_coherence/m74_summary.json,.json,1,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m74_btfr_scatter_coherence/m74_coherence_scores.csv,.csv,1,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m26_nonleaky_angular_momentum/m26_best_proxy_predictions.csv,.csv,1,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m6_paper_artifacts/tables/appendix_table_ugc07125_hard_analogs.csv,.csv,1,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m6_paper_artifacts/tables/appendix_table_ugc07125.csv,.csv,1,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m6f_revtex_scaffold/tables/cghstc34_87_galaxy_evaluation_subset.csv,.csv,1,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m6f_revtex_scaffold/tables/cghstc34_m4c_per_galaxy_residuals.csv,.csv,1,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_aps_submission_candidate/tables/cghstc34_87_galaxy_evaluation_subset.csv,.csv,1,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_aps_submission_candidate/tables/cghstc34_m4c_per_galaxy_residuals.csv,.csv,1,0,historical_context_only,retain as historical context unless reused in active manuscript
+runs/cghstc_34_m69_current_governor_visual_simulation/m69_visual_simulation_data.json,.json,1292,9866,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m69_current_governor_visual_simulation/m69_current_governor_tracks.csv,.csv,363,4840,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m81_response_organization_simulation/m81_visual_simulation_data.json,.json,926,168,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m82_organization_landscape_simulation/m82_visual_simulation_data.json,.json,926,168,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m40_onset_label_acquisition_quality_stratified_governor_audit/m40_onset_candidate_labels.csv,.csv,2,123,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m71_local_dwarf_governor_sample/m71_branch_a_rotational_response_sample.csv,.csv,87,88,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m45_cross_dataset_onset_table_builder/m45_master_onset_table.csv,.csv,2,82,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m40_onset_label_acquisition_quality_stratified_governor_audit/m40_resolved_HI_crossmatch_needs.csv,.csv,6,80,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m41_bdvr_formation_state_activation_surface/m41_formation_state_labels.csv,.csv,2,79,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+src/run_cghstc34_m44_baryonic_maturity_vs_bdvr_endpoint_residual_audit.py,.py,3,43,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+src/run_cghstc34_m60_backbone_activation_bridge_robustness_audit.py,.py,6,42,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+src/run_cghstc34_m40_onset_label_acquisition_quality_stratified_governor_audit.py,.py,6,36,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m40_onset_label_acquisition_quality_stratified_governor_audit/m40_priority_followup_table.csv,.csv,1,35,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+src/run_cghstc34_m36_hybrid_halo_energy_reset.py,.py,10,33,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m37_juvenile_failed_governor_test_set/m37_external_proxy_candidate_set.csv,.csv,31,30,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m38_m18_feedback_on_m37_juvenile_failed_set/m38_external_proxy_feedback_scores.csv,.csv,31,30,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m41_bdvr_formation_state_activation_surface/m41_candidate_followup_priority.csv,.csv,2,30,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m37_juvenile_failed_governor_test_set/m37_direct_sparc_governor_test_set.csv,.csv,207,29,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m38_m18_feedback_on_m37_juvenile_failed_set/m38_direct_feedback_predictions.csv,.csv,207,29,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m39_inverse_rank_disorder_axis_diagnostic/m39_inverse_rank_predictions.csv,.csv,161,29,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m29_four_stage_taxonomy/m29_four_stage_taxonomy.csv,.csv,206,28,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m29_four_stage_taxonomy/m29_followup_priority_table.csv,.csv,25,28,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m44_baryonic_maturity_vs_bdvr_endpoint_residual_audit/m44_quarantine_residual_audit.csv,.csv,1,27,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+src/run_cghstc34_m47_m53_literature_guided_ordering_paradigms.py,.py,4,26,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+src/run_cghstc34_m69_current_governor_visual_simulation.py,.py,16,24,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m17_ugc07125_analog_search/m17_ugc07125_analog_synthesis.csv,.csv,1,22,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_apj_governor_submission_candidate/m17_ugc07125_analog_synthesis.csv,.csv,1,22,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m36_hybrid_halo_energy_reset/m36_governor_fit_summary.csv,.csv,20,20,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+docs/m47_m53_literature_guided_ordering_paradigm_plan_2026-06-03.md,.md,5,20,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+src/run_cghstc34_m71_local_dwarf_governor_sample.py,.py,4,20,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m64_direct_dynamic_label_source_acquisition_pilot/m64_tier_a_promotion_decisions.csv,.csv,9,18,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+src/generate_cghstc34_apj_governor_manuscript.py,.py,32,17,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_apj_governor_submission_candidate/cghstc34_apj_governor_model.txt,.txt,9,17,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_apj_governor_submission_candidate/cghstc34_apj_governor_model.tex,.tex,9,17,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+src/run_cghstc34_m57_conformal_spiral_footprint_occupancy.py,.py,7,17,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+src/run_cghstc34_m81_response_organization_simulation.py,.py,13,16,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m41_bdvr_formation_state_activation_surface/m41_activation_surface_predictions.csv,.csv,2,16,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m44_baryonic_maturity_vs_bdvr_endpoint_residual_audit/m44_maturity_vs_endpoint_residuals.csv,.csv,1,16,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+docs/apj_final_polish_execution_status.md,.md,49,15,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+src/run_cghstc34_m82_organization_landscape_simulation.py,.py,12,15,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+src/run_cghstc34_m58_conformal_footprint_architecture_sweep.py,.py,3,15,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m43_baryonic_maturity_metric_end_state_inversion/m43_baryonic_maturity_metrics.csv,.csv,2,15,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m49_synergetic_slow_mode_ordering/m49_frozen_predictions.csv,.csv,2,15,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m47_multi_order_parameter_transition/m47_frozen_predictions.csv,.csv,2,15,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m51_pseudotime_organization_trajectory/m51_frozen_predictions.csv,.csv,2,15,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m48_nucleation_barrier_ordering/m48_frozen_predictions.csv,.csv,2,15,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m52_structure_property_descriptor_model/m52_frozen_predictions.csv,.csv,2,15,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m42_optimal_transition_boundary_search/m42_phase_region_assignments.csv,.csv,2,15,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m53_galaxy_specific_dynamical_maturity_translation/m53_frozen_predictions.csv,.csv,2,15,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m46_dynamic_organizational_model_repair/m46_organization_training_table.csv,.csv,2,15,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m46_dynamic_organizational_model_repair/m46_frozen_organization_predictions.csv,.csv,2,15,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m41_bdvr_formation_state_activation_surface/m41_missing_data_predictions.csv,.csv,2,15,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m50_nonequilibrium_organization_amplitude/m50_frozen_predictions.csv,.csv,2,15,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+src/run_cghstc34_m17_ugc07125_analog_pipeline.py,.py,21,14,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+docs/new_chat_handoff_inverse_rank_disorder_axis_guide_2026-06-03.md,.md,11,14,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+src/run_cghstc34_m83_layman_bdvr_simulation.py,.py,9,14,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+tests/test_m40_onset_label_acquisition_quality_stratified_governor_audit.py,.py,4,13,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+docs/m40_onset_label_acquisition_quality_stratified_governor_audit_plan_2026-06-03.md,.md,2,13,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+docs/m29_four_stage_taxonomy_integrated_assessment_2026-06-02.md,.md,19,12,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+src/run_cghstc34_m70_corrected_activation_rank_reparameterization.py,.py,7,12,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+tests/test_m83_layman_bdvr_simulation.py,.py,5,12,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+docs/m44_baryonic_maturity_vs_bdvr_endpoint_residual_audit_assessment_2026-06-03.md,.md,4,12,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+src/run_cghstc34_m41_bdvr_formation_state_activation_surface.py,.py,4,12,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+src/run_cghstc34_m29_four_stage_taxonomy.py,.py,16,11,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+src/run_cghstc34_m35_independent_observables_reservoir_settling.py,.py,9,11,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+docs/m60_backbone_activation_bridge_robustness_audit_plan_2026-06-04.md,.md,7,11,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m47_m53_literature_guided_ordering_paradigms/m47_m53_summary.json,.json,7,11,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m69_current_governor_visual_simulation/M69_README.md,.md,6,11,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m44_baryonic_maturity_vs_bdvr_endpoint_residual_audit/m44_summary.json,.json,2,11,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m36_hybrid_halo_energy_reset/M36_README.md,.md,9,10,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+tests/test_apj_governor_manuscript.py,.py,8,10,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+tests/test_m36_hybrid_halo_energy_reset.py,.py,8,10,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+src/run_cghstc34_m56_hi_structural_endpoint_rerun.py,.py,7,10,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+docs/m40_onset_label_acquisition_quality_stratified_governor_audit_assessment_2026-06-03.md,.md,1,10,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m67_sparc_table1_source_specific_extraction_pilot/m67_tier_a_promotion_decisions.csv,.csv,18,9,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m66_cds_simbad_source_table_extraction_scout/m66_tier_a_promotion_decisions.csv,.csv,18,9,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m64_direct_dynamic_label_source_acquisition_pilot/m64_unresolved_high_priority_targets.csv,.csv,18,9,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m63_direct_dynamic_label_acquisition_target_list/m63_missing_label_by_object.csv,.csv,18,9,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m65_object_resolved_source_query_router/m65_object_resolved_acquisition_targets.csv,.csv,18,9,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+docs/m29_four_stage_taxonomy_rebuild_plan_2026-06-02.md,.md,11,9,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+src/run_cghstc34_m62_expanded_independent_label_cross_artifact_audit.py,.py,5,9,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+docs/m83_layman_bdvr_simulation_repair_plan_2026-06-18.md,.md,4,9,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+src/run_cghstc34_m59_composition_hi_structural_backbone_test.py,.py,3,9,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+docs/apj_evolutionary_governor_pivot_plan.md,.md,22,8,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m24_external_angular_momentum_validation/m24_local_external_angular_momentum_inventory.csv,.csv,8,8,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+docs/m41_bdvr_formation_state_activation_surface_plan_2026-06-03.md,.md,3,8,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+tests/test_m69_current_governor_visual_simulation.py,.py,8,7,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m36_hybrid_halo_energy_reset/m36_summary.json,.json,6,7,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+docs/m35_independent_observables_reservoir_settling_assessment_2026-06-03.md,.md,3,7,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+docs/m47_m53_literature_guided_ordering_paradigm_assessment_2026-06-03.md,.md,1,7,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+src/generate_cghstc34_m6f_revtex_scaffold.py,.py,34,6,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+docs/aps-critique2.md,.md,7,6,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+src/run_cghstc34_m61_independent_organization_label_audit.py,.py,7,6,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+docs/m71_local_dwarf_governor_sample_plan_2026-06-09.md,.md,6,6,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+docs/m69_visual_simulation_universe_init_and_responsive_tweak_plan_2026-06-06.md,.md,4,6,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+docs/m39_inverse_rank_disorder_axis_diagnostic_plan_2026-06-03.md,.md,4,6,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+tests/test_arxiv_submission_package.py,.py,4,6,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m83_layman_bdvr_simulation/m83_layman_bdvr_simulation_data.json,.json,4,6,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+docs/m34_literature_guided_ordering_equation_assessment_2026-06-02.md,.md,3,6,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+tests/test_m44_baryonic_maturity_vs_bdvr_endpoint_residual_audit.py,.py,3,6,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+docs/m44_baryonic_maturity_vs_bdvr_endpoint_residual_audit_plan_2026-06-03.md,.md,2,6,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m40_onset_label_acquisition_quality_stratified_governor_audit/m40_summary.json,.json,1,6,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m44_baryonic_maturity_vs_bdvr_endpoint_residual_audit/M44_README.md,.md,1,6,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+src/run_cghstc34_m39_inverse_rank_disorder_axis_diagnostic.py,.py,10,5,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+docs/aps-critique.md,.md,7,5,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+docs/m36_hybrid_halo_energy_reset_plan_2026-06-03.md,.md,5,5,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+src/run_cghstc34_m54_resolved_hi_sfr_organization_rerun.py,.py,5,5,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+tests/test_m60_backbone_activation_bridge_robustness.py,.py,5,5,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m81_response_organization_simulation/M81_README.md,.md,4,5,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m71_local_dwarf_governor_sample/m71_branch_b_settling_state_targets.csv,.csv,4,5,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+src/run_cghstc34_m64_direct_dynamic_label_source_acquisition_pilot.py,.py,3,5,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m70_corrected_activation_rank_reparameterization/m70_summary.json,.json,3,5,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_apj_governor_submission_candidate/m70_summary.json,.json,3,5,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+docs/m54_resolved_hi_sfr_organization_rerun_plan_2026-06-04.md,.md,2,5,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+docs/m56_hi_structural_endpoint_rerun_plan_2026-06-04.md,.md,2,5,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+docs/m35_reservoir_settling_governor_implementation_path_2026-06-02.md,.md,1,5,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m51_pseudotime_organization_trajectory/m51_summary.json,.json,1,5,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m81_response_organization_simulation/m81_response_organization_state_table.csv,.csv,97,4,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m69_current_governor_visual_simulation/m69_current_governor_state_table.csv,.csv,97,4,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m82_organization_landscape_simulation/m82_response_organization_state_table.csv,.csv,97,4,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+tests/test_m17_ugc07125_analog_pipeline.py,.py,19,4,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+src/run_cghstc34_m37_juvenile_failed_governor_test_set.py,.py,11,4,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+docs/cghstc34_aps_submission_rewrite_plan_2026-05-22.md,.md,8,4,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+docs/m37_juvenile_failed_governor_test_set_assessment_2026-06-03.md,.md,5,4,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+docs/m69_current_governor_visual_simulation_plan_2026-06-05.md,.md,5,4,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+src/run_cghstc34_m42_optimal_transition_boundary_search.py,.py,5,4,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+src/run_cghstc34_m66_cds_simbad_source_table_extraction_scout.py,.py,5,4,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+src/run_cghstc34_m63_direct_dynamic_label_acquisition_target_list.py,.py,5,4,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+tests/test_m29_four_stage_taxonomy.py,.py,5,4,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m82_organization_landscape_simulation/M82_README.md,.md,5,4,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+docs/m64_direct_dynamic_label_source_acquisition_pilot_plan_2026-06-04.md,.md,4,4,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+tests/test_m71_local_dwarf_governor_sample.py,.py,4,4,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+tests/test_m54_resolved_hi_sfr_organization_rerun.py,.py,4,4,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m17_ugc07125_analog_search/m17_ugc07125_analog_synthesis.json,.json,4,4,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_apj_governor_submission_candidate/m17_ugc07125_analog_synthesis.json,.json,4,4,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+docs/m37_juvenile_failed_governor_test_set_plan_2026-06-03.md,.md,3,4,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+docs/m71_workflow_reusability_note_2026-06-09.md,.md,3,4,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+tests/test_m57_conformal_spiral_footprint_occupancy.py,.py,3,4,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m39_inverse_rank_disorder_axis_diagnostic/M39_README.md,.md,3,4,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+docs/m46_dynamic_organizational_model_repair_assessment_2026-06-03.md,.md,2,4,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+docs/m57_conformal_spiral_footprint_occupancy_plan_2026-06-04.md,.md,2,4,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m60_backbone_activation_bridge_robustness_audit/m60_summary.json,.json,2,4,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m39_inverse_rank_disorder_axis_diagnostic/m39_summary.json,.json,2,4,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+docs/m58_conformal_footprint_architecture_sweep_plan_2026-06-04.md,.md,1,4,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+docs/m39_inverse_rank_disorder_axis_diagnostic_assessment_2026-06-03.md,.md,1,4,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+src/generate_cghstc34_m6e_manuscript_draft.py,.py,22,3,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m6f_revtex_scaffold/cghstc34_bdvr_aps_draft.tex,.tex,16,3,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_aps_submission_candidate/cghstc34_bdvr_aps_draft.tex,.tex,16,3,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+tests/test_m64_direct_dynamic_label_source_acquisition_pilot.py,.py,6,3,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+docs/m38_m18_feedback_on_m37_juvenile_failed_set_assessment_2026-06-03.md,.md,5,3,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+tests/test_m61_independent_organization_label_audit.py,.py,5,3,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+tests/test_m39_inverse_rank_disorder_axis_diagnostic.py,.py,5,3,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+tests/test_m41_bdvr_formation_state_activation_surface.py,.py,5,3,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+docs/m69_current_governor_visual_simulation_assessment_2026-06-05.md,.md,4,3,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+docs/m63_direct_dynamic_label_acquisition_target_list_plan_2026-06-04.md,.md,4,3,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+tests/test_m70_corrected_activation_rank_reparameterization.py,.py,4,3,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m29_four_stage_taxonomy/M29_README.md,.md,4,3,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+docs/m35_independent_observables_reservoir_settling_plan_2026-06-03.md,.md,3,3,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+src/run_cghstc34_m65_object_resolved_source_query_router.py,.py,3,3,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+src/run_cghstc34_m55_direct_dynamical_observable_expansion.py,.py,3,3,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+tests/test_m56_hi_structural_endpoint_rerun.py,.py,3,3,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m81_response_organization_simulation/m81_summary.json,.json,3,3,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m69_current_governor_visual_simulation/m69_summary.json,.json,3,3,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m82_organization_landscape_simulation/m82_summary.json,.json,3,3,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+docs/m70_corrected_activation_rank_reparameterization_plan_2026-06-08.md,.md,2,3,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+docs/m70_corrected_activation_rank_reparameterization_status_2026-06-08.md,.md,2,3,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+docs/m38_m18_feedback_on_m37_juvenile_failed_set_plan_2026-06-03.md,.md,2,3,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+docs/m61_independent_organization_label_audit_plan_2026-06-04.md,.md,2,3,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+src/run_cghstc34_m46_dynamic_organizational_model_repair.py,.py,2,3,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+tests/test_m58_conformal_footprint_architecture_sweep.py,.py,2,3,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+tests/test_m59_composition_hi_structural_backbone.py,.py,2,3,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m46_dynamic_organizational_model_repair/m46_summary.json,.json,2,3,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+docs/m57_conformal_spiral_footprint_occupancy_assessment_2026-06-04.md,.md,1,3,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+docs/m60_backbone_activation_bridge_robustness_audit_assessment_2026-06-04.md,.md,1,3,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+docs/cghstc34_aps_critique2_tables_figures_polish_plan.md,.md,1,3,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+src/run_cghstc34_m75_xgass_external_crosscheck.py,.py,1,3,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+src/run_cghstc34_m73_curve_shape_clustering.py,.py,1,3,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m48_nucleation_barrier_ordering/m48_barrier_failure_modes.csv,.csv,1,3,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m39_inverse_rank_disorder_axis_diagnostic/m39_direct_inverse_rank_table.csv,.csv,231,2,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m70_corrected_activation_rank_reparameterization/m70_predictions.csv,.csv,88,2,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_apj_governor_submission_candidate/m70_predictions.csv,.csv,88,2,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+src/run_cghstc34_m8_evolution_simulation.py,.py,22,2,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+src/run_cghstc34_m9_governor_model.py,.py,12,2,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+docs/cghstc34_revised_bdvr_audit_likelihood_plan.md,.md,6,2,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+docs/juvenile_to_mature_galaxy.md,.md,5,2,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+src/run_cghstc34_m67_sparc_table1_source_specific_extraction_pilot.py,.py,5,2,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+tests/test_m65_object_resolved_source_query_router.py,.py,5,2,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m17_ugc07125_analog_search/m17_summary.json,.json,5,2,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_apj_governor_submission_candidate/m17_summary.json,.json,5,2,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+docs/m65_object_resolved_source_query_router_plan_2026-06-04.md,.md,4,2,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+src/run_cghstc34_m38_m18_feedback_on_m37_juvenile_failed_set.py,.py,4,2,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+tests/test_m42_optimal_transition_boundary_search.py,.py,4,2,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+tests/test_m47_m53_literature_guided_ordering_paradigms.py,.py,4,2,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+docs/external_data_test_plan.md,.md,3,2,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+docs/alt_datasets.md,.md,3,2,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+docs/cghstc34_revised_bdvr_audit_likelihood_execution_status.md,.md,3,2,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+docs/arxiv_submission_package_plan_2026-06-05.md,.md,3,2,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m29_four_stage_taxonomy/m29_framework_rebuild_summary.json,.json,3,2,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m69_current_governor_visual_simulation/m69_random_initialization_sequence.csv,.csv,3,2,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m36_hybrid_halo_energy_reset/m36_metric_comparison.csv,.csv,3,2,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m54_resolved_hi_sfr_organization_rerun/m54_crossmatch_resolved_hi_sfr.csv,.csv,3,2,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+docs/m69_historic_random_initialization_switch_plan_2026-06-06.md,.md,2,2,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+docs/m55_direct_dynamical_observable_expansion_plan_2026-06-04.md,.md,2,2,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+docs/m62_expanded_independent_label_cross_artifact_audit_plan_2026-06-04.md,.md,2,2,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+docs/m45_cross_dataset_onset_table_builder_plan_2026-06-03.md,.md,2,2,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+docs/apj_governor_hypothesis_revision_coverage_status_2026-06-07.md,.md,2,2,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+tests/test_m43_baryonic_maturity_metric_end_state_inversion.py,.py,2,2,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m35_independent_observables_reservoir_settling/m35_feature_coverage.csv,.csv,2,2,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m57_conformal_spiral_footprint_occupancy/m57_footprint_occupancy_metrics.csv,.csv,2,2,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m56_hi_structural_endpoint_rerun/m56_hi_structural_feature_matrix.csv,.csv,2,2,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m56_hi_structural_endpoint_rerun/m56_trajectory_rank_table.csv,.csv,2,2,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m17_ugc07125_analog_search/m17_ugc07125_prototype_vector.json,.json,2,2,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_apj_governor_submission_candidate/m17_ugc07125_prototype_vector.json,.json,2,2,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+docs/m59_composition_hi_structural_backbone_test_plan_2026-06-04.md,.md,1,2,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+docs/m62_expanded_independent_label_cross_artifact_audit_assessment_2026-06-04.md,.md,1,2,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+docs/m41_bdvr_formation_state_activation_surface_assessment_2026-06-03.md,.md,1,2,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+docs/m55_direct_dynamical_observable_expansion_assessment_2026-06-04.md,.md,1,2,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+docs/m63_direct_dynamic_label_acquisition_target_list_assessment_2026-06-04.md,.md,1,2,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+docs/m56_hi_structural_endpoint_rerun_assessment_2026-06-04.md,.md,1,2,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+docs/m66_cds_simbad_source_table_extraction_scout_assessment_2026-06-04.md,.md,1,2,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+docs/m46_dynamic_organizational_model_repair_plan_2026-06-03.md,.md,1,2,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+docs/m43_baryonic_maturity_metric_end_state_inversion_plan_2026-06-03.md,.md,1,2,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+docs/m42_optimal_transition_boundary_search_assessment_2026-06-03.md,.md,1,2,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+docs/apj_m70_submission_pdf_edit_status_2026-06-08.md,.md,1,2,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+docs/apj_submission_draft_edit_plan_2026-06-01.md,.md,1,2,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+docs/m64_direct_dynamic_label_source_acquisition_pilot_assessment_2026-06-04.md,.md,1,2,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+docs/m59_composition_hi_structural_backbone_test_assessment_2026-06-04.md,.md,1,2,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+docs/m58_conformal_footprint_architecture_sweep_assessment_2026-06-04.md,.md,1,2,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+docs/m65_object_resolved_source_query_router_assessment_2026-06-04.md,.md,1,2,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+docs/m43_baryonic_maturity_metric_end_state_inversion_assessment_2026-06-03.md,.md,1,2,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+docs/m42_optimal_transition_boundary_search_plan_2026-06-03.md,.md,1,2,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+src/run_cghstc34_m43_baryonic_maturity_metric_end_state_inversion.py,.py,1,2,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m43_baryonic_maturity_metric_end_state_inversion/m43_summary.json,.json,1,2,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m49_synergetic_slow_mode_ordering/M49_README.md,.md,1,2,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m29_four_stage_taxonomy/m29_ugc07125_reclassification.json,.json,1,2,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m47_multi_order_parameter_transition/M47_README.md,.md,1,2,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m35_independent_observables_reservoir_settling/M35_README.md,.md,1,2,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m66_cds_simbad_source_table_extraction_scout/M66_README.md,.md,1,2,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m51_pseudotime_organization_trajectory/M51_README.md,.md,1,2,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m48_nucleation_barrier_ordering/M48_README.md,.md,1,2,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m52_structure_property_descriptor_model/M52_README.md,.md,1,2,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m42_optimal_transition_boundary_search/m42_transition_point_summary.json,.json,1,2,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m83_layman_bdvr_simulation/M83_README.md,.md,1,2,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m54_resolved_hi_sfr_organization_rerun/M54_README.md,.md,1,2,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m57_conformal_spiral_footprint_occupancy/m57_summary.json,.json,1,2,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m53_galaxy_specific_dynamical_maturity_translation/M53_README.md,.md,1,2,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m41_bdvr_formation_state_activation_surface/m41_summary.json,.json,1,2,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m50_nonequilibrium_organization_amplitude/M50_README.md,.md,1,2,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m62_expanded_independent_label_cross_artifact_audit/m62_expanded_independent_label_candidates.csv,.csv,55,1,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m62_expanded_independent_label_cross_artifact_audit/m62_proxy_context_report.csv,.csv,22,1,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+tests/test_apj_governor_model.py,.py,6,1,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+tests/test_m67_sparc_table1_source_specific_extraction_pilot.py,.py,6,1,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+tests/test_m66_cds_simbad_source_table_extraction_scout.py,.py,5,1,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+tests/test_m68_sparc_rotmod_rotation_curve_source_extraction.py,.py,5,1,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+src/run_cghstc34_m68_sparc_rotmod_rotation_curve_source_extraction.py,.py,4,1,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+tests/test_m63_direct_dynamic_label_acquisition_target_list.py,.py,4,1,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+docs/m68_little_things_resolved_kinematic_source_extraction_plan_2026-06-04.md,.md,3,1,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+docs/apj_governor_hypothesis_revision_plan_2026-06-07.md,.md,3,1,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+docs/m71_post_outage_assessment_2026-06-09.md,.md,3,1,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+docs/apj_m70_submission_pdf_edit_plan_2026-06-08.md,.md,3,1,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+tests/test_m62_expanded_independent_label_cross_artifact_audit.py,.py,3,1,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m35_independent_observables_reservoir_settling/m35_dataset_inventory.csv,.csv,3,1,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+docs/apj_governor_second_critique_revision_plan_2026-06-07.md,.md,2,1,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+docs/apj_submission_draft_revision_plan_2026-05-31.md,.md,2,1,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+docs/benefits_of_faster_rotation.md,.md,2,1,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+tests/test_m6f_manuscript_formulation.py,.py,2,1,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+tests/test_m35_independent_observables_reservoir_settling.py,.py,2,1,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+tests/test_m55_direct_dynamical_observable_expansion.py,.py,2,1,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m67_sparc_table1_source_specific_extraction_pilot/m67_updated_label_coverage_summary.json,.json,2,1,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m66_cds_simbad_source_table_extraction_scout/m66_updated_label_coverage_summary.json,.json,2,1,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m68_sparc_rotmod_rotation_curve_source_extraction/m68_label_issue_resolution_summary.json,.json,2,1,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m64_direct_dynamic_label_source_acquisition_pilot/m64_updated_label_coverage_summary.json,.json,2,1,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m63_direct_dynamic_label_acquisition_target_list/m63_summary.json,.json,2,1,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m71_local_dwarf_governor_sample/m71_summary.json,.json,2,1,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m65_object_resolved_source_query_router/m65_summary.json,.json,2,1,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m61_independent_organization_label_audit/m61_summary.json,.json,2,1,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m62_expanded_independent_label_cross_artifact_audit/m62_summary.json,.json,2,1,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+docs/m34_literature_guided_ordering_equation_plan_2026-06-02.md,.md,1,1,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+docs/apj_governor_second_critique_revision_status_2026-06-07.md,.md,1,1,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+docs/m75_xgass_external_crosscheck_plan_2026-06-09.md,.md,1,1,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+docs/m61_independent_organization_label_audit_assessment_2026-06-04.md,.md,1,1,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+docs/arxive_edit_06_09_26.md,.md,1,1,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+docs/aps_critique2_execution_status.md,.md,1,1,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m40_onset_label_acquisition_quality_stratified_governor_audit/m40_quality_labels.csv,.csv,1,1,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m49_synergetic_slow_mode_ordering/m49_summary.json,.json,1,1,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m58_conformal_footprint_architecture_sweep/m58_summary.json,.json,1,1,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m75_xgass_external_crosscheck/m75_summary.json,.json,1,1,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m47_multi_order_parameter_transition/m47_summary.json,.json,1,1,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m35_independent_observables_reservoir_settling/m35_summary.json,.json,1,1,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m48_nucleation_barrier_ordering/m48_summary.json,.json,1,1,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m36_hybrid_halo_energy_reset/m36_hybrid_predictions.csv,.csv,1,1,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m55_direct_dynamical_observable_expansion/m55_summary.json,.json,1,1,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m60_backbone_activation_bridge_robustness_audit/M60_README.md,.md,1,1,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m52_structure_property_descriptor_model/m52_summary.json,.json,1,1,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m54_resolved_hi_sfr_organization_rerun/m54_summary.json,.json,1,1,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m59_composition_hi_structural_backbone_test/m59_summary.json,.json,1,1,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m59_composition_hi_structural_backbone_test/m59_backbone_feature_matrix.csv,.csv,1,1,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m53_galaxy_specific_dynamical_maturity_translation/m53_summary.json,.json,1,1,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m50_nonequilibrium_organization_amplitude/m50_summary.json,.json,1,1,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m63_direct_dynamic_label_acquisition_target_list/m63_priority_object_label_matrix.csv,.csv,1,1,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m56_hi_structural_endpoint_rerun/m56_summary.json,.json,1,1,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_apj_governor_submission_candidate/m17_sparc_direct_analog_audit.csv,.csv,88,0,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_apj_governor_submission_candidate/m17_atlas3d_control_endpoint_channels.csv,.csv,80,0,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+src/run_cghstc34_m5c_ugc07125_analog_search.py,.py,50,0,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+src/run_cghstc34_m5d_participating_mass_diagnostic.py,.py,27,0,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+src/generate_cghstc34_m6_paper_artifacts.py,.py,22,0,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+src/run_cghstc34_m6i_dynamic_governor_toy.py,.py,14,0,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+src/run_cghstc34_m5b_baseline_ablation.py,.py,13,0,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+src/run_cghstc34_m6g_reservoir_governor_diagnostic.py,.py,7,0,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+src/audit_cghstc34_m5a_data_outliers.py,.py,7,0,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+src/update_cghstc34_m6j_governor_observables_appendix.py,.py,7,0,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+docs/apj_governor_submission_repair_status_2026-06-08.md,.md,5,0,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+tests/test_m37_juvenile_failed_governor_test_set.py,.py,4,0,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+tests/test_bdvr_evolution_simulation.py,.py,4,0,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+src/run_cghstc34_m18_differential_feedback_governor.py,.py,3,0,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+tests/test_m38_m18_feedback_on_m37_juvenile_failed_set.py,.py,3,0,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_apj_governor_submission_candidate/m17_direct_ugc07125_analog_candidates.csv,.csv,3,0,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+docs/apj_governor_submission_repair_plan_2026-06-08.md,.md,2,0,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_apj_governor_model/m9_summary.json,.json,2,0,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_apj_governor_submission_candidate/m9_summary.json,.json,2,0,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+src/run_cghstc34_m77_prediction_refinement.py,.py,1,0,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+src/run_cghstc34_m76_extended_coherence_proxies.py,.py,1,0,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+src/run_cghstc34_m74_btfr_scatter_coherence.py,.py,1,0,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+src/run_cghstc34_m80_leave_one_out_validation.py,.py,1,0,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+src/build_cghstc34_arxiv_package.py,.py,1,0,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+src/run_cghstc34_m78_synthesis.py,.py,1,0,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+src/run_cghstc34_m79_cross_survey_expansion.py,.py,1,0,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+src/run_cghstc34_m72_scalar_pivot_audit.py,.py,1,0,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+tests/test_m18_differential_feedback_governor.py,.py,1,0,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+tests/test_m72_scalar_pivot_audit.py,.py,1,0,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_apj_governor_model/m9_governor_predictions.csv,.csv,1,0,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_apj_governor_model/m9_governor_threshold_fits.csv,.csv,1,0,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_apj_governor_model/m9_ugc07125_governor_audit.csv,.csv,1,0,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_apj_governor_model/m9_inferred_activation.csv,.csv,1,0,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_apj_governor_model/m9_governor_inputs.csv,.csv,1,0,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_apj_governor_submission_candidate/m9_governor_predictions.csv,.csv,1,0,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_apj_governor_submission_candidate/m9_governor_threshold_fits.csv,.csv,1,0,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_apj_governor_submission_candidate/m9_ugc07125_governor_audit.csv,.csv,1,0,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_apj_governor_submission_candidate/m70_cv_predictions.csv,.csv,1,0,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_apj_governor_submission_candidate/m9_inferred_activation.csv,.csv,1,0,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_apj_governor_submission_candidate/m9_governor_inputs.csv,.csv,1,0,needs_manual_edit,replace clean/prototype language with M32/M33 quarantine wording
+runs/cghstc_34_m33_ugc07125_quarantine_propagation/m33_clean_language_hits.csv,.csv,112988,221548,quarantine_record,retain; already part of M30--M33 quarantine/evidence chain
+runs/cghstc_34_m33_ugc07125_quarantine_propagation/m33_affected_artifact_inventory.csv,.csv,80,686,quarantine_record,retain; already part of M30--M33 quarantine/evidence chain
+runs/cghstc_34_m33_ugc07125_quarantine_propagation/m33_candidate_table_updates.csv,.csv,2,162,quarantine_record,retain; already part of M30--M33 quarantine/evidence chain
+runs/cghstc_34_apj_governor_submission_candidate/m33_candidate_table_updates.csv,.csv,2,162,quarantine_record,retain; already part of M30--M33 quarantine/evidence chain
+src/run_cghstc34_m33_ugc07125_quarantine_propagation.py,.py,36,66,quarantine_record,retain; already part of M30--M33 quarantine/evidence chain
+docs/m31_ugc07125_literature_audit_integrated_assessment_2026-06-02.md,.md,39,29,quarantine_record,retain; already part of M30--M33 quarantine/evidence chain
+docs/m32_ugc07125_geometry_audit_integrated_assessment_2026-06-02.md,.md,32,29,quarantine_record,retain; already part of M30--M33 quarantine/evidence chain
+docs/m33_ugc07125_quarantine_propagation_integrated_assessment_2026-06-02.md,.md,30,29,quarantine_record,retain; already part of M30--M33 quarantine/evidence chain
+docs/m33_ugc07125_quarantine_propagation_plan_2026-06-02.md,.md,15,22,quarantine_record,retain; already part of M30--M33 quarantine/evidence chain
+tests/test_m33_ugc07125_quarantine_propagation.py,.py,16,20,quarantine_record,retain; already part of M30--M33 quarantine/evidence chain
+src/run_cghstc34_m32_ugc07125_geometry_audit.py,.py,22,18,quarantine_record,retain; already part of M30--M33 quarantine/evidence chain
+runs/cghstc_34_m33_ugc07125_quarantine_propagation/m33_manuscript_edit_manifest.md,.md,12,14,quarantine_record,retain; already part of M30--M33 quarantine/evidence chain
+runs/cghstc_34_apj_governor_submission_candidate/m33_manuscript_edit_manifest.md,.md,12,14,quarantine_record,retain; already part of M30--M33 quarantine/evidence chain
+runs/cghstc_34_m31_ugc07125_literature_audit/m31_literature_audit_summary.json,.json,18,11,quarantine_record,retain; already part of M30--M33 quarantine/evidence chain
+runs/cghstc_34_m31_ugc07125_literature_audit/M31_README.md,.md,10,10,quarantine_record,retain; already part of M30--M33 quarantine/evidence chain
+runs/cghstc_34_m31_ugc07125_literature_audit/m31_acquisition_priority_list.csv,.csv,6,8,quarantine_record,retain; already part of M30--M33 quarantine/evidence chain
+runs/cghstc_34_m31_ugc07125_literature_audit/m31_gate_source_coverage.csv,.csv,6,8,quarantine_record,retain; already part of M30--M33 quarantine/evidence chain
+src/run_cghstc34_m31_ugc07125_literature_audit.py,.py,20,7,quarantine_record,retain; already part of M30--M33 quarantine/evidence chain
+runs/cghstc_34_m32_ugc07125_geometry_audit/m32_scalar_usability_decision.json,.json,5,7,quarantine_record,retain; already part of M30--M33 quarantine/evidence chain
+src/run_cghstc34_m30_ugc07125_evidence_audit.py,.py,29,6,quarantine_record,retain; already part of M30--M33 quarantine/evidence chain
+docs/m32_ugc07125_figure_table_geometry_audit_plan_2026-06-02.md,.md,19,6,quarantine_record,retain; already part of M30--M33 quarantine/evidence chain
+tests/test_m32_ugc07125_geometry_audit.py,.py,5,6,quarantine_record,retain; already part of M30--M33 quarantine/evidence chain
+runs/cghstc_34_m32_ugc07125_geometry_audit/m32_geometry_evidence_matrix.csv,.csv,5,6,quarantine_record,retain; already part of M30--M33 quarantine/evidence chain
+runs/cghstc_34_m33_ugc07125_quarantine_propagation/m33_ugc07125_quarantine_registry.csv,.csv,4,6,quarantine_record,retain; already part of M30--M33 quarantine/evidence chain
+runs/cghstc_34_apj_governor_submission_candidate/m33_ugc07125_quarantine_registry.csv,.csv,4,6,quarantine_record,retain; already part of M30--M33 quarantine/evidence chain
+docs/m30_ugc07125_evidence_audit_plan_2026-06-02.md,.md,9,5,quarantine_record,retain; already part of M30--M33 quarantine/evidence chain
+docs/m30_ugc07125_evidence_audit_integrated_assessment_2026-06-02.md,.md,26,4,quarantine_record,retain; already part of M30--M33 quarantine/evidence chain
+runs/cghstc_34_m33_ugc07125_quarantine_propagation/M33_README.md,.md,4,4,quarantine_record,retain; already part of M30--M33 quarantine/evidence chain
+runs/cghstc_34_m32_ugc07125_geometry_audit/M32_README.md,.md,5,3,quarantine_record,retain; already part of M30--M33 quarantine/evidence chain
+runs/cghstc_34_m33_ugc07125_quarantine_propagation/m33_propagation_summary.json,.json,3,3,quarantine_record,retain; already part of M30--M33 quarantine/evidence chain
+runs/cghstc_34_apj_governor_submission_candidate/m33_propagation_summary.json,.json,3,3,quarantine_record,retain; already part of M30--M33 quarantine/evidence chain
+docs/m31_ugc07125_source_acquisition_literature_audit_plan_2026-06-02.md,.md,9,2,quarantine_record,retain; already part of M30--M33 quarantine/evidence chain
+runs/cghstc_34_m30_ugc07125_evidence_audit/M30_README.md,.md,6,2,quarantine_record,retain; already part of M30--M33 quarantine/evidence chain
+runs/cghstc_34_m30_ugc07125_evidence_audit/m30_evidence_gates.csv,.csv,3,2,quarantine_record,retain; already part of M30--M33 quarantine/evidence chain
+runs/cghstc_34_m31_ugc07125_literature_audit/m31_extracted_evidence_snippets.csv,.csv,10,1,quarantine_record,retain; already part of M30--M33 quarantine/evidence chain
+runs/cghstc_34_m30_ugc07125_evidence_audit/m30_ugc07125_evidence_summary.json,.json,2,1,quarantine_record,retain; already part of M30--M33 quarantine/evidence chain
+runs/cghstc_34_m30_ugc07125_evidence_audit/m30_analog_contrast_table.csv,.csv,1,1,quarantine_record,retain; already part of M30--M33 quarantine/evidence chain
+runs/cghstc_34_m31_ugc07125_literature_audit/m31_raw_source_hits.csv,.csv,126,0,quarantine_record,retain; already part of M30--M33 quarantine/evidence chain
+runs/cghstc_34_m31_ugc07125_literature_audit/m31_ranked_candidate_sources.csv,.csv,120,0,quarantine_record,retain; already part of M30--M33 quarantine/evidence chain
+tests/test_m30_ugc07125_evidence_audit.py,.py,9,0,quarantine_record,retain; already part of M30--M33 quarantine/evidence chain
+runs/cghstc_34_m30_ugc07125_evidence_audit/m30_source_inventory.csv,.csv,8,0,quarantine_record,retain; already part of M30--M33 quarantine/evidence chain
+runs/cghstc_34_m32_ugc07125_geometry_audit/m32_source_page_mentions.csv,.csv,8,0,quarantine_record,retain; already part of M30--M33 quarantine/evidence chain
+tests/test_m31_ugc07125_literature_audit.py,.py,4,0,quarantine_record,retain; already part of M30--M33 quarantine/evidence chain
+runs/cghstc_34_m32_ugc07125_geometry_audit/m32_relevant_page_images.csv,.csv,3,0,quarantine_record,retain; already part of M30--M33 quarantine/evidence chain
+runs/cghstc_34_m32_ugc07125_geometry_audit/m32_table_row_extracts.csv,.csv,3,0,quarantine_record,retain; already part of M30--M33 quarantine/evidence chain
+runs/cghstc_34_m31_ugc07125_literature_audit/m31_aliases.csv,.csv,2,0,quarantine_record,retain; already part of M30--M33 quarantine/evidence chain

@@ -1,0 +1,14 @@
+{
+  "status": "inventory_found_candidate_columns_requires_manual_crossmatch",
+  "sample_size": 87,
+  "local_inventory_hits": 47,
+  "crossmatched_external_measurements": 0,
+  "proxy_J_lambda_spearman_with_A_inferred": 0.7414530360768313,
+  "pass_fail": {
+    "external_data_available": false,
+    "gate_blocked_not_failed": true,
+    "do_not_fabricate_external_j": true
+  },
+  "claim_boundary": "M24 blocks external angular-momentum validation because no direct local external j_star, j_gas, j_bar, lambda_R, or halo-spin measurements were found. This is not evidence against M20, but it prevents manuscript promotion on external-J grounds.",
+  "leakage_warning": "The current J_lambda proxy includes observed Vflat, so M25 must test velocity-domain leakage/control variants before promotion."
+}

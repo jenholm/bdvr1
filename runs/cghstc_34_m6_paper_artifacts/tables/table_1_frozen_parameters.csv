@@ -1,0 +1,16 @@
+parameter,value,description
+q_base,0.9002495108803148,Global baseline BDVR galaxy-sector response amplitude
+a0_m_s2,1.2e-10,Reference acceleration scale
+halo_amplitude,0.35,Amplitude of radial halo activation
+halo_k,3.0,Halo scale length in units of Rdisk
+r_eval_mode,transition,Adaptive radius mode used to evaluate Q_eff
+velocity_mode,flat_response,Flat-response estimator for SPARC Table-1 Vflat
+r_eval_multiple,4.0,Fallback r_eval/Rdisk
+min_r_eval_multiple,1.5,Minimum clipped r_eval/Rdisk
+max_r_eval_multiple,12.0,Maximum clipped r_eval/Rdisk
+structural_mode,star_gas_hinge,Star/gas structural response mode
+structural_amplitude,0.3,Star/gas hinge amplitude
+star_gas_threshold,5.0,Threshold for stellar-to-gas ratio hinge
+internal_mode,early_type_hinge,Internal morphology response mode
+internal_amplitude,0.1,Early-type morphology hinge amplitude
+early_type_threshold,5.0,Morphological T threshold for early-type response

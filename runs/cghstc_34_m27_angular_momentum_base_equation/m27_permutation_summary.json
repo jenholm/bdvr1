@@ -1,0 +1,21 @@
+{
+  "best_model": "structural_baseline",
+  "baseline_model": "mass_radius",
+  "real_best_rmse_logj": 0.05552765322497853,
+  "real_baseline_rmse_logj": 0.06247142411951452,
+  "real_rmse_improvement_vs_baseline": 0.006943770894535989,
+  "n_permutations": 150,
+  "permutation_improvement_median": -0.0015577986526298174,
+  "permutation_improvement_p95": 0.0006468089736431395,
+  "empirical_p_value_rmse_improvement": 0.006622516556291391,
+  "permuted_columns": [
+    "log_Sigma_b",
+    "f_gas",
+    "RHI_over_Rdisk"
+  ],
+  "pass_fail": {
+    "real_improves_baseline": true,
+    "improvement_ge_0p01_dex": false,
+    "p_value_le_0p05": true
+  }
+}

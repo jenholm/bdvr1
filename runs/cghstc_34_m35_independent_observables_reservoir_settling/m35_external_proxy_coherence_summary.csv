@@ -1,0 +1,16 @@
+dataset,predictor,n_eval,spearman,kendall_tau,mse,n_total,sfr_or_depletion_rows,kinematic_settling_rows,claim_boundary
+ATLAS3D_bridge,J_set,260,0.951453526608613,0.8023248520220929,0.01513754419663177,260,0,260,ATLAS3D rotation/dispersion bridge proxy; not disk activation
+ATLAS3D_bridge,A_reservoir_settling_proxy,260,0.8770225078911396,0.7120366082676747,0.08809183003664917,260,0,260,ATLAS3D rotation/dispersion bridge proxy; not disk activation
+ATLAS3D_bridge,R_res,260,0.40768870481745884,0.2792894531052431,0.17520553638865247,260,0,260,ATLAS3D rotation/dispersion bridge proxy; not disk activation
+ATLAS3D_pressure,J_set,260,0.8138123186113585,0.6195848295285573,0.05500067936945026,260,0,260,"ATLAS3D pressure-channel proxy; separate observable mapping, not disk activation"
+ATLAS3D_pressure,A_reservoir_settling_proxy,260,0.7956820172312072,0.6071380912468283,0.024752537658764066,260,0,260,"ATLAS3D pressure-channel proxy; separate observable mapping, not disk activation"
+ATLAS3D_pressure,R_res,260,0.3023816908195709,0.20451811528129618,0.15999343730909502,260,0,260,"ATLAS3D pressure-channel proxy; separate observable mapping, not disk activation"
+MaNGA,R_res,10185,0.3688365560366216,0.2473520714084996,0.00813389709520774,10185,10185,10185,MaNGA scalar proxy only; not direct SPARC-like activation
+MaNGA,A_reservoir_settling_proxy,10185,0.23733010347855665,0.16077628283953893,0.053569510489075725,10185,10185,10185,MaNGA scalar proxy only; not direct SPARC-like activation
+MaNGA,J_set,10185,0.23507935565613985,0.15923979312732217,0.1108434994029311,10185,10185,10185,MaNGA scalar proxy only; not direct SPARC-like activation
+THINGS,R_res,8,0.46355253465055324,0.3401680257083045,0.4154463996111034,8,0,8,"resolved H I disturbance proxy; sparse SPARC crossmatch, not direct new equation validation"
+THINGS,J_set,8,0.012272017341845399,-0.1539600717839002,0.26061521106680724,8,0,8,"resolved H I disturbance proxy; sparse SPARC crossmatch, not direct new equation validation"
+THINGS,A_reservoir_settling_proxy,8,-0.024397501823713332,-0.11338934190276816,0.28714155219811865,8,0,8,"resolved H I disturbance proxy; sparse SPARC crossmatch, not direct new equation validation"
+xGASS_xCOLD,R_res,562,1.0,1.0,0.0,562,562,0,external gas-depletion maturity proxy; not direct BDVR activation
+xGASS_xCOLD,A_reservoir_settling_proxy,562,0.8806204910169464,0.7265851932775822,0.02781297744520595,562,562,0,external gas-depletion maturity proxy; not direct BDVR activation
+xGASS_xCOLD,J_set,562,0.5246022975184175,0.3686701804105977,0.0914531739081151,562,562,0,external gas-depletion maturity proxy; not direct BDVR activation

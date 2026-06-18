@@ -1,0 +1,5 @@
+audit_item,spearman_vs_organization_label_score,auc_like_vs_settled_label,circularity_risk,provenance_note
+f_star,0.6807113543091654,0.814625850340136,moderate,"local artifacts do not provide independent label-provenance proof; high predictability from backbone features is circularity risk, not proof of invalidity"
+rhi_extent_organization_score,0.6370725034199727,0.800453514739229,moderate,"local artifacts do not provide independent label-provenance proof; high predictability from backbone features is circularity risk, not proof of invalidity"
+fstar_x_rhi_extent_organization,0.8429353136603478,0.9002267573696145,high,"local artifacts do not provide independent label-provenance proof; high predictability from backbone features is circularity risk, not proof of invalidity"
+m4_backbone_prediction,0.919562243502052,0.949546485260771,high,"local artifacts do not provide independent label-provenance proof; high predictability from backbone features is circularity risk, not proof of invalidity"

@@ -1,0 +1,13 @@
+variable,spearman_with_pressure_channel_response_proxy,n
+pressure_support_proxy,0.8137922088042775,260
+angular_momentum_suppression_proxy,0.8166602714410394,260
+slow_rotator_proxy,0.5207043619806145,260
+virial_sigma_star_proxy_km_s,0.46731710980734004,260
+v_rms_proxy_km_s,0.2533836755389391,260
+stellar_surface_density_msun_kpc2,0.30241611860958917,260
+stellar_mass_msun,0.3746123506056235,260
+effective_radius_kpc,0.11510291084889267,260
+lambda_R,-0.8166602714410394,260
+V_over_sigma,-0.8137922088042775,260
+fast_rotator_flag,-0.5207043619806145,260
+ellipticity,-0.6830501522834812,260
