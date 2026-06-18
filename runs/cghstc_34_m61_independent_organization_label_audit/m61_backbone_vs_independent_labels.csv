@@ -1,5 +1,0 @@
-label_family,local_column,n_rows,spearman_backbone_vs_independent_org,auc_like_backbone_vs_independent_settled,interpretation
-A/R mismatch,approach_recede_mismatch_km_s,8,0.14285714285714288,0.375,too_sparse
-H I asymmetry,asymmetry_index,8,-0.2380952380952381,0.4375,too_sparse
-lopsidedness,lopsidedness_index,8,0.2142857142857143,0.75,too_sparse
-warp / PA twist,warp_index,8,0.19047619047619052,0.5,too_sparse

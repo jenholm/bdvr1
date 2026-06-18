@@ -1,9 +1,0 @@
-observable,transition_question,direction_for_activation,best_threshold,score,n_training,constraint_status,null_reason
-f_star,At what stellar fraction does the system become structurally anchored?,higher,0.40040654512881463,1.0,60,constrained_by_current_direct_rows,
-f_gas,At what gas fraction does high gas stop being fuel and start marking unsettled reservoir?,lower,0.5995934548711854,1.0,60,constrained_by_current_direct_rows,
-log10_Sigma_b,At what baryonic surface density is the disk eligible for stable BDVR response?,higher,8.263242860299144,0.5333333333333332,60,constrained_by_current_direct_rows,
-RHI_Rd,At what H I extension does disorder suppress activation?,lower,6.627789263258611,0.11111111111111116,60,constrained_by_current_direct_rows,
-rotation_coherence,At what rotation coherence does the unstable-to-stable disk transition occur?,higher,0.75,0.0,60,weak_or_unconstrained_current_rows,insufficient threshold strength against current direct labels; treat as provisional/null
-SFE,At what star-formation efficiency does gas become organized fuel rather than unsettled reservoir?,higher,,,60,unconstrained_null_result,observable column missing from current local artifacts; do not fabricate threshold
-depletion_time,At what depletion time does the reservoir remain underactivated or failed/stalled?,lower,,,60,unconstrained_null_result,observable column missing from current local artifacts; do not fabricate threshold
-HI_asymmetry,At what H I asymmetry does disorder suppress stable activation?,lower,,,60,unconstrained_null_result,observable column missing from current local artifacts; do not fabricate threshold

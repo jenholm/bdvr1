@@ -1,6 +1,0 @@
-descriptor_family,columns_or_proxy,quality_descriptor
-phase_fraction,f_star;f_gas;composition_indicator,False
-texture_coherence,rotation_coherence_indicator;shape_symmetry_indicator,False
-defect_density,hi_extent_indicator_inverse;AR_mismatch;HI_asymmetry,False
-porosity_disorder,gas_fraction;low_SFE;long_depletion_proxy,False
-concentration,log10_Sigma_b;hi_compactness_proxy,False

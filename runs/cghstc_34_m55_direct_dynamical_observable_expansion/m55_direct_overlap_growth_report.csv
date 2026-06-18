@@ -1,5 +1,0 @@
-metric,previous_n,m55_n,weak_threshold_n,useful_threshold_n,weak_threshold_met,useful_threshold_met,rerun_readiness,notes
-resolved_hi_endpoint_overlap,8,85,25,50,True,True,ready_for_weak_or_useful_resolved_HI_extent_subset,SPARC endpoint H I extent/structural rows; not map-level A/R/asymmetry
-map_level_ar_asym_endpoint_overlap,8,8,25,50,False,False,still_sparse_for_map_level_A_R_asymmetry_law,THINGS map-level endpoint matches only; proxy-only THINGS rows kept separate
-vrot_sigma_proxy_rows,0,10185,25,50,True,True,proxy_only_context_not_direct_endpoint_overlap,MaNGA/xGASS proxy rows; not direct SPARC endpoint overlap
-sfe_depletion_proxy_rows,40,1699,25,50,True,True,proxy_only_context_plus_Tier2_followup_candidates,xGASS/xCOLD SFE/depletion rows; proxy-only unless directly matched later

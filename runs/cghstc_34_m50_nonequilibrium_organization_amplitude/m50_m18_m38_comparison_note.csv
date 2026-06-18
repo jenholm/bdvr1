@@ -1,3 +1,0 @@
-comparison,result,note
-M18/M38,not_reused_as_law,"M50 targets organization amplitude first, not direct activation; endpoint bridge is post-freeze only."
-inverse_rank_guard,checked_by_metrics,Quality baseline and residual-direction AUC are reported for the same held-out Tier 1 rows.

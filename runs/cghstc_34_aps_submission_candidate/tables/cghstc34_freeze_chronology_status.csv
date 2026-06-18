@@ -1,5 +1,0 @@
-item,status,evidence
-M4c/M5 numeric artifact freeze,documented for this generated package,"m6_source_artifacts_manifest.json records upstream file paths, sizes, and hashes"
-No per-galaxy response refitting in generated M4c evaluation,documented for this run,global parameter table and per-galaxy residual outputs
-Complete historical tuning chronology before the frozen run,not established by current artifacts,manuscript must use evaluation/frozen-run benchmark language rather than validation-grade claims
-Uncertainty propagation and formal model comparison,not implemented in current artifacts,"listed as decisive future work, not claimed as current evidence"

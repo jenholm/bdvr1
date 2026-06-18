@@ -1,7 +1,0 @@
-source_family,path,rows,available,role
-M51,runs/cghstc_34_m51_pseudotime_organization_trajectory/m51_frozen_predictions.csv,165,True,trajectory-ranking diagnostic base
-M53,runs/cghstc_34_m53_galaxy_specific_dynamical_maturity_translation/m53_dataset_acquisition_priority.csv,6,True,missing galaxy-specific observable requirements
-THINGS_M11,runs/cghstc_34_m11_hi_structure_test/m11_hi_structure_inputs_normalized.csv,8,True,resolved H I morphology/A-R proxy rows
-xGASS_xCOLD,data/external/xgass_xcoldgass/xgass_representative_sample_from_fits.csv,1179,True,SFR/SFE/depletion/gas-fraction proxy rows
-xGASS_angular_momentum,data/external/xgass_xcoldgass/xgass_angular_momentum.csv,564,True,Vrot and baryonic angular momentum context
-MaNGA,data/external/manga/manga_governor_proxy_inputs.csv,10185,True,Vrot/sigma IFU proxy context

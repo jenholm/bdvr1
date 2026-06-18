@@ -1,9 +1,0 @@
-{
-  "branch": "M53",
-  "recommendation": "acquire_resolved_HI_or_IFU_dynamic_observables_before_promoting",
-  "missing_decisive_observables": [
-    "has_AR_mismatch",
-    "has_HI_asymmetry"
-  ],
-  "local_result_role": "proxy_only_no_direct_activation_bridge"
-}

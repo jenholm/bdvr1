@@ -1,6 +1,0 @@
-variable,description,spearman_with_A_inferred,pearson_with_A_inferred,available_in_current_artifacts,direct_external_measurement
-J_lambda,"M20 normalized proxy using Vflat, Rdisk, M_baryon",0.7414530360768313,0.7384715110941616,True,False
-j_newton_2RdVn,2 Rdisk v_newton,-0.1875695027446257,-0.13723373013246942,True,False
-j_obs_2RdVflat,2 Rdisk Vflat,-0.039716950126240005,0.001825800206462331,True,False
-j_hi_RHIVflat,R_HI Vflat,-0.22798916545352207,-0.11798508383073325,True,False
-j_baryon_mixed_proxy,f_star j_obs + f_gas j_HI,-0.16773840609381696,-0.10054869022047287,True,False

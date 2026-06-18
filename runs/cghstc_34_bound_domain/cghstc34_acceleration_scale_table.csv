@@ -1,2 +1,0 @@
-h0_cos_km_s_mpc,h0_local_km_s_mpc,epsilon_calibration,cH0_m_s2,a0_reference_m_s2,a0_over_cH0,eta_required_for_a0_equals_eta_epsilon_cH0,eta_order_reasonable,claim_status,policy_check
-67.4,73.04,0.07721796276013149,6.548322413981453e-10,1.2e-10,0.18325304163977268,2.373191872583154,True,scale_diagnostic_only_not_validation,"{'project_root': '/home/jenholm/photonland/cghs/cghstc_34', 'forbidden_dirs': {'h0_outputs': False, 'paper_outputs': False}, 'policy_ok': True}"

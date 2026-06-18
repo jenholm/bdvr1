@@ -1,7 +1,0 @@
-branch,model_id,heldout_n,activation_balanced_accuracy,residual_direction_balanced_accuracy,activation_auc_like,residual_auc_like,trained_on_endpoint_residuals,trained_on_A_inferred,uses_quality_as_physical_feature,notes,descriptor
-M52,branch_primary,29,0.2692307692307692,0.4342105263157895,0.2692307692307692,0.4263157894736842,False,False,False,descriptor ablation phase_fraction_descriptor,phase_fraction_descriptor
-M52,branch_primary,29,0.7371794871794872,0.3789473684210526,0.7307692307692307,0.22105263157894736,False,False,False,descriptor ablation texture_descriptor,texture_descriptor
-M52,branch_primary,29,0.358974358974359,0.41315789473684206,0.32051282051282054,0.3368421052631579,False,False,False,descriptor ablation defect_inverse_descriptor,defect_inverse_descriptor
-M52,branch_primary,29,0.23076923076923078,0.48684210526315785,0.2692307692307692,0.4263157894736842,False,False,False,descriptor ablation porosity_inverse_descriptor,porosity_inverse_descriptor
-M52,branch_primary,29,0.391025641025641,0.47105263157894733,0.21794871794871795,0.46842105263157896,False,False,False,descriptor ablation concentration_descriptor,concentration_descriptor
-M52,branch_primary,29,0.25,0.4605263157894737,0.2948717948717949,0.37894736842105264,False,False,False,descriptor ablation m52_primary_score,m52_primary_score

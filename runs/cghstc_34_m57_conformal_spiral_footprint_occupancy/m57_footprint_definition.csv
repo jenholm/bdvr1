@@ -1,6 +1,0 @@
-footprint_component,source_column,mature_q10,mature_median,mature_q90,lower_tolerance,upper_tolerance,mature_controls_n,definition_role,trained_on_endpoint_residuals,trained_on_A_inferred
-radial_scale_footprint,Rdisk,1.6500000000000001,3.21,6.686000000000001,5.0360000000000005,5.0360000000000005,45,disk scale length within mature-control footprint,False,False
-HI_extent_footprint,RHI_over_Rdisk,3.5845332746430443,5.759856630824372,9.719417905726038,6.134884631082993,6.134884631082993,45,bounded H I extent relative to stellar disk,False,False
-surface_density_footprint,log10_Sigma_b,7.985930731337994,8.644960269237012,9.111957969900855,1.1260272385628607,1.1260272385628607,45,baryonic surface-density occupancy,False,False
-concentration_footprint,hi_compactness_from_m51,0.09360472615930526,0.147932131495228,0.21813899631530706,0.1245342701560018,0.1245342701560018,45,baryonic/H I compactness proxy occupancy,False,False
-composition_footprint,star_frac,0.5324295826752246,0.8153228640373326,0.931040573572414,0.39861099089718943,0.39861099089718943,45,stellar occupancy of the baryonic footprint,False,False

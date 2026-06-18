@@ -1,7 +1,0 @@
-candidate,n_eval,spearman,kendall_tau,mse,n_total,n_with_sfr_depletion,n_with_kinematic_settling,uses_target_leaky_velocity_or_btfr,accepted_for_manuscript_equation,result_interpretation
-oof_with_velocity_angular_sidechannel,87,0.4221842439774791,0.29565343231699137,0.08848199495231561,87,0,8,True,False,OOF ridge with velocity/angular residual side-channel; diagnostic upper-bound only.
-oof_scalar_plus_sparse_hi,87,0.41000997663639366,0.2918699331831359,0.09170921584072156,87,0,8,False,False,OOF ridge using scalar reservoir plus sparse H I settling coverage.
-current_product_gate,87,0.14588130693197301,0.09512797822265172,0.1833278637505982,87,0,8,False,False,Current M9 product gate; baseline.
-hi_disturbance_crossmatch_only,8,0.07319250547113999,-0.03779644730092272,0.25737296501313134,87,0,8,False,False,Only the 8 THINGS crossmatched rows with independent H I disturbance.
-reservoir_settling_nonleaky_sparse_hi,87,-0.04302061187846861,-0.028646493442048525,0.16616627845011558,87,0,8,False,False,R_res scalar plus sparse independent THINGS H I settling; no SFR/depletion direct SPARC crossmatch.
-angular_residual_sidechannel,87,-0.17745774246432375,-0.12377447166470024,0.21729186402469824,87,0,8,True,False,"Uses M29 angular residual side-channel; velocity-derived, diagnostic only."

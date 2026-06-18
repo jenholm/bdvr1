@@ -1,6 +1,0 @@
-comparison,n,spearman,pearson,status
-proxy_J_lambda_vs_A_inferred,87,0.7414530360768313,0.7384715110941616,proxy_only
-external_j_star_vs_A_inferred,0,,,blocked_no_data
-external_j_gas_vs_A_inferred,0,,,blocked_no_data
-external_j_bar_vs_A_inferred,0,,,blocked_no_data
-external_lambda_R_vs_A_inferred,0,,,blocked_no_data
