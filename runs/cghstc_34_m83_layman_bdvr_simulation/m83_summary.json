@@ -1,0 +1,15 @@
+{
+  "milestone": "CGHSTC-34-M83",
+  "status": "layman_bdvr_interactive_simulation_complete",
+  "purpose": "public_explanation_not_validation",
+  "uses_formal_product_gate": true,
+  "uses_simple_min_gate_metaphor": true,
+  "governor_promoted": false,
+  "mature_velocity_law_changed": false,
+  "manuscript_rewritten": false,
+  "claim_boundary": "educational_visualization_not_validated_evolutionary_reconstruction",
+  "public_article_ready": true,
+  "article_images": 5,
+  "views": 6,
+  "demo_galaxies": 5
+}
